@@ -10,5 +10,5 @@ __pycache__/
 *.pem
 *.key
 
-# Downloaded public API snapshots (keep locally; fetch with scripts/fetch_pilot.py)
+# Downloaded datasets
 data/raw/
