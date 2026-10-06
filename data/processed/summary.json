@@ -1,0 +1,139 @@
+{
+  "as_of_date": "2026-10-05",
+  "opentargets_release": {
+    "year": "26",
+    "month": "09",
+    "iteration": null
+  },
+  "chembl_status": {
+    "activities": 24527044,
+    "chembl_db_version": "ChEMBL_37",
+    "chembl_release_date": "2026-05-01",
+    "compound_records": 3824604,
+    "disinct_compounds": 2921148,
+    "publications": 101100,
+    "status": "UP",
+    "targets": 18552
+  },
+  "disease_id": "MONDO_0005011",
+  "ot_associated_targets": 6355,
+  "nc_associated_targets": 4939,
+  "genetic_associated_targets": 909,
+  "nonclinical_genetic_evidence": 3659,
+  "complete_direction_evidence": 13,
+  "direction_assessable_genes": 5,
+  "direction_gene_symbols": [
+    "BIRC3",
+    "BTN2A1",
+    "IPO13",
+    "NOD2",
+    "PKD1"
+  ],
+  "direction_conflicting_genes": 0,
+  "approved_molecule_records": 4225,
+  "approved_parent_molecules": 2996,
+  "nonwithdrawn_approved_parent_molecules": 2719,
+  "approved_with_curated_moa": 2478,
+  "approved_with_human_moa": 1642,
+  "approved_with_nc_target": 787,
+  "approved_with_genetic_target": 126,
+  "approved_crohn_indication_parent_molecules": 18,
+  "approved_crohn_chembl_parent_molecules": 14,
+  "approved_crohn_label_or_regulator_parent_molecules": 18,
+  "additional_crohn_approved_by_label_or_regulator": [
+    "CHEMBL1542",
+    "CHEMBL2364648",
+    "CHEMBL3622821",
+    "CHEMBL3990029"
+  ],
+  "approved_genetically_supported_target_genes": 51,
+  "approved_direction_assessable_target_genes": 0,
+  "approved_targets_with_signed_genetic_evidence_ignoring_drug_action": 1,
+  "approved_direction_assessable_drugs": 0,
+  "genetic_repurposing_candidates": 119,
+  "direction_assessable_repurposing_candidates": 0,
+  "direction_ranking_changed_candidates": 0,
+  "registry_search_records": 2104,
+  "explicit_crohn_condition_records": 1918,
+  "eligible_drug_trials": 681,
+  "trial_inclusion_counts": {
+    "included": 681,
+    "not_treatment_purpose": 365,
+    "not_interventional": 637,
+    "no_explicit_crohn_condition": 186,
+    "no_drug_or_biological_intervention": 235
+  },
+  "eligible_trials_with_mapped_intervention": 452,
+  "intervention_matching_counts": {
+    "unmatched": 322,
+    "exact": 643,
+    "placebo": 224,
+    "ambiguous": 35,
+    "dose_route_cleaned": 36
+  },
+  "mapped_clinical_drugs": 176,
+  "mapped_clinical_drugs_with_human_moa": 113,
+  "clinical_human_moa_signatures": 86,
+  "approved_clinical_human_moa_signatures": 64,
+  "candidate_clinical_human_moa_signatures": 10,
+  "candidate_clinically_listed_drugs": 11,
+  "genetically_eligible_control_drugs": 7,
+  "genetically_eligible_control_moa_signatures": 5,
+  "single_protein_genetic_control_drugs": 1,
+  "candidate_pool_sensitivity": {
+    "0.1": 104,
+    "0.3": 43,
+    "0.5": 31,
+    "0.7": 15
+  },
+  "single_protein_genetic_candidates": 47,
+  "direction_covered_clinical_drugs": 0,
+  "direction_covered_clinical_signatures": 0,
+  "ot_approval_disagreements": 14,
+  "evidence_with_evidence_date": 3657,
+  "evidence_with_publication_date": 2624,
+  "active_approved_with_first_approval_year": 2527,
+  "historical_drug_target_snapshot_available": false,
+  "temporal_evaluation_performed": false,
+  "source_evidence_counts": {
+    "genomics_england": 4,
+    "gene_burden": 10,
+    "gwas_credible_sets": 2612,
+    "eva": 1033
+  },
+  "source_complete_direction_counts": {
+    "gene_burden": 10,
+    "eva": 3
+  },
+  "direction_pairs": {
+    "missing/missing": 3565,
+    "LoF/risk": 13,
+    "missing/risk": 15,
+    "LoF/missing": 66
+  },
+  "illustrative_recovery": {
+    "genetic_score": {
+      "control_count_in_eligible_pool": 7,
+      "top20_controls": 7,
+      "recall_at_20_within_eligible_pool": 1.0
+    },
+    "combined_score": {
+      "control_count_in_eligible_pool": 7,
+      "top20_controls": 6,
+      "recall_at_20_within_eligible_pool": 0.8571428571428571
+    },
+    "direction_score": {
+      "control_count_in_eligible_pool": 7,
+      "top20_controls": 6,
+      "recall_at_20_within_eligible_pool": 0.8571428571428571
+    }
+  },
+  "feasibility": {
+    "genetic_ranking_pool_sufficient": true,
+    "direction_candidate_pool_sufficient": false,
+    "clinical_mechanism_proxy_sufficient": true,
+    "direction_clinical_mechanism_proxy_sufficient": false,
+    "original_direction_centered_topic_ready": false,
+    "genetic_ranking_topic_ready_for_next_stage": true
+  }
+}

@@ -1,0 +1,651 @@
+{
+  "validated_at_utc": "2026-10-05T08:00:51.169578+00:00",
+  "as_of_date": "2026-10-05",
+  "disease_id": "MONDO_0005011",
+  "checks_passed": [
+    "associations: all reported records downloaded",
+    "associations: unique record identities",
+    "evidence: all reported records downloaded",
+    "evidence: unique record identities",
+    "ot_clinical_drugs: all reported records downloaded",
+    "ot_clinical_drugs: unique record identities",
+    "chembl_molecule: all reported records downloaded",
+    "chembl_molecule: unique record identities",
+    "chembl_clinical_molecules: all reported records downloaded",
+    "chembl_clinical_molecules: unique record identities",
+    "chembl_mechanism: all reported records downloaded",
+    "chembl_mechanism: unique record identities",
+    "chembl_target: all reported records downloaded",
+    "chembl_target: unique record identities",
+    "chembl_drug_indication: all reported records downloaded",
+    "chembl_drug_indication: unique record identities",
+    "clinicaltrials: all reported records downloaded",
+    "clinicaltrials: unique record identities",
+    "download completed without errors",
+    "release metadata matches summary",
+    "configured date and disease match summary",
+    "evidence belongs only to Crohn and its descendants",
+    "raw genetic evidence contains only allowed nonclinical sources",
+    "global molecule query contains only phase-4 records",
+    "ChEMBL target query contains only human targets",
+    "indication query contains only Crohn MeSH records",
+    "registry query avoids person/contact fields",
+    "candidate IDs are unique",
+    "candidate pool excludes known Crohn indications",
+    "candidate pool has positive genetic evidence",
+    "approved and candidate counts agree with summary",
+    "genetic eligible control count agrees with summary",
+    "genetic evidence and feature counts agree with summary",
+    "source-level features exclude clinical/literature scores",
+    "genetic ranks follow declared score and tie rule",
+    "combined ranks follow declared score and tie rule",
+    "direction ranks follow declared score and tie rule",
+    "direction coverage count agrees with target features",
+    "direction coverage count agrees with candidate rows",
+    "absent direction coverage cannot change ranks",
+    "complete direction count agrees with genetic evidence",
+    "registry count and inclusion funnel agree with summary",
+    "registry matching uses only included studies",
+    "ambiguous/placebo/unmatched interventions excluded",
+    "matching funnel agrees with summary",
+    "eligible and matched trial counts agree with summary",
+    "clinical signature count agrees with summary",
+    "clinical candidate signature count agrees with summary",
+    "temporal testing is not claimed",
+    "byte-identical offline recomputation of all tables, summary and report",
+    "all local report links exist or are the manifest being created",
+    "all cached public API responses retain valid request and response hashes"
+  ],
+  "offline_recomputation_byte_identical": true,
+  "artifacts": [
+    {
+      "path": ".gitignore",
+      "bytes": 26,
+      "sha256": "4cad133d4f0a6cf4bba15f1b8bbae48d6a55f20b94f75487c51a93cc6a5af59f"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10816,
+      "sha256": "d4bb7a40a7396b4700216f43fe6a3c4ddc6fa91674a9c825360aba80f17325a2"
+    },
+    {
+      "path": "config/pilot.json",
+      "bytes": 1497,
+      "sha256": "1646045596ae1f01427f67a5d57919179dbf24e0776e3397ff3b654ae8b2df49"
+    },
+    {
+      "path": "data/processed/approval_disagreements.csv",
+      "bytes": 2039,
+      "sha256": "b07d04385ce35ddb32100225d0bd4356446c5cc85d9db9c6fe3e0e8ed62f60f2"
+    },
+    {
+      "path": "data/processed/approved_drugs.csv",
+      "bytes": 417486,
+      "sha256": "c84210894d9b96b8f3f0c751de6e745ca2aa794a7905f7e29888bd8a641b8fa9"
+    },
+    {
+      "path": "data/processed/candidate_ranking.csv",
+      "bytes": 31314,
+      "sha256": "76b0eae6e0e56b1faac875e2da6290afaa49e7395d654ff7cedc9e69a30463d9"
+    },
+    {
+      "path": "data/processed/clinical_mechanisms.csv",
+      "bytes": 18973,
+      "sha256": "f07d98f16bbdd960cbba720e2f5e33dc9a4089784a927b4fd660ca4e0185cc49"
+    },
+    {
+      "path": "data/processed/clinical_trials.csv",
+      "bytes": 548484,
+      "sha256": "6f538687973c49e701c3ecd00dabd5cbc3c49347b91b54e10b261effb8d35818"
+    },
+    {
+      "path": "data/processed/crohn_approval_records.csv",
+      "bytes": 27598,
+      "sha256": "5b6f489ed9410be300712a2640073f949eee9784758016e665322eaf920c49f0"
+    },
+    {
+      "path": "data/processed/drug_mechanisms.csv",
+      "bytes": 1110365,
+      "sha256": "09a6fe32f62bda038eb753a30ea724c263dac65d759fc3826205701aec59a214"
+    },
+    {
+      "path": "data/processed/drug_target_paths.csv",
+      "bytes": 531744,
+      "sha256": "da2a29ae64904032b99723275c2d43a28ef91d61a0dcb52248283ba9af7bad42"
+    },
+    {
+      "path": "data/processed/genetic_evidence.csv",
+      "bytes": 488681,
+      "sha256": "9c37f5a79050e4e18fd53abda2bb7cb1ff9b3d8c98af0b1a0ab285b1ab4192a5"
+    },
+    {
+      "path": "data/processed/source_coverage.csv",
+      "bytes": 187,
+      "sha256": "7a7b6e5b90114a86d6f0f99fdb578448078c35ed741493aac7d9531d33cac8b7"
+    },
+    {
+      "path": "data/processed/summary.json",
+      "bytes": 4295,
+      "sha256": "8e82f33d8d7098130bd908adc3f3bcb3ff536205aec6e4ab43373940dfe7ae02"
+    },
+    {
+      "path": "data/processed/target_features.csv",
+      "bytes": 645130,
+      "sha256": "74401d9eaac63fb326d04a1037604c1e6a6a320fdb4ca0bb1167180aaf3d3d9e"
+    },
+    {
+      "path": "data/processed/trial_intervention_matches.csv",
+      "bytes": 98086,
+      "sha256": "88f65426d2fc14da3dbef45fbeda39e6c0d9e5f5e94d1e5539a820fdc9c075c9"
+    },
+    {
+      "path": "data/processed/unmatched_interventions.csv",
+      "bytes": 8451,
+      "sha256": "2aa9eb0d31a06f7f696d272ecd7481aa2af14735eaad1aeb6c41960b50eb07ad"
+    },
+    {
+      "path": "data/raw/associations.json",
+      "bytes": 17546886,
+      "sha256": "6be0f903aa020bb859465dacba8434cc41efaa74c0e939969c569a35bfa136c8"
+    },
+    {
+      "path": "data/raw/chembl_clinical_molecules.json",
+      "bytes": 605202,
+      "sha256": "439cd9866f68ca66b352c80408f719321c67a784f2f00ddd93753c543e5018e3"
+    },
+    {
+      "path": "data/raw/chembl_drug_indication.json",
+      "bytes": 121246,
+      "sha256": "95716ecebfb278ef9aec6678077f6ad05c45467babac9428f1e386b176460ffd"
+    },
+    {
+      "path": "data/raw/chembl_mechanism.json",
+      "bytes": 7379361,
+      "sha256": "e42abd553bbb241253d0933de7ee0387d86e6cc09859d4c496f46bc226d2eae5"
+    },
+    {
+      "path": "data/raw/chembl_molecule.json",
+      "bytes": 10006815,
+      "sha256": "6585edffd737f754627e6a761ba40d92868f4e5da00e8e14b5099257163e4195"
+    },
+    {
+      "path": "data/raw/chembl_status.json",
+      "bytes": 230,
+      "sha256": "f4d07ed4cb29cf7042056fddb87fc8dc0da391afb75087727f57da95f424489e"
+    },
+    {
+      "path": "data/raw/chembl_target.json",
+      "bytes": 178744831,
+      "sha256": "03f6bad536047cac7ca9b2912a039fbc26c68a882501d751ad06181d7f762028"
+    },
+    {
+      "path": "data/raw/clinicaltrials.json",
+      "bytes": 2214237,
+      "sha256": "48cb59a6fd3362f000db8de1849e24f44e4b0c2ad218535b55bd0904d36f1c3f"
+    },
+    {
+      "path": "data/raw/disease.json",
+      "bytes": 1196,
+      "sha256": "8482615f354417a8aeb16ba96cf57ef54e4a32cfc554dfa4c4af3f7c069d08b8"
+    },
+    {
+      "path": "data/raw/evidence.json",
+      "bytes": 3181948,
+      "sha256": "9289d92e2351d78be35c765ce945ba1c6de8754bf7ff5dd4bfa6d5d72970e59c"
+    },
+    {
+      "path": "data/raw/fetch_status.json",
+      "bytes": 20,
+      "sha256": "67434423d794f20969b43e1117c9743c1b9b3d16ba6f8ddea2238cdb819f3701"
+    },
+    {
+      "path": "data/raw/opentargets_schema.json",
+      "bytes": 353830,
+      "sha256": "1c4d9199083ca3c8b5833c527c49760a8a93a451c06ce08715b527c4811fda9b"
+    },
+    {
+      "path": "data/raw/ot_clinical_drugs.json",
+      "bytes": 820473,
+      "sha256": "238d430054b2a7e72b90db47d9b060e12737cc05e5e9802d7e7b18731311a20b"
+    },
+    {
+      "path": "data/raw/release_metadata.json",
+      "bytes": 186,
+      "sha256": "e9120a200e047ba6394421a8de2b5ea8dfd4b69c5d249f6c14268f1c6d89ff9f"
+    },
+    {
+      "path": "data/raw/source_policy.json",
+      "bytes": 551,
+      "sha256": "3ce87340e2f17d0dfbd4e8403c9ae25ceee511aa63ea2086962e3f863f8e5fee"
+    },
+    {
+      "path": "reports/pilot_report.html",
+      "bytes": 41087,
+      "sha256": "cc5429efee1debe7ab98d14c17eefdf3618ca8251aa7e14c4481fff07cef373b"
+    },
+    {
+      "path": "scripts/analyze_pilot.py",
+      "bytes": 28864,
+      "sha256": "86c78530612a0086b3b1361dc587ea75ea31dd855708cc26081ec81eb776a9fa"
+    },
+    {
+      "path": "scripts/fetch_pilot.py",
+      "bytes": 10046,
+      "sha256": "a259bafacf1f25f6c38cb15cab5a758bb57e8d9433e6f0f9a5e0a8dcbb72c5bc"
+    },
+    {
+      "path": "scripts/public_api.py",
+      "bytes": 2735,
+      "sha256": "4c61fcc41a78b6982368e8b6a5f34098fca9e28701bd29b8146478824c6ce3a3"
+    },
+    {
+      "path": "scripts/render_report.py",
+      "bytes": 28010,
+      "sha256": "48ce105c2dbe7d4480668c36c2dcd76140482cd0ae47de088046dd75d40fc7f4"
+    },
+    {
+      "path": "scripts/verify_pilot.py",
+      "bytes": 11175,
+      "sha256": "5f316b6841bfec0f0b3925a154c2e226a8d47852ca10d242950ae64d39f4d42e"
+    },
+    {
+      "path": "tests/test_pilot.py",
+      "bytes": 2576,
+      "sha256": "418b8f3b2a50d7131ddc7d25c201117ed0e945d036d9f1645b8b2a4c4aa92166"
+    }
+  ],
+  "cached_api_responses": [
+    {
+      "path": "data/raw/cache/032a6243b92bdc50c2d700027e0cb96c59914bdbf0ffdaae8a90cb9668682cee.json",
+      "bytes": 1729857,
+      "sha256": "8fcfe0b775b43bdaaa6e7981bde3951eca0e34b1d3cd2aed77a59a5190dc3f29",
+      "retrieved_at_utc": "2026-10-05T06:57:23.944435+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "d73b1bd00495b5f4ea91a8245e6ea6f85a601f37aaf40615c68bbbe350e65085"
+    },
+    {
+      "path": "data/raw/cache/050c4854fe6616c62eb1147bb44428b53d81f61badc5e5ca8b560f6c520c31ac.json",
+      "bytes": 1504,
+      "sha256": "cdc06aa4651d076420718deb01346489e8b4ea5290b4f936b77218dd323be7fa",
+      "retrieved_at_utc": "2026-10-05T06:49:18.030508+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "7f1914a49f888d1b17a491f73282496d70e11ec761544bd6d4d966ec21cc4882"
+    },
+    {
+      "path": "data/raw/cache/15606e59d62fc7d526ad00b4126979a10372f6d2f11ea675422d27a7a3bc2589.json",
+      "bytes": 668490,
+      "sha256": "642af4a0725f1099e0bcb26eda689fe1274c50ad1ed40dc26550b8c8c68b6b2b",
+      "retrieved_at_utc": "2026-10-05T06:59:50.061164+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?limit=1000&offset=6000",
+      "response_sha256": "11895d3601eb9c735de4c3010037142a7e3148aaaf248422b700709d266e557a"
+    },
+    {
+      "path": "data/raw/cache/1ae36b19fd8a5ebbd28a7100e412ac10114aa6c68d0e5f63db75617cafe1da8f.json",
+      "bytes": 1549728,
+      "sha256": "021f2b4c3b801be21a8b3026e243324bc6ed10db14978bac14ad787ea3ad94d7",
+      "retrieved_at_utc": "2026-10-05T06:57:26.410448+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "37c24cf928d6a103d33f38f0357ade54724bd7e765b7d3d3a33cd92111be827c"
+    },
+    {
+      "path": "data/raw/cache/1d206ee7e1c98598f063dcfbffa1b007d7da3c5fd3ac29c7820f98996acc2dce.json",
+      "bytes": 11712497,
+      "sha256": "a19a0e8b1291537a0d270be6170f5eed6928cc61d304218aef63d1ed55b8b4b6",
+      "retrieved_at_utc": "2026-10-05T07:02:14.207167+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?limit=1000&offset=7000&tax_id=9606&only=target_chembl_id%2Cpref_name%2Ctarget_type%2Ctax_id%2Corganism%2Ctarget_components",
+      "response_sha256": "317fa4b977efde67f96af512dfc09a7b1fe11b2dc7f9600d699aee8317856a1c"
+    },
+    {
+      "path": "data/raw/cache/20f1dd71fdc7bdc6e53d7b520bd2734cf595fa71d5a3fa2597cc8acc76eaabe3.json",
+      "bytes": 675489,
+      "sha256": "d60cba902a57c7b8e7931c59c4c8021bbbefd5c074d69ba2c604beb14b212ef7",
+      "retrieved_at_utc": "2026-10-05T07:02:55.710244+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "3a0e5f1337e7af1003fea023b8b222c229feab1829b46421f818ee8ca0020b03"
+    },
+    {
+      "path": "data/raw/cache/252c36e321381ed9bef3d0185c339e34672a0d563b68994923aed9508b3d5674.json",
+      "bytes": 11087508,
+      "sha256": "7f99efe7635554adb1a2b3a337f578006733b7ce80bdcf15ed5b161da0224f82",
+      "retrieved_at_utc": "2026-10-05T07:02:54.725640+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?limit=1000&offset=8000&tax_id=9606&only=target_chembl_id%2Cpref_name%2Ctarget_type%2Ctax_id%2Corganism%2Ctarget_components",
+      "response_sha256": "94b1269d6625d1608ba18d44fffddb05c23b830127cca96fdd0e649088724715"
+    },
+    {
+      "path": "data/raw/cache/275a57881754f47da36ea06c665a62513f624c80b19460eb4032647db57cfcfe.json",
+      "bytes": 3625234,
+      "sha256": "ef5caacd3858a97a7833d0c521d7f32480139b8a9472d966cf6233cc08a25b5f",
+      "retrieved_at_utc": "2026-10-05T07:00:34.169168+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "6b4d6afa66e3bcd31c296fc586c2c32203609dd719c6d9fd4cbc1dc4ef481d83"
+    },
+    {
+      "path": "data/raw/cache/2c151287214ac64b89ac77c4375edbaa9ac7edd769d5e8d362fe0742d9bfcc0e.json",
+      "bytes": 16492126,
+      "sha256": "7e1352314820a1fa7ffea6790589a76d5d24e733945b043d12c9232411cf3763",
+      "retrieved_at_utc": "2026-10-05T07:00:00.985061+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?limit=1000&offset=3000&tax_id=9606&only=target_chembl_id%2Cpref_name%2Ctarget_type%2Ctax_id%2Corganism%2Ctarget_components",
+      "response_sha256": "9b770a19e5b005b9bb404193f5c95087e6467f545abd0510bcf0ab8395c35700"
+    },
+    {
+      "path": "data/raw/cache/2cc04ad2720a92b06bc9ae2ea2367cb2e6dbb8b7456b8c025623d6c880fc389b.json",
+      "bytes": 3815550,
+      "sha256": "db552716c08243d8e4929a0c56eaa01f3ae836390c79f06398d9116d14cd0642",
+      "retrieved_at_utc": "2026-10-05T06:58:46.261221+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?limit=1000&offset=1000&tax_id=9606&only=target_chembl_id%2Cpref_name%2Ctarget_type%2Ctax_id%2Corganism%2Ctarget_components",
+      "response_sha256": "c907c468e5fa56c5d3507ffd6fbbb387b4231922abd09c011c6b1e23f8408e37"
+    },
+    {
+      "path": "data/raw/cache/30668ff1d56079d0cd9cf122cf59a3c3ecb4ca1a776aea6a32550962d19185a0.json",
+      "bytes": 5017,
+      "sha256": "ca52ab6a75036e628388603c0abe2d54efd2a07b6af5caed215c0ede508b07a3",
+      "retrieved_at_utc": "2026-10-05T06:52:36.873658+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "2133a007b5925ebe4013562c3d416ee7c94b2dbfa3b5d88198814614d5964cc4"
+    },
+    {
+      "path": "data/raw/cache/34cba7448ded15742c56a819e666a7466f6fb57649f05d96252ca342169b54eb.json",
+      "bytes": 11937396,
+      "sha256": "6e1b4a69a086190b6e97e331b8c4dcfa1c2e09158bae65532d64df4302f6176e",
+      "retrieved_at_utc": "2026-10-05T07:00:28.453880+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?limit=1000&offset=4000&tax_id=9606&only=target_chembl_id%2Cpref_name%2Ctarget_type%2Ctax_id%2Corganism%2Ctarget_components",
+      "response_sha256": "7d718a226bde7bc1e625cae802b0422052465e2bd7bbff57fc623b5d52605b88"
+    },
+    {
+      "path": "data/raw/cache/3f948c19ebf55edfb5a3d5514ecd496077c5b8a5b7e40092dd682baac0be70f0.json",
+      "bytes": 1901156,
+      "sha256": "ab0de014a6e02c9abb02601545fa985dd3af3ce51b32a0afc514665bdf941259",
+      "retrieved_at_utc": "2026-10-05T07:00:35.636241+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "a56469f2ac171878e58044d2ed67d0059019337928e187380a015896fd1d79d0"
+    },
+    {
+      "path": "data/raw/cache/4072e5216ce54005410f40395a13b8e48b36bfd1d3774cd41f70390bc0df950f.json",
+      "bytes": 5559,
+      "sha256": "686d79851a3c700475263b49c021a219ac16ffdcbb445190a52592fa211a051e",
+      "retrieved_at_utc": "2026-10-05T06:51:20.682724+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "6d512a0978685c9b6588d27962cf8957a2746980be1182152ce7bd77fcfd1803"
+    },
+    {
+      "path": "data/raw/cache/42bfaf6e64c45d1d38c71614c95fdbded54bd97012cfd71d33fdca03f0ae38d2.json",
+      "bytes": 1441138,
+      "sha256": "718b8a3b0c40a33aac099429e02a93fec39f2fac95c443c06eac3a33f9b783d3",
+      "retrieved_at_utc": "2026-10-05T06:57:25.133935+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "0111fe70061069d4ace2b5be056141f2292c74d5b077f03d0a5b1bf6ff7f37bb"
+    },
+    {
+      "path": "data/raw/cache/43d8f21402692fa0e92c67107d09dd294bac6586f9c091aa28d38bd48a14f8d6.json",
+      "bytes": 1798468,
+      "sha256": "cc08e5d4612eed3ee3fd3f44278653d43fa51b822fb8972e067a3539ae446518",
+      "retrieved_at_utc": "2026-10-05T06:58:35.203288+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?limit=1000&offset=1000&max_phase=4&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cfirst_approval%2Cmolecule_type%2Cmolecule_synonyms%2Cmolecule_hierarchy%2Cwithdrawn_flag",
+      "response_sha256": "684a6fd79a02338e0a5dfbf23e1727e2461a0d394561990b3f9fcf1bbfcf4e88"
+    },
+    {
+      "path": "data/raw/cache/46ecaf6330a059120f3c7a9f97487859be04fe228d72bbcfd0ace2c9761c4f96.json",
+      "bytes": 510255,
+      "sha256": "1d6e744cba1748dc1ca50af5bb02538c45c052b3286fcc6870434b8de67d7b58",
+      "retrieved_at_utc": "2026-10-05T06:57:30.679519+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "868ef7cd82bff502161628fa49f5bb26bf4e29391625ec0cdb8786ff896c3e1a"
+    },
+    {
+      "path": "data/raw/cache/48245790b22a83451ff66cafeedb3649b8f14e9fb71482aa5c99991a231d9fb7.json",
+      "bytes": 753471,
+      "sha256": "46eaa2967c1e2aafb4b5ddf87c8bd3f4c318c798e8036c8237b5af429e258bef",
+      "retrieved_at_utc": "2026-10-05T06:57:27.238295+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?limit=1000",
+      "response_sha256": "d94dd6a351750ad083cc2c699cbf56f151ebea7721209b4274c033ecf1942e9c"
+    },
+    {
+      "path": "data/raw/cache/519ebadab125144225356a0f672bdd9ce0fbda5c32005cccc726bf60d5a4a9f4.json",
+      "bytes": 14268733,
+      "sha256": "a71e47f42666cf589aa9cc9664844bf61de491d11a5204da78954c41c82f6434",
+      "retrieved_at_utc": "2026-10-05T07:01:38.116877+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?limit=1000&offset=6000&tax_id=9606&only=target_chembl_id%2Cpref_name%2Ctarget_type%2Ctax_id%2Corganism%2Ctarget_components",
+      "response_sha256": "dafcfcdbe82112d727f4dc9fea72c04c472430fb5adc8ad808ffdf36d2af0853"
+    },
+    {
+      "path": "data/raw/cache/578a76e6e0ef77f2389a30869c461fec4e147f1a69624bb39c44286730e7edd3.json",
+      "bytes": 507692,
+      "sha256": "ce8fed9946b6375e2bb04b6174f09552e1e88f28486be3aea1a89d473730ba33",
+      "retrieved_at_utc": "2026-10-05T07:05:59.728809+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "f8b681bca57d2879c9bc80fb1d2de3c86bc011863287562a6918feb579601d45"
+    },
+    {
+      "path": "data/raw/cache/5f191549608b7049e52e3f0e879597a302d54d1b9299ee96a43b3c37d1388a3b.json",
+      "bytes": 645173,
+      "sha256": "2b2aefb67f6be7bfe50bf02d5ce9db433503bae39e409f7985bd3459fcd577fa",
+      "retrieved_at_utc": "2026-10-05T06:58:45.264234+00:00",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=Crohn+Disease&format=json&countTotal=true&pageSize=1000&fields=NCTId%2CBriefTitle%2CCondition%2CInterventionName%2CInterventionOtherName%2CInterventionType%2CPhase%2COverallStatus%2CStudyType%2CStudyFirstPostDate%2CHasResults%2CWhyStopped%2CDesignPrimaryPurpose",
+      "response_sha256": "ccea87b439938ba9726bdd08c84de138d0d13a66166118860e121f127f72f9c6"
+    },
+    {
+      "path": "data/raw/cache/681068a2aeb55970c1d58eecb9f2f2c858d7efde8ff0059479237ec5c060e350.json",
+      "bytes": 11385248,
+      "sha256": "880dbe2b5df2973b57f663f22542752a5ef3ba89a584f44c91e33db59d104049",
+      "retrieved_at_utc": "2026-10-05T07:00:58.353974+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?limit=1000&offset=5000&tax_id=9606&only=target_chembl_id%2Cpref_name%2Ctarget_type%2Ctax_id%2Corganism%2Ctarget_components",
+      "response_sha256": "8cf7fb58c353a47e29a3e95b11161893d4639fbaf257db0f00053429aa810d4a"
+    },
+    {
+      "path": "data/raw/cache/693d9f9ef8b887cc7e70a707d1987f3a85c92ef860f1fdfd8118824fea6408f9.json",
+      "bytes": 402087,
+      "sha256": "3edc056ab530c6acf71ed214cc2c7bee5b611c13c347a1a058f88d14ff8572f8",
+      "retrieved_at_utc": "2026-10-05T07:00:09.884193+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?limit=1000&offset=7000",
+      "response_sha256": "a53824de3040c8c7f9cd74202cac95f5302034373d959992574ac971cc51cd8f"
+    },
+    {
+      "path": "data/raw/cache/7646ee536c1292bc0ae33ee0666f9f60ae701bdf5eebe323d1f78bbc08254350.json",
+      "bytes": 409905,
+      "sha256": "c5487cb381abe62dac91789b7a079d01fb5a754b9ee89eb84248539b2bc3b1ee",
+      "retrieved_at_utc": "2026-10-05T07:25:13.936664+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?limit=1000&molecule_chembl_id__in=CHEMBL103667%2CCHEMBL1042%2CCHEMBL106%2CCHEMBL1096882%2CCHEMBL112%2CCHEMBL1144%2CCHEMBL1149%2CCHEMBL1162496%2CCHEMBL1169%2CCHEMBL118%2CCHEMBL1200500%2CCHEMBL1200572%2CCHEMBL1200640%2CCHEMBL1200699%2CCHEMBL1200751%2CCHEMBL1200762%2CCHEMBL1200796%2CCHEMBL1201438%2CCHEMBL1201479%2CCHEMBL1201507%2CCHEMBL1201562%2CCHEMBL1201567%2CCHEMBL1201568%2CCHEMBL1201572%2CCHEMBL1201573%2CCHEMBL1201576%2CCHEMBL1201580%2CCHEMBL1201581%2CCHEMBL1201587%2CCHEMBL1201607%2CCHEMBL1201621%2CCHEMBL1201646%2CCHEMBL1201670%2CCHEMBL1201821%2CCHEMBL1201823%2CCHEMBL1201831%2CCHEMBL1201833%2CCHEMBL1201835%2CCHEMBL1213492%2CCHEMBL1237023%2CCHEMBL1261%2CCHEMBL1292%2CCHEMBL131%2CCHEMBL1364%2CCHEMBL137%2CCHEMBL1370%2CCHEMBL140%2CCHEMBL1401%2CCHEMBL1451%2CCHEMBL1456%2CCHEMBL1487%2CCHEMBL1496%2CCHEMBL1503%2CCHEMBL1535%2CCHEMBL1536%2CCHEMBL1542%2CCHEMBL1568%2CCHEMBL1617%2CCHEMBL1622%2CCHEMBL1697768%2CCHEMBL172513%2CCHEMBL1741%2CCHEMBL1742995%2CCHEMBL1742996%2CCHEMBL1743015%2CCHEMBL1743020%2CCHEMBL1743050%2CCHEMBL1743068%2CCHEMBL1743087%2CCHEMBL1750%2CCHEMBL186141%2CCHEMBL19019%2CCHEMBL190461%2CCHEMBL197194%2CCHEMBL2021430%2CCHEMBL2103867%2CCHEMBL2104987%2CCHEMBL2106049%2CCHEMBL2107614%2CCHEMBL2107779%2CCHEMBL2107995%2CCHEMBL2108018%2CCHEMBL2108046%2CCHEMBL2108269%2CCHEMBL2108326%2CCHEMBL2108506%2CCHEMBL2108566%2CCHEMBL2108589%2CCHEMBL2108658%2CCHEMBL2108738%2CCHEMBL2108751%2CCHEMBL2108811%2CCHEMBL2108922%2CCHEMBL2108981%2CCHEMBL2109128%2CCHEMBL2109465%2CCHEMBL2109511%2CCHEMBL2109606%2CCHEMBL2109664%2CCHEMBL2178578%2CCHEMBL221959%2CCHEMBL2364648%2CCHEMBL25202%2CCHEMBL253896%2CCHEMBL262777%2CCHEMBL269732%2CCHEMBL3039505%2CCHEMBL3137351%2CCHEMBL3301607%2CCHEMBL332750%2CCHEMBL3358920%2CCHEMBL34259%2CCHEMBL361497%2CCHEMBL3622821%2CCHEMBL3707247%2CCHEMBL3707374%2CCHEMBL3707383%2CCHEMBL3833333%2CCHEMBL3833369%2CCHEMBL3833372%2CCHEMBL3833374%2CCHEMBL384467%2CCHEMBL389621%2CCHEMBL3989727%2CCHEMBL3989751%2CCHEMBL3990014%2CCHEMBL3990029%2CCHEMBL4085457%2CCHEMBL413%2CCHEMBL415690%2CCHEMBL416%2CCHEMBL4175981%2CCHEMBL4243974%2CCHEMBL4297252%2CCHEMBL4297331%2CCHEMBL4297344%2CCHEMBL4297477%2CCHEMBL4297565%2CCHEMBL4297643%2CCHEMBL4297761%2CCHEMBL4297797%2CCHEMBL4297839%2CCHEMBL4297911%2CCHEMBL4297942%2CCHEMBL4298180%2CCHEMBL4298212%2CCHEMBL429910%2CCHEMBL4303669%2CCHEMBL4435170%2CCHEMBL444633%2CCHEMBL447878%2CCHEMBL450940%2CCHEMBL454801%2CCHEMBL4594305%2CCHEMBL4594518%2CCHEMBL4594564%2CCHEMBL465%2CCHEMBL4650250%2CCHEMBL4650343%2CCHEMBL468%2CCHEMBL4788758%2CCHEMBL4802198%2CCHEMBL5095370%2CCHEMBL5095399%2CCHEMBL529%2CCHEMBL5314423%2CCHEMBL5314652%2CCHEMBL5314733%2CCHEMBL601%2CCHEMBL6067997%2CCHEMBL6068043%2CCHEMBL6068046%2CCHEMBL6068124%2CCHEMBL6068160%2CCHEMBL6068185%2CCHEMBL6068198%2CCHEMBL6068608%2CCHEMBL632%2CCHEMBL635%2CCHEMBL64391%2CCHEMBL650%2CCHEMBL657%2CCHEMBL66092%2CCHEMBL671%2CCHEMBL704%2CCHEMBL727%2CCHEMBL76688%2CCHEMBL8%2CCHEMBL822%2CCHEMBL846%2CCHEMBL848%2CCHEMBL852%2CCHEMBL866%2CCHEMBL88153%2CCHEMBL894%2CCHEMBL90593%2CCHEMBL975%2CCHEMBL98&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cfirst_approval%2Cmolecule_type%2Cmolecule_synonyms%2Cmolecule_hierarchy%2Cwithdrawn_flag",
+      "response_sha256": "be5f3ff0a8ad9584d1c1c620fd9fbff3cd2e1a4c9a4f55f5178ebe4014337f27"
+    },
+    {
+      "path": "data/raw/cache/7b9f8e11802a6712c1ef01220ec5c4fc4a1df133d625b7ffcd384cc3474d820b.json",
+      "bytes": 3952799,
+      "sha256": "963365de61c1cc556b576394618d1c58d450adfb6c6956c8949e227d666c76c2",
+      "retrieved_at_utc": "2026-10-05T07:00:32.040960+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "3387d998708acecaf2b9dd2f3802ec7ceae77c6922f3ef2066d659b76c839bf1"
+    },
+    {
+      "path": "data/raw/cache/7d73f330ca6aad17065f158be015b03b6aedde38a7e94a4d2c0eb8a15e02a4d2.json",
+      "bytes": 468815,
+      "sha256": "6e627dbcf210bd7004f7e591cd195592db5f81fadd4225504a0a16cead7f84d1",
+      "retrieved_at_utc": "2026-10-05T07:02:58.895798+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "d931df8526ca272e94cf5a6f776c79c08766accdf2aa57f57092630e1fca40ba"
+    },
+    {
+      "path": "data/raw/cache/875105b14d3525fdcdf979f72bc3c64278bb9d4498f2e46460a54508a6edcf4f.json",
+      "bytes": 772951,
+      "sha256": "d0017bd67ac3b44715395fe00d96c38a580b41845d340d1ea161a02bdf24b42a",
+      "retrieved_at_utc": "2026-10-05T06:57:34.047942+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?limit=1000&offset=1000",
+      "response_sha256": "0e6aa7a94ba11ca464ecebeba9255a4734cb779627b9756645bcd5c1eada3622"
+    },
+    {
+      "path": "data/raw/cache/9c58b7f68141a8447402cebbfd2386ebf61c5365701a737b9a0e5d117aa5648a.json",
+      "bytes": 267192,
+      "sha256": "f916138e88895c1ff763c6fec7b9f7dca3f3e0b94a3a98dce42f64ee97156273",
+      "retrieved_at_utc": "2026-10-05T06:59:59.171714+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?limit=1000&offset=4000&max_phase=4&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cfirst_approval%2Cmolecule_type%2Cmolecule_synonyms%2Cmolecule_hierarchy%2Cwithdrawn_flag",
+      "response_sha256": "f561dcac3508b76619dd41720170d9ac63089e09299d67123d471b6b079283c1"
+    },
+    {
+      "path": "data/raw/cache/9de74a7400ed8e4c1e50f9fcbf4c57c7873ea378660291ab10734e9788a48a72.json",
+      "bytes": 826054,
+      "sha256": "322fde10a4b5394cec1ee7b03fbeadee28ad6866cadfb257d53188250790e787",
+      "retrieved_at_utc": "2026-10-05T06:59:25.466030+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?limit=1000&offset=5000",
+      "response_sha256": "511deffcde2ba5c37a32b02db998e0d4e89469123a92eb0d9b0edc3188501f94"
+    },
+    {
+      "path": "data/raw/cache/a2dce7a562c25e48bf9064df4f96544b2741b80047626bfc37f5daf64d7f707c.json",
+      "bytes": 446,
+      "sha256": "bce4be0d70e25a6c50570312527fca59d5d95e296716776ef8ec8b987d6798b3",
+      "retrieved_at_utc": "2026-10-05T06:58:16.266193+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/status.json",
+      "response_sha256": "29dc1fb09487a8d2962253a4d0d92c4ded0aa0d831effab42445d0c3483d4740"
+    },
+    {
+      "path": "data/raw/cache/b1eff1b20f7540fe8deef277f4db811a617d1c291f3ddfef4876e1bece66ad40.json",
+      "bytes": 746966,
+      "sha256": "9b79ac49bdbc36873b6e82fe6440395f44f0ac13e73f426f958a0f9a57d9a34f",
+      "retrieved_at_utc": "2026-10-05T06:58:20.610975+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?limit=1000&offset=3000",
+      "response_sha256": "09a6ca1ed55a3adfbc813fa360d3b2f727dc831ac51d4475c9a86e6529d7ad4e"
+    },
+    {
+      "path": "data/raw/cache/ba852a7f503f1aef91f2eab9aaed13317bac9856ebbf2d658114a82a5b3035da.json",
+      "bytes": 1422892,
+      "sha256": "f9503602e30ef160555116e1781a7866e12b5bd414c77643008239bfe5b84189",
+      "retrieved_at_utc": "2026-10-05T06:57:28.804762+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "aa3d4956d2a5a3b6b6bf4873f56de81fc486f8241a99a62621a9ca3614e62d51"
+    },
+    {
+      "path": "data/raw/cache/bad5aed15db83e96a581a7c9d2a5de387e158bddd52a49f5920207e3f09febd4.json",
+      "bytes": 726255,
+      "sha256": "c832f1095e137a6fe6f264e5ddf4fbb6719226407bfba0c0e684e52c81a4173f",
+      "retrieved_at_utc": "2026-10-05T06:57:43.465532+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?limit=1000&offset=2000",
+      "response_sha256": "96c8d332530a732d48c8cd8b1551c0cbc0a53b66dc661f3b3fab46d853709eb9"
+    },
+    {
+      "path": "data/raw/cache/be3805aa5ffec55387ea6fe2891b9bfea420a1c31521d146546bbeaadae5d9a0.json",
+      "bytes": 9278396,
+      "sha256": "2b78338d80c1e5da6afe08b608687d9c6f918f2da3df6e8007d22eb7851a859b",
+      "retrieved_at_utc": "2026-10-05T06:58:13.432214+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?limit=1000&tax_id=9606&only=target_chembl_id%2Cpref_name%2Ctarget_type%2Ctax_id%2Corganism%2Ctarget_components",
+      "response_sha256": "dc49722f69a053ea032380b3bcbd933f9fec7249a80a55ccecf27d1b45609c7f"
+    },
+    {
+      "path": "data/raw/cache/c3e4f7980fea44a7bc507f048ecc95fa56f5346433819c322382984ab0f34c7f.json",
+      "bytes": 1422838,
+      "sha256": "33ba194c49b8e14072ee873fcb4f2ca06181bc2530f2e095a0d1b2c637f6123e",
+      "retrieved_at_utc": "2026-10-05T06:59:32.972385+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?limit=1000&offset=3000&max_phase=4&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cfirst_approval%2Cmolecule_type%2Cmolecule_synonyms%2Cmolecule_hierarchy%2Cwithdrawn_flag",
+      "response_sha256": "6c307d184c3d8eb7f28f38bfaa8708321a50f61c0f9acdcb3367e8916dbb05f2"
+    },
+    {
+      "path": "data/raw/cache/c414adaf697e280f6f1f0511c5c2d8e88fb7b6fdd0465ae0f9b0bd8f3e8cdc6a.json",
+      "bytes": 1823882,
+      "sha256": "06b6eec00cf10eb125cb257cd34d37b41cd29adfe423cd851efe14d9de53d17d",
+      "retrieved_at_utc": "2026-10-05T06:58:02.401873+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?limit=1000&max_phase=4&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cfirst_approval%2Cmolecule_type%2Cmolecule_synonyms%2Cmolecule_hierarchy%2Cwithdrawn_flag",
+      "response_sha256": "7c24e267f372ae69ea564480ad84d2b1ec35223f72ab62f1e10e0e6610bd7a47"
+    },
+    {
+      "path": "data/raw/cache/c4a25da9e4cb2e67f385d5a8575947700560a1c7d051763ce6922fb6d73774cc.json",
+      "bytes": 639720,
+      "sha256": "eb3ed806755a1451239b22b504dca473cb8ba4c71d25f5d6ca29cc3b7ee63674",
+      "retrieved_at_utc": "2026-10-05T06:58:46.462420+00:00",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=Crohn+Disease&format=json&countTotal=true&pageSize=1000&fields=NCTId%2CBriefTitle%2CCondition%2CInterventionName%2CInterventionOtherName%2CInterventionType%2CPhase%2COverallStatus%2CStudyType%2CStudyFirstPostDate%2CHasResults%2CWhyStopped%2CDesignPrimaryPurpose&pageToken=ZVNj7o2Elu8o3lpwTcito62tmpOQJJxtZfGj2v0TkA",
+      "response_sha256": "3c71ae78374eb2a066c16ee58380aa15cd7268b2acee8618409828bcd0bc351d"
+    },
+    {
+      "path": "data/raw/cache/c78107d179b004f0aa3234ea28eef02c9c79fc1b5a71dd101dbccdd9377d26ec.json",
+      "bytes": 1404176,
+      "sha256": "cc5d524fb1c6f5ee84be5b19acf1332c0d525e6021d94b1191cb4ce29a082703",
+      "retrieved_at_utc": "2026-10-05T06:57:30.028398+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "10a9b94d0630eefd6aafb6cb06ae4072bb300ee2d7cf3203eef1e40472a0063b"
+    },
+    {
+      "path": "data/raw/cache/caa40bbf79875584740fb2e78415834719b416c48fc491b343e563280f52e996.json",
+      "bytes": 922434,
+      "sha256": "13fa3dd8a9b4066f4674381b677b767306633a7cbb122665eae6ac22103a02ad",
+      "retrieved_at_utc": "2026-10-05T06:58:50.043980+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/mechanism.json?limit=1000&offset=4000",
+      "response_sha256": "f2a4a0916555afac2dbe6c076a879e80900a199a01909d872b92b13f63185b6c"
+    },
+    {
+      "path": "data/raw/cache/cac6c5ebfd60e8fee15612ef92c6f44f89d8ae6bde49a21e7b40803c04a9951f.json",
+      "bytes": 1517368,
+      "sha256": "7b439aed4ea807aef9d996244a7b5c0be7fab81b3985a7d1dbec056250d70007",
+      "retrieved_at_utc": "2026-10-05T06:59:04.577379+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/molecule.json?limit=1000&offset=2000&max_phase=4&only=molecule_chembl_id%2Cpref_name%2Cmax_phase%2Cfirst_approval%2Cmolecule_type%2Cmolecule_synonyms%2Cmolecule_hierarchy%2Cwithdrawn_flag",
+      "response_sha256": "c9e8e66d0b28efc10700ea06c373d2dbe1de7dde2e14f31b5f6865f85115d2fc"
+    },
+    {
+      "path": "data/raw/cache/d3cc15d21ae653b8a9712202c805dc2e1e9b87ab80dbaaab9ef40e2a66012f13.json",
+      "bytes": 1439606,
+      "sha256": "ba6ddf2e58f50cf3316eb3a596e0ae77cc83d09210e3ae26f35cd99afcef7ab2",
+      "retrieved_at_utc": "2026-10-05T06:57:27.571586+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "e88fea22ad29cf9df1529ea93e2c5a17715e0c29153a60052d2e91f717129b08"
+    },
+    {
+      "path": "data/raw/cache/d8d21f52021fb6ea2d0c3bf00ec5bff8a4779c780e2c6f6a08f3a53d6e7ac8aa.json",
+      "bytes": 5963394,
+      "sha256": "ee2bbde929b92fbeacaa84caa2a2bf1d2aee4229102e614f0413fd43ec31d449",
+      "retrieved_at_utc": "2026-10-05T06:59:26.793068+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?limit=1000&offset=2000&tax_id=9606&only=target_chembl_id%2Cpref_name%2Ctarget_type%2Ctax_id%2Corganism%2Ctarget_components",
+      "response_sha256": "81bb5c2ae64bbe2d6607af5e3b12228475227031a4e2777fe5edf14c994cadc3"
+    },
+    {
+      "path": "data/raw/cache/e206a31d3971d95ea147e82498adb6bdf94598d176645b93205116dfa98aa90e.json",
+      "bytes": 700755,
+      "sha256": "5e2823fc5c4d6b1cb7febdcfc1bd45e0046bf6300df023b85f7ac5fec0a45600",
+      "retrieved_at_utc": "2026-10-05T07:02:56.647140+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "8cda2be21650cca85be83e0c6a1c909d5273745a9ebb746c0e4dfab0ee1c885c"
+    },
+    {
+      "path": "data/raw/cache/e9f1663cc56d0f84d653ab6feaf80c907f4289c10710c730a7b0e862e43125d2.json",
+      "bytes": 95967,
+      "sha256": "b6b8f5699a5e2f61e01c200d03abe291a5dc2cf52f89b4e9ba11c945e065e322",
+      "retrieved_at_utc": "2026-10-05T06:57:59.373533+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/drug_indication.json?limit=1000&mesh_id=D003424",
+      "response_sha256": "0f4b915031d2a34f5c17d67f76eff02898c41304c731d3c356df4588eea4d85d"
+    },
+    {
+      "path": "data/raw/cache/efca8ef09e98f5465d0357e9c762351bf3c627baba511aa357e530050b8065da.json",
+      "bytes": 21292,
+      "sha256": "c1daaaec3fcdca8e835b57d992a6b4c22496b4d3e6d651be4a5701e624075c6e",
+      "retrieved_at_utc": "2026-10-05T06:50:04.362067+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "a3cfa755a65ec1267524dfd7b4b6a2770ad4e6eddf3d9b7048273330edd85e89"
+    },
+    {
+      "path": "data/raw/cache/f1c5a05504b7486430a2abccea2ecd39c1efd7a9e64a304e1bd2dabdd4398a3c.json",
+      "bytes": 66749,
+      "sha256": "ab4290abd580276c286a42cd72c41b77ae7e28925811831e3911c446c24b3460",
+      "retrieved_at_utc": "2026-10-05T06:58:46.865685+00:00",
+      "url": "https://clinicaltrials.gov/api/v2/studies?query.cond=Crohn+Disease&format=json&countTotal=true&pageSize=1000&fields=NCTId%2CBriefTitle%2CCondition%2CInterventionName%2CInterventionOtherName%2CInterventionType%2CPhase%2COverallStatus%2CStudyType%2CStudyFirstPostDate%2CHasResults%2CWhyStopped%2CDesignPrimaryPurpose&pageToken=ZVNj7o2Elu8o3lpwTcito62tmpOQJJxsbPms3vIYkA",
+      "response_sha256": "930f445e6dd315452241dbc6712f25250043d4c092d87aa675182ab4610884fd"
+    },
+    {
+      "path": "data/raw/cache/fd73efe07f05caea4b164f8f583ebdf7b67745cc410513c6b8d3baa51223757c.json",
+      "bytes": 453,
+      "sha256": "caf51be21e537be508816b61d87f9c44ef63af643b609281d495f9396035d6a7",
+      "retrieved_at_utc": "2026-10-05T06:57:22.722735+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "fd1f87ffbfc14ec80cd2c77efcbf91eec71b1f00057c6b9f242f6e9eabd5850f"
+    },
+    {
+      "path": "data/raw/cache/ff59462f138b88640825c37d3c6cf547b92d6448d2adedc83965c881acac2a1b.json",
+      "bytes": 675678,
+      "sha256": "572bc497e60726b4e19777fc3073889657b6c0b58aa6be5daae9cf5c5af61da3",
+      "retrieved_at_utc": "2026-10-05T07:02:57.612986+00:00",
+      "url": "https://api.platform.opentargets.org/api/v4/graphql",
+      "response_sha256": "c862b22cd1bea4fa379a1226a0b91152ba7ac1dd5ed397d29831764090504153"
+    },
+    {
+      "path": "data/raw/cache/ff9c12bda102f56c535dfcb6cc2ad11fb649a1b8db2b4107db82e8d7bd3dd3e6.json",
+      "bytes": 2398186,
+      "sha256": "9804ff6652aa229bff9f23a25098691944ad3f2731e086822bd44356db820de2",
+      "retrieved_at_utc": "2026-10-05T07:03:07.886786+00:00",
+      "url": "https://www.ebi.ac.uk/chembl/api/data/target.json?limit=1000&offset=9000&tax_id=9606&only=target_chembl_id%2Cpref_name%2Ctarget_type%2Ctax_id%2Corganism%2Ctarget_components",
+      "response_sha256": "4630638efdfe01137b03ca3f6532d80bf4e9b85af243b7d7552488b8c9c77dea"
+    }
+  ]
+}

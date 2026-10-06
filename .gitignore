@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+
+# Local files and credentials
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Downloaded public API snapshots (keep locally; fetch with scripts/fetch_pilot.py)
+data/raw/

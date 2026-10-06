@@ -1,0 +1,1261 @@
+nct_id,intervention_name,intervention_type,other_names,matching_method,matched_drug_ids,included_in_counts
+NCT04970446,Antibiotics,DRUG,[],unmatched,[],False
+NCT04970446,FMT,DRUG,[],unmatched,[],False
+NCT04173273,Etrasimod,DRUG,"[""APD334""]",exact,"[""CHEMBL3358920""]",True
+NCT04173273,Etrasimod,DRUG,"[""APD334""]",exact,"[""CHEMBL3358920""]",True
+NCT04173273,Placebo,DRUG,[],placebo,[],False
+NCT01037322,cannabidiol,DRUG,[],exact,"[""CHEMBL190461""]",True
+NCT01037322,placebo in drops,DRUG,[],placebo,[],False
+NCT00736983,adalimumab,DRUG,"[""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT00736983,ciprofloxacin,DRUG,"[""Cipro""]",exact,"[""CHEMBL8""]",True
+NCT02646683,vedolizumab,DRUG,"[""Entyvio""]",exact,"[""CHEMBL1743087""]",True
+NCT01556672,Adalimumab,DRUG,"[""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT02676622,mobilization of stem cells to prepare for Leukapheresis,DRUG,"[""Cytoxan"", ""G-csf"", ""Neupogen""]",ambiguous,"[""CHEMBL1201567"", ""CHEMBL1201568"", ""CHEMBL2109128"", ""CHEMBL88""]",False
+NCT02676622,Preparative regimen 4-6 weeks after Leukapheresis,DRUG,"[""Cytoxan"", ""Mesnex"", ""Thymoglobulin"", ""Genzyme""]",ambiguous,"[""CHEMBL1098319"", ""CHEMBL88""]",False
+NCT02676622,Low-dose IL-2 administration,DRUG,"[""Aldesleukin""]",exact,"[""CHEMBL1201438""]",True
+NCT01986127,Adalimumab,DRUG,[],exact,"[""CHEMBL1201580""]",True
+NCT01986127,placebo,DRUG,[],placebo,[],False
+NCT00113503,Azathioprine weight-based dose,DRUG,"[""Imuran""]",exact,"[""CHEMBL1542""]",True
+NCT00113503,Azathioprine individualised dose,DRUG,"[""Imuran""]",exact,"[""CHEMBL1542""]",True
+NCT01874015,mesenchymal cell transplantation,BIOLOGICAL,[],unmatched,[],False
+NCT01874015,mesenchymal cell and fibroblast injection,BIOLOGICAL,[],unmatched,[],False
+NCT05068284,ABBV-154,DRUG,[],exact,"[""CHEMBL5314652""]",True
+NCT05068284,Placebo,DRUG,[],placebo,[],False
+NCT05068284,ABBV-154,DRUG,[],exact,"[""CHEMBL5314652""]",True
+NCT05068284,Placebo,DRUG,[],placebo,[],False
+NCT01692808,Vitamin D3 3000 UI daily,DRUG,"[""Cholecalciferol""]",exact,"[""CHEMBL1042""]",True
+NCT01692808,Vitamin D3 4000 UI daily,DRUG,"[""Cholecalciferol""]",exact,"[""CHEMBL1042""]",True
+NCT07564505,Adalimumab Solution for Injection,DRUG,[],unmatched,[],False
+NCT00269854,Infliximab 5 mg/kg,DRUG,"[""anti-TNF chimeric monoclonal antibody (cA2)""]",dose_route_cleaned,"[""CHEMBL1201581""]",True
+NCT00269854,Infliximab 10 mg/kg,DRUG,"[""anti-TNF chimeric monoclonal antibody (cA2)""]",dose_route_cleaned,"[""CHEMBL1201581""]",True
+NCT00269854,Infliximab 20 mg/kg,DRUG,"[""anti-TNF chimeric monoclonal antibody (cA2)""]",dose_route_cleaned,"[""CHEMBL1201581""]",True
+NCT00269854,Placebo,DRUG,[],placebo,[],False
+NCT02574637,Brazikumab IV Infusion,DRUG,"[""MEDI2070""]",exact,"[""CHEMBL3833372""]",True
+NCT02574637,Brazikumab SC Injection,DRUG,"[""MEDI2070""]",exact,"[""CHEMBL3833372""]",True
+NCT02574637,Placebo,DRUG,[],placebo,[],False
+NCT01372969,Cx601,DRUG,[],exact,"[""CHEMBL4298180""]",True
+NCT07078994,"anti-TL1A monoclonal antibody, low dose",BIOLOGICAL,[],unmatched,[],False
+NCT07078994,"anti-TL1A monoclonal antibody, medium dose",BIOLOGICAL,[],unmatched,[],False
+NCT07078994,"anti-TL1A monoclonal antibody, high dose",BIOLOGICAL,[],unmatched,[],False
+NCT03917303,Adalimumab,DRUG,"[""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT03917303,standard step-up care,DRUG,[],unmatched,[],False
+NCT01393626,Placebo,DRUG,[],placebo,[],False
+NCT01393626,"CP-690,550",DRUG,[],exact,"[""CHEMBL221959""]",True
+NCT01393626,"CP-690,550",DRUG,[],exact,"[""CHEMBL221959""]",True
+NCT06764615,Zasocitinib,DRUG,"[""TAK-279""]",exact,"[""CHEMBL5314423""]",True
+NCT05542355,EXL01,DRUG,"[""Faecalibacterium prausnitzii EXL01-strain""]",unmatched,[],False
+NCT05542355,Placebo,DRUG,[],placebo,[],False
+NCT04308850,Vitamin D drops,DRUG,[],exact,"[""CHEMBL1536""]",True
+NCT03345849,Upadacitinib,DRUG,"[""ABT-494"", ""RINVOQ""]",exact,"[""CHEMBL3622821""]",True
+NCT03345849,Placebo for Upadacitinib,DRUG,[],placebo,[],False
+NCT03220243,MSC-AFP,DRUG,"[""• mesenchymal stromal cell coated fistula plug""]",unmatched,[],False
+NCT03185000,TR004 (Treg immunotherapy),DRUG,"[""Autologous regulatory T cells (Tregs) expanded in vitro""]",unmatched,[],False
+NCT02335281,Mesalazine,DRUG,"[""Mesalamine""]",exact,"[""CHEMBL704""]",True
+NCT03056664,MSC injection 01,BIOLOGICAL,[],unmatched,[],False
+NCT03056664,MSC injection 02,BIOLOGICAL,[],unmatched,[],False
+NCT01199302,Brodalumab,BIOLOGICAL,"[""AMG 827""]",exact,"[""CHEMBL1742996""]",True
+NCT01181765,Infliximab 5 mg/kg body weight infused over 2 hours,BIOLOGICAL,[],dose_route_cleaned,"[""CHEMBL1201581""]",True
+NCT03378167,MICROBIOTA,BIOLOGICAL,"[""RBX2660"", ""RBX7455"", ""Fecal microbiota transplant""]",unmatched,[],False
+NCT03378167,PLACEBO,BIOLOGICAL,[],placebo,[],False
+NCT01442363,BLI-1300 low dose,DRUG,[],unmatched,[],False
+NCT01442363,BLI-1300 high dose,DRUG,[],unmatched,[],False
+NCT01442363,placebo,DRUG,[],placebo,[],False
+NCT00406653,abatacept,DRUG,"[""Orencia"", ""BMS-188667""]",exact,"[""CHEMBL1201823""]",True
+NCT00406653,placebo,DRUG,[],placebo,[],False
+NCT00406653,abatacept,DRUG,"[""Orencia"", ""BMS-188667""]",exact,"[""CHEMBL1201823""]",True
+NCT02208310,"Cholecalciferol 10,000 IU",DRUG,"[""High Dose Vitamin D""]",exact,"[""CHEMBL1042""]",True
+NCT02208310,Cholecalciferol 400 IU,DRUG,"[""Low dose vitamin D""]",unmatched,[],False
+NCT01258205,AMG 139,DRUG,[],exact,"[""CHEMBL3833372""]",True
+NCT05471492,Investigational Product,DRUG,[],unmatched,[],False
+NCT05471492,Placebo,DRUG,[],placebo,[],False
+NCT00329537,Sargramostim (Leukine),DRUG,"[""BAY86-5326""]",unmatched,[],False
+NCT00329537,Placebo,DRUG,[],placebo,[],False
+NCT01442025,Infliximab,DRUG,"[""IFX""]",exact,"[""CHEMBL1201581""]",True
+NCT01442025,Infliximab,DRUG,"[""IFX""]",exact,"[""CHEMBL1201581""]",True
+NCT01442025,Infliximab,DRUG,"[""IFX""]",exact,"[""CHEMBL1201581""]",True
+NCT02269358,METHOTREXATE,DRUG,"[""Rheumatrex"", ""Trexall""]",exact,"[""CHEMBL34259""]",True
+NCT00304252,Interferon beta-1a,DRUG,[],exact,"[""CHEMBL1201562""]",True
+NCT01369355,Placebo SC,DRUG,[],placebo,[],False
+NCT01369355,Placebo IV,DRUG,[],placebo,[],False
+NCT01369355,Ustekinumab 90 mg SC q8w,DRUG,[],dose_route_cleaned,"[""CHEMBL1201835""]",True
+NCT01369355,Ustekinumab 130 mg IV,DRUG,[],dose_route_cleaned,"[""CHEMBL1201835""]",True
+NCT01369355,Ustekinumab 90 mg SC q12w,DRUG,[],dose_route_cleaned,"[""CHEMBL1201835""]",True
+NCT00206713,Sargramostim (Leukine),DRUG,"[""BAY86-5326""]",unmatched,[],False
+NCT00206713,Placebo,DRUG,[],placebo,[],False
+NCT01836289,High-dose Cyclophosphamide,DRUG,"[""Endoxan®"", ""Cytoxan®"", ""CTX"", ""Neosar®"", ""Procytox®"", ""Revimmune™""]",exact,"[""CHEMBL88""]",True
+NCT06441526,anti-tumour necrosis factor α antibodies,DRUG,[],unmatched,[],False
+NCT06429241,Mesenchymal Stem Cells (MSCs),BIOLOGICAL,[],unmatched,[],False
+NCT00152841,Iron supplement 300-600 mg/day,DRUG,[],unmatched,[],False
+NCT00152841,Vitamin E 800IU,DRUG,[],unmatched,[],False
+NCT00950105,CPSI-2364 or placebo,DRUG,"[""semapimod""]",placebo,[],False
+NCT01233570,Tacrolimus,DRUG,"[""Protopic 0.1%"", ""FK506""]",exact,"[""CHEMBL269732""]",True
+NCT03472690,QBECO-SSI,BIOLOGICAL,[],unmatched,[],False
+NCT03345823,Upadacitinib,DRUG,"[""ABT-494"", ""RINVOQ""]",exact,"[""CHEMBL3622821""]",True
+NCT03345823,Placebo for Upadacitinib,DRUG,[],placebo,[],False
+NCT00088062,STA-5326,DRUG,[],ambiguous,"[""CHEMBL18144"", ""CHEMBL4297643""]",False
+NCT00074542,Epanova™ (Omega-3 Free Fatty Acids),DRUG,[],unmatched,[],False
+NCT05043870,Infliximab and immunosuppressives,DRUG,"[""IFX, IMMs, AZA, MTX""]",unmatched,[],False
+NCT05043870,Infliximab,DRUG,"[""IFX""]",exact,"[""CHEMBL1201581""]",True
+NCT00543374,Placebo,DRUG,[],placebo,[],False
+NCT00543374,PROCHYMAL adult human mesenchymal stem cells,DRUG,[],unmatched,[],False
+NCT05057273,BT-11,DRUG,[],exact,"[""CHEMBL4788758""]",True
+NCT05057273,Active comparator,DRUG,[],unmatched,[],False
+NCT02321280,Denosumab,DRUG,"[""Xgeva"", ""Prolia""]",exact,"[""CHEMBL1237023""]",True
+NCT00072839,ALX-0600,DRUG,"[""GATTEX""]",exact,"[""CHEMBL2104987""]",True
+NCT00072839,placebo,DRUG,[],placebo,[],False
+NCT00072839,teduglutide 0.05,DRUG,"[""GATTEX""]",exact,"[""CHEMBL2104987""]",True
+NCT00072839,teduglutide 0.2 mg,DRUG,"[""GATTEX""]",exact,"[""CHEMBL2104987""]",True
+NCT00072839,Teduglutide 0.05 dose,DRUG,"[""GATTEX""]",exact,"[""CHEMBL2104987""]",True
+NCT00072839,teduglutide 0.1 mg dose,DRUG,"[""GATTEX""]",exact,"[""CHEMBL2104987""]",True
+NCT06819891,Afimkibart,DRUG,"[""PF-06480605"", ""RVT-3101"", ""RG6631"", ""RO7790121""]",exact,"[""CHEMBL6068198""]",True
+NCT06819891,Placebo,DRUG,[],placebo,[],False
+NCT07556718,Amitriptyline,DRUG,[],exact,"[""CHEMBL629""]",True
+NCT07556718,Placebo,DRUG,[],placebo,[],False
+NCT02056418,corticosteroid,DRUG,"[""prednisone"", ""hydrocortisone""]",ambiguous,"[""CHEMBL1201207"", ""CHEMBL131"", ""CHEMBL1451"", ""CHEMBL384467"", ""CHEMBL632"", ""CHEMBL635"", ""CHEMBL650""]",False
+NCT00613197,Epanova,DRUG,[],exact,"[""CHEMBL3137327""]",True
+NCT01817972,Certolizumab pegol,BIOLOGICAL,"[""Cimzia""]",exact,"[""CHEMBL1201831""]",True
+NCT01817972,Azathioprine,DRUG,"[""Imuran, Azasan, generic Azathioprine""]",exact,"[""CHEMBL1542""]",True
+NCT03142321,Vedolizumab 300 MG Injection [Entyvio],DRUG,"[""Entyvio""]",exact,"[""CHEMBL1743087""]",True
+NCT03782376,Ustekinumab approximately 6 mg/kg (IV),DRUG,"[""STELARA""]",exact,"[""CHEMBL1201835""]",True
+NCT03782376,Placebo (SC),DRUG,[],placebo,[],False
+NCT03782376,Placebo (IV),DRUG,[],placebo,[],False
+NCT03782376,Ustekinumab 90 mg (SC) Group 1,DRUG,"[""STELARA""]",exact,"[""CHEMBL1201835""]",True
+NCT03782376,Ustekinumab 90 mg (SC) Group 2,DRUG,"[""STELARA""]",exact,"[""CHEMBL1201835""]",True
+NCT01346826,Standard 2 hours-infusion,DRUG,"[""Infliximab (Remicade, Centocor, Malvern, Philadelphia, PA)""]",unmatched,[],False
+NCT01346826,Accelerated 1 hour-infusion,DRUG,"[""Infliximab (Remicade, Centocor, Malvern, Philadelphia, PA)""]",unmatched,[],False
+NCT01346826,Accelerated 30 minutes-infusion,DRUG,"[""Infliximab (Remicade, Centocor, Malvern, Philadelphia, PA)""]",unmatched,[],False
+NCT00752622,Infliximab 5 mg/kg,BIOLOGICAL,"[""Remicade"", ""SCH 215596""]",exact,"[""CHEMBL1201581""]",True
+NCT00752622,Infliximab 5 mg/kg every 6 weeks,BIOLOGICAL,[],dose_route_cleaned,"[""CHEMBL1201581""]",True
+NCT00752622,Infliximab 7 mg/kg every 8 weeks,BIOLOGICAL,[],dose_route_cleaned,"[""CHEMBL1201581""]",True
+NCT02793778,CROWN,DRUG,[],unmatched,[],False
+NCT02793778,CROWN Placebo,DRUG,[],placebo,[],False
+NCT05078879,Empagliflozin,DRUG,[],exact,"[""CHEMBL2107830""]",True
+NCT03357471,e-Device,DRUG,"[""Cimzia""]",ambiguous,"[""CHEMBL1201831"", ""CHEMBL4297565""]",False
+NCT04524611,Risankizumab,DRUG,"[""ABBV-066"", ""SKYRIZI""]",exact,"[""CHEMBL3990029""]",True
+NCT04524611,Risankizumab,DRUG,"[""ABBV-066"", ""SKYRIZI""]",exact,"[""CHEMBL3990029""]",True
+NCT04524611,Ustekinumab,DRUG,[],exact,"[""CHEMBL1201835""]",True
+NCT04524611,Ustekinumab,DRUG,[],exact,"[""CHEMBL1201835""]",True
+NCT04530877,Infliximab,BIOLOGICAL,[],exact,"[""CHEMBL1201581""]",True
+NCT03464136,Placebo for Ustekinumab,BIOLOGICAL,[],placebo,[],False
+NCT03464136,Placebo for Adalimumab,BIOLOGICAL,[],placebo,[],False
+NCT03464136,Ustekinumab (6 mg/kg),BIOLOGICAL,"[""Stelara""]",exact,"[""CHEMBL1201835""]",True
+NCT03464136,Ustekinumab (90 mg),BIOLOGICAL,"[""Stelara""]",exact,"[""CHEMBL1201835""]",True
+NCT03464136,Adalimumab (40 mg),BIOLOGICAL,"[""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT02227602,Mango polyphenolics,DRUG,[],unmatched,[],False
+NCT00329550,Certolizumab pegol (CZP),BIOLOGICAL,"[""CDP870"", ""Cimzia"", ""CZP""]",ambiguous,"[""CHEMBL1201831"", ""CHEMBL4297565""]",False
+NCT00329550,Certolizumab pegol (CZP),BIOLOGICAL,"[""CDP870"", ""Cimzia"", ""CZP""]",ambiguous,"[""CHEMBL1201831"", ""CHEMBL4297565""]",False
+NCT00329550,Certolizumab pegol (CZP),BIOLOGICAL,"[""CDP870"", ""Cimzia"", ""CZP""]",ambiguous,"[""CHEMBL1201831"", ""CHEMBL4297565""]",False
+NCT07691138,Continue PPI Therapy,DRUG,[],unmatched,[],False
+NCT07691138,Withdraw PPI Therapy,DRUG,[],unmatched,[],False
+NCT05049525,Itraconazole 400 mg/day and terbinafine 500 mg/day administered orally.,DRUG,[],dose_route_cleaned,"[""CHEMBL64391""]",True
+NCT05049525,Itraconazole's matching placebo 400 mg/day and terbinafine's matching placebo 500 mg/day administered orally.,DRUG,[],placebo,[],False
+NCT05321758,Fecal Microbiota Transplantation,BIOLOGICAL,"[""FMT""]",unmatched,[],False
+NCT05321758,Immunosuppressive Agents,DRUG,"[""Immunosuppressive group""]",unmatched,[],False
+NCT00338650,adalimumab,DRUG,[],exact,"[""CHEMBL1201580""]",True
+NCT03723447,Liposomal bupivacaine,DRUG,"[""Exparel""]",exact,"[""CHEMBL1098""]",True
+NCT03723447,Bupivacaine/epinephrine/dexamethasone,DRUG,"[""Decadron""]",ambiguous,"[""CHEMBL1201302"", ""CHEMBL384467""]",False
+NCT07663526,TyboWe® Adalimumab Injection,DRUG,[],unmatched,[],False
+NCT03059849,Adalimumab,DRUG,[],exact,"[""CHEMBL1201580""]",True
+NCT03574948,5-HTP,DRUG,"[""Levotonine""]",unmatched,[],False
+NCT03574948,Placebo oral capsule,DRUG,"[""placebo""]",placebo,[],False
+NCT01769755,PDA001,BIOLOGICAL,[],unmatched,[],False
+NCT01769755,Vehicle Controlled Placebo,DRUG,[],placebo,[],False
+NCT03747718,Fecal Microbiota Transplantation,BIOLOGICAL,[],unmatched,[],False
+NCT01276509,PF-00547659 SC injection,DRUG,[],unmatched,[],False
+NCT01276509,PF-00547659 SC injection,DRUG,[],unmatched,[],False
+NCT01276509,PF-00547659 SC injection,DRUG,[],unmatched,[],False
+NCT01276509,PF-00547659 SC injection,DRUG,[],unmatched,[],False
+NCT06636032,AdMSC (CellReady®),DRUG,"[""AdMSC""]",unmatched,[],False
+NCT01352221,ST10,DRUG,"[""Ferric Trimaltol"", ""Ferric Maltol""]",exact,"[""CHEMBL4298110""]",True
+NCT01352221,Placebo oral capsule,DRUG,[],placebo,[],False
+NCT02031276,risankizumab IV,DRUG,"[""BI 655066"", ""ABBV-066""]",exact,"[""CHEMBL3990029""]",True
+NCT02031276,risankizumab SC,DRUG,"[""BI 655066"", ""ABBV-066""]",exact,"[""CHEMBL3990029""]",True
+NCT02031276,Placebo,DRUG,[],placebo,[],False
+NCT02033408,AB (antibiotics),DRUG,"[""Ciprofloxacin-Ciprodex®"", ""Doxycycline-Doxylin®"", ""Gentamycin-Gentamicin®"", ""Amoxicillin-Amoxyclav®"", ""Vancomycin-Vanco-Teva®""]",unmatched,[],False
+NCT02033408,CS (corticosteroids) Only,DRUG,"[""Metronidazole-Flagyl®""]",unmatched,[],False
+NCT03167437,Vorinostat,DRUG,[],exact,"[""CHEMBL98""]",True
+NCT03167437,Ustekinumab,DRUG,[],exact,"[""CHEMBL1201835""]",True
+NCT07310095,Guselkumab (GUS),DRUG,"[""TREMFYA""]",exact,"[""CHEMBL2364648""]",True
+NCT05784129,Guselkumab,DRUG,"[""CNTO1959""]",exact,"[""CHEMBL2364648""]",True
+NCT05784129,Placebo,DRUG,[],placebo,[],False
+NCT04828031,Vitamin D,DRUG,[],ambiguous,"[""CHEMBL1042"", ""CHEMBL1536""]",False
+NCT00207675,infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT03169894,MDGN-002,DRUG,"[""AVTX-002, AEVI-002""]",exact,"[""CHEMBL4802198""]",True
+NCT02852694,Methotrexate,DRUG,[],exact,"[""CHEMBL34259""]",True
+NCT02852694,Adalimumab,DRUG,"[""humira""]",exact,"[""CHEMBL1201580""]",True
+NCT02852694,Azathioprine / 6 Mercaptopurine,DRUG,"[""imurel / purinethol""]",unmatched,[],False
+NCT06721962,TRX103,BIOLOGICAL,[],unmatched,[],False
+NCT06721962,Cyclophosphamide,DRUG,[],exact,"[""CHEMBL88""]",True
+NCT02834754,Vedolizumab,DRUG,"[""entyvio""]",exact,"[""CHEMBL1743087""]",True
+NCT02834754,placebo,DRUG,[],placebo,[],False
+NCT00109473,growth hormone,DRUG,"[""Nutropin AQ""]",exact,"[""CHEMBL1201621""]",True
+NCT00109473,cortecosteroid,DRUG,"[""Prednisone, Entocort""]",unmatched,[],False
+NCT05262829,Human Umbilical Cord Mesenchymal Stem Cells,BIOLOGICAL,[],unmatched,[],False
+NCT02768532,Vedolizumab,DRUG,"[""Entyvio""]",exact,"[""CHEMBL1743087""]",True
+NCT04921033,Standart of care,DRUG,"[""Budesonide (Budenofalk®), Prednisolone (Deltacortril®), Azathioprine (Imuran®)""]",unmatched,[],False
+NCT02096861,CT-P13,BIOLOGICAL,[],exact,"[""CHEMBL1201581""]",True
+NCT02096861,Remicade,BIOLOGICAL,[],exact,"[""CHEMBL1201581""]",True
+NCT00207662,infliximab or placebo,DRUG,[],placebo,[],False
+NCT00114803,Calcitonin nasal spray (salmon),DRUG,[],unmatched,[],False
+NCT04791878,Mesenchymal stem cells,DRUG,[],unmatched,[],False
+NCT00132899,Methotrexate,DRUG,[],exact,"[""CHEMBL34259""]",True
+NCT00132899,Placebo,DRUG,[],placebo,[],False
+NCT03009396,"RHB-104 (fixed-dose combination: 95 mg clarithromycin, 45 mg rifabutin, and 10 mg clofazimine)",DRUG,"[""RHB-104""]",unmatched,[],False
+NCT07303686,Ustekinumab 90 mg SC q8w,BIOLOGICAL,[],dose_route_cleaned,"[""CHEMBL1201835""]",True
+NCT07303686,Ustekinumab 90 mg SC q12w,BIOLOGICAL,[],dose_route_cleaned,"[""CHEMBL1201835""]",True
+NCT02513459,Risankizumab 600 mg IV,DRUG,"[""BI 655066"", ""ABBV-066""]",exact,"[""CHEMBL3990029""]",True
+NCT02513459,Risankizumab 180 mg SC,DRUG,"[""BI 655066"", ""ABBV-066""]",exact,"[""CHEMBL3990029""]",True
+NCT03656627,Nivolumab,DRUG,[],exact,"[""CHEMBL2108738""]",True
+NCT02499783,adalimumab,BIOLOGICAL,"[""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT01540292,Mesenchymal Stem Cells (MSC),BIOLOGICAL,[],unmatched,[],False
+NCT03733314,E6011,DRUG,[],exact,"[""CHEMBL4297942""]",True
+NCT03733314,Placebo,DRUG,[],placebo,[],False
+NCT03283085,25 mg Ontamalimab,DRUG,"[""PF-00547659"", ""SHP647""]",exact,"[""CHEMBL2109511""]",True
+NCT03283085,75 mg Ontamalimab,DRUG,"[""SHP647"", ""PF-00547659""]",exact,"[""CHEMBL2109511""]",True
+NCT00072943,anti-Interferon-gamma monoclonal antibody,DRUG,[],unmatched,[],False
+NCT00810030,Ferric carboxymaltose,DRUG,"[""FERINJECT®""]",exact,"[""CHEMBL2108597""]",True
+NCT00810030,Iron Sucrose,DRUG,"[""VENOFER®""]",exact,"[""CHEMBL1200823""]",True
+NCT07240649,100% Oxygen,DRUG,"[""O2""]",unmatched,[],False
+NCT02148718,adalimumab,BIOLOGICAL,"[""Humira, ABT-D2E7""]",exact,"[""CHEMBL1201580""]",True
+NCT04102111,JNJ-67864238,DRUG,[],unmatched,[],False
+NCT04102111,Placebo,DRUG,[],placebo,[],False
+NCT06937099,Mirikizumab,DRUG,"[""LY3074828""]",exact,"[""CHEMBL3990014""]",True
+NCT06937099,Mirikizumab,DRUG,"[""LY3074828""]",exact,"[""CHEMBL3990014""]",True
+NCT06937099,Tirzepatide,DRUG,"[""LY3298176""]",exact,"[""CHEMBL4297839""]",True
+NCT06937099,Placebo,DRUG,[],placebo,[],False
+NCT01355614,QAX576,DRUG,[],exact,"[""CHEMBL2109465""]",True
+NCT01355614,Infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT04186247,Azithromycin,DRUG,"[""Zithromax"", ""Zmax""]",exact,"[""CHEMBL529""]",True
+NCT04186247,Metronidazole,DRUG,"[""Flagyl""]",exact,"[""CHEMBL137""]",True
+NCT01809275,QBECO,DRUG,[],unmatched,[],False
+NCT01809275,Placebo,DRUG,[],placebo,[],False
+NCT00160706,Certolizumab Pegol (CDP870),BIOLOGICAL,"[""Cimzia"", ""CDP870"", ""CZP""]",ambiguous,"[""CHEMBL1201831"", ""CHEMBL4297565""]",False
+NCT00294112,Prochymal™ adult human mesenchymal stem cells,DRUG,"[""PROCHYMAL""]",exact,"[""CHEMBL2108046""]",True
+NCT00294112,adult human mesenchymal stem cells,DRUG,"[""PROCHYMAL""]",exact,"[""CHEMBL2108046""]",True
+NCT04276636,Caltrate Pill,DRUG,[],unmatched,[],False
+NCT06902987,Upadacitinib,DRUG,[],exact,"[""CHEMBL3622821""]",True
+NCT05284136,Oral prednisolone,DRUG,[],ambiguous,"[""CHEMBL131"", ""CHEMBL635""]",False
+NCT03077412,Filgotinib,DRUG,"[""GS-6034"", ""GLPG0634""]",exact,"[""CHEMBL3301607""]",True
+NCT03077412,Placebo to match filgotinib,DRUG,[],placebo,[],False
+NCT04496063,Ustekinumab,DRUG,"[""Stelara""]",exact,"[""CHEMBL1201835""]",True
+NCT04496063,Placebo,DRUG,[],placebo,[],False
+NCT02039063,E6011 2 mg/kg,DRUG,[],dose_route_cleaned,"[""CHEMBL4297942""]",True
+NCT02039063,E6011 5 mg/kg,DRUG,[],dose_route_cleaned,"[""CHEMBL4297942""]",True
+NCT02039063,E6011 10 mg/kg,DRUG,[],dose_route_cleaned,"[""CHEMBL4297942""]",True
+NCT02039063,E6011 15 mg/kg,DRUG,[],dose_route_cleaned,"[""CHEMBL4297942""]",True
+NCT02871635,BI 695501,DRUG,[],exact,"[""CHEMBL1201580""]",True
+NCT02871635,HUMIRA,DRUG,[],exact,"[""CHEMBL1201580""]",True
+NCT00325078,Infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT00446433,CC-5013,DRUG,[],exact,"[""CHEMBL848""]",True
+NCT02148640,Innovator infliximab,DRUG,"[""Remicade""]",exact,"[""CHEMBL1201581""]",True
+NCT02148640,Biosimilar infliximab,DRUG,"[""Remsima""]",exact,"[""CHEMBL1201581""]",True
+NCT03650413,UTTR1147A,DRUG,"[""Efmarodocokin alfa"", ""RO7021610"", ""RG7880"", ""IL-22Fc""]",exact,"[""CHEMBL4650250""]",True
+NCT01632462,VSL#3,DRUG,[],unmatched,[],False
+NCT05130983,ExoFlo,BIOLOGICAL,[],unmatched,[],False
+NCT00234741,STA-5326 mesylate,DRUG,[],ambiguous,"[""CHEMBL18144"", ""CHEMBL4297643""]",False
+NCT05421455,Group A,DRUG,[],unmatched,[],False
+NCT00094458,infliximab infusion; AZA placebo caps,BIOLOGICAL,[],placebo,[],False
+NCT00094458,infliximab (IFX) placebo infusion; azathioprine (AZA) caps,DRUG,[],placebo,[],False
+NCT07403968,Zasocitinib,DRUG,"[""TAK-279""]",exact,"[""CHEMBL5314423""]",True
+NCT00130390,Nitazoxanide,DRUG,"[""Alinia""]",exact,"[""CHEMBL1401""]",True
+NCT04919252,Vedolizumab,DRUG,[],exact,"[""CHEMBL1743087""]",True
+NCT00715117,Naltrexone,DRUG,"[""Revia, Vivitrol""]",exact,"[""CHEMBL19019""]",True
+NCT04456517,Ranolazine,DRUG,[],exact,"[""CHEMBL1404""]",True
+NCT04456517,Placebo,DRUG,[],placebo,[],False
+NCT06912815,ustekinumab and semi enteral nutrition,BIOLOGICAL,[],unmatched,[],False
+NCT02596893,GED-0301,DRUG,[],exact,"[""CHEMBL3707383""]",True
+NCT02596893,Placebo,DRUG,[],placebo,[],False
+NCT04835506,Infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT01388933,TU-100,DRUG,"[""Daikenchuto""]",exact,"[""CHEMBL4297331""]",True
+NCT01388933,Matching Placebo,DRUG,"[""Placebo""]",placebo,[],False
+NCT05861167,selective intensive induction therapy based on ustekinumab clinical decision-making tools,BIOLOGICAL,[],unmatched,[],False
+NCT06432764,AZD7798,DRUG,"[""Study Drug""]",unmatched,[],False
+NCT06432764,[11C]AZ14132516,DRUG,"[""Radioligand""]",unmatched,[],False
+NCT00007163,J695,DRUG,[],exact,"[""CHEMBL1742995""]",True
+NCT05040464,AZA capsules,DRUG,[],dose_route_cleaned,"[""CHEMBL1542""]",True
+NCT05040464,MTX,DRUG,[],exact,"[""CHEMBL34259""]",True
+NCT05040464,blood sample,BIOLOGICAL,[],unmatched,[],False
+NCT00783692,vedolizumab,DRUG,"[""Entyvio"", ""MLN0002"", ""MLN02"", ""LDP-02""]",exact,"[""CHEMBL1743087""]",True
+NCT06206811,OD-07656,DRUG,[],unmatched,[],False
+NCT00206700,Sargramostim (Leukine),DRUG,"[""BAY86-5326""]",unmatched,[],False
+NCT05039411,PF2020-CELL (UC-MSCs) - Allogeneic Human Umbilical Cord Mesenchymal Stem Cells,BIOLOGICAL,[],unmatched,[],False
+NCT00267709,Visilizumab,DRUG,[],exact,"[""CHEMBL2108811""]",True
+NCT02389790,MT-1303,DRUG,[],exact,"[""CHEMBL3707375""]",True
+NCT03220841,Adalimumab Injection,DRUG,[],dose_route_cleaned,"[""CHEMBL1201580""]",True
+NCT03220841,Thiopurine,DRUG,[],unmatched,[],False
+NCT07424040,Infliximab combined with azathioprine therapy,DRUG,[],unmatched,[],False
+NCT07424040,Infliximab monotherapy,DRUG,[],unmatched,[],False
+NCT00554710,infliximab+azathioprine,DRUG,"[""remicade/imuran""]",unmatched,[],False
+NCT00554710,methylprednisolone or budesonide,DRUG,"[""Medrol, entocort, budenofalk""]",unmatched,[],False
+NCT03267238,Fecal Microbial Transplantation,BIOLOGICAL,"[""FMT""]",unmatched,[],False
+NCT03138655,Vedolizumab,DRUG,"[""MLN0002"", ""ENTYVIO"", ""KYNTELES""]",exact,"[""CHEMBL1743087""]",True
+NCT00056355,UVADEX and UVAR XTS Photopheresis System,DRUG,[],unmatched,[],False
+NCT01635621,Olokizumab (OKZ),DRUG,"[""CDP6038""]",exact,"[""CHEMBL1743050""]",True
+NCT01635621,Placebo,DRUG,[],placebo,[],False
+NCT00445939,adalimumab,BIOLOGICAL,"[""ABT-D2E7"", ""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT00445939,adalimumab,BIOLOGICAL,"[""ABT-D2E7"", ""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT00445939,placebo,BIOLOGICAL,[],placebo,[],False
+NCT02327221,Ovasave,DRUG,[],unmatched,[],False
+NCT02327221,Placebo,DRUG,[],placebo,[],False
+NCT05940558,MBF-118 oral capsules,DRUG,[],unmatched,[],False
+NCT01345799,TRK-170,DRUG,[],unmatched,[],False
+NCT01345799,Placebo,DRUG,[],placebo,[],False
+NCT05432934,Dexamethasone,DRUG,[],exact,"[""CHEMBL384467""]",True
+NCT04775732,infliximab therapeutic drug monitoring,BIOLOGICAL,[],unmatched,[],False
+NCT04548583,Remestemcel-L,DRUG,[],exact,"[""CHEMBL2108046""]",True
+NCT04548583,Remestemcel-L,DRUG,[],exact,"[""CHEMBL2108046""]",True
+NCT06274554,Fluconazole,DRUG,"[""Diflucan""]",exact,"[""CHEMBL106""]",True
+NCT06274554,Placebo,DRUG,[],placebo,[],False
+NCT06274554,IL-23 Therapy,BIOLOGICAL,"[""Risankizumab"", ""Ustekinumab"", ""Guselkumab""]",ambiguous,"[""CHEMBL1201835"", ""CHEMBL2364648"", ""CHEMBL3990029""]",False
+NCT03046056,Filgotinib,DRUG,"[""GS-6034"", ""GLPG0634""]",exact,"[""CHEMBL3301607""]",True
+NCT03046056,Placebo to match filgotinib,DRUG,[],placebo,[],False
+NCT00454545,Atorvastatin,DRUG,[],exact,"[""CHEMBL1487""]",True
+NCT05910528,Afimkibart,DRUG,"[""RO7790121"", ""RVT-3101"", ""PF-06480605""]",exact,"[""CHEMBL6068198""]",True
+NCT04134065,Vitamin D,DRUG,"[""VD""]",ambiguous,"[""CHEMBL1042"", ""CHEMBL1536""]",False
+NCT04134065,Placebo oral capsule,DRUG,"[""Placebo""]",placebo,[],False
+NCT06997965,Mirikizumab,DRUG,"[""Omvoh""]",exact,"[""CHEMBL3990014""]",True
+NCT00032799,natalizumab,DRUG,[],exact,"[""CHEMBL1201607""]",True
+NCT03440372,Ozanimod,DRUG,[],exact,"[""CHEMBL3707247""]",True
+NCT03816345,Cabozantinib,DRUG,[],exact,"[""CHEMBL2105717""]",True
+NCT03816345,Fluoropyrimidine,DRUG,[],unmatched,[],False
+NCT03816345,Ipilimumab,BIOLOGICAL,"[""Anti-Cytotoxic T-Lymphocyte-Associated Antigen-4 Monoclonal Antibody"", ""BMS 734016"", ""BMS-734016"", ""BMS734016"", ""Ipilimumab Biosimilar CS1002"", ""MDX 010"", ""MDX-010"", ""MDX-CTLA4"", ""MDX010"", ""Yervoy""]",exact,"[""CHEMBL1789844""]",True
+NCT03816345,Nivolumab,BIOLOGICAL,"[""ABP 206"", ""BCD-263"", ""BMS 936558"", ""BMS-936558"", ""BMS936558"", ""CMAB819"", ""MDX 1106"", ""MDX-1106"", ""MDX1106"", ""NIVO"", ""Nivolumab Biosimilar ABP 206"", ""Nivolumab Biosimilar BCD-263"", ""Nivolumab Biosimilar CMAB819"", ""ONO 4538"", ""ONO-4538"", ""ONO4538"", ""Opdivo""]",exact,"[""CHEMBL2108738""]",True
+NCT03816345,Platinum Compound,DRUG,"[""Platinum Agents"", ""Platinum-Based Chemotherapeutic Agent""]",unmatched,[],False
+NCT03816345,Platinum Doublet,DRUG,"[""Platinum Doublets"", ""Platinum-based Chemotherapy Doublet"", ""Platinum-based Chemotherapy Doublets"", ""Platinum-based Double Chemotherapy Combination"", ""Platinum-based Doublet"", ""Platinum-based Doublets""]",unmatched,[],False
+NCT00740103,Semapimod,DRUG,"[""CNI-1493""]",exact,"[""CHEMBL2107779""]",True
+NCT00599625,Pravastatin,DRUG,[],exact,"[""CHEMBL1144""]",True
+NCT04073472,mesenchymal stem cells (MSCs),DRUG,"[""Allogeneic Bone Marrow Derived Mesenchymal Stem Cells""]",unmatched,[],False
+NCT00206596,Sargramostim (Leukine),DRUG,"[""BAY86-5326""]",unmatched,[],False
+NCT00206596,Placebo,DRUG,[],placebo,[],False
+NCT02255370,Curcumin,DRUG,"[""placebo""]",exact,"[""CHEMBL140""]",True
+NCT01277666,GSK1605786A,DRUG,[],exact,"[""CHEMBL2178578""]",True
+NCT01277666,GSK1605786A,DRUG,[],exact,"[""CHEMBL2178578""]",True
+NCT01277666,Placebo,DRUG,[],placebo,[],False
+NCT04118088,Darvadstrocel,BIOLOGICAL,"[""Alofisel"", ""Cx601""]",exact,"[""CHEMBL4298180""]",True
+NCT00291668,Certolizumab Pegol,BIOLOGICAL,"[""CDP870""]",exact,"[""CHEMBL1201831""]",True
+NCT06113913,Infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT06113913,Infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT06113913,Infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT02531113,RPC1063,DRUG,"[""Ozanimod""]",exact,"[""CHEMBL3707247""]",True
+NCT01215890,risedronate,DRUG,[],exact,"[""CHEMBL923""]",True
+NCT01215890,placebo,DRUG,[],placebo,[],False
+NCT00048113,Alicaforsen,DRUG,[],exact,"[""CHEMBL2108326""]",True
+NCT02913508,Vedolizumab intravenous injection,DRUG,"[""MLN0002"", ""Entyvio""]",exact,"[""CHEMBL1743087""]",True
+NCT02913508,Vedolizumab subcutaneous injection,DRUG,"[""MLN0002SC""]",unmatched,[],False
+NCT04519697,Mesenchymal Stem Cells,DRUG,[],unmatched,[],False
+NCT00167882,"5-aminosalicylate (Pentasa, Ferring)",DRUG,[],unmatched,[],False
+NCT00899678,Certolizumab Pegol,DRUG,"[""Cimzia"", ""CDP870""]",exact,"[""CHEMBL1201831""]",True
+NCT00899678,Certolizumab Pegol,DRUG,"[""Cimzia"", ""CDP870""]",exact,"[""CHEMBL1201831""]",True
+NCT05781152,Anti-TNF therapy,DRUG,"[""Remicade, Inflectra, Renflexis, Avsola, Humira, Amgevita, Hulio, Hadlima, Hyrimoz, Idacio""]",unmatched,[],False
+NCT00206674,Sargramostim (Leukine),DRUG,"[""BAY86-5326""]",unmatched,[],False
+NCT00206674,Placebo,DRUG,[],placebo,[],False
+NCT00306215,CCX282-B,DRUG,[],exact,"[""CHEMBL2178578""]",True
+NCT01714726,MEDI2070,DRUG,[],exact,"[""CHEMBL3833372""]",True
+NCT01714726,placebo,DRUG,[],placebo,[],False
+NCT02575040,Fecal microbiota transplantation,BIOLOGICAL,[],unmatched,[],False
+NCT01291810,TNF Kinoid,BIOLOGICAL,[],unmatched,[],False
+NCT01291810,WFI,BIOLOGICAL,[],unmatched,[],False
+NCT04629196,Ustekinumab,DRUG,"[""Stelara""]",exact,"[""CHEMBL1201835""]",True
+NCT04629196,Ustekinumab,DRUG,"[""Stelara""]",exact,"[""CHEMBL1201835""]",True
+NCT04629196,Ustekinumab,DRUG,"[""Stelara""]",exact,"[""CHEMBL1201835""]",True
+NCT07791888,R-3750,DRUG,[],unmatched,[],False
+NCT07791888,Placebo,DRUG,[],placebo,[],False
+NCT07184931,Duvakitug,DRUG,"[""SAR447189""]",exact,"[""CHEMBL5314733""]",True
+NCT07184931,Placebo,DRUG,[],placebo,[],False
+NCT00265122,Ustekinumab 90 mg,DRUG,"[""CNTO 1275""]",exact,"[""CHEMBL1201835""]",True
+NCT00265122,Ustekinumab 4.5 mg/kg,DRUG,"[""CNTO 1275""]",exact,"[""CHEMBL1201835""]",True
+NCT00265122,Placebo SC,DRUG,[],placebo,[],False
+NCT00265122,Placebo IV,DRUG,[],placebo,[],False
+NCT03850509,OPS-2071,DRUG,[],unmatched,[],False
+NCT03850509,Placebo,DRUG,[],placebo,[],False
+NCT03870334,BT-11 880 mg,DRUG,[],dose_route_cleaned,"[""CHEMBL4788758""]",True
+NCT03870334,Placebo,DRUG,[],placebo,[],False
+NCT05807971,ATH-063,DRUG,[],unmatched,[],False
+NCT05807971,Placebo,DRUG,[],placebo,[],False
+NCT03709628,EB8018 (First-in-class FimH blocker),DRUG,"[""EB8018""]",exact,"[""CHEMBL4594305""]",True
+NCT00791557,Infliximab,DRUG,"[""Remicade""]",exact,"[""CHEMBL1201581""]",True
+NCT06332534,Upadacitinib,DRUG,"[""RINVOQ""]",exact,"[""CHEMBL3622821""]",True
+NCT06226883,Placebo,DRUG,[],placebo,[],False
+NCT06226883,MORF-057,DRUG,"[""zotemtegrast""]",unmatched,[],False
+NCT05028946,Foralumab,DRUG,"[""Human anti-CD3 monoclonal antibody (mAb)""]",exact,"[""CHEMBL1743020""]",True
+NCT01576471,Trichuris suis ova (TSO),BIOLOGICAL,[],unmatched,[],False
+NCT01576471,Placebo,BIOLOGICAL,[],placebo,[],False
+NCT02538679,US TAP Bupivacaine/Epinephrine,DRUG,[],unmatched,[],False
+NCT02538679,Lap TAP Bupivacaine/Epinephrine,DRUG,[],unmatched,[],False
+NCT02806206,Prucalopride,DRUG,"[""Restoran""]",exact,"[""CHEMBL117287""]",True
+NCT02806206,Placebo,DRUG,"[""Sugar pill""]",placebo,[],False
+NCT04590508,Xanthohumol,DRUG,[],exact,"[""CHEMBL253896""]",True
+NCT02240108,Rifaximin EIR,DRUG,[],exact,"[""CHEMBL1617""]",True
+NCT02240108,Placebo,DRUG,[],placebo,[],False
+NCT02675153,Rapamycin,DRUG,"[""Sirolimus""]",exact,"[""CHEMBL413""]",True
+NCT01647412,Growth Hormone,DRUG,[],exact,"[""CHEMBL1201621""]",True
+NCT00271947,Autologous Stem Cell Transplantation,BIOLOGICAL,[],unmatched,[],False
+NCT02324699,Prednisone,DRUG,"[""corticosteroids""]",exact,"[""CHEMBL635""]",True
+NCT02324699,Placebo,DRUG,[],placebo,[],False
+NCT02324699,Vedolizumab,DRUG,"[""Entyvio""]",exact,"[""CHEMBL1743087""]",True
+NCT01470599,"CP-690,550",DRUG,[],exact,"[""CHEMBL221959""]",True
+NCT01470599,"CP-690,550",DRUG,[],exact,"[""CHEMBL221959""]",True
+NCT00737932,Laquinimod,DRUG,[],exact,"[""CHEMBL66092""]",True
+NCT00862121,Pentasa,DRUG,[],exact,"[""CHEMBL704""]",True
+NCT00862121,Placebo,DRUG,[],placebo,[],False
+NCT02177071,INFLIXIMAB,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT02177071,AZATHIOPRINE,DRUG,[],exact,"[""CHEMBL1542""]",True
+NCT02177071,MERCAPTOPURINE,DRUG,[],exact,"[""CHEMBL1425""]",True
+NCT02177071,Methotrexate,DRUG,[],exact,"[""CHEMBL34259""]",True
+NCT02365649,Placebo,DRUG,[],placebo,[],False
+NCT02365649,ABT-494,DRUG,"[""Upadacitinib""]",exact,"[""CHEMBL3622821""]",True
+NCT01094613,Delayed Release 6 mercaptopurine,DRUG,"[""Delayed Release 6 MP tablet (80 mg)""]",unmatched,[],False
+NCT01094613,6 Mercaptopurine,DRUG,"[""Purinethol""]",exact,"[""CHEMBL1425""]",True
+NCT03559517,Ontamalimab,BIOLOGICAL,"[""PF-00547659"", ""SHP647""]",exact,"[""CHEMBL2109511""]",True
+NCT02272868,Fecal Microbial transplant,BIOLOGICAL,[],unmatched,[],False
+NCT02272868,Normal Saline,DRUG,[],exact,"[""CHEMBL1200574""]",True
+NCT02272868,rifaximin+omeprazole+miralax,DRUG,[],unmatched,[],False
+NCT03395184,PF-06651600 Placebo,DRUG,[],placebo,[],False
+NCT03395184,PF-06651600,DRUG,[],exact,"[""CHEMBL4085457""]",True
+NCT03395184,Placebo PF-06700841,DRUG,[],placebo,[],False
+NCT03395184,PF-06700841,DRUG,[],exact,"[""CHEMBL4297477""]",True
+NCT02677350,Allogeneic Bone Marrow derived Human Mesenchymal Stem Cells (hMSCs),DRUG,"[""allo-hMSCs""]",unmatched,[],False
+NCT01523106,L-carnitine,DRUG,[],ambiguous,"[""CHEMBL1149"", ""CHEMBL172513""]",False
+NCT03107793,Ustekinumab,DRUG,[],exact,"[""CHEMBL1201835""]",True
+NCT02367183,GED-0301,DRUG,[],exact,"[""CHEMBL3707383""]",True
+NCT02367183,Placebo,DRUG,[],placebo,[],False
+NCT02065570,Adalimumab,DRUG,"[""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT02065570,Placebo,DRUG,[],placebo,[],False
+NCT05088369,HM201,DRUG,"[""Pegylated human adrenomedullin""]",unmatched,[],False
+NCT05088369,Placebo,DRUG,"[""Matching Placebo""]",placebo,[],False
+NCT05088369,HM201,DRUG,"[""Pegylated human adrenomedullin""]",unmatched,[],False
+NCT05088369,Placebo,DRUG,"[""Matching Placebo""]",placebo,[],False
+NCT00348283,adalimumab,BIOLOGICAL,"[""ABT-D2E7"", ""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT00348283,placebo,BIOLOGICAL,[],placebo,[],False
+NCT00348283,adalimumab,BIOLOGICAL,"[""ABT-D2E7"", ""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT02877134,JNJ-64304500,DRUG,[],exact,"[""CHEMBL4594564""]",True
+NCT02877134,Placebo,DRUG,[],placebo,[],False
+NCT02877134,Ustekinumab,DRUG,"[""STELARA""]",exact,"[""CHEMBL1201835""]",True
+NCT05029921,Ustekinumab,DRUG,"[""STELARA""]",exact,"[""CHEMBL1201835""]",True
+NCT01466374,Placebo,DRUG,[],placebo,[],False
+NCT01466374,Placebo,DRUG,[],placebo,[],False
+NCT01466374,BMS-936557 (Anti-IP-10 Antibody),DRUG,"[""Anti-IP-10 Antibody""]",unmatched,[],False
+NCT01466374,BMS-936557 (Anti-IP-10 Antibody),DRUG,"[""Anti-IP-10 Antibody""]",unmatched,[],False
+NCT01466374,BMS-936557 (Anti-IP-10 Antibody),DRUG,[],unmatched,[],False
+NCT01466374,BMS-936557 (Anti-IP-10 Antibody),DRUG,[],unmatched,[],False
+NCT01466374,BMS-936557 (Anti-IP-10 Antibody),DRUG,[],unmatched,[],False
+NCT00152490,Certolizumab Pegol (CDP870),DRUG,[],unmatched,[],False
+NCT00004423,-aminosalicylic acid,DRUG,[],exact,"[""CHEMBL1169""]",True
+NCT00055523,Adalimumab (D2E7),DRUG,[],unmatched,[],False
+NCT03105128,placebo for risankizumab,DRUG,[],placebo,[],False
+NCT03105128,risankizumab IV,DRUG,"[""ABBV-066 BI 655066"", ""SKYRIZI""]",exact,"[""CHEMBL3990029""]",True
+NCT03105128,risankizumab SC,DRUG,"[""ABBV-066 BI 655066"", ""SKYRIZI""]",exact,"[""CHEMBL3990029""]",True
+NCT03706456,Darvadstrocel,BIOLOGICAL,"[""Cx601""]",exact,"[""CHEMBL4298180""]",True
+NCT06958536,SAR442970,DRUG,[],unmatched,[],False
+NCT06958536,Placebo,DRUG,[],placebo,[],False
+NCT06976853,Tirzepatide,DRUG,[],exact,"[""CHEMBL4297839""]",True
+NCT06976853,Standard of care treatment,DRUG,[],unmatched,[],False
+NCT03752970,Spesolimab,DRUG,[],exact,"[""CHEMBL4297911""]",True
+NCT03752970,Placebo,DRUG,[],placebo,[],False
+NCT00573469,"D9421-C, 9mg",DRUG,[],unmatched,[],False
+NCT00573469,"D9421-C, 15mg",DRUG,[],unmatched,[],False
+NCT00573469,Placebo,DRUG,[],placebo,[],False
+NCT00462072,Infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT06651281,Tulisokibart,DRUG,"[""MK-7240""]",exact,"[""CHEMBL5095370""]",True
+NCT06651281,Placebo to tulisokibart,DRUG,[],placebo,[],False
+NCT01880307,Azathioprine,DRUG,"[""Imuran""]",exact,"[""CHEMBL1542""]",True
+NCT01880307,Infliximab,DRUG,"[""Remicade""]",exact,"[""CHEMBL1201581""]",True
+NCT01880307,Prednisolon,DRUG,[],exact,"[""CHEMBL131""]",True
+NCT03961815,Brazikumab Induction Dose,DRUG,[],unmatched,[],False
+NCT03961815,Brazikumab Maintenance Dose,DRUG,[],unmatched,[],False
+NCT00195715,Adalimumab,BIOLOGICAL,"[""ABT-D2E7"", ""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT01190410,certolizumab pegol,DRUG,"[""Cimzia®"", ""Crohn's Disease""]",exact,"[""CHEMBL1201831""]",True
+NCT01190410,certolizumab pegol,DRUG,"[""Cimzia®"", ""Crohn's Disease""]",exact,"[""CHEMBL1201831""]",True
+NCT00792740,ITF2357,DRUG,"[""Givinostat""]",exact,"[""CHEMBL1213492""]",True
+NCT03476317,Vancomycin,DRUG,"[""Vancocin""]",exact,"[""CHEMBL262777""]",True
+NCT03476317,Neomycin,DRUG,"[""Neo-Fradin""]",exact,"[""CHEMBL3989751""]",True
+NCT03476317,Ciprofloxacin,DRUG,"[""Cipro""]",exact,"[""CHEMBL8""]",True
+NCT03476317,Polyethylene Glycol 3350,DRUG,"[""Miralax""]",exact,"[""CHEMBL1201479""]",True
+NCT03476317,Fluconazole,DRUG,"[""Diflucan""]",exact,"[""CHEMBL106""]",True
+NCT07298421,Afimkibart,DRUG,"[""RO7790121"", ""PF-06480605"", ""RVT-3101""]",exact,"[""CHEMBL6068198""]",True
+NCT00040521,Recombinant Human Interleukin-11 (rhIL-11),DRUG,[],unmatched,[],False
+NCT01434693,Trichuris suis ova,BIOLOGICAL,[],unmatched,[],False
+NCT03677648,SHR0302,DRUG,[],exact,"[""CHEMBL5095398""]",True
+NCT03677648,Placebos,DRUG,[],placebo,[],False
+NCT00739986,Semapimod,DRUG,[],exact,"[""CHEMBL2107779""]",True
+NCT00739986,Semapimod,DRUG,[],exact,"[""CHEMBL2107779""]",True
+NCT00739986,Placebo,DRUG,[],placebo,[],False
+NCT05347095,Guselkumab,DRUG,"[""CNTO1959""]",exact,"[""CHEMBL2364648""]",True
+NCT05347095,Placebo,DRUG,[],placebo,[],False
+NCT03854305,PRV-6527,DRUG,[],unmatched,[],False
+NCT03854305,Placebo,DRUG,[],placebo,[],False
+NCT02580617,ALLO-ASC,BIOLOGICAL,"[""ALLO-ASC-CD""]",unmatched,[],False
+NCT02559713,Vedolizumab,DRUG,"[""Entyvio"", ""MLN0002""]",exact,"[""CHEMBL1743087""]",True
+NCT04232553,Mirikizumab,DRUG,"[""LY3074828""]",exact,"[""CHEMBL3990014""]",True
+NCT02164877,pectin,DRUG,"[""soluble dietary fiber""]",exact,"[""CHEMBL2108751""]",True
+NCT01545050,Placebo matching with BMS-945429,BIOLOGICAL,[],placebo,[],False
+NCT01545050,Placebo matching with BMS-945429,BIOLOGICAL,[],placebo,[],False
+NCT01545050,Placebo matching with BMS-945429,BIOLOGICAL,[],placebo,[],False
+NCT01545050,Placebo matching with BMS-945429,BIOLOGICAL,[],placebo,[],False
+NCT01545050,BMS-945429,BIOLOGICAL,"[""Clazakizumab""]",exact,"[""CHEMBL2108589""]",True
+NCT01545050,BMS-945429,BIOLOGICAL,"[""Clazakizumab""]",exact,"[""CHEMBL2108589""]",True
+NCT01545050,BMS-945429,BIOLOGICAL,"[""Clazakizumab""]",exact,"[""CHEMBL2108589""]",True
+NCT01545050,BMS-945429,BIOLOGICAL,"[""Clazakizumab""]",exact,"[""CHEMBL2108589""]",True
+NCT01545050,BMS-945429,BIOLOGICAL,"[""Clazakizumab""]",exact,"[""CHEMBL2108589""]",True
+NCT01545050,BMS-945429,BIOLOGICAL,"[""Clazakizumab""]",exact,"[""CHEMBL2108589""]",True
+NCT01545050,BMS-945429,BIOLOGICAL,"[""Clazakizumab""]",exact,"[""CHEMBL2108589""]",True
+NCT01545050,BMS-945429,BIOLOGICAL,"[""Clazakizumab""]",exact,"[""CHEMBL2108589""]",True
+NCT01545050,BMS-945429,BIOLOGICAL,"[""Clazakizumab""]",exact,"[""CHEMBL2108589""]",True
+NCT02501291,Thalidomide,DRUG,[],exact,"[""CHEMBL468""]",True
+NCT03078803,Fecal Microbiota Transplant (FMT),BIOLOGICAL,"[""FMT""]",unmatched,[],False
+NCT03078803,Placebo,BIOLOGICAL,[],placebo,[],False
+NCT00731172,glatiramer acetate,DRUG,[],exact,"[""CHEMBL1201507""]",True
+NCT00731172,placebo,DRUG,[],placebo,[],False
+NCT00509639,10% Metronidazole Ointment,DRUG,[],unmatched,[],False
+NCT03345836,Matching Placebo for Upadacitinib,DRUG,[],placebo,[],False
+NCT03345836,Upadacitinib,DRUG,"[""ABT-494"", ""RINVOQ®""]",exact,"[""CHEMBL3622821""]",True
+NCT00308581,Certolizumab pegol,BIOLOGICAL,"[""CDP870"", ""Cimzia""]",exact,"[""CHEMBL1201831""]",True
+NCT00308581,Certolizumab pegol,BIOLOGICAL,"[""CDP870"", ""Cimzia""]",exact,"[""CHEMBL1201831""]",True
+NCT01298492,PF-00547659,DRUG,[],exact,"[""CHEMBL2109511""]",True
+NCT00584740,AIN457,DRUG,[],exact,"[""CHEMBL1743068""]",True
+NCT00584740,Placebo,DRUG,[],placebo,[],False
+NCT00655733,HMPL-004,DRUG,"[""Chuan xinlian""]",exact,"[""CHEMBL186141""]",True
+NCT00655733,Placebo,DRUG,[],placebo,[],False
+NCT01991314,Ferrous sulphate,DRUG,[],exact,"[""CHEMBL1200830""]",True
+NCT00562887,Placebo,BIOLOGICAL,[],placebo,[],False
+NCT00562887,ABT-874,BIOLOGICAL,[],exact,"[""CHEMBL1742995""]",True
+NCT00562887,ABT-874,BIOLOGICAL,[],exact,"[""CHEMBL1742995""]",True
+NCT00771667,Placebo (IP),DRUG,[],placebo,[],False
+NCT00771667,Ustekinumab 1mg/kg (IP),DRUG,[],dose_route_cleaned,"[""CHEMBL1201835""]",True
+NCT00771667,Ustekinumab 3 mg/kg (IP),DRUG,[],dose_route_cleaned,"[""CHEMBL1201835""]",True
+NCT00771667,Ustekinumab 6 mg/kg (IP),DRUG,[],dose_route_cleaned,"[""CHEMBL1201835""]",True
+NCT00771667,Placebo IV - Responder - Placebo SC (MP),DRUG,[],placebo,[],False
+NCT00771667,Placebo IV - Nonresponder - Ustekinumab 270/90 mg SC (MP),DRUG,[],placebo,[],False
+NCT00771667,Ustekinumab IV - Responder - Placebo SC (MP),DRUG,[],placebo,[],False
+NCT00771667,Ustekinumab IV - Responder - Ustekinumab 90mg SC (MP),DRUG,[],unmatched,[],False
+NCT00771667,Ustekinumab IV - Nonresponder - Placebo SC (MP),DRUG,[],placebo,[],False
+NCT00771667,Ustekinumab IV - Nonresponder - Ustekinumab 90mg SC (MP),DRUG,[],unmatched,[],False
+NCT04655807,JNJ-64304500,DRUG,[],exact,"[""CHEMBL4594564""]",True
+NCT04655807,Placebo,DRUG,[],placebo,[],False
+NCT04655807,Adalimumab,DRUG,[],exact,"[""CHEMBL1201580""]",True
+NCT04655807,Ustekinumab,DRUG,[],exact,"[""CHEMBL1201835""]",True
+NCT00295165,Sargramostim (Leukine),DRUG,"[""BAY86-5326""]",unmatched,[],False
+NCT00295165,Placebo,DRUG,[],placebo,[],False
+NCT03466411,Guselkumab Dose 1,DRUG,[],unmatched,[],False
+NCT03466411,Guselkumab Dose 2,DRUG,[],unmatched,[],False
+NCT03466411,Guselkumab Dose 3,DRUG,[],unmatched,[],False
+NCT03466411,Guselkumab Dose 4,DRUG,[],unmatched,[],False
+NCT03466411,Guselkumab Dose 5,DRUG,[],unmatched,[],False
+NCT03466411,Guselkumab,DRUG,[],exact,"[""CHEMBL2364648""]",True
+NCT03466411,Ustekinumab,DRUG,[],exact,"[""CHEMBL1201835""]",True
+NCT03466411,Placebo,DRUG,[],placebo,[],False
+NCT00630643,NI-0401 (anti-CD3 mAB),BIOLOGICAL,[],unmatched,[],False
+NCT00630643,Placebo,DRUG,[],placebo,[],False
+NCT04151225,GSK2330811,DRUG,[],exact,"[""CHEMBL6068608""]",True
+NCT04151225,Placebo,DRUG,[],placebo,[],False
+NCT00445432,adalimumab,BIOLOGICAL,"[""Humira"", ""D2E7""]",exact,"[""CHEMBL1201580""]",True
+NCT07184944,Duvakitug,DRUG,"[""SAR447189""]",exact,"[""CHEMBL5314733""]",True
+NCT07184944,Placebo,DRUG,[],placebo,[],False
+NCT02782663,ABT-494,DRUG,"[""Upadacitinib"", ""RINVOQ""]",exact,"[""CHEMBL3622821""]",True
+NCT00999115,Expanded allogenic adipose-derived adult stem cells,DRUG,"[""CX601 (company code)""]",unmatched,[],False
+NCT01015391,T2,DRUG,[],unmatched,[],False
+NCT01015391,Azathioprine,DRUG,[],exact,"[""CHEMBL1542""]",True
+NCT00126373,Wellbutrin (bupropion),DRUG,"[""Wellbutrin, bupropion""]",unmatched,[],False
+NCT03885713,Infliximab or adalimumab or golimumab or vedolizumab or ustekinumab or tofacitinib,BIOLOGICAL,[],unmatched,[],False
+NCT07673497,Cholecalciferol (Vit D3),DRUG,"[""Vitamin D3""]",ambiguous,"[""CHEMBL1042"", ""CHEMBL1536"", ""CHEMBL846""]",False
+NCT02968108,Ustekinumab,DRUG,[],exact,"[""CHEMBL1201835""]",True
+NCT07177118,Ustekinumab,DRUG,[],exact,"[""CHEMBL1201835""]",True
+NCT07177118,Risankizumab,DRUG,[],exact,"[""CHEMBL3990029""]",True
+NCT07113522,MT-501,DRUG,[],unmatched,[],False
+NCT07113522,MT-201,DRUG,[],exact,"[""CHEMBL2108018""]",True
+NCT06456593,Obefazimod,DRUG,[],exact,"[""CHEMBL4297344""]",True
+NCT02914561,Filgotinib,DRUG,"[""GS-6034"", ""GLPG0634""]",exact,"[""CHEMBL3301607""]",True
+NCT06063967,Risankizumab SC,DRUG,"[""ABBV-066"", ""SKYRIZI""]",exact,"[""CHEMBL3990029""]",True
+NCT06063967,Placebo for risankizumab,DRUG,[],placebo,[],False
+NCT02256462,Adalimumab,DRUG,"[""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT05499130,TEV-48574,DRUG,"[""duvakitug""]",exact,"[""CHEMBL5314733""]",True
+NCT05499130,Placebo,DRUG,[],placebo,[],False
+NCT07822087,Autologous Adult Stem Cell-Derived Intestinal Organoid,BIOLOGICAL,[],unmatched,[],False
+NCT07616687,Guselkumab,DRUG,[],exact,"[""CHEMBL2364648""]",True
+NCT00615199,"CP-690,550",DRUG,[],exact,"[""CHEMBL221959""]",True
+NCT00615199,"CP-690,550",DRUG,[],exact,"[""CHEMBL221959""]",True
+NCT00615199,"CP-690,550",DRUG,[],exact,"[""CHEMBL221959""]",True
+NCT00615199,Placebo,DRUG,[],placebo,[],False
+NCT01674413,Adalimumab,DRUG,"[""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT01674413,Adalimumab PRN,DRUG,"[""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT01674413,Placebo,DRUG,[],placebo,[],False
+NCT01564823,Metronidazole,DRUG,"[""Flagyl (Metronidazole)""]",exact,"[""CHEMBL137""]",True
+NCT01564823,Metronidazole,DRUG,"[""Flagyl (Metronidazole)""]",exact,"[""CHEMBL137""]",True
+NCT01564823,Azathioprine,DRUG,"[""Imurel (Azathioprine)""]",exact,"[""CHEMBL1542""]",True
+NCT01564823,Adalimumab,DRUG,"[""Humira (Adalimumab)""]",exact,"[""CHEMBL1201580""]",True
+NCT01203254,Colesevelam,DRUG,[],exact,"[""CHEMBL6068331""]",True
+NCT01203254,Placebo,DRUG,[],placebo,[],False
+NCT01288053,Allogeneic Stem Cell Therapy,BIOLOGICAL,[],unmatched,[],False
+NCT00774982,Delayed Release 6 mercaptopurine,DRUG,"[""Administration 1 (A): 1 x 40 mg Delayed Release 6MP TEST""]",unmatched,[],False
+NCT00774982,6 Mercaptopurine,DRUG,"[""Administration 2 (B): 2 x 50 mg Purinethol REFERENCE""]",exact,"[""CHEMBL1425""]",True
+NCT01393899,Placebo,DRUG,[],placebo,[],False
+NCT01393899,"CP-690,550",DRUG,[],exact,"[""CHEMBL221959""]",True
+NCT01393899,"CP-690,550",DRUG,[],exact,"[""CHEMBL221959""]",True
+NCT00101946,683699,DRUG,[],unmatched,[],False
+NCT00358683,Certolizumab pegol,DRUG,[],exact,"[""CHEMBL1201831""]",True
+NCT00032786,natalizumab,DRUG,[],exact,"[""CHEMBL1201607""]",True
+NCT00353756,"C326, IL-6 Inhibitory Avimer protein",DRUG,[],unmatched,[],False
+NCT01438151,Remicade,DRUG,"[""Dose escalation""]",exact,"[""CHEMBL1201581""]",True
+NCT00417391,RR110 (Tamibarotene),DRUG,"[""Tamibarotene"", ""Am80""]",exact,"[""CHEMBL25202""]",True
+NCT00417391,RR110 (Tamibarotene),DRUG,"[""Tamibarotene"", ""Am80""]",exact,"[""CHEMBL25202""]",True
+NCT00989573,Placebo,DRUG,[],placebo,[],False
+NCT00989573,OPC-6535,DRUG,[],exact,"[""CHEMBL332750""]",True
+NCT00989573,OPC-6535,DRUG,[],exact,"[""CHEMBL332750""]",True
+NCT00427804,calcitriol,DRUG,[],exact,"[""CHEMBL846""]",True
+NCT04245215,Ustekinumab,DRUG,"[""dose escalation only in arm 2""]",exact,"[""CHEMBL1201835""]",True
+NCT00102921,CCX282-B,DRUG,[],exact,"[""CHEMBL2178578""]",True
+NCT02330653,Fecal Microbiota Transplant (FMT),BIOLOGICAL,"[""Screened, healthy human donor stool""]",unmatched,[],False
+NCT02330653,Placebo,BIOLOGICAL,[],placebo,[],False
+NCT01318993,GSK1605786A,DRUG,[],exact,"[""CHEMBL2178578""]",True
+NCT03027193,ChAdOx2 HAV,BIOLOGICAL,[],unmatched,[],False
+NCT03027193,MVA HAV,BIOLOGICAL,[],unmatched,[],False
+NCT07225998,N-Acetylglucosamine (GlcNAc),DRUG,[],unmatched,[],False
+NCT03467958,Ozanimod,DRUG,[],exact,"[""CHEMBL3707247""]",True
+NCT02044952,"Mesalazine, Tripterygium glycosides",DRUG,"[""Triptolide"", ""Lei gong teng"", ""Thunder god vine""]",unmatched,[],False
+NCT03393247,infliximab and azathioprine combination at week 0,DRUG,[],unmatched,[],False
+NCT03393247,infliximab and azathioprine combination at week 14,DRUG,[],unmatched,[],False
+NCT02680756,Ferric Maltol,DRUG,"[""Feraccru"", ""Ferric Trimaltol"", ""ST10"", ""ST10-01""]",exact,"[""CHEMBL4298110""]",True
+NCT02680756,Ferric Carboxy Maltose,DRUG,[],exact,"[""CHEMBL2108597""]",True
+NCT03926130,Mirikizumab,DRUG,"[""LY3074828""]",exact,"[""CHEMBL3990014""]",True
+NCT03926130,Mirikizumab,DRUG,"[""LY3074828""]",exact,"[""CHEMBL3990014""]",True
+NCT03926130,Ustekinumab,DRUG,[],exact,"[""CHEMBL1201835""]",True
+NCT03926130,Ustekinumab,DRUG,[],exact,"[""CHEMBL1201835""]",True
+NCT03926130,Placebo,DRUG,[],placebo,[],False
+NCT03926130,Placebo,DRUG,[],placebo,[],False
+NCT01279577,Low dose TSO,DRUG,[],unmatched,[],False
+NCT01279577,Medium dose TSO,DRUG,[],unmatched,[],False
+NCT01279577,High dose TSO,DRUG,[],unmatched,[],False
+NCT01279577,Placebo,DRUG,[],placebo,[],False
+NCT06051253,TDM-based infliximab intravenous therapy,DRUG,"[""TDM-based infliximab (CT-P13, RemsimaTM) intravenous therapy""]",unmatched,[],False
+NCT06051253,Standard infliximab intravenous therapy,DRUG,"[""Standard infliximab (CT-P13, RemsimaTM) intravenous therapy""]",unmatched,[],False
+NCT00287170,Delayed Release 6MP or Calcitriol vs. Purinethol,DRUG,[],unmatched,[],False
+NCT03847467,2'-Fucosyllactose,DRUG,"[""2'-FL""]",exact,"[""CHEMBL4297252""]",True
+NCT05452304,AZD7798,BIOLOGICAL,[],unmatched,[],False
+NCT05452304,Placebo,BIOLOGICAL,[],placebo,[],False
+NCT04397263,Guselkumab,DRUG,"[""CNTO1959""]",exact,"[""CHEMBL2364648""]",True
+NCT07295834,Modafinil,DRUG,[],exact,"[""CHEMBL1373""]",True
+NCT07295834,Placebo,DRUG,[],placebo,[],False
+NCT03105102,Placebo for Risankizumab SC,DRUG,[],placebo,[],False
+NCT03105102,Risankizumab IV,DRUG,"[""ABBV-066"", ""BI 655066"", ""SKYRIZI""]",exact,"[""CHEMBL3990029""]",True
+NCT03105102,Placebo for Risankizumab IV,DRUG,[],placebo,[],False
+NCT03105102,Risankizumab SC,DRUG,"[""ABBV-066"", ""BI 655066"", ""SKYRIZI""]",exact,"[""CHEMBL3990029""]",True
+NCT03105102,Risankizumab On-Body Injector (OBI),DRUG,"[""ABBV-066"", ""BI 655066"", ""SKYRIZI""]",exact,"[""CHEMBL3990029""]",True
+NCT07632573,BDHK-2009 Tablets,DRUG,[],unmatched,[],False
+NCT07632573,Placebo,DRUG,[],placebo,[],False
+NCT07483073,Mirikizumab - Intravenous (IV),DRUG,"[""LY3074828""]",exact,"[""CHEMBL3990014""]",True
+NCT07483073,Mirikizumab - Subcutaneous (SC),DRUG,"[""LY3074828""]",exact,"[""CHEMBL3990014""]",True
+NCT07483073,LY4395089,DRUG,[],unmatched,[],False
+NCT03808103,Placebo,BIOLOGICAL,"[""0.9% saline""]",placebo,[],False
+NCT03808103,Bacteriophage preparation,BIOLOGICAL,"[""EcoActive""]",unmatched,[],False
+NCT00004941,monoclonal antibody cA2,DRUG,[],unmatched,[],False
+NCT02405442,Andecaliximab,DRUG,"[""GS-5745""]",exact,"[""CHEMBL3833374""]",True
+NCT02405442,Placebo,DRUG,[],placebo,[],False
+NCT05180175,Top down treatment if patient at high risk,DRUG,[],unmatched,[],False
+NCT01009281,AIN457,DRUG,[],exact,"[""CHEMBL1743068""]",True
+NCT05995353,Risankizumab,DRUG,"[""ABBV-066"", ""SKYRIZI""]",exact,"[""CHEMBL3990029""]",True
+NCT05995353,Risankizumab,DRUG,"[""ABBV-066"", ""SKYRIZI""]",exact,"[""CHEMBL3990029""]",True
+NCT00692939,autologous CD34-selected peripheral blood stem cells transplant,BIOLOGICAL,[],unmatched,[],False
+NCT00692939,Alemtuzumab,DRUG,"[""Campath-1H""]",exact,"[""CHEMBL1201587""]",True
+NCT00692939,ATG,DRUG,"[""Anti-thymocyte globulin, rabbit; Thymoglobulin""]",exact,"[""CHEMBL2108981""]",True
+NCT00692939,Melphalan,DRUG,"[""L-phenylalanine mustard, phenylalanine mustard, L-PAM, or L-sarcolysin""]",exact,"[""CHEMBL852""]",True
+NCT00692939,Thiotepa,DRUG,[],exact,"[""CHEMBL671""]",True
+NCT00692939,Rituximab,DRUG,"[""Rituxan""]",exact,"[""CHEMBL1201576""]",True
+NCT00692939,Cyclophosphamide,DRUG,"[""Cytoxan""]",exact,"[""CHEMBL88""]",True
+NCT00692939,G-CSF,DRUG,"[""Neupogen, Granix, Zarxio, Filgrastim""]",ambiguous,"[""CHEMBL1201567"", ""CHEMBL1201568"", ""CHEMBL2109128""]",False
+NCT00692939,Mesna,DRUG,[],exact,"[""CHEMBL1098319""]",True
+NCT00552058,"certolizumab pegol (CDP870, CZP)",BIOLOGICAL,"[""CIMZIA ®"", ""CDP870"", ""CZP""]",ambiguous,"[""CHEMBL1201831"", ""CHEMBL4297565""]",False
+NCT02611817,Vedolizumab SC 108 mg,DRUG,[],dose_route_cleaned,"[""CHEMBL1743087""]",True
+NCT02611817,Placebo,DRUG,[],placebo,[],False
+NCT02611817,Vedolizumab IV 300 mg,DRUG,[],dose_route_cleaned,"[""CHEMBL1743087""]",True
+NCT03566823,Ontamalimab,BIOLOGICAL,"[""SHP647"", ""PF-00547659""]",exact,"[""CHEMBL2109511""]",True
+NCT01233960,Prochymal®,DRUG,"[""Adult human mesenchymal stem cells"", ""Remestemcel-L""]",exact,"[""CHEMBL2108046""]",True
+NCT02749630,Placebo,DRUG,[],placebo,[],False
+NCT02749630,UTTR1147A,DRUG,"[""efmarodocokin alfa"", ""RO7021610"", ""RG7880"", ""IL-22Fc""]",exact,"[""CHEMBL4650250""]",True
+NCT05843578,AGMB-129,DRUG,[],unmatched,[],False
+NCT05843578,Placebo,DRUG,[],placebo,[],False
+NCT07625293,DB-3Q,BIOLOGICAL,[],unmatched,[],False
+NCT00655135,LDP-02,DRUG,"[""MLN0002, MLN02""]",exact,"[""CHEMBL1743087""]",True
+NCT00655135,Placebo,DRUG,"[""MLN0002, MLN02""]",placebo,[],False
+NCT02820493,vedolizumab,DRUG,[],exact,"[""CHEMBL1743087""]",True
+NCT03992469,EBFAHF-2,DRUG,[],unmatched,[],False
+NCT03992469,Placebo,DRUG,[],placebo,[],False
+NCT06430801,IV Tulisokibart,DRUG,"[""PRA023"", ""MK-7240""]",exact,"[""CHEMBL5095370""]",True
+NCT06430801,SC Tulisokibart,DRUG,"[""PRA023"", ""MK-7240""]",exact,"[""CHEMBL5095370""]",True
+NCT05521672,Adipose derived allogenic mesenchymal stem cells (adAMSC),DRUG,[],unmatched,[],False
+NCT07629245,injection of thawed SVF,DRUG,[],unmatched,[],False
+NCT05923073,Guselkumab,DRUG,"[""CNTO1959"", ""TREMFYA""]",exact,"[""CHEMBL2364648""]",True
+NCT05923073,Guselkumab,DRUG,"[""CNTO1959"", ""TREMFYA""]",exact,"[""CHEMBL2364648""]",True
+NCT07697456,Risankizumab,DRUG,"[""ABBV-066""]",exact,"[""CHEMBL3990029""]",True
+NCT07697456,Trosunilimab,DRUG,"[""ABBV-382""]",exact,"[""CHEMBL6068185""]",True
+NCT07697456,ABBV-701,DRUG,[],unmatched,[],False
+NCT04643483,Certolizumab pegol,DRUG,[],exact,"[""CHEMBL1201831""]",True
+NCT04643483,Adalimumab,DRUG,[],exact,"[""CHEMBL1201580""]",True
+NCT04643483,Placebo,DRUG,[],placebo,[],False
+NCT07415473,Infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT07415473,Akkermansia muciniphila + Infliximab,DRUG,[],unmatched,[],False
+NCT05837897,Vedolizumab IV,DRUG,[],exact,"[""CHEMBL1743087""]",True
+NCT05837897,Placebo,DRUG,[],placebo,[],False
+NCT00798473,zoledronic acid,DRUG,"[""zoledronate"", ""zometa""]",exact,"[""CHEMBL924""]",True
+NCT00805766,TA-650,DRUG,"[""Infliximab""]",exact,"[""CHEMBL1201581""]",True
+NCT05239702,CD7 CAR T-cells,BIOLOGICAL,"[""CD7 CAR-T cells injection""]",unmatched,[],False
+NCT05509777,Mirikizumab,DRUG,"[""LY3074828""]",exact,"[""CHEMBL3990014""]",True
+NCT01203631,NNC 0142-0000-0002,DRUG,[],exact,"[""CHEMBL4594564""]",True
+NCT01203631,Placebo,DRUG,[],placebo,[],False
+NCT00055536,natalizumab,DRUG,[],exact,"[""CHEMBL1201607""]",True
+NCT01802593,AZATHIOPRINE or METHOTREXATE,DRUG,"[""6 MERCAPTOPURINE""]",exact,"[""CHEMBL1425""]",True
+NCT01802593,AZATHIOPRINE or METHOTREXATE,DRUG,"[""6 MERCAPTOPURINE""]",exact,"[""CHEMBL1425""]",True
+NCT05578508,Mesenchymal Stem Cells (MSCs),DRUG,"[""Allogeneic Bone Marrow Derived Mesenchymal Stem Cells (MSCs)""]",unmatched,[],False
+NCT01024647,certolizumab pegol,BIOLOGICAL,"[""Cimzia""]",exact,"[""CHEMBL1201831""]",True
+NCT01024647,certolizumab pegol,BIOLOGICAL,"[""Cimzia""]",exact,"[""CHEMBL1201831""]",True
+NCT01024647,certolizumab pegol,BIOLOGICAL,"[""Cimzia""]",exact,"[""CHEMBL1201831""]",True
+NCT01024647,certolizumab pegol,BIOLOGICAL,"[""Cimzia""]",exact,"[""CHEMBL1201831""]",True
+NCT07010926,L2-01 adipose-derived mesenchymal stem cells (MSC),BIOLOGICAL,[],unmatched,[],False
+NCT00038766,semapimod,DRUG,"[""CNI-1493""]",exact,"[""CHEMBL2107779""]",True
+NCT00038766,semapimod,DRUG,"[""CNI-1493""]",exact,"[""CHEMBL2107779""]",True
+NCT00038766,placebo,DRUG,[],placebo,[],False
+NCT07417696,Palmitoleic Acid + Infliximab,DRUG,[],unmatched,[],False
+NCT07417696,Infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT05660746,Infliximab,DRUG,"[""Avsola"", ""Inflectra"", ""Ixifi"", ""Remicade"", ""Renflexis""]",exact,"[""CHEMBL1201581""]",True
+NCT03196427,Vedolizumab,DRUG,"[""MLN0002"", ""ENTYVIO"", ""KYNTELES""]",exact,"[""CHEMBL1743087""]",True
+NCT02994836,Anti-TNF: Infliximab (Infusion),BIOLOGICAL,[],unmatched,[],False
+NCT02994836,Anti-TNF discontinuation: Physiological saline solution,DRUG,[],unmatched,[],False
+NCT02994836,Anti-TNF:Adalimumab (Subcutaneus),BIOLOGICAL,[],unmatched,[],False
+NCT02994836,Anti-TNF discontinuation: Physiological saline solution,DRUG,[],unmatched,[],False
+NCT00571337,Infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT01090817,Mesenchymal stromal cells (MSC) for infusion,DRUG,"[""No other names""]",unmatched,[],False
+NCT00972218,Adalimumab,BIOLOGICAL,"[""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT02883452,CT-P13,BIOLOGICAL,"[""Infliximab""]",exact,"[""CHEMBL1201581""]",True
+NCT02883452,CT-P13,BIOLOGICAL,"[""Infliximab""]",exact,"[""CHEMBL1201581""]",True
+NCT02883452,CT-P13,BIOLOGICAL,"[""Infliximab""]",exact,"[""CHEMBL1201581""]",True
+NCT02883452,CT-P13,BIOLOGICAL,"[""Infliximab""]",exact,"[""CHEMBL1201581""]",True
+NCT02883452,CT-P13,BIOLOGICAL,"[""Infliximab""]",exact,"[""CHEMBL1201581""]",True
+NCT02883452,CT-P13,BIOLOGICAL,"[""Infliximab""]",exact,"[""CHEMBL1201581""]",True
+NCT01752790,Top-down,DRUG,"[""Remicade"", ""Imuran""]",ambiguous,"[""CHEMBL1201581"", ""CHEMBL1542""]",False
+NCT01752790,Step-up,DRUG,"[""Imuran"", ""Medrol"", ""Urbason""]",ambiguous,"[""CHEMBL1542"", ""CHEMBL650""]",False
+NCT00356408,Certolizumab pegol,BIOLOGICAL,"[""CDP870"", ""CZP"", ""Cimzia""]",exact,"[""CHEMBL1201831""]",True
+NCT05906576,Infliximab,DRUG,"[""CMAB008""]",exact,"[""CHEMBL1201581""]",True
+NCT01559142,Infliximab with azathioprine (IIFX + AZA),DRUG,[],unmatched,[],False
+NCT01559142,Infliximab (IFX alone),DRUG,[],unmatched,[],False
+NCT06548542,Risankizumab,DRUG,[],exact,"[""CHEMBL3990029""]",True
+NCT06548542,Lutikizumab,DRUG,[],exact,"[""CHEMBL4594518""]",True
+NCT06548542,Trosunilimab,DRUG,[],exact,"[""CHEMBL6068185""]",True
+NCT06548542,Risankizumab,DRUG,[],exact,"[""CHEMBL3990029""]",True
+NCT06548542,Trosunilimab,DRUG,[],exact,"[""CHEMBL6068185""]",True
+NCT06548542,ABBV-8736,DRUG,[],unmatched,[],False
+NCT06896305,Anti-TNF Therapy,DRUG,[],unmatched,[],False
+NCT02764762,Vedolizumab,DRUG,"[""Entyvio"", ""MLN0002 IV""]",exact,"[""CHEMBL1743087""]",True
+NCT02764762,Adalimumab,DRUG,"[""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT02764762,Methotrexate,DRUG,[],exact,"[""CHEMBL34259""]",True
+NCT02522169,Infliximab,DRUG,"[""Remicade""]",exact,"[""CHEMBL1201581""]",True
+NCT02000362,Stem cells,BIOLOGICAL,"[""FURESTEM-CD Inj.""]",unmatched,[],False
+NCT04924270,Faecal microbiota transplantation,BIOLOGICAL,"[""capsule FMT""]",unmatched,[],False
+NCT00055497,Double-blind (DB) adalimumab placebo,BIOLOGICAL,"[""Humira®""]",placebo,[],False
+NCT00055497,DB adalimumab 40 mg eow,BIOLOGICAL,"[""Humira®""]",exact,"[""CHEMBL1201580""]",True
+NCT00055497,DB adalimumab 40 mg ew,BIOLOGICAL,"[""Humira®""]",exact,"[""CHEMBL1201580""]",True
+NCT00055497,OL adalimumab 40 mg,BIOLOGICAL,"[""Humira®""]",exact,"[""CHEMBL1201580""]",True
+NCT02349594,Omegaven 10%,DRUG,"[""fish oil"", ""N-3 polyunsaturated fatty acids atty acids""]",exact,"[""CHEMBL3833369""]",True
+NCT02349594,Intralipid 20%,DRUG,"[""soybean oil"", ""N-6 polyunsaturated fatty acids atty acids""]",exact,"[""CHEMBL1201485""]",True
+NCT05013905,Tulisokibart,BIOLOGICAL,"[""PRA023"", ""MK-7240""]",exact,"[""CHEMBL5095370""]",True
+NCT00333788,Certolizumab pegol (CDP870),BIOLOGICAL,"[""CDP870"", ""Cimzia""]",ambiguous,"[""CHEMBL1201831"", ""CHEMBL4297565""]",False
+NCT00546546,"early immunosuppressants (azathioprine, methotrexate)",DRUG,"[""Azathioprine = brand name = Imurel""]",unmatched,[],False
+NCT00889161,Curcumin,DRUG,[],exact,"[""CHEMBL140""]",True
+NCT05668013,TEV-48574 Dose Regimen A,DRUG,"[""duvakitug""]",exact,"[""CHEMBL5314733""]",True
+NCT05668013,TEV-48574 Dose Regiment B,DRUG,"[""duvakitug""]",exact,"[""CHEMBL5314733""]",True
+NCT04939337,TH-SC01,DRUG,[],unmatched,[],False
+NCT06788340,PK-model to decide when to dose Vedolizumab and Ustekinumab,DRUG,[],unmatched,[],False
+NCT02108821,Fecal Microbiota Transplantation (FMT),BIOLOGICAL,"[""Fecal Transplantation""]",unmatched,[],False
+NCT00221026,Methoxsalen +ECP,DRUG,"[""Uvadex""]",exact,"[""CHEMBL416""]",True
+NCT00528073,Rifaximin-EIR,DRUG,"[""GRACE""]",exact,"[""CHEMBL1617""]",True
+NCT00160524,Certolizumab Pegol (CDP870),BIOLOGICAL,"[""Cimzia"", ""CDP870"", ""CZP""]",ambiguous,"[""CHEMBL1201831"", ""CHEMBL4297565""]",False
+NCT04254783,Risankizumab,DRUG,"[""SKYRIZI"", ""ABBV-066""]",exact,"[""CHEMBL3990029""]",True
+NCT04254783,Cytochrome P450 (CYP) Substrates,DRUG,[],unmatched,[],False
+NCT01266785,Infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT00513552,"Rifabutin, Clarithromycin, and Clofazimine",DRUG,[],unmatched,[],False
+NCT00269386,Clarithromycin,DRUG,"[""Clarithromycin S/R (Klaricid XL)""]",exact,"[""CHEMBL1741""]",True
+NCT00269386,Placebo,DRUG,[],placebo,[],False
+NCT00048295,Alicaforsen,DRUG,[],exact,"[""CHEMBL2108326""]",True
+NCT07416383,injection of CNK-UT009,DRUG,[],unmatched,[],False
+NCT07149441,infliximab,DRUG,"[""Biological agent""]",exact,"[""CHEMBL1201581""]",True
+NCT06918808,DB-3Q,BIOLOGICAL,[],unmatched,[],False
+NCT06918808,Placebo,BIOLOGICAL,[],placebo,[],False
+NCT03221166,Thalidomide,DRUG,[],exact,"[""CHEMBL468""]",True
+NCT03221166,Infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT02998827,Thalidomide,DRUG,[],exact,"[""CHEMBL468""]",True
+NCT02998827,"infliximab, azathioprine",DRUG,[],unmatched,[],False
+NCT02452151,Infliximab-Biosimilar,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT02452151,Infliximab-Innovator,DRUG,[],unmatched,[],False
+NCT01757964,Bacteriotherapy,BIOLOGICAL,[],unmatched,[],False
+NCT01316939,GSK1605786A,DRUG,[],exact,"[""CHEMBL2178578""]",True
+NCT01316939,Placebo,DRUG,[],placebo,[],False
+NCT01316939,GSK1605786A,DRUG,[],exact,"[""CHEMBL2178578""]",True
+NCT00114465,VSL#3,DRUG,[],unmatched,[],False
+NCT00132184,Vitamin D,DRUG,[],ambiguous,"[""CHEMBL1042"", ""CHEMBL1536""]",False
+NCT01086553,budesonide,DRUG,[],exact,"[""CHEMBL1370""]",True
+NCT01086553,budesonide,DRUG,[],exact,"[""CHEMBL1370""]",True
+NCT02685683,GED-0301,DRUG,"[""Mongersen""]",exact,"[""CHEMBL3707383""]",True
+NCT00267722,Visilizumab,DRUG,[],exact,"[""CHEMBL2108811""]",True
+NCT05688852,VTX958,DRUG,[],exact,"[""CHEMBL6068046""]",True
+NCT05688852,VTX958,DRUG,[],exact,"[""CHEMBL6068046""]",True
+NCT05688852,VTX958 Placebo,DRUG,[],placebo,[],False
+NCT04519684,Mesenchymal stem cells,DRUG,[],unmatched,[],False
+NCT00720538,Thalidomide,DRUG,"[""Thalidomide PHARMION"", ""Thalidomid CELGENE""]",exact,"[""CHEMBL468""]",True
+NCT00720538,placebo,DRUG,[],placebo,[],False
+NCT02956538,Thalidomide,DRUG,[],exact,"[""CHEMBL468""]",True
+NCT02956538,placebo(for thalidomide),DRUG,[],placebo,[],False
+NCT07499232,Guselkumab,DRUG,"[""CNTO1959""]",exact,"[""CHEMBL2364648""]",True
+NCT07499232,Risankizumab,DRUG,[],exact,"[""CHEMBL3990029""]",True
+NCT02015793,Adalimumab,BIOLOGICAL,[],exact,"[""CHEMBL1201580""]",True
+NCT02015793,Placebo for adalimumab,BIOLOGICAL,[],placebo,[],False
+NCT03945019,CT-P13 SC (Infliximab),BIOLOGICAL,[],unmatched,[],False
+NCT03599622,BMS-986165,DRUG,[],exact,"[""CHEMBL4596392""]",True
+NCT02199561,Fecal Microbiota Transplant,BIOLOGICAL,[],unmatched,[],False
+NCT07196722,Icotrokinra,DRUG,"[""JNJ-77242113""]",exact,"[""CHEMBL6068124""]",True
+NCT07196722,Placebo,DRUG,[],placebo,[],False
+NCT05194007,Frondanol,DRUG,[],unmatched,[],False
+NCT05194007,Placebo,DRUG,[],placebo,[],False
+NCT02641392,GED-0301,DRUG,"[""Mongersen""]",exact,"[""CHEMBL3707383""]",True
+NCT06257706,Vedolizumab,BIOLOGICAL,[],exact,"[""CHEMBL1743087""]",True
+NCT00796250,Infliximab,BIOLOGICAL,"[""Remicade"", ""SCH 215596""]",exact,"[""CHEMBL1201581""]",True
+NCT00796250,AZA,DRUG,"[""Imuran""]",exact,"[""CHEMBL1542""]",True
+NCT00796250,Placebo Prednisolone,DRUG,"[""Placebo""]",placebo,[],False
+NCT00796250,Prednisolone,DRUG,"[""Pediapred""]",exact,"[""CHEMBL131""]",True
+NCT00796250,AZA,DRUG,"[""Imuran""]",exact,"[""CHEMBL1542""]",True
+NCT00796250,Placebo Infliximab,BIOLOGICAL,"[""Placebo""]",placebo,[],False
+NCT03219359,Cyclophosphamide,DRUG,[],exact,"[""CHEMBL88""]",True
+NCT03219359,Cyclophosphamide,DRUG,[],exact,"[""CHEMBL88""]",True
+NCT03219359,Thymoglobulin,DRUG,"[""ATG""]",exact,"[""CHEMBL2108981""]",True
+NCT03219359,Methylprednisolone,DRUG,[],exact,"[""CHEMBL650""]",True
+NCT03219359,Vedolizumab,DRUG,[],exact,"[""CHEMBL1743087""]",True
+NCT04779762,Ustekinumab Injection [Stelara],DRUG,[],unmatched,[],False
+NCT04056442,"Cannabidiol , synthetic form",DRUG,[],unmatched,[],False
+NCT04056442,Placebo,DRUG,[],placebo,[],False
+NCT01261286,verapamil,DRUG,[],exact,"[""CHEMBL6966""]",True
+NCT01290042,AMG 181,DRUG,[],exact,"[""CHEMBL3137351""]",True
+NCT05836883,ExoFlo,BIOLOGICAL,[],unmatched,[],False
+NCT01150890,Brodalumab,BIOLOGICAL,"[""AMG 827""]",exact,"[""CHEMBL1742996""]",True
+NCT01150890,Placebo,DRUG,[],placebo,[],False
+NCT07149467,Ustekinumab (approximately 6 mg/kg),DRUG,[],unmatched,[],False
+NCT07149467,Upadacitinib,DRUG,[],exact,"[""CHEMBL3622821""]",True
+NCT02953275,vedolizumab,DRUG,"[""Entyvio""]",exact,"[""CHEMBL1743087""]",True
+NCT02953275,Pentoxifylline,DRUG,"[""Trental""]",exact,"[""CHEMBL628""]",True
+NCT02953275,placebo,DRUG,[],placebo,[],False
+NCT01369329,Group 2 ustekinumab 130 mg,DRUG,[],unmatched,[],False
+NCT01369329,Group 3: ustekinumab approximately 6 mg/kg,DRUG,[],unmatched,[],False
+NCT01369329,Group 1: Placebo,DRUG,[],placebo,[],False
+NCT01224171,vedolizumab,DRUG,"[""Entyvio"", ""MLN0002"", ""MLN02"", ""LDP-02""]",exact,"[""CHEMBL1743087""]",True
+NCT04263831,Interleukin-2 (aldesleukin).,DRUG,[],exact,"[""CHEMBL1201438""]",True
+NCT04997733,Fecal Microbiota Transplantation (FMT),DRUG,[],unmatched,[],False
+NCT04997733,Sham-transplantation (placebo),DRUG,[],placebo,[],False
+NCT02445547,received hormone maintenance therapy,DRUG,[],unmatched,[],False
+NCT00495521,4-Aminosalicylic acid extended release granules,DRUG,"[""PASER® Granules (or Placebo Granules)"", ""4-Aminosalicylic acid"", ""NDC 49938-107-04"", ""4-ASA""]",exact,"[""CHEMBL1169""]",True
+NCT05928039,TNFa Antagonist - Infliximab,BIOLOGICAL,[],unmatched,[],False
+NCT05928039,TNFa Antagonist - Adalimumab,BIOLOGICAL,[],unmatched,[],False
+NCT05928039,Anti-IL12/23 or anti-IL23 - Ustekinumab,BIOLOGICAL,[],unmatched,[],False
+NCT05928039,Anti-IL12/23 or anti-IL23 - Risankizumab,BIOLOGICAL,[],unmatched,[],False
+NCT05928039,Anti-integrin - Vedolizumab IV,BIOLOGICAL,[],unmatched,[],False
+NCT05928039,Anti-integrin - Vedolizumab IV and SC,BIOLOGICAL,[],unmatched,[],False
+NCT04847739,AVB-114,DRUG,[],unmatched,[],False
+NCT02769494,Mesalazine Sustained-Release Tablets,DRUG,"[""Pentasa""]",exact,"[""CHEMBL704""]",True
+NCT02769494,Riboflavin Sodium Phosphate Injection,DRUG,[],dose_route_cleaned,"[""CHEMBL1201794""]",True
+NCT00245505,Mesalazine (Mesalamine),DRUG,[],unmatched,[],False
+NCT02620007,Ciprofloxacin,DRUG,[],exact,"[""CHEMBL8""]",True
+NCT02620007,Rifaximin,DRUG,[],exact,"[""CHEMBL1617""]",True
+NCT02620007,Ciprofloxacin Placebo,DRUG,[],placebo,[],False
+NCT02620007,Rifaximin Placebo,DRUG,[],placebo,[],False
+NCT07059130,Mirikizumab,BIOLOGICAL,"[""Mirikizumab Treatment Group""]",exact,"[""CHEMBL3990014""]",True
+NCT05470985,Ozanimod,DRUG,"[""BMS-986374"", ""RPC1063""]",exact,"[""CHEMBL3707247""]",True
+NCT02425111,Vedolizumab,DRUG,"[""MLN0002""]",exact,"[""CHEMBL1743087""]",True
+NCT03162432,Vitamin D3,DRUG,[],ambiguous,"[""CHEMBL1042"", ""CHEMBL1536"", ""CHEMBL846""]",False
+NCT01316601,QAX567,DRUG,[],unmatched,[],False
+NCT00552344,Cimzia,BIOLOGICAL,"[""Certolizumab Pegol"", ""CDP870"", ""CZP""]",ambiguous,"[""CHEMBL1201831"", ""CHEMBL4297565""]",False
+NCT07428096,PALI-2108,DRUG,[],unmatched,[],False
+NCT01580670,TA-650,DRUG,"[""Infliximab""]",exact,"[""CHEMBL1201581""]",True
+NCT01696942,Cimzia,DRUG,"[""Certolizumab""]",ambiguous,"[""CHEMBL1201831"", ""CHEMBL4297565""]",False
+NCT01696942,Mesalamine,DRUG,[],exact,"[""CHEMBL704""]",True
+NCT01596894,Azithromycin + Metronidazole,DRUG,"[""Azanil"", ""Flagyl""]",exact,"[""CHEMBL137""]",True
+NCT01596894,Metronidazole,DRUG,"[""Flagyl""]",exact,"[""CHEMBL137""]",True
+NCT00252369,Infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT02620046,Vedolizumab SC,DRUG,[],exact,"[""CHEMBL1743087""]",True
+NCT03449069,MSC-AFP,DRUG,"[""mesenchymal stromal cell coated anal fistula plug""]",unmatched,[],False
+NCT03478956,Etrolizumab,DRUG,"[""RG7413"", ""RO5490261"", ""PRO145223"", ""rhuMAb Beta7""]",exact,"[""CHEMBL1743015""]",True
+NCT00152425,Certolizumab Pegol (CDP870),DRUG,[],unmatched,[],False
+NCT01277289,Dexamethasone,DRUG,"[""Ery-dex""]",exact,"[""CHEMBL384467""]",True
+NCT02378688,MT-1303,DRUG,[],exact,"[""CHEMBL3707375""]",True
+NCT02378688,Placebo,DRUG,[],placebo,[],False
+NCT02403323,Etrolizumab,DRUG,"[""RG7413""]",exact,"[""CHEMBL1743015""]",True
+NCT00206661,Sargramostim (Leukine),DRUG,"[""BAY86-5326""]",unmatched,[],False
+NCT00206661,Sargramostim (Leukine),DRUG,"[""BAY86-5326""]",unmatched,[],False
+NCT04877990,Deucravacitinib,DRUG,[],exact,"[""CHEMBL4596392""]",True
+NCT01514240,D9421-C capsule 3 mg,DRUG,[],unmatched,[],False
+NCT01514240,Mesalazine tablets,DRUG,[],dose_route_cleaned,"[""CHEMBL704""]",True
+NCT03681067,GSK1070806,DRUG,[],exact,"[""CHEMBL2109606""]",True
+NCT03681067,Placebo- sodium chloride,DRUG,"[""Placebo""]",placebo,[],False
+NCT00106314,Dehydroepiandrosterone [DHEA],DRUG,[],unmatched,[],False
+NCT00609752,prednisolone,DRUG,[],exact,"[""CHEMBL131""]",True
+NCT04701411,Darvadstrocel,BIOLOGICAL,"[""Cx601""]",exact,"[""CHEMBL4298180""]",True
+NCT03234907,Vedolizumab IV,DRUG,[],exact,"[""CHEMBL1743087""]",True
+NCT03234907,Placebo,DRUG,[],placebo,[],False
+NCT06581328,Vedolizumab IV,DRUG,"[""Entyvio""]",exact,"[""CHEMBL1743087""]",True
+NCT06581328,Vedolizumab SC,DRUG,"[""Entyvio""]",exact,"[""CHEMBL1743087""]",True
+NCT05242471,Guselkumab,BIOLOGICAL,[],exact,"[""CHEMBL2364648""]",True
+NCT05242471,Golimumab,BIOLOGICAL,[],exact,"[""CHEMBL1201833""]",True
+NCT05242471,JNJ-78934804,BIOLOGICAL,[],unmatched,[],False
+NCT05242471,Placebo,DRUG,[],placebo,[],False
+NCT00078611,natalizumab,DRUG,"[""Antegren""]",exact,"[""CHEMBL1201607""]",True
+NCT07753850,SL-325,DRUG,[],unmatched,[],False
+NCT07753850,Placebo,DRUG,[],placebo,[],False
+NCT03627091,Ontamalimab,DRUG,"[""SHP647"", ""PF-00547659""]",exact,"[""CHEMBL2109511""]",True
+NCT06064864,Infliximab-Dyyb,DRUG,"[""Infliximab""]",exact,"[""CHEMBL1201581""]",True
+NCT04233463,Budesonide,DRUG,[],exact,"[""CHEMBL1370""]",True
+NCT01810185,Low dose naltrexone,DRUG,"[""Naltrexone""]",exact,"[""CHEMBL19019""]",True
+NCT01810185,Placebo,DRUG,[],placebo,[],False
+NCT02891226,Mirikizumab,DRUG,"[""LY3074828""]",exact,"[""CHEMBL3990014""]",True
+NCT02891226,Placebo,DRUG,[],placebo,[],False
+NCT03597971,HMPL004-6599,DRUG,[],unmatched,[],False
+NCT03597971,Placebo,DRUG,[],placebo,[],False
+NCT02597829,Certolizumab Pegol,DRUG,"[""Cimzia""]",exact,"[""CHEMBL1201831""]",True
+NCT00105300,Adalimumab,DRUG,[],exact,"[""CHEMBL1201580""]",True
+NCT04362254,Spesolimab,DRUG,"[""BI 655130""]",exact,"[""CHEMBL4297911""]",True
+NCT01659762,autologous mesenchymal stromal cell,BIOLOGICAL,[],unmatched,[],False
+NCT01245088,chondroitin sulfate,DRUG,[],exact,"[""CHEMBL2108922""]",True
+NCT00409682,Adalimumab,BIOLOGICAL,"[""ABT-D2E7, adalimumab, Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT00409682,Adalimumab,BIOLOGICAL,"[""ABT-D2E7, adalimumab, Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT00409682,Adalimumab,BIOLOGICAL,"[""ABT-D2E7, adalimumab, Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT01040910,smoking of cannabis,DRUG,[],unmatched,[],False
+NCT01040910,smoking cigarettes with placebo,DRUG,[],placebo,[],False
+NCT04646187,Infliximab,BIOLOGICAL,"[""Remicade"", ""Flixabi"", ""Inflectra"", ""Remsima"", ""Zessly""]",exact,"[""CHEMBL1201581""]",True
+NCT04646187,Adalimumab,BIOLOGICAL,"[""Humira"", ""AMGEVITA"", ""Hulio"", ""Hyrimoz"", ""Idacio"", ""Imraldi""]",exact,"[""CHEMBL1201580""]",True
+NCT00976690,Azathioprine OR Mesalazine,DRUG,[],unmatched,[],False
+NCT00207766,infliximab or placebo,DRUG,[],placebo,[],False
+NCT06298461,KleanLyte,DRUG,[],unmatched,[],False
+NCT06298461,Bi-PegLyte,DRUG,[],unmatched,[],False
+NCT01369342,Group 1: Placebo,DRUG,[],placebo,[],False
+NCT01369342,Group 2 ustekinumab 130 mg,DRUG,[],unmatched,[],False
+NCT01369342,Group 3: ustekinumab approximately 6 mg/kg,DRUG,[],unmatched,[],False
+NCT00317369,OPC-6535(Tetomilast),DRUG,[],unmatched,[],False
+NCT06233461,TAK-279,DRUG,"[""Zasocitinib""]",exact,"[""CHEMBL5314423""]",True
+NCT06233461,Placebo,DRUG,[],placebo,[],False
+NCT05626023,Human TH-SC01 cell injection,DRUG,[],unmatched,[],False
+NCT05587673,Methylprednisolone,DRUG,[],exact,"[""CHEMBL650""]",True
+NCT04844606,Mirikizumab,DRUG,"[""LY3074828""]",exact,"[""CHEMBL3990014""]",True
+NCT04844606,Mirikizumab,DRUG,"[""LY3074828""]",exact,"[""CHEMBL3990014""]",True
+NCT06819878,Afimkibart,DRUG,"[""PF-06480605"", ""RVT-3101"", ""RG6631"", ""RO7790121""]",exact,"[""CHEMBL6068198""]",True
+NCT06819878,Placebo,DRUG,[],placebo,[],False
+NCT06100289,Vedolizumab IV,DRUG,"[""ENTYVIO"", ""KYNTELES"", ""MLN0002""]",exact,"[""CHEMBL1743087""]",True
+NCT06100289,Vedolizumab SC,DRUG,"[""MLN0002SC""]",exact,"[""CHEMBL1743087""]",True
+NCT01235689,Adalimumab,BIOLOGICAL,"[""ABT-D2E7"", ""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT01235689,Prednisone,DRUG,[],exact,"[""CHEMBL635""]",True
+NCT01235689,Azathioprine,DRUG,[],exact,"[""CHEMBL1542""]",True
+NCT04254549,Rifaximin,DRUG,"[""TD-1473""]",exact,"[""CHEMBL1617""]",True
+NCT04254549,Placebo,DRUG,[],placebo,[],False
+NCT01932658,Hematopoietic stem cell transplantation,BIOLOGICAL,"[""HSCT""]",unmatched,[],False
+NCT06109961,Oxygen Gas for Inhalation,DRUG,[],unmatched,[],False
+NCT00511329,somatropin [rDNA origin] for injection,DRUG,"[""Genotropin""]",exact,"[""CHEMBL1201621""]",True
+NCT06758024,Infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT06758024,Infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT06719622,budesonide,DRUG,[],exact,"[""CHEMBL1370""]",True
+NCT06719622,omeprazole (proton pump inhibitor),DRUG,[],unmatched,[],False
+NCT01823029,erythropoietin,DRUG,[],unmatched,[],False
+NCT01823029,enteral nutrition.,DRUG,[],unmatched,[],False
+NCT01823029,injection of iron,DRUG,[],unmatched,[],False
+NCT02185183,Alequel,DRUG,[],unmatched,[],False
+NCT01562951,ADALIMUMAB,DRUG,"[""HUMIRA""]",exact,"[""CHEMBL1201580""]",True
+NCT01562951,Placebo,DRUG,[],placebo,[],False
+NCT00482092,Prochymal®,DRUG,"[""Adult Human Mesenchymal Stem Cells""]",exact,"[""CHEMBL2108046""]",True
+NCT00482092,Placebo,DRUG,[],placebo,[],False
+NCT00098111,azathioprine,DRUG,[],exact,"[""CHEMBL1542""]",True
+NCT01570348,Cyclophosphamide,DRUG,"[""(-)-Cyclophosphamide"", ""2H-1,3,2-Oxazaphosphorine, 2-[bis(2-chloroethyl)amino]tetrahydro-, 2-oxide, monohydrate"", ""Carloxan"", ""Ciclofosfamida"", ""Ciclofosfamide"", ""Cicloxal"", ""Clafen"", ""Claphene"", ""CP monohydrate"", ""CTX"", ""CYCLO-cell"", ""Cycloblastin"", ""Cycloblastine"", ""Cyclophospham"", ""Cyclophosphamid monohydrate"", ""Cyclophosphamidum"", ""Cyclophosphan"", ""Cyclophosphane"", ""Cyclophosphanum"", ""Cyclostin"", ""Cyclostine"", ""Cytophosphan"", ""Cytophosphane"", ""Cytoxan"", ""Fosfaseron"", ""Genoxal"", ""Genuxal"", ""Ledoxina"", ""Mitoxan"", ""Neosar"", ""Revimmune"", ""Syklofosfamid"", ""WR- 138719""]",exact,"[""CHEMBL88""]",True
+NCT01570348,Fludarabine Phosphate,DRUG,"[""2-F-ara-AMP"", ""9H-Purin-6-amine, 2-fluoro-9-(5-O-phosphono-.beta.-D-arabinofuranosyl)-"", ""Beneflur"", ""Fludara"", ""Oforta"", ""SH T 586""]",exact,"[""CHEMBL1096882""]",True
+NCT01570348,Mycophenolate Mofetil,DRUG,"[""Cellcept"", ""MMF""]",exact,"[""CHEMBL1456""]",True
+NCT01570348,Mycophenolic Acid,DRUG,"[""Acide mycophenolique"", ""Acido micofenolico"", ""Acidum mycophenolicum"", ""Lilly-68618"", ""Ly 68618"", ""MPA"", ""Myfortic""]",exact,"[""CHEMBL866""]",True
+NCT01570348,Tacrolimus,DRUG,"[""FK 506"", ""Fujimycin"", ""Prograf"", ""Protopic""]",exact,"[""CHEMBL269732""]",True
+NCT02249078,E6011,DRUG,[],exact,"[""CHEMBL4297942""]",True
+NCT02249078,Placebo,DRUG,[],placebo,[],False
+NCT02862132,Vedolizumab,DRUG,"[""Entyvio""]",exact,"[""CHEMBL1743087""]",True
+NCT04519671,Mesenchymal Stem Cells,DRUG,[],unmatched,[],False
+NCT00764699,rhIGF (Increlex),DRUG,"[""Increlex""]",exact,"[""CHEMBL1201716""]",True
+NCT00354367,Certolizumab pegol,DRUG,[],exact,"[""CHEMBL1201831""]",True
+NCT04164849,5-aminolevulinic acid,DRUG,[],exact,"[""CHEMBL601""]",True
+NCT07683325,Ontunisertib,DRUG,"[""AGMB-129""]",unmatched,[],False
+NCT07683325,Ontunisertib,DRUG,"[""AGMB-129""]",unmatched,[],False
+NCT07683325,Ontunisertib,DRUG,"[""AGMB-129""]",unmatched,[],False
+NCT07683325,Placebo,DRUG,[],placebo,[],False
+NCT02413047,Azathioprine,DRUG,"[""Imuran""]",exact,"[""CHEMBL1542""]",True
+NCT02413047,6 mercaptopurine,DRUG,[],exact,"[""CHEMBL1425""]",True
+NCT02413047,Methotrexate,DRUG,[],exact,"[""CHEMBL34259""]",True
+NCT00042055,CP-461,DRUG,[],exact,"[""CHEMBL4068108""]",True
+NCT00297648,Certolizumab pegol,BIOLOGICAL,"[""Cimzia"", ""CZP"", ""CDP870""]",exact,"[""CHEMBL1201831""]",True
+NCT01751152,NNC0114-0006,DRUG,[],exact,"[""CHEMBL4297797""]",True
+NCT01751152,placebo,DRUG,[],placebo,[],False
+NCT01624376,DLX105,DRUG,[],unmatched,[],False
+NCT01624376,Placebo,DRUG,[],placebo,[],False
+NCT00250198,STA-5326,DRUG,[],ambiguous,"[""CHEMBL18144"", ""CHEMBL4297643""]",False
+NCT02240121,Rifaximin EIR,DRUG,[],exact,"[""CHEMBL1617""]",True
+NCT02240121,Placebo,DRUG,[],placebo,[],False
+NCT01951326,RHB-104,DRUG,[],unmatched,[],False
+NCT01951326,Placebo,DRUG,[],placebo,[],False
+NCT07216014,Interleukin 23,DRUG,[],unmatched,[],False
+NCT02185014,Adalimumab,DRUG,"[""Humira"", ""ABT-D2E7""]",exact,"[""CHEMBL1201580""]",True
+NCT03104413,placebo for risankizumab IV,DRUG,[],placebo,[],False
+NCT03104413,risankizumab SC,DRUG,"[""ABBV-066 BI 655066"", ""SKYRIZI""]",exact,"[""CHEMBL3990029""]",True
+NCT03104413,risankizumab IV,DRUG,"[""ABBV-066 BI 655066"", ""SKYRIZI""]",exact,"[""CHEMBL3990029""]",True
+NCT03440385,Ozanimod,DRUG,[],exact,"[""CHEMBL3707247""]",True
+NCT00619489,vedolizumab,DRUG,"[""Entyvio"", ""MLN0002"", ""MLN02"", ""LDP-02""]",exact,"[""CHEMBL1743087""]",True
+NCT07582458,Modafinil,DRUG,[],exact,"[""CHEMBL1373""]",True
+NCT07582458,Placebo,DRUG,[],placebo,[],False
+NCT01489943,GSK1605786 500 mg,DRUG,[],dose_route_cleaned,"[""CHEMBL2178578""]",True
+NCT01489943,Midazolam 3 mg,DRUG,[],dose_route_cleaned,"[""CHEMBL655""]",True
+NCT01489943,Pioglitazone 15 mg,DRUG,[],dose_route_cleaned,"[""CHEMBL595""]",True
+NCT01489943,Omeprazole 40 mg,DRUG,[],dose_route_cleaned,"[""CHEMBL1503""]",True
+NCT01489943,Rosuvastatin 10 mg,DRUG,[],exact,"[""CHEMBL1496""]",True
+NCT01826188,THC 5mg/ml and CBS 50mg/ml,DRUG,[],ambiguous,"[""CHEMBL190461"", ""CHEMBL3833333"", ""CHEMBL465""]",False
+NCT01826188,Placebo,DRUG,[],placebo,[],False
+NCT01958827,Adalimumab,BIOLOGICAL,"[""Humira, ABT-D2E7""]",exact,"[""CHEMBL1201580""]",True
+NCT00741910,Semapimod,DRUG,"[""CNI-1493""]",exact,"[""CHEMBL2107779""]",True
+NCT00329420,Certolizumab pegol,BIOLOGICAL,"[""CDP870"", ""Cimzia"", ""CZP""]",exact,"[""CHEMBL1201831""]",True
+NCT00329420,Certolizumab pegol,BIOLOGICAL,"[""CDP870"", ""Cimzia"", ""CZP""]",exact,"[""CHEMBL1201831""]",True
+NCT00329420,Certolizumab pegol,BIOLOGICAL,"[""CDP870"", ""Cimzia"", ""CZP""]",exact,"[""CHEMBL1201831""]",True
+NCT00035503,etiprednol dicloacetate,DRUG,[],exact,"[""CHEMBL2107614""]",True
+NCT04779320,Vedolizumab IV,DRUG,"[""ENTYVIO"", ""KYNTELES"", ""MLN0002""]",exact,"[""CHEMBL1743087""]",True
+NCT01053559,certolizumab pegol,DRUG,"[""Cimzia""]",exact,"[""CHEMBL1201831""]",True
+NCT02976129,V565,DRUG,[],unmatched,[],False
+NCT02976129,Placebo,DRUG,[],placebo,[],False
+NCT06045754,Vedolizumab,DRUG,"[""Entyvio""]",exact,"[""CHEMBL1743087""]",True
+NCT06045754,Adalimumab,DRUG,"[""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT06045754,Ustekinumab,DRUG,"[""Stelara""]",exact,"[""CHEMBL1201835""]",True
+NCT06045754,Ustekinumab,DRUG,"[""Stelara""]",exact,"[""CHEMBL1201835""]",True
+NCT02630966,Vedolizumab,DRUG,"[""Entyvio"", ""MLN0002"", ""Kynteles""]",exact,"[""CHEMBL1743087""]",True
+NCT02630966,Placebo,DRUG,[],placebo,[],False
+NCT03279081,Cx601,DRUG,[],exact,"[""CHEMBL4298180""]",True
+NCT01827631,GSK1605786 capsule,DRUG,[],dose_route_cleaned,"[""CHEMBL2178578""]",True
+NCT00280956,natalizumab,DRUG,[],exact,"[""CHEMBL1201607""]",True
+NCT01988506,Interleukin 2,DRUG,[],exact,"[""CHEMBL1201438""]",True
+NCT07483099,LY4395089,DRUG,[],unmatched,[],False
+NCT07483099,Mirikizumab - Intravenous (IV),DRUG,"[""LY3074828""]",exact,"[""CHEMBL3990014""]",True
+NCT07483099,Mirikizumab - Subcutaneous (SC),DRUG,"[""LY3074828""]",exact,"[""CHEMBL3990014""]",True
+NCT02281916,P28GST,DRUG,"[""immunotherapy""]",unmatched,[],False
+NCT02517684,Infliximab,DRUG,"[""Inflectra""]",exact,"[""CHEMBL1201581""]",True
+NCT02517684,Prednisolone,DRUG,[],exact,"[""CHEMBL131""]",True
+NCT02517684,Azathioprine,DRUG,"[""Imuran""]",exact,"[""CHEMBL1542""]",True
+NCT02394028,Etrolizumab,DRUG,"[""RO5490261"", ""RG7413""]",exact,"[""CHEMBL1743015""]",True
+NCT02394028,Placebo,DRUG,[],placebo,[],False
+NCT05013385,Spesolimab,DRUG,[],exact,"[""CHEMBL4297911""]",True
+NCT05013385,Placebo,DRUG,[],placebo,[],False
+NCT01345318,PF-04236921,BIOLOGICAL,[],exact,"[""CHEMBL6068160""]",True
+NCT01345318,PF-04236921,BIOLOGICAL,[],exact,"[""CHEMBL6068160""]",True
+NCT02048618,GLPG0634,DRUG,"[""GLPG0634 tablets""]",exact,"[""CHEMBL3301607""]",True
+NCT02048618,Placebo,DRUG,"[""Placebo tablets""]",placebo,[],False
+NCT02392286,Corticosteroid,DRUG,"[""Prednisone"", ""Methylprednisolone""]",ambiguous,"[""CHEMBL1201207"", ""CHEMBL131"", ""CHEMBL1451"", ""CHEMBL384467"", ""CHEMBL632"", ""CHEMBL635"", ""CHEMBL650""]",False
+NCT03833596,Prednisone,DRUG,[],exact,"[""CHEMBL635""]",True
+NCT01696396,Abrilumab,DRUG,"[""AMG 181""]",exact,"[""CHEMBL3137351""]",True
+NCT01696396,Placebo,DRUG,[],placebo,[],False
+NCT03944447,"Cannabis, Medical",DRUG,"[""Marijuana Medical"", ""Marijuana Treatment""]",unmatched,[],False
+NCT00138840,STA-5326 mesylate,DRUG,[],ambiguous,"[""CHEMBL18144"", ""CHEMBL4297643""]",False
+NCT00801125,natalizumab,DRUG,"[""TYSABRI""]",exact,"[""CHEMBL1201607""]",True
+NCT07309744,RD06-05 CART Cell Infusion,DRUG,[],unmatched,[],False
+NCT00603616,Placebo Comparator,DRUG,[],placebo,[],False
+NCT00603616,Rifaximin,DRUG,"[""Xifaxan""]",exact,"[""CHEMBL1617""]",True
+NCT02465944,FFP104,DRUG,[],unmatched,[],False
+NCT02465944,Placebo,DRUG,[],placebo,[],False
+NCT00257699,Metronidazole placebo,DRUG,[],placebo,[],False
+NCT00257699,ciprofloxacin placebo,DRUG,[],placebo,[],False
+NCT00257699,ciprofloxacin,DRUG,"[""Cipro""]",exact,"[""CHEMBL8""]",True
+NCT00257699,metronidazole,DRUG,"[""Flagyl""]",exact,"[""CHEMBL137""]",True
+NCT00305409,Synbiotic (Synergy I / B.longum),DRUG,[],unmatched,[],False
+NCT03464097,Ozanimod,DRUG,[],exact,"[""CHEMBL3707247""]",True
+NCT00245947,ERB-041,DRUG,[],exact,"[""CHEMBL450940""]",True
+NCT04966585,Posaconazole Delayed Release Oral Tablet,DRUG,"[""Noxafil""]",exact,"[""CHEMBL1397""]",True
+NCT04966585,Matching Placebo Tablet,DRUG,[],placebo,[],False
+NCT00427921,adalimumab,BIOLOGICAL,"[""ABT-D2E7"", ""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT03905109,ABX464,DRUG,[],exact,"[""CHEMBL4297344""]",True
+NCT03905109,Placebo,DRUG,[],placebo,[],False
+NCT00055367,natalizumab,DRUG,[],exact,"[""CHEMBL1201607""]",True
+NCT05584228,Azathioprine + infliximab,DRUG,"[""Imurel, Remsima""]",unmatched,[],False
+NCT00307931,Certolizumab pegol,BIOLOGICAL,"[""Cimzia""]",exact,"[""CHEMBL1201831""]",True
+NCT02914600,Filgotinib,DRUG,"[""GS-6034"", ""GLPG0634"", ""Jyseleca®""]",exact,"[""CHEMBL3301607""]",True
+NCT02914600,Placebo,DRUG,[],placebo,[],False
+NCT04978493,BI 706321,DRUG,[],unmatched,[],False
+NCT04978493,Ustekinumab,DRUG,[],exact,"[""CHEMBL1201835""]",True
+NCT04978493,Placebo,DRUG,[],placebo,[],False
+NCT01820247,enteral nutrition,DRUG,[],unmatched,[],False
+NCT01820247,Tripterygium glycosides,DRUG,[],unmatched,[],False
+NCT05442567,Vedolizumab IV,DRUG,"[""MLN0002"", ""ENTYVIO"", ""KYNTELES""]",exact,"[""CHEMBL1743087""]",True
+NCT04713631,Artesunate,DRUG,[],exact,"[""CHEMBL361497""]",True
+NCT04713631,Curcumin,DRUG,[],exact,"[""CHEMBL140""]",True
+NCT04713631,Placebo A,DRUG,[],placebo,[],False
+NCT04713631,Placebo C,DRUG,[],placebo,[],False
+NCT05659953,LMT503,DRUG,[],unmatched,[],False
+NCT05659953,Placebo,DRUG,[],placebo,[],False
+NCT03155945,Olorinab,DRUG,"[""APD371""]",exact,"[""CHEMBL4175981""]",True
+NCT02765256,Fluconazole,DRUG,"[""Diflucan""]",exact,"[""CHEMBL106""]",True
+NCT02765256,Vancomycin,DRUG,"[""Vancocin""]",exact,"[""CHEMBL262777""]",True
+NCT02765256,Neomycin,DRUG,"[""Neo-Fradin""]",exact,"[""CHEMBL3989751""]",True
+NCT02765256,Ciprofloxacin,DRUG,"[""Cipro""]",exact,"[""CHEMBL8""]",True
+NCT02765256,Polyethylene Glycol 3350,DRUG,"[""Miralax""]",exact,"[""CHEMBL1201479""]",True
+NCT02765256,Promethazine,DRUG,"[""Phenergan""]",exact,"[""CHEMBL643""]",True
+NCT02765256,Fluconazole placebo,DRUG,[],placebo,[],False
+NCT00663117,Naltrexone-HCl,DRUG,"[""LDN"", ""Revia""]",exact,"[""CHEMBL19019""]",True
+NCT00663117,Placebo,DRUG,"[""sugar pill""]",placebo,[],False
+NCT00025805,G-CSF,DRUG,[],ambiguous,"[""CHEMBL1201567"", ""CHEMBL1201568"", ""CHEMBL2109128""]",False
+NCT04131322,Amgevita 40Mg Solution for Injection,DRUG,"[""AMGEVITA""]",exact,"[""CHEMBL1201580""]",True
+NCT04131322,HUMIRA 40Mg Solution for Injection,DRUG,"[""HUMIRA""]",exact,"[""CHEMBL1201580""]",True
+NCT00343642,Active fructo-oligosaccharide,DRUG,"[""Active fructooligosaccharide (FOS) and Placebo Diet"", ""Time and Attention and Active Fructooligosaccharide""]",unmatched,[],False
+NCT00343642,Placebo fructo-oligosaccharide,DRUG,"[""Placebo Diet and Placebo Supplement"", ""Tiem and Attention and Fructooligosaccharide Placebo""]",placebo,[],False
+NCT00467922,Hextend,DRUG,[],unmatched,[],False
+NCT00467922,Lactated Ringers,DRUG,[],unmatched,[],False
+NCT06637631,SAR441566,DRUG,[],unmatched,[],False
+NCT06637631,SAR441566 matching Placebo,DRUG,[],placebo,[],False
+NCT02532738,Routine Treatment of CD,DRUG,[],unmatched,[],False
+NCT02532738,MSC treatment 01,BIOLOGICAL,[],unmatched,[],False
+NCT02532738,MSC treatment 02,BIOLOGICAL,[],unmatched,[],False
+NCT02760615,Caffeine,DRUG,[],exact,"[""CHEMBL113""]",True
+NCT02760615,Losartan,DRUG,"[""Cozaar""]",exact,"[""CHEMBL191""]",True
+NCT02760615,Omeprazole,DRUG,"[""Prilosec""]",exact,"[""CHEMBL1503""]",True
+NCT02760615,Dextromethorphan,DRUG,"[""Delsym""]",exact,"[""CHEMBL52440""]",True
+NCT02760615,Midazolam,DRUG,"[""Versed""]",exact,"[""CHEMBL655""]",True
+NCT02760615,Vedolizumab,DRUG,[],exact,"[""CHEMBL1743087""]",True
+NCT04224558,Mesna,DRUG,"[""Mesnex""]",exact,"[""CHEMBL1098319""]",True
+NCT04224558,Cyclophosphamide,DRUG,"[""Cytoxan"", ""Neosar""]",exact,"[""CHEMBL88""]",True
+NCT04224558,Filgrastim,DRUG,"[""Neupogen"", ""Granix""]",exact,"[""CHEMBL1201567""]",True
+NCT04224558,Fludarabine,DRUG,"[""Fludara""]",exact,"[""CHEMBL1568""]",True
+NCT04224558,Methylprednisolone,DRUG,"[""solu-medrol""]",exact,"[""CHEMBL650""]",True
+NCT04224558,Diphenhydramine,DRUG,"[""Benadryl""]",exact,"[""CHEMBL657""]",True
+NCT04224558,Acetaminophen,DRUG,"[""Tylenol""]",exact,"[""CHEMBL112""]",True
+NCT04224558,anti-thymocyte globulin (rabbit),DRUG,"[""thymoglobulin""]",unmatched,[],False
+NCT04224558,lymphocyte immune globulin,DRUG,"[""ATGAM""]",exact,"[""CHEMBL2108981""]",True
+NCT04224558,Peripheral Blood Stem Cell Infusion,BIOLOGICAL,[],unmatched,[],False
+NCT04224558,Cytoxan,DRUG,"[""Cyclophosphamide""]",exact,"[""CHEMBL88""]",True
+NCT02520843,stromal vascular fraction (SVF),DRUG,[],unmatched,[],False
+NCT02772965,Methotrexate,DRUG,"[""Methotrexate Sodium""]",exact,"[""CHEMBL34259""]",True
+NCT03010787,V565,DRUG,[],unmatched,[],False
+NCT03010787,V565,DRUG,[],unmatched,[],False
+NCT03010787,Placebo,DRUG,[],placebo,[],False
+NCT03010787,V565,DRUG,[],unmatched,[],False
+NCT03010787,V565,DRUG,[],unmatched,[],False
+NCT00278577,Immune Ablation and Hematopoietic Stem Cell Support,BIOLOGICAL,[],unmatched,[],False
+NCT07782021,Mirikizumab,DRUG,"[""Omvoh""]",exact,"[""CHEMBL3990014""]",True
+NCT00672763,Colecalciferol D3 (Vigantol Oil),DRUG,"[""CalcichewD3Forte (Calcium and Vitamin D3)"", ""Vigantol Oil (Colecalciferol D3)""]",unmatched,[],False
+NCT00672763,Medium chain triglycerides,DRUG,"[""CalcichewD3Forte (Calcium and Vitamin D3)"", ""Migliol Oil (Placebo)""]",exact,"[""CHEMBL2108659""]",True
+NCT06405087,Vedolizumab SC,DRUG,"[""MLN0002""]",exact,"[""CHEMBL1743087""]",True
+NCT05552287,Infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT00308438,Teduglutide (ALX-0600),DRUG,"[""teduglutide""]",exact,"[""CHEMBL2104987""]",True
+NCT01433432,80 mg DR-6MP,DRUG,[],unmatched,[],False
+NCT00265772,MODULEN IBD (R) (specific Enteral Nutrition),DRUG,[],unmatched,[],False
+NCT00265772,prednisolon,DRUG,[],exact,"[""CHEMBL131""]",True
+NCT04673357,Ustekinumab,DRUG,[],exact,"[""CHEMBL1201835""]",True
+NCT04673357,Placebo,DRUG,[],placebo,[],False
+NCT03261102,Adalimumab,BIOLOGICAL,"[""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT01444092,Entocort,DRUG,[],exact,"[""CHEMBL1370""]",True
+NCT01915927,MSC-AFP,DRUG,[],unmatched,[],False
+NCT04738942,Vedolizumab,DRUG,[],exact,"[""CHEMBL1743087""]",True
+NCT06180382,Adalimumab,DRUG,[],exact,"[""CHEMBL1201580""]",True
+NCT06180382,Vedolizumab,DRUG,[],exact,"[""CHEMBL1743087""]",True
+NCT06053424,AZD7798,DRUG,[],unmatched,[],False
+NCT06053424,[11C]AZ14132516,DRUG,[],unmatched,[],False
+NCT00517296,adalimumab,DRUG,[],exact,"[""CHEMBL1201580""]",True
+NCT05197049,Guselkumab Dose 1,DRUG,[],unmatched,[],False
+NCT05197049,Guselkumab Dose 2,DRUG,[],unmatched,[],False
+NCT05197049,Guselkumab Dose 3,DRUG,[],unmatched,[],False
+NCT05197049,Placebo,DRUG,[],placebo,[],False
+NCT01817426,Infliximab,DRUG,"[""Remicade""]",exact,"[""CHEMBL1201581""]",True
+NCT06986382,Prednisone/Methylprenisolone,DRUG,[],unmatched,[],False
+NCT06986382,Palifermin,DRUG,[],exact,"[""CHEMBL1201821""]",True
+NCT06986382,ATG,DRUG,[],exact,"[""CHEMBL2108981""]",True
+NCT06986382,Clofarabine,DRUG,[],exact,"[""CHEMBL1750""]",True
+NCT06986382,Melphalan,DRUG,[],exact,"[""CHEMBL852""]",True
+NCT06986382,Rituximab,DRUG,[],exact,"[""CHEMBL1201576""]",True
+NCT03999580,vitamin D3,DRUG,"[""cholecalciferol""]",ambiguous,"[""CHEMBL1042"", ""CHEMBL1536"", ""CHEMBL846""]",False
+NCT01823042,azathioprine+enteral nutrition,DRUG,[],unmatched,[],False
+NCT01823042,Azathioprine,DRUG,[],exact,"[""CHEMBL1542""]",True
+NCT01155362,Human Placenta-Derived Cells PDA001 Intravenous Infusion,BIOLOGICAL,[],unmatched,[],False
+NCT01155362,Vehicle Control,DRUG,"[""Placebo""]",unmatched,[],False
+NCT00808262,TNFa Kinoid,BIOLOGICAL,[],unmatched,[],False
+NCT05813860,Azathioprine,DRUG,[],exact,"[""CHEMBL1542""]",True
+NCT05813860,Infliximab,DRUG,[],exact,"[""CHEMBL1201581""]",True
+NCT02038920,Vedolizumab,DRUG,"[""MLN0002""]",exact,"[""CHEMBL1743087""]",True
+NCT02038920,Vedolizumab placebo,DRUG,[],placebo,[],False
+NCT02148185,MT-1303,DRUG,[],exact,"[""CHEMBL3707375""]",True
+NCT06408935,Guselkumab,DRUG,"[""CNTO1959; TREMFYA""]",exact,"[""CHEMBL2364648""]",True
+NCT07510191,Upadacitinib,DRUG,[],exact,"[""CHEMBL3622821""]",True
+NCT07510191,Infliximab Dose Intensification,DRUG,[],unmatched,[],False
+NCT07510191,Adalimumab Dose Intensification,DRUG,[],unmatched,[],False
+NCT07510191,Standard-Dose infliximab,DRUG,[],unmatched,[],False
+NCT07510191,Standard-Dose Adalimumab,DRUG,[],unmatched,[],False
+NCT07077746,HB-adMSCs - Hope Biosciences Adipose Derived Mesenchymal Stem Cells,DRUG,[],unmatched,[],False
+NCT07077746,0.9% sodium chloride,DRUG,[],unmatched,[],False
+NCT01536418,GSK1605786A,DRUG,[],exact,"[""CHEMBL2178578""]",True
+NCT01536418,GSK1605786A,DRUG,[],exact,"[""CHEMBL2178578""]",True
+NCT00686374,Adalimumab,BIOLOGICAL,"[""ABT-D2E7"", ""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT02186275,"Vitamin D3: 3000 or 4000 UI/day then 2,000 UI/day",DRUG,"[""Cholecalciferol""]",exact,"[""CHEMBL1042""]",True
+NCT02186275,Vitamin D3 800 UI/day then 800 UI/day,DRUG,"[""Cholecalciferol""]",exact,"[""CHEMBL1042""]",True
+NCT00269841,Infliximab 10 mg/kg,DRUG,"[""anti-TNF chimeric monoclonal antibody (cA2)""]",dose_route_cleaned,"[""CHEMBL1201581""]",True
+NCT00269841,Infliximab 5 mg/kg,DRUG,"[""anti-TNF chimeric monoclonal antibody (cA2)""]",dose_route_cleaned,"[""CHEMBL1201581""]",True
+NCT00269841,Placebo,DRUG,[],placebo,[],False
+NCT05299931,Ustekinumab,DRUG,"[""dose escalation only in arm 2""]",exact,"[""CHEMBL1201835""]",True
+NCT03635112,Placebo,DRUG,[],placebo,[],False
+NCT03635112,TD-1473,DRUG,[],exact,"[""CHEMBL4650343""]",True
+NCT02974322,GED-0301,DRUG,"[""Mongersen""]",exact,"[""CHEMBL3707383""]",True
+NCT02974322,Placebo,DRUG,[],placebo,[],False
+NCT06059989,Infliximab subcutaneous,DRUG,"[""Remsima 120mg solution s.c.""]",dose_route_cleaned,"[""CHEMBL1201581""]",True
+NCT06059989,Immunosuppressive Agents,DRUG,"[""6-mercaptopurine 1-1.5 mg/kg oral"", ""or, if already on oral azathioprine or thioguanine continuous dosing 2-2.5mg/kg, or 20mg once daily respectively"", ""In case of adverse events or investigator's individual consideration, instead of thiopurine, methotrexate 15 mg/week s.c. (or oral) in combination with oral folic acid 5 mg/week""]",unmatched,[],False
+NCT00300118,budesonide,DRUG,[],exact,"[""CHEMBL1370""]",True
+NCT00300118,mesalazine,DRUG,[],exact,"[""CHEMBL704""]",True
+NCT01287897,PF-04236921 SC injection,DRUG,[],unmatched,[],False
+NCT01287897,PF-04236921 SC injection,DRUG,[],unmatched,[],False
+NCT01287897,PF-04236921 SC injection,DRUG,[],unmatched,[],False
+NCT00177866,Celebrex,DRUG,"[""Celecoxib (brand name)""]",exact,"[""CHEMBL118""]",True
+NCT00177866,placebo,DRUG,[],placebo,[],False
+NCT01144156,Treatment with Adalimumab,DRUG,"[""Humira (Abbott Laboratories)""]",unmatched,[],False
+NCT06953791,Prednisolone,DRUG,[],exact,"[""CHEMBL131""]",True
+NCT06450197,AZD7798,DRUG,[],unmatched,[],False
+NCT02743806,Vedolizumab,DRUG,"[""MLN0002"", ""Entyvio"", ""Kynteles""]",exact,"[""CHEMBL1743087""]",True
+NCT01783106,Ciprofloxacin,DRUG,[],exact,"[""CHEMBL8""]",True
+NCT01783106,Doxycycline,DRUG,[],exact,"[""CHEMBL1433""]",True
+NCT01783106,Hydroxychloroquine,DRUG,[],exact,"[""CHEMBL1535""]",True
+NCT01783106,Budesonide,DRUG,"[""Enterocort CR""]",exact,"[""CHEMBL1370""]",True
+NCT07832435,High Dose,DRUG,[],unmatched,[],False
+NCT07832435,Low Dose,DRUG,[],unmatched,[],False
+NCT07832435,Placebo,DRUG,[],placebo,[],False
+NCT02636517,Fecal Microbiota Transplant,BIOLOGICAL,[],unmatched,[],False
+NCT03759288,Brazikumab low dose,DRUG,[],unmatched,[],False
+NCT03759288,Brazikumab high dose,DRUG,[],unmatched,[],False
+NCT03759288,Humira®,DRUG,[],exact,"[""CHEMBL1201580""]",True
+NCT03759288,Placebo,DRUG,[],placebo,[],False
+NCT06298188,Risankizumab,DRUG,[],exact,"[""CHEMBL3990029""]",True
+NCT02997059,Fluconazole,DRUG,[],exact,"[""CHEMBL106""]",True
+NCT00409617,adalimumab,BIOLOGICAL,"[""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT00409617,adalimumab,BIOLOGICAL,"[""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT05072782,Infliximab CT-P13,DRUG,"[""Remsima""]",exact,"[""CHEMBL1201581""]",True
+NCT05072782,Immunosuppressors (Thiopurines or Methotrexate),DRUG,[],unmatched,[],False
+NCT00077779,Adalimumab,DRUG,[],exact,"[""CHEMBL1201580""]",True
+NCT01453946,Entocort,DRUG,[],exact,"[""CHEMBL1370""]",True
+NCT03467620,Cannabidiol,DRUG,"[""Cannabinoid""]",exact,"[""CHEMBL190461""]",True
+NCT03467620,Placebo oral capsule,DRUG,"[""Placebo""]",placebo,[],False
+NCT07577843,JNJ-78934804,DRUG,"[""JNJ-4804""]",unmatched,[],False
+NCT07577843,Guselkumab,DRUG,"[""TREMFYA""]",exact,"[""CHEMBL2364648""]",True
+NCT01070303,Adalimumab 40 mg eow or ew,BIOLOGICAL,"[""Adalimumab"", ""Humira""]",exact,"[""CHEMBL1201580""]",True
+NCT00286689,Growth Hormone,DRUG,[],exact,"[""CHEMBL1201621""]",True
+NCT01378390,Expanded autologous adipose-derived adult stem cells (eASCs),DRUG,"[""Cx401 (company code)"", ""Ontaril®""]",unmatched,[],False
+NCT01378390,Placebo,DRUG,"[""Normale saline solution""]",placebo,[],False
+NCT06227910,Vedolizumab,DRUG,"[""Entyvio"", ""MLN0002"", ""KYNTELES""]",exact,"[""CHEMBL1743087""]",True
+NCT06227910,Upadacitinib,DRUG,"[""Rinvoq""]",exact,"[""CHEMBL3622821""]",True
+NCT06227910,Placebo,DRUG,[],placebo,[],False
+NCT07222189,balinatunfib,DRUG,"[""SAR441566""]",exact,"[""CHEMBL6068043""]",True
+NCT07222189,balinatunfib-matching placebo,DRUG,[],placebo,[],False
+NCT04804540,Vedolizumab IV,DRUG,"[""Kynteles""]",exact,"[""CHEMBL1743087""]",True
+NCT00417690,4-Aminosalicylic acid,DRUG,"[""PASER Granules"", ""NDC 49938-107-04""]",exact,"[""CHEMBL1169""]",True
+NCT00417690,PASER placebo granules,DRUG,[],placebo,[],False
+NCT02209792,Placebo,DRUG,[],placebo,[],False
+NCT02209792,"BIBR 796 BS, 5 mg",DRUG,[],dose_route_cleaned,"[""CHEMBL103667""]",True
+NCT02209792,"BIBR 796 BS, 20 mg",DRUG,[],dose_route_cleaned,"[""CHEMBL103667""]",True
+NCT07677514,H021 Enteric-coated Tablets Low-dose Group,DRUG,[],unmatched,[],False
+NCT07677514,H021 Enteric-coated Tablets High-dose Group,DRUG,[],unmatched,[],False
+NCT07677514,Placebo Group,DRUG,[],placebo,[],False
+NCT04154735,Fludarabine,DRUG,[],exact,"[""CHEMBL1568""]",True
+NCT04154735,Cyclophosphamide,DRUG,"[""Cytoxan""]",exact,"[""CHEMBL88""]",True
+NCT04154735,Mesna,DRUG,"[""Mesnex""]",exact,"[""CHEMBL1098319""]",True
+NCT04154735,Alemtuzumab,DRUG,"[""Lemtrada"", ""Campath""]",exact,"[""CHEMBL1201587""]",True
+NCT04154735,G-CSF,DRUG,"[""Neupogen"", ""Filgrastim"", ""Granix"", ""Zarxio""]",ambiguous,"[""CHEMBL1201567"", ""CHEMBL1201568"", ""CHEMBL2109128""]",False
+NCT04154735,Rifaximin,DRUG,"[""Xifaxan""]",exact,"[""CHEMBL1617""]",True
+NCT04154735,Tacrolimus,DRUG,"[""Prograf"", ""Envarsus XR"", ""Stargraf XL""]",exact,"[""CHEMBL269732""]",True
+NCT00349752,certolizumab pegol 400 mg,BIOLOGICAL,"[""Cimzia"", ""CDP870"", ""CZP""]",ambiguous,"[""CHEMBL1201831"", ""CHEMBL4297565""]",False

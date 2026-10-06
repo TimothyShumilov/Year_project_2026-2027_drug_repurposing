@@ -1,0 +1,162 @@
+drug_id,drug_name,report_id,origin,source,url
+CHEMBL1542,AZATHIOPRINE,0f4709fa2d7908c5aa501b5f30105d2f71da49f5e9ecad838424cfe1514cd40f,REGULATORY_AGENCY,PMDA,https://www.pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html
+CHEMBL650,METHYLPREDNISOLONE,2d7c3b1f-d60e-43f3-8d7d-fb0cd6036350,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2d7c3b1f-d60e-43f3-8d7d-fb0cd6036350
+CHEMBL650,METHYLPREDNISOLONE,2eb5d8c3-87dd-47dc-9619-461dfb7ba935,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2eb5d8c3-87dd-47dc-9619-461dfb7ba935
+CHEMBL650,METHYLPREDNISOLONE,33d17918-0658-4783-8045-cdeb51dc0e08,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=33d17918-0658-4783-8045-cdeb51dc0e08
+CHEMBL650,METHYLPREDNISOLONE,473c90f1-9670-464a-ba13-da5f70415432,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=473c90f1-9670-464a-ba13-da5f70415432
+CHEMBL650,METHYLPREDNISOLONE,4c0dd824-b099-47c3-aaf5-f6ddb873b3ee,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c0dd824-b099-47c3-aaf5-f6ddb873b3ee
+CHEMBL650,METHYLPREDNISOLONE,56bab96a-3326-4a2c-b051-63e0768e566e,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=56bab96a-3326-4a2c-b051-63e0768e566e
+CHEMBL650,METHYLPREDNISOLONE,6021f095-6db5-4be1-a78e-ba395f359b8a,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6021f095-6db5-4be1-a78e-ba395f359b8a
+CHEMBL650,METHYLPREDNISOLONE,694cc762-834a-4dd8-9757-eeead4e2e553,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=694cc762-834a-4dd8-9757-eeead4e2e553
+CHEMBL650,METHYLPREDNISOLONE,6beebbfd-4846-49ec-8f5b-62e2c23c468c,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6beebbfd-4846-49ec-8f5b-62e2c23c468c
+CHEMBL650,METHYLPREDNISOLONE,7bf4d3d3-3f8a-4e20-9194-061658efca61,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7bf4d3d3-3f8a-4e20-9194-061658efca61
+CHEMBL650,METHYLPREDNISOLONE,807273be-f765-48f0-bd2e-94f9f70152bd,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=807273be-f765-48f0-bd2e-94f9f70152bd
+CHEMBL650,METHYLPREDNISOLONE,94e61fbd-8518-4179-bf83-5aa1ea54acfe,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=94e61fbd-8518-4179-bf83-5aa1ea54acfe
+CHEMBL650,METHYLPREDNISOLONE,97256c7e-5694-4148-926f-594b9d5c34f4,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4
+CHEMBL650,METHYLPREDNISOLONE,996d21df-00b1-4444-814a-521b57e5e06d,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=996d21df-00b1-4444-814a-521b57e5e06d
+CHEMBL650,METHYLPREDNISOLONE,a82cafa3-f540-4c15-a2e0-faafe91d0820,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a82cafa3-f540-4c15-a2e0-faafe91d0820
+CHEMBL650,METHYLPREDNISOLONE,a91f119c-9765-4a6f-b636-4470d11dc3d2,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a91f119c-9765-4a6f-b636-4470d11dc3d2
+CHEMBL650,METHYLPREDNISOLONE,c84cf5e6-746d-41fb-b3d8-2c0b8ba989af,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c84cf5e6-746d-41fb-b3d8-2c0b8ba989af
+CHEMBL650,METHYLPREDNISOLONE,ca9d4476-f81b-4a13-a343-88c43cbbcd34,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ca9d4476-f81b-4a13-a343-88c43cbbcd34
+CHEMBL650,METHYLPREDNISOLONE,d9c544cd-2dc6-47f0-9843-ee20aadfcbdd,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d9c544cd-2dc6-47f0-9843-ee20aadfcbdd
+CHEMBL650,METHYLPREDNISOLONE,e5369cef-689e-45bc-b530-405a05838fe5,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e5369cef-689e-45bc-b530-405a05838fe5
+CHEMBL650,METHYLPREDNISOLONE,ebe4f4a5-3fec-4f30-8289-25e594162c49,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ebe4f4a5-3fec-4f30-8289-25e594162c49
+CHEMBL2364648,GUSELKUMAB,emea/h/c/004271,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/tremfya
+CHEMBL3990014,MIRIKIZUMAB,1b301909e120e1db24ff5f501edfdfc6e99f614160f6b1ce8f3a8d45599911fb,REGULATORY_AGENCY,PMDA,https://www.pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html
+CHEMBL1743087,VEDOLIZUMAB,6e94621c-1a95-4af9-98d1-52b9e6f1949c,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6e94621c-1a95-4af9-98d1-52b9e6f1949c
+CHEMBL1743087,VEDOLIZUMAB,emea/h/c/002782,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/entyvio
+CHEMBL1370,BUDESONIDE,2c2ce3a8-7125-4ee0-afae-73a9cac8fd31,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2c2ce3a8-7125-4ee0-afae-73a9cac8fd31
+CHEMBL1370,BUDESONIDE,7633c9b3-dfb5-446f-a260-e44b6e48afa2,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7633c9b3-dfb5-446f-a260-e44b6e48afa2
+CHEMBL1370,BUDESONIDE,98a4eca1-904c-4355-957a-b5a141573cc2,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=98a4eca1-904c-4355-957a-b5a141573cc2
+CHEMBL1370,BUDESONIDE,d361c2ed-99e8-4089-bbba-cbcf2b239228,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d361c2ed-99e8-4089-bbba-cbcf2b239228
+CHEMBL1370,BUDESONIDE,df1f36b20f901207f6d925043e24fc9ff22892aeac96763160764b61c9eb8c35,REGULATORY_AGENCY,PMDA,https://www.pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html
+CHEMBL1370,BUDESONIDE,fe6530ef-1b23-451f-1290-0e3ef02ec1b5,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fe6530ef-1b23-451f-1290-0e3ef02ec1b5
+CHEMBL384467,DEXAMETHASONE,320747b3-5cf1-4e0c-b670-c6a9e72a8845,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=320747b3-5cf1-4e0c-b670-c6a9e72a8845
+CHEMBL384467,DEXAMETHASONE,7cf5c17c-a80b-4547-83b2-0d53e2b933f7,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=7cf5c17c-a80b-4547-83b2-0d53e2b933f7
+CHEMBL384467,DEXAMETHASONE,aa30086a-8551-413e-9cf2-6393093cfcfd,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aa30086a-8551-413e-9cf2-6393093cfcfd
+CHEMBL384467,DEXAMETHASONE,ce01733f-33b7-483e-9bc4-cf43937e6998,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ce01733f-33b7-483e-9bc4-cf43937e6998
+CHEMBL384467,DEXAMETHASONE,e5c28db5-efce-49a7-9e5f-12338d1f216b,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e5c28db5-efce-49a7-9e5f-12338d1f216b
+CHEMBL1201302,DEXAMETHASONE SODIUM PHOSPHATE,2b626a48-c7aa-4443-9164-a08ff069ccd1,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2b626a48-c7aa-4443-9164-a08ff069ccd1
+CHEMBL1201302,DEXAMETHASONE SODIUM PHOSPHATE,65428186-5fbb-4e1a-ae60-8824f3d62179,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=65428186-5fbb-4e1a-ae60-8824f3d62179
+CHEMBL1201302,DEXAMETHASONE SODIUM PHOSPHATE,6d3cbd54-93ef-40fe-b15a-7a4f52dc5f71,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6d3cbd54-93ef-40fe-b15a-7a4f52dc5f71
+CHEMBL1201302,DEXAMETHASONE SODIUM PHOSPHATE,94472ddb-ae1d-4a11-a673-81254d562e6b,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=94472ddb-ae1d-4a11-a673-81254d562e6b
+CHEMBL1201302,DEXAMETHASONE SODIUM PHOSPHATE,a760c03f-c675-4d63-a20e-0600a980130b,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a760c03f-c675-4d63-a20e-0600a980130b
+CHEMBL1201302,DEXAMETHASONE SODIUM PHOSPHATE,b7d58d9b-e1fa-4a7f-afca-beb06d028057,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b7d58d9b-e1fa-4a7f-afca-beb06d028057
+CHEMBL1201302,DEXAMETHASONE SODIUM PHOSPHATE,cca2c160-9188-48e8-9505-49a52388dcb7,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cca2c160-9188-48e8-9505-49a52388dcb7
+CHEMBL1201302,DEXAMETHASONE SODIUM PHOSPHATE,d3fd1d51-7749-4e1e-a8b5-8a151392f66d,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d3fd1d51-7749-4e1e-a8b5-8a151392f66d
+CHEMBL1201302,DEXAMETHASONE SODIUM PHOSPHATE,dff598e8-e662-411f-978d-4ba3fb8ef7db,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=dff598e8-e662-411f-978d-4ba3fb8ef7db
+CHEMBL1201302,DEXAMETHASONE SODIUM PHOSPHATE,ff045cba-f55a-4368-8045-d783694adb85,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ff045cba-f55a-4368-8045-d783694adb85
+CHEMBL1201835,USTEKINUMAB,c5a3b2b531fb7860a59ce374cb1af39e3a1ab66e7ba4e21317001d14dcfc8761,REGULATORY_AGENCY,PMDA,https://www.pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html
+CHEMBL1201835,USTEKINUMAB,c77a9664-e3bb-4023-b400-127aa53bca2b,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c77a9664-e3bb-4023-b400-127aa53bca2b
+CHEMBL1201835,USTEKINUMAB,emea/h/c/000958,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/stelara
+CHEMBL1201835,USTEKINUMAB,emea/h/c/005805,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/fymskina
+CHEMBL1201835,USTEKINUMAB,emea/h/c/005918,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/steqeyma
+CHEMBL1201835,USTEKINUMAB,emea/h/c/006101,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/uzpruvo
+CHEMBL1201835,USTEKINUMAB,emea/h/c/006132,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/wezenla
+CHEMBL1201835,USTEKINUMAB,emea/h/c/006183,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/pyzchiva
+CHEMBL1201835,USTEKINUMAB,emea/h/c/006221,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/imuldosa
+CHEMBL1201835,USTEKINUMAB,emea/h/c/006444,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/yesintek
+CHEMBL1201835,USTEKINUMAB,emea/h/c/006467,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/usymro
+CHEMBL1201835,USTEKINUMAB,emea/h/c/006544,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/otulfi
+CHEMBL1201835,USTEKINUMAB,emea/h/c/006649,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/qoyvolma
+CHEMBL1201835,USTEKINUMAB,emea/h/c/006667,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/usgena
+CHEMBL1201835,USTEKINUMAB,emea/h/c/006794,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/usrenty
+CHEMBL131,PREDNISOLONE,26c4a7ad-934a-4b10-809e-82ac53306266,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=26c4a7ad-934a-4b10-809e-82ac53306266
+CHEMBL131,PREDNISOLONE,2f55df4d-df5a-47c5-a924-4ca4955ff627,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2f55df4d-df5a-47c5-a924-4ca4955ff627
+CHEMBL131,PREDNISOLONE,56bd89a3-279d-46f0-bcf8-7ee595547d6b,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=56bd89a3-279d-46f0-bcf8-7ee595547d6b
+CHEMBL131,PREDNISOLONE,6b201232-4a52-487c-b963-a98539469e5d,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6b201232-4a52-487c-b963-a98539469e5d
+CHEMBL131,PREDNISOLONE,71d300eb-b3fc-46b2-a23b-295c1eefc425,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=71d300eb-b3fc-46b2-a23b-295c1eefc425
+CHEMBL131,PREDNISOLONE,863ad743-eec0-46f0-beba-c1556384c636,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=863ad743-eec0-46f0-beba-c1556384c636
+CHEMBL131,PREDNISOLONE,8bea1481-939d-4bea-a366-0ea435d81288,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8bea1481-939d-4bea-a366-0ea435d81288
+CHEMBL131,PREDNISOLONE,ae8bd80f-0a15-42cb-855e-3bcc0b3626c6,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ae8bd80f-0a15-42cb-855e-3bcc0b3626c6
+CHEMBL131,PREDNISOLONE,b4f7f1e5-c73d-44ed-8c3e-b1771da678d3,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b4f7f1e5-c73d-44ed-8c3e-b1771da678d3
+CHEMBL131,PREDNISOLONE,b8fadaec-9985-4f17-9b2f-b2f6a28cae1c,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b8fadaec-9985-4f17-9b2f-b2f6a28cae1c
+CHEMBL131,PREDNISOLONE,bc518439-dd92-438c-b650-b0b327c53a3d,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bc518439-dd92-438c-b650-b0b327c53a3d
+CHEMBL131,PREDNISOLONE,c72e764b-a3ab-4c7b-96ad-81f261feab08,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c72e764b-a3ab-4c7b-96ad-81f261feab08
+CHEMBL131,PREDNISOLONE,cb9ea507-af03-4998-b093-765ba5b4427c,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cb9ea507-af03-4998-b093-765ba5b4427c
+CHEMBL131,PREDNISOLONE,cd855c59-940d-4dda-8305-81473cdf8a27,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd855c59-940d-4dda-8305-81473cdf8a27
+CHEMBL131,PREDNISOLONE,da5df185-b694-4855-b31f-24fed4b806d7,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=da5df185-b694-4855-b31f-24fed4b806d7
+CHEMBL131,PREDNISOLONE,f7d51cb7-9015-4062-b306-509d23104195,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f7d51cb7-9015-4062-b306-509d23104195
+CHEMBL389621,HYDROCORTISONE,2596b87c-de70-4bfa-b2fc-cc5ad47093ce,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2596b87c-de70-4bfa-b2fc-cc5ad47093ce
+CHEMBL389621,HYDROCORTISONE,452d7333-69ed-451a-a152-95a644744579,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=452d7333-69ed-451a-a152-95a644744579
+CHEMBL389621,HYDROCORTISONE,4e0fa685-b7fd-49a0-81e5-73fc4d602443,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4e0fa685-b7fd-49a0-81e5-73fc4d602443
+CHEMBL389621,HYDROCORTISONE,4e16f4eb-5bd1-4143-9bf8-d852175a598a,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4e16f4eb-5bd1-4143-9bf8-d852175a598a
+CHEMBL389621,HYDROCORTISONE,532dcc5d-9640-4300-a2f3-ae5655d6a0ba,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=532dcc5d-9640-4300-a2f3-ae5655d6a0ba
+CHEMBL389621,HYDROCORTISONE,8880efc2-b2ae-4a2a-864e-9ca70d42cf28,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=8880efc2-b2ae-4a2a-864e-9ca70d42cf28
+CHEMBL389621,HYDROCORTISONE,cc6f9187-baa3-46bc-b424-d348be820c50,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cc6f9187-baa3-46bc-b424-d348be820c50
+CHEMBL389621,HYDROCORTISONE,cf4d2e56-eb0d-43c9-b44b-764381a23326,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf4d2e56-eb0d-43c9-b44b-764381a23326
+CHEMBL389621,HYDROCORTISONE,fb8f1024-e2d4-4394-ac45-d807a4caf4af,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fb8f1024-e2d4-4394-ac45-d807a4caf4af
+CHEMBL389621,HYDROCORTISONE,fc29adaa-48f1-40d4-a721-307462f3025a,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fc29adaa-48f1-40d4-a721-307462f3025a
+CHEMBL635,PREDNISONE,0016c77a-64fa-45a1-8721-4fd3a826a885,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0016c77a-64fa-45a1-8721-4fd3a826a885
+CHEMBL635,PREDNISONE,0efebe35-3e8d-3895-e054-00144ff88e88,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0efebe35-3e8d-3895-e054-00144ff88e88
+CHEMBL635,PREDNISONE,0f377d9f-b2f4-4dae-b503-5f963bea281f,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0f377d9f-b2f4-4dae-b503-5f963bea281f
+CHEMBL635,PREDNISONE,0f82545c-2f3c-474d-93be-f4e89fa04b69,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0f82545c-2f3c-474d-93be-f4e89fa04b69
+CHEMBL635,PREDNISONE,0fc4b18c-3025-12f2-e054-00144ff8d46c,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0fc4b18c-3025-12f2-e054-00144ff8d46c
+CHEMBL635,PREDNISONE,112a16d0-4ac6-164d-e054-00144ff88e88,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=112a16d0-4ac6-164d-e054-00144ff88e88
+CHEMBL635,PREDNISONE,11bd1f28-074e-3df7-e054-00144ff88e88,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=11bd1f28-074e-3df7-e054-00144ff88e88
+CHEMBL635,PREDNISONE,290a91e5-22ae-4d62-ab34-39a3117002e2,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=290a91e5-22ae-4d62-ab34-39a3117002e2
+CHEMBL635,PREDNISONE,2a994060-a358-4835-892b-0eb1f0806eb0,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2a994060-a358-4835-892b-0eb1f0806eb0
+CHEMBL635,PREDNISONE,2ad69ddc-e9ec-4975-b4ab-32b659fa49ba,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2ad69ddc-e9ec-4975-b4ab-32b659fa49ba
+CHEMBL635,PREDNISONE,2b88faba-5302-47fe-a2f3-7d07c6871ad7,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2b88faba-5302-47fe-a2f3-7d07c6871ad7
+CHEMBL635,PREDNISONE,331733b8-9da7-4901-ad1f-b7c088730f8c,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=331733b8-9da7-4901-ad1f-b7c088730f8c
+CHEMBL635,PREDNISONE,39a19136-04f5-4805-8524-2cb5526f818b,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=39a19136-04f5-4805-8524-2cb5526f818b
+CHEMBL635,PREDNISONE,480e2573-7ad2-48a0-9c97-bcc5587aa7fe,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=480e2573-7ad2-48a0-9c97-bcc5587aa7fe
+CHEMBL635,PREDNISONE,4b75817e-0cfd-4c1f-8c15-66a871bd1709,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4b75817e-0cfd-4c1f-8c15-66a871bd1709
+CHEMBL635,PREDNISONE,4c918ddf-2d16-49eb-b2a8-d0e00fd6b178,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4c918ddf-2d16-49eb-b2a8-d0e00fd6b178
+CHEMBL635,PREDNISONE,51d70f1a-85d5-4328-9e9c-6111bab0ba25,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51d70f1a-85d5-4328-9e9c-6111bab0ba25
+CHEMBL635,PREDNISONE,5be97a06-1a2b-460c-845e-e9ed18016df9,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5be97a06-1a2b-460c-845e-e9ed18016df9
+CHEMBL635,PREDNISONE,635e93eb-9c12-7ead-b81e-bc06603c526d,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=635e93eb-9c12-7ead-b81e-bc06603c526d
+CHEMBL635,PREDNISONE,6984a178-7903-4881-98be-76e337565c6d,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=6984a178-7903-4881-98be-76e337565c6d
+CHEMBL635,PREDNISONE,78fb9762-c2b2-4e32-ac4c-e95cba11198e,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=78fb9762-c2b2-4e32-ac4c-e95cba11198e
+CHEMBL635,PREDNISONE,86f44ab3-81c4-4d3e-a70e-5985c172af0b,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86f44ab3-81c4-4d3e-a70e-5985c172af0b
+CHEMBL635,PREDNISONE,95f510ad-a23a-4619-8a23-c84b3d677b66,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=95f510ad-a23a-4619-8a23-c84b3d677b66
+CHEMBL635,PREDNISONE,99385bc6-e9b5-4081-831d-657bf3dfbaaf,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=99385bc6-e9b5-4081-831d-657bf3dfbaaf
+CHEMBL635,PREDNISONE,9fde9268-d5e8-4402-a429-df55f075861d,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9fde9268-d5e8-4402-a429-df55f075861d
+CHEMBL635,PREDNISONE,a10ce97b-3efc-443f-9c76-a2bfe2c57be3,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a10ce97b-3efc-443f-9c76-a2bfe2c57be3
+CHEMBL635,PREDNISONE,aa0b1582-6ef3-4697-9ea6-5391e6e57853,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=aa0b1582-6ef3-4697-9ea6-5391e6e57853
+CHEMBL635,PREDNISONE,ade2c3d1-f568-4f6c-a583-48edfa199385,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ade2c3d1-f568-4f6c-a583-48edfa199385
+CHEMBL635,PREDNISONE,b4332b67-833d-4838-9594-b2b76f98d1ab,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b4332b67-833d-4838-9594-b2b76f98d1ab
+CHEMBL635,PREDNISONE,bd4ad91b-c497-4961-8f33-1bdaf2979b7a,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bd4ad91b-c497-4961-8f33-1bdaf2979b7a
+CHEMBL635,PREDNISONE,c19fd54a-0a3b-4b14-b598-0256ea0e7f70,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c19fd54a-0a3b-4b14-b598-0256ea0e7f70
+CHEMBL635,PREDNISONE,c308ffd5-208e-4661-8451-2c6ea6594d08,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c308ffd5-208e-4661-8451-2c6ea6594d08
+CHEMBL635,PREDNISONE,c31d0539-4ee5-4a5f-b131-9a784e046989,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c31d0539-4ee5-4a5f-b131-9a784e046989
+CHEMBL635,PREDNISONE,c72692dd-8f94-434b-b089-c798b90e4213,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c72692dd-8f94-434b-b089-c798b90e4213
+CHEMBL635,PREDNISONE,c8bc83d5-b9e2-4d31-a3df-8e899aac1ba5,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c8bc83d5-b9e2-4d31-a3df-8e899aac1ba5
+CHEMBL635,PREDNISONE,d29348a5-e903-4145-9dbd-ce604e666992,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d29348a5-e903-4145-9dbd-ce604e666992
+CHEMBL635,PREDNISONE,d2d21782-3cee-43cf-ad45-d2a64d1386d5,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d2d21782-3cee-43cf-ad45-d2a64d1386d5
+CHEMBL635,PREDNISONE,d9b1652b-820a-4971-ab71-58bd55908b4d,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d9b1652b-820a-4971-ab71-58bd55908b4d
+CHEMBL635,PREDNISONE,de5a09c6-943c-4cfd-98f2-14e578d0199a,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=de5a09c6-943c-4cfd-98f2-14e578d0199a
+CHEMBL635,PREDNISONE,e0be1cf5-b4e4-4c07-8cfb-11f414856c80,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e0be1cf5-b4e4-4c07-8cfb-11f414856c80
+CHEMBL635,PREDNISONE,e9d6774e-45f6-419f-b388-8dfb4dd34944,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e9d6774e-45f6-419f-b388-8dfb4dd34944
+CHEMBL635,PREDNISONE,f02ffa5a-1292-4ec9-bb54-e2cd2db4be74,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f02ffa5a-1292-4ec9-bb54-e2cd2db4be74
+CHEMBL635,PREDNISONE,f4a4cf97-6b6d-4406-a141-7d6a087667aa,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f4a4cf97-6b6d-4406-a141-7d6a087667aa
+CHEMBL635,PREDNISONE,fa03bb06-8a9f-4cb7-9f0c-638815b86c44,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa03bb06-8a9f-4cb7-9f0c-638815b86c44
+CHEMBL1201581,INFLIXIMAB,109189beb8ca9ce3269a9095a2360e35c6d04f2bec9073bbd3982ab61c195ff9,REGULATORY_AGENCY,PMDA,https://www.pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html
+CHEMBL1201581,INFLIXIMAB,5e3f77718fa4b01e6644c075540ed8cbfe5944e88b40ec9f8641077c7ce252f0,REGULATORY_AGENCY,PMDA,https://www.pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html
+CHEMBL1201581,INFLIXIMAB,7cdafee42fef7a8ffe6489c7abdd61904305ee0e6c3b6ba2ddfeb5a5d8eabb49,REGULATORY_AGENCY,PMDA,https://www.pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html
+CHEMBL1201581,INFLIXIMAB,a0a046c1-056d-45a9-bfd9-13b47c24f257,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a0a046c1-056d-45a9-bfd9-13b47c24f257
+CHEMBL1201581,INFLIXIMAB,de34bcb7-b524-45c8-9181-61c6f48d540e,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=de34bcb7-b524-45c8-9181-61c6f48d540e
+CHEMBL1201581,INFLIXIMAB,emea/h/c/000240,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/remicade
+CHEMBL1201581,INFLIXIMAB,emea/h/c/002576,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/remsima
+CHEMBL1201581,INFLIXIMAB,emea/h/c/002778,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/inflectra
+CHEMBL1201581,INFLIXIMAB,emea/h/c/004020,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/flixabi
+CHEMBL1201581,INFLIXIMAB,emea/h/c/004647,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/zessly
+CHEMBL1201580,ADALIMUMAB,a5d4168460ecefd83cc5ec0781f3c4ee8afc18a3284cbf2ab035d52a1b45bf32,REGULATORY_AGENCY,PMDA,https://www.pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html
+CHEMBL1201580,ADALIMUMAB,b1a6915dc654329b5e9ca3b20243d9bb66ad5030c336a917204989fcd5acb8e7,REGULATORY_AGENCY,PMDA,https://www.pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html
+CHEMBL1201580,ADALIMUMAB,emea/h/c/000481,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/humira
+CHEMBL1201580,ADALIMUMAB,emea/h/c/004212,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/amgevita
+CHEMBL1201580,ADALIMUMAB,emea/h/c/004279,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/imraldi
+CHEMBL1201580,ADALIMUMAB,emea/h/c/004320,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/hyrimoz
+CHEMBL1201580,ADALIMUMAB,emea/h/c/004429,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/hulio
+CHEMBL1201580,ADALIMUMAB,emea/h/c/004475,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/idacio
+CHEMBL1201580,ADALIMUMAB,emea/h/c/004879,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/amsparity
+CHEMBL1201580,ADALIMUMAB,emea/h/c/005188,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/yuflyma
+CHEMBL1201580,ADALIMUMAB,emea/h/c/005548,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/hukyndra
+CHEMBL1201580,ADALIMUMAB,emea/h/c/005947,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/libmyris
+CHEMBL1201580,ADALIMUMAB,f7ab635f68c3daf0eeb27511ca8a932b9b8001b74ce5b7325ca77516fe4d5bc9,REGULATORY_AGENCY,PMDA,https://www.pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html
+CHEMBL3990029,RISANKIZUMAB,24f206088dfa5a8d0c2c651e40d0f5654e35cc97c8aa18d73185d7dfbd6facac,REGULATORY_AGENCY,PMDA,https://www.pmda.go.jp/english/review-services/reviews/approved-information/drugs/0001.html
+CHEMBL3990029,RISANKIZUMAB,emea/h/c/004759,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/skyrizi
+CHEMBL1201831,CERTOLIZUMAB PEGOL,b4c2c9dc-a0bb-4d64-a667-a67ebe88392d,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d
+CHEMBL3622821,UPADACITINIB,emea/h/c/004760,REGULATORY_AGENCY,EMA Human Drugs,https://www.ema.europa.eu/en/medicines/human/EPAR/rinvoq
+CHEMBL1201607,NATALIZUMAB,c5fdde91-1989-4dd2-9129-4f3323ea2962,DRUG_LABEL,DailyMed,https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962
+CHEMBL1201607,NATALIZUMAB,label/2015/125104s950lbl.pdf,REGULATORY_AGENCY,FDA,http://www.accessdata.fda.gov/drugsatfda_docs/label/2015/125104s950lbl.pdf

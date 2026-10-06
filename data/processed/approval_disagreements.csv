@@ -1,0 +1,15 @@
+drug_id,drug_name,ot_global_stage,chembl_max_phase,chembl_first_approval,note
+CHEMBL1742995,BRIAKINUMAB,APPROVAL,3.0,,OT approval proxy disagrees with ChEMBL approved molecule pool; not proof of regulatory status.
+CHEMBL186141,ANDROGRAPHOLIDE,APPROVAL,3.0,,OT approval proxy disagrees with ChEMBL approved molecule pool; not proof of regulatory status.
+CHEMBL1568,FLUDARABINE,APPROVAL,3.0,,OT approval proxy disagrees with ChEMBL approved molecule pool; not proof of regulatory status.
+CHEMBL140,CURCUMIN,APPROVAL,3.0,,OT approval proxy disagrees with ChEMBL approved molecule pool; not proof of regulatory status.
+CHEMBL454801,UBIDECARENONE,APPROVAL,3.0,,OT approval proxy disagrees with ChEMBL approved molecule pool; not proof of regulatory status.
+CHEMBL2106049,"CHARCOAL, ACTIVATED",APPROVAL,3.0,,OT approval proxy disagrees with ChEMBL approved molecule pool; not proof of regulatory status.
+CHEMBL2108922,CHONDROITIN SULFATE SODIUM,APPROVAL,3.0,,OT approval proxy disagrees with ChEMBL approved molecule pool; not proof of regulatory status.
+CHEMBL3833333,NABIXIMOLS,APPROVAL,3.0,,OT approval proxy disagrees with ChEMBL approved molecule pool; not proof of regulatory status.
+CHEMBL4297565,CERTOLIZUMAB,APPROVAL,3.0,,OT approval proxy disagrees with ChEMBL approved molecule pool; not proof of regulatory status.
+CHEMBL172513,CARNITINE,APPROVAL,3.0,,OT approval proxy disagrees with ChEMBL approved molecule pool; not proof of regulatory status.
+CHEMBL1743050,OLOKIZUMAB,APPROVAL,3.0,,OT approval proxy disagrees with ChEMBL approved molecule pool; not proof of regulatory status.
+CHEMBL2108981,ANTILYMPHOCYTE IMMUNOGLOBULIN (HORSE),APPROVAL,2.0,,OT approval proxy disagrees with ChEMBL approved molecule pool; not proof of regulatory status.
+CHEMBL76688,SIVELESTAT,APPROVAL,3.0,,OT approval proxy disagrees with ChEMBL approved molecule pool; not proof of regulatory status.
+CHEMBL2108506,INTERFERON ALFA,APPROVAL,3.0,,OT approval proxy disagrees with ChEMBL approved molecule pool; not proof of regulatory status.
