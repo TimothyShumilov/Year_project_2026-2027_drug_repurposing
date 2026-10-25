@@ -1,0 +1,354 @@
+{
+  "validated_at_utc": "2026-10-25T17:03:01.021836+00:00",
+  "checks_passed": [
+    "unique curated molecule-target pairs",
+    "finite regression targets",
+    "repeated-measurement policy applied",
+    "unique molecule identifiers and indices",
+    "all pairs refer to prepared structures",
+    "summary counts match tables",
+    "fingerprint matrix has expected shape",
+    "fingerprints contain only binary values",
+    "fingerprint rows have verified molecule identities",
+    "random_split groups never cross partitions",
+    "random_split pair labels agree with molecule labels",
+    "scaffold_split groups never cross partitions",
+    "scaffold_split pair labels agree with molecule labels",
+    "every supported target satisfies declared size threshold",
+    "baseline used current pairs",
+    "baseline used current molecules",
+    "baseline used current fingerprints",
+    "selection is the lowest validation macro MAE",
+    "no test-based hyperparameter selection claimed",
+    "RF_dropout5 contains only test molecules",
+    "RF_leaf1 contains only test molecules",
+    "RF_leaf10 contains only test molecules",
+    "RF_leaf3 contains only test molecules",
+    "RF_random contains only test molecules",
+    "RF_seed43 contains only test molecules",
+    "RF_seed44 contains only test molecules",
+    "saved prediction labels exactly match curated pKi",
+    "published macro MAE recomputed from actual predictions",
+    "all eligible heads reported",
+    "all notebook code cells were executed",
+    "notebook has no execution errors",
+    "notebook embeds generated scientific figures",
+    "practical-value PDF has exactly one A4 page",
+    "scientific plots are present"
+  ],
+  "source": {
+    "source": "ChEMBL",
+    "release": "ChEMBL_37",
+    "release_date": "2026-05-01",
+    "retrieved_at_utc": "2026-10-25T16:48:51.630779+00:00",
+    "activity_query": {
+      "standard_type": "Ki",
+      "assay_type": "B",
+      "target_organism": "Homo sapiens"
+    },
+    "activity_rows": 530618,
+    "unique_activity_ids": 530618,
+    "target_rows": 1731,
+    "assay_rows": 38193,
+    "approved_molecule_rows": 4225,
+    "cache_files": 937
+  },
+  "data_license": "CC-BY-SA-3.0; see data/README.md",
+  "artifacts": [
+    {
+      "path": "EDA.ipynb",
+      "bytes": 942530,
+      "sha256": "241352aa7685ff7e29d8a4d4713cb4ce14b44f4b6a036d8a3941593ed71c9d91"
+    },
+    {
+      "path": "config/eda.json",
+      "bytes": 1057,
+      "sha256": "248c908aa5eb61c1761d06a43918ec163178d87655e66db7fcfc2e38c20ae3b5"
+    },
+    {
+      "path": "data/README.md",
+      "bytes": 3498,
+      "sha256": "96514129aab0ef8de7777928e464b69ad39ded5507dae74970c8109e7d8c116a"
+    },
+    {
+      "path": "data/processed/approved_library.parquet",
+      "bytes": 165794,
+      "sha256": "cc0c98eccae2a9152a673ab166d60a7686c217d707d78217285cd7ec7bc0043a"
+    },
+    {
+      "path": "data/processed/fingerprints.npz",
+      "bytes": 11763394,
+      "sha256": "74ca6417a8da9782f6303673ed1183d25ba1e2ae5f2f222be4b4ca76c95d2128"
+    },
+    {
+      "path": "data/processed/molecules.parquet",
+      "bytes": 14959471,
+      "sha256": "2f07d9c8424f10c21d72a076d3f6abc7d6925e4d0a78efb05f6cf42acef7e473"
+    },
+    {
+      "path": "data/processed/pairs.parquet",
+      "bytes": 6219629,
+      "sha256": "580cdeaec9e47b212cc39dc3e4ed0de66a8239bd4196d1884373e563f7fff5c0"
+    },
+    {
+      "path": "data/processed/structure_audit.parquet",
+      "bytes": 11889056,
+      "sha256": "2eb36c58c4e5a3e5d02400d6a28f1e28d856ddb5aa902bc38e6df60fd98e5870"
+    },
+    {
+      "path": "data/processed/target_components.csv",
+      "bytes": 62132,
+      "sha256": "989725163da68579f1dfd4d9053b030569f2e1e70f2fa7b07ff7f8acf9139ac2"
+    },
+    {
+      "path": "data/processed/targets.csv",
+      "bytes": 137942,
+      "sha256": "c45c68d74b90c7714d89eb7029def7c0d8198b87d8ba86d82a27a530dcff3d32"
+    },
+    {
+      "path": "output/pdf/practical_value.pdf",
+      "bytes": 77173,
+      "sha256": "507bccef58e4b9369339a2a1796a164b33aa6bea7bc4e4bd777d2949f99747ae"
+    },
+    {
+      "path": "readme.md",
+      "bytes": 13400,
+      "sha256": "7084d52c7d429327df5275f9ec111ab4f6625edbe03f5ba4f264a5407b469d15"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 208,
+      "sha256": "2ae0fc6cd8395a302a3871cd674943983a0d1bb2d6cb078d1fb75789974ddfc0"
+    },
+    {
+      "path": "results/approved_coverage.json",
+      "bytes": 304,
+      "sha256": "78ceb7d3208c096e2db64eeb50961d1ee0820225d9a3be5c4846400f7cdaf53e"
+    },
+    {
+      "path": "results/augmentation_invariance.json",
+      "bytes": 719,
+      "sha256": "0a159b5f6637d1f6bb75b24ffd0a98a99828e39f5cd2c084561ada50af909e9b"
+    },
+    {
+      "path": "results/baseline_summary.json",
+      "bytes": 2165,
+      "sha256": "9040fb76fd92a8cfed6a508003d22e3434150484b7e2aae95128b65edfb4fe7d"
+    },
+    {
+      "path": "results/cleaning_funnel.csv",
+      "bytes": 732,
+      "sha256": "4f00682a4969d797a204ab469d4f11c03930dc53acad3f37f385598fb48a1cb9"
+    },
+    {
+      "path": "results/conflicting_pairs.csv",
+      "bytes": 112944,
+      "sha256": "58c3d93197f621c606d191fa4ee675c9854494cf0324d2385ee75c639a8d98cb"
+    },
+    {
+      "path": "results/descriptor_correlations.csv",
+      "bytes": 1261,
+      "sha256": "380beae389212b9e3954a1594f9cfd420bdbd1b7572123b8109aa256fcf48a99"
+    },
+    {
+      "path": "results/eda_summary.json",
+      "bytes": 4564,
+      "sha256": "13b3a687a548e98644817d6a34b824fa210b0ebcbeebcb229238a301ff936b12"
+    },
+    {
+      "path": "results/feature_importances.csv",
+      "bytes": 750,
+      "sha256": "95442e19574befd6758bdbaf1f4bc88d7217c86fa988883df8709ee50a8651ab"
+    },
+    {
+      "path": "results/feature_interpretation.json",
+      "bytes": 2375,
+      "sha256": "5b2eb475adca614ba0cdb320cb532730fa13e8486c8cabd1838fa479a54715f3"
+    },
+    {
+      "path": "results/figures/01_affinity_and_targets.png",
+      "bytes": 58582,
+      "sha256": "af3b0d838887d6e4478d550e17057cdf4347fb58cbfab613a1a042c412ed289f"
+    },
+    {
+      "path": "results/figures/02_molecule_properties.png",
+      "bytes": 61836,
+      "sha256": "f697effc85a76ee575b2466f3c7b544733b3ab89996cd0d97370b7488060de74"
+    },
+    {
+      "path": "results/figures/03_correlations.png",
+      "bytes": 69960,
+      "sha256": "43f7eb2355d59ec065c602799f16577e2b99cbc42aa5dfe57bb6055425cf655a"
+    },
+    {
+      "path": "results/figures/04_pairplot.png",
+      "bytes": 199100,
+      "sha256": "a06e85e997085c6dcaebf15fa77d83061d8b1418bde66079a21232b160c50c6f"
+    },
+    {
+      "path": "results/figures/05_splits.png",
+      "bytes": 40039,
+      "sha256": "6a5d63ffa9a894718100ca26205656d8d97518cbd7474c3f4483096ddf76ec5f"
+    },
+    {
+      "path": "results/figures/06_prediction_errors.png",
+      "bytes": 190687,
+      "sha256": "b503154e8a14a0c58a4ff25a264b711326ccc86cf1eec8d459808bf70df57129"
+    },
+    {
+      "path": "results/figures/07_feature_importance.png",
+      "bytes": 28000,
+      "sha256": "9906a83531df41ddbfa7bc1569230f3ced75a891cf383d07358f3ddc1d09ef73"
+    },
+    {
+      "path": "results/fingerprint_audit.json",
+      "bytes": 346,
+      "sha256": "9f5ba2ce3e065e32aed99f57c8f69197b9102c71313c34febd2f61e104d488c0"
+    },
+    {
+      "path": "results/fingerprint_bit_examples.csv",
+      "bytes": 752,
+      "sha256": "d87c080addb795d08ab943ced8152cd612adc1d1131b0df92ff869d896661011"
+    },
+    {
+      "path": "results/fingerprint_bit_frequencies.csv",
+      "bytes": 51663,
+      "sha256": "47f6fdbdb153b0672896f3a761ccb31d23e4840cfe485cbeaffa295d69bad06c"
+    },
+    {
+      "path": "results/fingerprint_sensitivity.json",
+      "bytes": 259,
+      "sha256": "a455080ca14919556d0124a54e041ed60d9296efec1f7f7f2fddb5d612016899"
+    },
+    {
+      "path": "results/fingerprint_sensitivity_by_target.csv",
+      "bytes": 7194,
+      "sha256": "23ea7b057dd09fd4e06e4df47ae970f228c9b5ef0a0abb13ccc63fd2fa5cd61a"
+    },
+    {
+      "path": "results/measurement_relations.csv",
+      "bytes": 77,
+      "sha256": "94f5f111af625d3a1c1baf7d07def880fc25b0965b0a9e52af5c19517658b35a"
+    },
+    {
+      "path": "results/metrics_by_target.csv",
+      "bytes": 577177,
+      "sha256": "69ea7a1b0c92a9d33340e2945cd4cb25494aec82ba24fc81aee652df6a26f1d2"
+    },
+    {
+      "path": "results/metrics_macro.csv",
+      "bytes": 3278,
+      "sha256": "c393437e8f7f70b8bc378a643f5e37f598c64d8d0217509fb9d55bd7e9ea6b98"
+    },
+    {
+      "path": "results/molecule_describe.csv",
+      "bytes": 796,
+      "sha256": "f673bf2ed8093ab6f204be922a0c33b305191c10596cbf327836152717d44e57"
+    },
+    {
+      "path": "results/pair_describe.csv",
+      "bytes": 498,
+      "sha256": "9f579aef7f925784fb1ff9ff10de8fdd9397fb5da045719e4987408ce2ca1523"
+    },
+    {
+      "path": "results/pchembl_missing_by_relation.csv",
+      "bytes": 149,
+      "sha256": "170d560b67e65cb334e8b9cdffda8f81cf43d59323bffe5c1cf923b923351490"
+    },
+    {
+      "path": "results/random_split_target_counts.csv",
+      "bytes": 22709,
+      "sha256": "36096b0195249db2f4650629dc72f11b02099aca34c19fd75bce1d8cfd3d7d2a"
+    },
+    {
+      "path": "results/raw_describe.csv",
+      "bytes": 1590,
+      "sha256": "d9bee4a873287eae3e01b5d685ac543f648a6570a1020d6580ad84a3c7cff87e"
+    },
+    {
+      "path": "results/raw_missingness.csv",
+      "bytes": 839,
+      "sha256": "5bc5a8a5bc1ec9beb1e732e451e52c78f7d23e6f82a93683c4ec0ba3bc69c170"
+    },
+    {
+      "path": "results/raw_target_types.csv",
+      "bytes": 197,
+      "sha256": "4a87d88465242fe706717c1d45fa044f42be456d981f38632df65a4de0859d3d"
+    },
+    {
+      "path": "results/scaffold_split_target_counts.csv",
+      "bytes": 22680,
+      "sha256": "1ce807177e9fe91a057b27f31dc78e31dc7fcd493ab2efb081abaeeea6d02637"
+    },
+    {
+      "path": "results/selection.json",
+      "bytes": 262,
+      "sha256": "6eac80c2524b1371f642c22a18d4ccbf6a516168171f5008a17505835c39e49a"
+    },
+    {
+      "path": "results/target_pair_counts.csv",
+      "bytes": 17332,
+      "sha256": "510ef844a959e6528625576abc92bb83fa1afa83630aa8c277852bf5dc31866c"
+    },
+    {
+      "path": "results/training_times.csv",
+      "bytes": 249,
+      "sha256": "6f047f7da167ccf77687e768f9cc080df85bde690f9019dcad896e085883af61"
+    },
+    {
+      "path": "results/validity_comments.csv",
+      "bytes": 170,
+      "sha256": "1549ce81fa5c13c1df05268b5dc2864a4d334f6d5771ece3ecb2653970f0802c"
+    },
+    {
+      "path": "results/within_target_correlations.csv",
+      "bytes": 499,
+      "sha256": "95f71751c8856a9ac2f17425cf8d7f50cd4d515562c29d24845ae495f75aa716"
+    },
+    {
+      "path": "scripts/build_notebook.py",
+      "bytes": 27538,
+      "sha256": "464b5859fedea66b96396ea7c9924a5ddde705d3a4d384937f2a6b34e3e44ed5"
+    },
+    {
+      "path": "scripts/build_practical_pdf.py",
+      "bytes": 6258,
+      "sha256": "0ead4b14626cb44e835068e006912c6f2dd2c3bf2450ab1c85b62d4f74f9bf6d"
+    },
+    {
+      "path": "scripts/download_data.py",
+      "bytes": 7025,
+      "sha256": "c23f0bf6ba6f1578f2ba753bc2a040f65ef394390e0f387b7e1a7baf848259a0"
+    },
+    {
+      "path": "scripts/execute_notebook.py",
+      "bytes": 1102,
+      "sha256": "662ee6091d0b0bee50015e00e99509fea92a351b14fd0b1981b009a50f0169ff"
+    },
+    {
+      "path": "scripts/run_eda.py",
+      "bytes": 2257,
+      "sha256": "41551e117f426669abafe34f1e8198024dd6e7c232fe426f3f57b73969bd7403"
+    },
+    {
+      "path": "scripts/verify_results.py",
+      "bytes": 6108,
+      "sha256": "06048c67335cfbaf7a952d657e40ff2432f3ceca696c7caedec44fa203ffd2c5"
+    },
+    {
+      "path": "src/affinity_eda.py",
+      "bytes": 33222,
+      "sha256": "01803e9cacec781e07cab6e884f8ca40ec451bd20751074702f483d0500c22fa"
+    },
+    {
+      "path": "src/eda_figures.py",
+      "bytes": 6373,
+      "sha256": "09108fe52bc8ad28ea81572f656b40ff26a9dd10c2a529835cf38a94c926c4c4"
+    },
+    {
+      "path": "tests/test_eda.py",
+      "bytes": 2097,
+      "sha256": "427629a5b505814cc4f6b3cffeb46ad988d3e2c18b8ac0816f429a719ca24c36"
+    }
+  ]
+}

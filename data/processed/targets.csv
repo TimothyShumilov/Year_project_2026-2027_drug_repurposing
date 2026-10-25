@@ -1,0 +1,1732 @@
+organism,pref_name,target_chembl_id,target_type,tax_id
+Homo sapiens,DNA topoisomerase 1,CHEMBL1781,SINGLE PROTEIN,9606
+Homo sapiens,Farnesyl pyrophosphate synthase,CHEMBL1782,SINGLE PROTEIN,9606
+Homo sapiens,3-oxo-5-alpha-steroid 4-dehydrogenase 1,CHEMBL1787,SINGLE PROTEIN,9606
+Homo sapiens,Vasopressin V2 receptor,CHEMBL1790,SINGLE PROTEIN,9606
+Homo sapiens,Corticotropin-releasing factor receptor 1,CHEMBL1800,SINGLE PROTEIN,9606
+Homo sapiens,Parathyroid hormone/parathyroid hormone-related peptide receptor,CHEMBL1793,SINGLE PROTEIN,9606
+Homo sapiens,Cysteinyl leukotriene receptor 1,CHEMBL1798,SINGLE PROTEIN,9606
+Homo sapiens,Endothelin receptor type B,CHEMBL1785,SINGLE PROTEIN,9606
+Homo sapiens,Somatostatin receptor type 5,CHEMBL1792,SINGLE PROTEIN,9606
+Homo sapiens,Glucagon-like peptide 1 receptor,CHEMBL1784,SINGLE PROTEIN,9606
+Homo sapiens,Toll-like receptor 3,CHEMBL1075113,SINGLE PROTEIN,9606
+Homo sapiens,Pyruvate kinase PKLR,CHEMBL1075126,SINGLE PROTEIN,9606
+Homo sapiens,Baculoviral IAP repeat-containing protein 7,CHEMBL1075127,SINGLE PROTEIN,9606
+Homo sapiens,Endoplasmin,CHEMBL1075323,SINGLE PROTEIN,9606
+Homo sapiens,"Heat shock protein 75 kDa, mitochondrial",CHEMBL1075132,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosyl-DNA phosphodiesterase 1,CHEMBL1075138,SINGLE PROTEIN,9606
+Homo sapiens,Neuromedin-U receptor 2,CHEMBL1075144,SINGLE PROTEIN,9606
+Homo sapiens,Transitional endoplasmic reticulum ATPase,CHEMBL1075145,SINGLE PROTEIN,9606
+Homo sapiens,Cystine/glutamate transporter,CHEMBL1075149,SINGLE PROTEIN,9606
+Homo sapiens,Uracil nucleotide/cysteinyl leukotriene receptor,CHEMBL1075162,SINGLE PROTEIN,9606
+Homo sapiens,Phosphatidylinositol 3-kinase catalytic subunit type 3,CHEMBL1075165,SINGLE PROTEIN,9606
+Homo sapiens,G protein-coupled receptor kinase 3,CHEMBL1075166,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase WNK1,CHEMBL1075173,SINGLE PROTEIN,9606
+Homo sapiens,Neuromedin-U receptor 1,CHEMBL1075178,SINGLE PROTEIN,9606
+Homo sapiens,Pyridoxal kinase,CHEMBL1075181,SINGLE PROTEIN,9606
+Homo sapiens,Pyruvate kinase PKM,CHEMBL1075189,SINGLE PROTEIN,9606
+Homo sapiens,Arginase-1,CHEMBL1075097,SINGLE PROTEIN,9606
+Homo sapiens,Leucine-rich repeat serine/threonine-protein kinase 2,CHEMBL1075104,SINGLE PROTEIN,9606
+Homo sapiens,WD repeat-containing protein 5,CHEMBL1075317,SINGLE PROTEIN,9606
+Homo sapiens,Transient receptor potential cation channel subfamily M member 8,CHEMBL1075319,SINGLE PROTEIN,9606
+Homo sapiens,Bromodomain-containing protein 4,CHEMBL1163125,SINGLE PROTEIN,9606
+Homo sapiens,Deoxyribonuclease-2-alpha,CHEMBL1250342,SINGLE PROTEIN,9606
+Homo sapiens,Prolyl 4-hydroxylase subunit alpha-1,CHEMBL1250350,SINGLE PROTEIN,9606
+Homo sapiens,NADPH oxidase 4,CHEMBL1250375,SINGLE PROTEIN,9606
+Homo sapiens,ELAV-like protein 1,CHEMBL1250379,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity protein phosphatase 5,CHEMBL1250380,SINGLE PROTEIN,9606
+Homo sapiens,Beta-hexosaminidase subunit alpha,CHEMBL1250415,SINGLE PROTEIN,9606
+Homo sapiens,Segment polarity protein dishevelled homolog DVL-2,CHEMBL1255125,SINGLE PROTEIN,9606
+Homo sapiens,Protein Mdm4,CHEMBL1255126,SINGLE PROTEIN,9606
+Homo sapiens,Protein arginine N-methyltransferase 6,CHEMBL1275221,SINGLE PROTEIN,9606
+Homo sapiens,Ketohexokinase,CHEMBL1275212,SINGLE PROTEIN,9606
+Homo sapiens,UDP-glucuronosyltransferase 1A1,CHEMBL1287617,SINGLE PROTEIN,9606
+Homo sapiens,NADPH oxidase 2,CHEMBL1287627,SINGLE PROTEIN,9606
+Homo sapiens,NADPH oxidase 1,CHEMBL1287628,SINGLE PROTEIN,9606
+Homo sapiens,"Carnitine O-palmitoyltransferase 1, liver isoform",CHEMBL1293194,SINGLE PROTEIN,9606
+Homo sapiens,Acidic mammalian chitinase,CHEMBL1293197,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase VRK1,CHEMBL1293199,SINGLE PROTEIN,9606
+Homo sapiens,Microtubule-associated protein tau,CHEMBL1293224,SINGLE PROTEIN,9606
+Homo sapiens,Lysine-specific demethylase 4E,CHEMBL1293226,SINGLE PROTEIN,9606
+Homo sapiens,15-hydroxyprostaglandin dehydrogenase [NAD(+)],CHEMBL1293255,SINGLE PROTEIN,9606
+Homo sapiens,G-protein coupled receptor 35,CHEMBL1293267,SINGLE PROTEIN,9606
+Homo sapiens,Insulin-degrading enzyme,CHEMBL1293287,SINGLE PROTEIN,9606
+Homo sapiens,Bromodomain-containing protein 2,CHEMBL1293289,SINGLE PROTEIN,9606
+Homo sapiens,ATP-sensitive inward rectifier potassium channel 1,CHEMBL1293292,SINGLE PROTEIN,9606
+Homo sapiens,Histone-lysine N-methyltransferase 2A,CHEMBL1293299,SINGLE PROTEIN,9606
+Homo sapiens,Relaxin receptor 1,CHEMBL1293316,SINGLE PROTEIN,9606
+Homo sapiens,Neutrophil cytosol factor 1,CHEMBL1613743,SINGLE PROTEIN,9606
+Homo sapiens,Menin,CHEMBL1615381,SINGLE PROTEIN,9606
+Homo sapiens,Relaxin-3 receptor 1,CHEMBL1628472,SINGLE PROTEIN,9606
+Homo sapiens,Relaxin-3 receptor 2,CHEMBL1628473,SINGLE PROTEIN,9606
+Homo sapiens,Apelin receptor,CHEMBL1628481,SINGLE PROTEIN,9606
+Homo sapiens,Solute carrier family 22 member 6,CHEMBL1641347,SINGLE PROTEIN,9606
+Homo sapiens,Organic anion transporter 3,CHEMBL1641348,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase VRK2,CHEMBL1649059,SINGLE PROTEIN,9606
+Homo sapiens,Prolactin-releasing peptide receptor,CHEMBL1681611,SINGLE PROTEIN,9606
+Homo sapiens,Acyl-protein thioesterase 1,CHEMBL1681631,SINGLE PROTEIN,9606
+Homo sapiens,Peptidyl-prolyl cis-trans isomerase D,CHEMBL1697657,SINGLE PROTEIN,9606
+Homo sapiens,Nuclear receptor ROR-gamma,CHEMBL1741186,SINGLE PROTEIN,9606
+Homo sapiens,Enteropeptidase,CHEMBL1741195,SINGLE PROTEIN,9606
+Homo sapiens,Golgi-associated PDZ and coiled-coil motif-containing protein,CHEMBL1741218,SINGLE PROTEIN,9606
+Homo sapiens,Bromodomain adjacent to zinc finger domain protein 2B,CHEMBL1741220,SINGLE PROTEIN,9606
+Homo sapiens,Cysteine protease ATG4B,CHEMBL1741221,SINGLE PROTEIN,9606
+Homo sapiens,Sulfotransferase 1A1,CHEMBL1743291,SINGLE PROTEIN,9606
+Homo sapiens,UDP-glucuronosyltransferase 1A6,CHEMBL1743316,SINGLE PROTEIN,9606
+Homo sapiens,UDP-glucuronosyltransferase 1A7,CHEMBL1743317,SINGLE PROTEIN,9606
+Homo sapiens,UDP-glucuronosyltransferase 1A9,CHEMBL1743319,SINGLE PROTEIN,9606
+Homo sapiens,UDP-glucuronosyltransferase 1A10,CHEMBL1743320,SINGLE PROTEIN,9606
+Homo sapiens,Nicotinamide phosphoribosyltransferase,CHEMBL1744525,SINGLE PROTEIN,9606
+Homo sapiens,Ceramide kinase,CHEMBL1764936,SINGLE PROTEIN,9606
+Homo sapiens,Chromobox protein homolog 7,CHEMBL1764946,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity protein phosphatase CDC14A,CHEMBL1772926,SINGLE PROTEIN,9606
+Homo sapiens,"Serine hydroxymethyltransferase, cytosolic",CHEMBL1772927,SINGLE PROTEIN,9606
+Homo sapiens,"Phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase 1",CHEMBL1781870,SINGLE PROTEIN,9606
+Homo sapiens,Carboxy-terminal domain RNA polymerase II polypeptide A small phosphatase 1,CHEMBL1795098,SINGLE PROTEIN,9606
+Homo sapiens,Matrix metalloproteinase-25,CHEMBL1795103,SINGLE PROTEIN,9606
+Homo sapiens,CD209 antigen,CHEMBL1795114,SINGLE PROTEIN,9606
+Homo sapiens,Protein arginine N-methyltransferase 5,CHEMBL1795116,SINGLE PROTEIN,9606
+Homo sapiens,"Histone-lysine N-methyltransferase, H3 lysine-79 specific",CHEMBL1795117,SINGLE PROTEIN,9606
+Homo sapiens,Histone-lysine N-methyltransferase SUV39H1,CHEMBL1795118,SINGLE PROTEIN,9606
+Homo sapiens,Transmembrane protease serine 11D,CHEMBL1795138,SINGLE PROTEIN,9606
+Homo sapiens,Transmembrane protease serine 6,CHEMBL1795139,SINGLE PROTEIN,9606
+Homo sapiens,Transmembrane protease serine 2,CHEMBL1795140,SINGLE PROTEIN,9606
+Homo sapiens,"Arginase-2, mitochondrial",CHEMBL1795148,SINGLE PROTEIN,9606
+Homo sapiens,Bis(5'-adenosyl)-triphosphatase,CHEMBL1795151,SINGLE PROTEIN,9606
+Homo sapiens,CDGSH iron-sulfur domain-containing protein 1,CHEMBL1795168,SINGLE PROTEIN,9606
+Homo sapiens,N-lysine methyltransferase KMT5A,CHEMBL1795176,SINGLE PROTEIN,9606
+Homo sapiens,Protein polybromo-1,CHEMBL1795184,SINGLE PROTEIN,9606
+Homo sapiens,Bromodomain testis-specific protein,CHEMBL1795185,SINGLE PROTEIN,9606
+Homo sapiens,Bromodomain-containing protein 3,CHEMBL1795186,SINGLE PROTEIN,9606
+Homo sapiens,Proton-coupled folate transporter,CHEMBL1795188,SINGLE PROTEIN,9606
+Homo sapiens,"cGMP-specific 3',5'-cyclic phosphodiesterase",CHEMBL1827,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase ABL1,CHEMBL1862,SINGLE PROTEIN,9606
+Homo sapiens,Plasminogen,CHEMBL1801,SINGLE PROTEIN,9606
+Homo sapiens,Adenosine deaminase,CHEMBL1910,SINGLE PROTEIN,9606
+Homo sapiens,"Aldehyde dehydrogenase, mitochondrial",CHEMBL1935,SINGLE PROTEIN,9606
+Homo sapiens,Alpha-2A adrenergic receptor,CHEMBL1867,SINGLE PROTEIN,9606
+Homo sapiens,DNA polymerase alpha catalytic subunit,CHEMBL1828,SINGLE PROTEIN,9606
+Homo sapiens,Androgen receptor,CHEMBL1871,SINGLE PROTEIN,9606
+Homo sapiens,Thyroid hormone receptor alpha,CHEMBL1860,SINGLE PROTEIN,9606
+Homo sapiens,DNA topoisomerase 2-alpha,CHEMBL1806,SINGLE PROTEIN,9606
+Homo sapiens,Angiotensin-converting enzyme,CHEMBL1808,SINGLE PROTEIN,9606
+Homo sapiens,"Cytochrome P450 11B1, mitochondrial",CHEMBL1908,SINGLE PROTEIN,9606
+Homo sapiens,Pancreatic triacylglycerol lipase,CHEMBL1812,SINGLE PROTEIN,9606
+Homo sapiens,Peptidyl-prolyl cis-trans isomerase FKBP1A,CHEMBL1902,SINGLE PROTEIN,9606
+Homo sapiens,Inosine-5'-monophosphate dehydrogenase 1,CHEMBL1822,SINGLE PROTEIN,9606
+Homo sapiens,Ryanodine receptor 1,CHEMBL1846,SINGLE PROTEIN,9606
+Homo sapiens,Lutropin-choriogonadotropic hormone receptor,CHEMBL1854,SINGLE PROTEIN,9606
+Homo sapiens,Ribonucleoside-diphosphate reductase large subunit,CHEMBL1830,SINGLE PROTEIN,9606
+Homo sapiens,5-hydroxytryptamine receptor 1B,CHEMBL1898,SINGLE PROTEIN,9606
+Homo sapiens,Sodium- and chloride-dependent GABA transporter 1,CHEMBL1903,SINGLE PROTEIN,9606
+Homo sapiens,Somatostatin receptor type 2,CHEMBL1804,SINGLE PROTEIN,9606
+Homo sapiens,Gonadotropin-releasing hormone receptor,CHEMBL1855,SINGLE PROTEIN,9606
+Homo sapiens,Calcitonin receptor,CHEMBL1832,SINGLE PROTEIN,9606
+Homo sapiens,3-oxo-5-alpha-steroid 4-dehydrogenase 2,CHEMBL1856,SINGLE PROTEIN,9606
+Homo sapiens,4-hydroxyphenylpyruvate dioxygenase,CHEMBL1861,SINGLE PROTEIN,9606
+Homo sapiens,Vasopressin V1a receptor,CHEMBL1889,SINGLE PROTEIN,9606
+Homo sapiens,Prostaglandin E2 receptor EP2 subtype,CHEMBL1881,SINGLE PROTEIN,9606
+Homo sapiens,5-hydroxytryptamine receptor 3A,CHEMBL1899,SINGLE PROTEIN,9606
+Homo sapiens,Secretin receptor,CHEMBL1925,SINGLE PROTEIN,9606
+Homo sapiens,Vasopressin V1b receptor,CHEMBL1921,SINGLE PROTEIN,9606
+Homo sapiens,Xanthine dehydrogenase/oxidase,CHEMBL1929,SINGLE PROTEIN,9606
+Homo sapiens,Voltage-dependent calcium channel subunit alpha-2/delta-1,CHEMBL1919,SINGLE PROTEIN,9606
+Homo sapiens,Synaptic vesicular amine transporter,CHEMBL1893,SINGLE PROTEIN,9606
+Homo sapiens,5-hydroxytryptamine receptor 4,CHEMBL1875,SINGLE PROTEIN,9606
+Homo sapiens,Glutamate carboxypeptidase 2,CHEMBL1892,SINGLE PROTEIN,9606
+Homo sapiens,Tumor necrosis factor,CHEMBL1825,SINGLE PROTEIN,9606
+Homo sapiens,Receptor tyrosine-protein kinase erbB-2,CHEMBL1824,SINGLE PROTEIN,9606
+Homo sapiens,Platelet-derived growth factor receptor beta,CHEMBL1913,SINGLE PROTEIN,9606
+Homo sapiens,Muscarinic acetylcholine receptor M4,CHEMBL1821,SINGLE PROTEIN,9606
+Homo sapiens,Alpha-2C adrenergic receptor,CHEMBL1916,SINGLE PROTEIN,9606
+Homo sapiens,D(1B) dopamine receptor,CHEMBL1850,SINGLE PROTEIN,9606
+Homo sapiens,"Glutamate receptor ionotropic, NMDA 2B",CHEMBL1904,SINGLE PROTEIN,9606
+Homo sapiens,Vitamin K epoxide reductase complex subunit 1,CHEMBL1930,SINGLE PROTEIN,9606
+Homo sapiens,5-hydroxytryptamine receptor 2B,CHEMBL1833,SINGLE PROTEIN,9606
+Homo sapiens,Mast/stem cell growth factor receptor Kit,CHEMBL1936,SINGLE PROTEIN,9606
+Homo sapiens,Aldo-keto reductase family 1 member B1,CHEMBL1900,SINGLE PROTEIN,9606
+Homo sapiens,Aminopeptidase N,CHEMBL1907,SINGLE PROTEIN,9606
+Homo sapiens,Thromboxane-A synthase,CHEMBL1835,SINGLE PROTEIN,9606
+Homo sapiens,Thyrotropin-releasing hormone receptor,CHEMBL1810,SINGLE PROTEIN,9606
+Homo sapiens,Prostaglandin E2 receptor EP1 subtype,CHEMBL1811,SINGLE PROTEIN,9606
+Homo sapiens,Prostaglandin E2 receptor EP4 subtype,CHEMBL1836,SINGLE PROTEIN,9606
+Homo sapiens,Chromaffin granule amine transporter,CHEMBL1838,SINGLE PROTEIN,9606
+Homo sapiens,Retinoic acid receptor RXR-beta,CHEMBL1870,SINGLE PROTEIN,9606
+Homo sapiens,5-hydroxytryptamine receptor 1F,CHEMBL1805,SINGLE PROTEIN,9606
+Homo sapiens,Somatostatin receptor type 4,CHEMBL1853,SINGLE PROTEIN,9606
+Homo sapiens,Cholecystokinin receptor type A,CHEMBL1901,SINGLE PROTEIN,9606
+Homo sapiens,Cholinesterase,CHEMBL1914,SINGLE PROTEIN,9606
+Homo sapiens,Neuronal acetylcholine receptor subunit beta-2,CHEMBL1883,SINGLE PROTEIN,9606
+Homo sapiens,Neuronal acetylcholine receptor subunit alpha-4,CHEMBL1882,SINGLE PROTEIN,9606
+Homo sapiens,RAF proto-oncogene serine/threonine-protein kinase,CHEMBL1906,SINGLE PROTEIN,9606
+Homo sapiens,Vascular endothelial growth factor receptor 1,CHEMBL1868,SINGLE PROTEIN,9606
+Homo sapiens,Histone deacetylase 2,CHEMBL1937,SINGLE PROTEIN,9606
+Homo sapiens,Histone deacetylase 3,CHEMBL1829,SINGLE PROTEIN,9606
+Homo sapiens,Protein deacetylase HDAC6,CHEMBL1865,SINGLE PROTEIN,9606
+Homo sapiens,Tissue-type plasminogen activator,CHEMBL1873,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase Fyn,CHEMBL1841,SINGLE PROTEIN,9606
+Homo sapiens,Gamma-aminobutyric acid receptor subunit beta-3,CHEMBL1847,SINGLE PROTEIN,9606
+Homo sapiens,"Glutamate receptor ionotropic, kainate 1",CHEMBL1918,SINGLE PROTEIN,9606
+Homo sapiens,Somatostatin receptor type 1,CHEMBL1917,SINGLE PROTEIN,9606
+Homo sapiens,Macrophage colony-stimulating factor 1 receptor,CHEMBL1844,SINGLE PROTEIN,9606
+Homo sapiens,Potassium voltage-gated channel subfamily KQT member 1,CHEMBL1866,SINGLE PROTEIN,9606
+Homo sapiens,Acetylcholine receptor; alpha1/beta1/delta/gamma,CHEMBL1907588,PROTEIN COMPLEX,9606
+Homo sapiens,Neuronal acetylcholine receptor; alpha4/beta2,CHEMBL1907589,PROTEIN COMPLEX,9606
+Homo sapiens,Neuronal acetylcholine receptor; alpha4/beta4,CHEMBL1907591,PROTEIN COMPLEX,9606
+Homo sapiens,Neuronal acetylcholine receptor; alpha3/beta4,CHEMBL1907594,PROTEIN COMPLEX,9606
+Homo sapiens,Integrin alpha-V/beta-3,CHEMBL1907598,PROTEIN COMPLEX,9606
+Homo sapiens,Integrin alpha-4/beta-1,CHEMBL1907599,PROTEIN COMPLEX,9606
+Homo sapiens,Cyclin-dependent kinase 5/CDK5 activator 1,CHEMBL1907600,PROTEIN COMPLEX,9606
+Homo sapiens,Cyclin-dependent kinase 4/cyclin D1,CHEMBL1907601,PROTEIN COMPLEX,9606
+Homo sapiens,Cyclin-dependent kinase 1/cyclin B1,CHEMBL1907602,PROTEIN COMPLEX,9606
+Homo sapiens,Glutamate NMDA receptor; GRIN1/GRIN2B,CHEMBL1907603,PROTEIN COMPLEX,9606
+Homo sapiens,Glutamate NMDA receptor; GRIN1/GRIN2A,CHEMBL1907604,PROTEIN COMPLEX,9606
+Homo sapiens,Cyclin-dependent kinase 2/cyclin E1,CHEMBL1907605,PROTEIN COMPLEX,9606
+Homo sapiens,Tumour suppressor p53/oncoprotein Mdm2,CHEMBL1907611,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,Peripheral plasma membrane protein CASK,CHEMBL1908381,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase PRP4 homolog,CHEMBL1908382,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase kinase kinase 12,CHEMBL1908389,SINGLE PROTEIN,9606
+Homo sapiens,Glutamine--fructose-6-phosphate aminotransferase [isomerizing] 1,CHEMBL1909481,SINGLE PROTEIN,9606
+Homo sapiens,Sentrin-specific protease 1,CHEMBL1909484,SINGLE PROTEIN,9606
+Homo sapiens,Protein-arginine deiminase type-1,CHEMBL1909486,SINGLE PROTEIN,9606
+Homo sapiens,Protein-arginine deiminase type-2,CHEMBL1909487,SINGLE PROTEIN,9606
+Homo sapiens,Protein-arginine deiminase type-3,CHEMBL1909488,SINGLE PROTEIN,9606
+Homo sapiens,Interleukin-1 beta,CHEMBL1909490,SINGLE PROTEIN,9606
+Homo sapiens,Proton-coupled amino acid transporter 1,CHEMBL1914279,SINGLE PROTEIN,9606
+Homo sapiens,Protoporphyrinogen oxidase,CHEMBL1926488,SINGLE PROTEIN,9606
+Homo sapiens,NADPH oxidase 5,CHEMBL1926497,SINGLE PROTEIN,9606
+Homo sapiens,Acyl-protein thioesterase 2,CHEMBL1932891,SINGLE PROTEIN,9606
+Homo sapiens,Natural resistance-associated macrophage protein 2,CHEMBL1932895,SINGLE PROTEIN,9606
+Homo sapiens,Histone acetyltransferase KAT8,CHEMBL1932912,SINGLE PROTEIN,9606
+Homo sapiens,Lysine-specific histone demethylase 2,CHEMBL1938208,SINGLE PROTEIN,9606
+Homo sapiens,Maltase-glucoamylase,CHEMBL2074,SINGLE PROTEIN,9606
+Homo sapiens,Dihydrofolate reductase,CHEMBL202,SINGLE PROTEIN,9606
+Homo sapiens,Epidermal growth factor receptor,CHEMBL203,SINGLE PROTEIN,9606
+Homo sapiens,Prothrombin,CHEMBL204,SINGLE PROTEIN,9606
+Homo sapiens,Carbonic anhydrase 2,CHEMBL205,SINGLE PROTEIN,9606
+Homo sapiens,Estrogen receptor,CHEMBL206,SINGLE PROTEIN,9606
+Homo sapiens,Plasma kallikrein,CHEMBL2000,SINGLE PROTEIN,9606
+Homo sapiens,Glucocorticoid receptor,CHEMBL2034,SINGLE PROTEIN,9606
+Homo sapiens,Thymidylate synthase,CHEMBL1952,SINGLE PROTEIN,9606
+Homo sapiens,Insulin receptor,CHEMBL1981,SINGLE PROTEIN,9606
+Homo sapiens,Progesterone receptor,CHEMBL208,SINGLE PROTEIN,9606
+Homo sapiens,Alcohol dehydrogenase 1A,CHEMBL1970,SINGLE PROTEIN,9606
+Homo sapiens,Mineralocorticoid receptor,CHEMBL1994,SINGLE PROTEIN,9606
+Homo sapiens,Retinoic acid receptor alpha,CHEMBL2055,SINGLE PROTEIN,9606
+Homo sapiens,Vitamin D3 receptor,CHEMBL1977,SINGLE PROTEIN,9606
+Homo sapiens,Aromatase,CHEMBL1978,SINGLE PROTEIN,9606
+Homo sapiens,Inosine-5'-monophosphate dehydrogenase 2,CHEMBL2002,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosinase,CHEMBL1973,SINGLE PROTEIN,9606
+Homo sapiens,Gamma-aminobutyric acid receptor subunit alpha-1,CHEMBL1962,SINGLE PROTEIN,9606
+Homo sapiens,Amine oxidase [flavin-containing] A,CHEMBL1951,SINGLE PROTEIN,9606
+Homo sapiens,D(1A) dopamine receptor,CHEMBL2056,SINGLE PROTEIN,9606
+Homo sapiens,Catechol O-methyltransferase,CHEMBL2023,SINGLE PROTEIN,9606
+Homo sapiens,Peptidyl-prolyl cis-trans isomerase B,CHEMBL2075,SINGLE PROTEIN,9606
+Homo sapiens,Histamine H2 receptor,CHEMBL1941,SINGLE PROTEIN,9606
+Homo sapiens,Amine oxidase [flavin-containing] B,CHEMBL2039,SINGLE PROTEIN,9606
+Homo sapiens,5-hydroxytryptamine receptor 1D,CHEMBL1983,SINGLE PROTEIN,9606
+Homo sapiens,Oxytocin receptor,CHEMBL2049,SINGLE PROTEIN,9606
+Homo sapiens,Nociceptin receptor,CHEMBL2014,SINGLE PROTEIN,9606
+Homo sapiens,Prostaglandin F2-alpha receptor,CHEMBL1987,SINGLE PROTEIN,9606
+Homo sapiens,Prostacyclin receptor,CHEMBL1995,SINGLE PROTEIN,9606
+Homo sapiens,Glucagon receptor,CHEMBL1985,SINGLE PROTEIN,9606
+Homo sapiens,"4-aminobutyrate aminotransferase, mitochondrial",CHEMBL2044,SINGLE PROTEIN,9606
+Homo sapiens,Adrenocorticotropic hormone receptor,CHEMBL1965,SINGLE PROTEIN,9606
+Homo sapiens,"Dihydroorotate dehydrogenase (quinone), mitochondrial",CHEMBL1966,SINGLE PROTEIN,9606
+Homo sapiens,"Glutamate receptor ionotropic, NMDA 1",CHEMBL2015,SINGLE PROTEIN,9606
+Homo sapiens,Voltage-dependent L-type calcium channel subunit alpha-1C,CHEMBL1940,SINGLE PROTEIN,9606
+Homo sapiens,Equilibrative nucleoside transporter 1,CHEMBL1997,SINGLE PROTEIN,9606
+Homo sapiens,P2Y purinoceptor 12,CHEMBL2001,SINGLE PROTEIN,9606
+Homo sapiens,Peptidyl-prolyl cis-trans isomerase A,CHEMBL1949,SINGLE PROTEIN,9606
+Homo sapiens,Coagulation factor IX,CHEMBL2016,SINGLE PROTEIN,9606
+Homo sapiens,Muscarinic acetylcholine receptor M5,CHEMBL2035,SINGLE PROTEIN,9606
+Homo sapiens,Alpha-2B adrenergic receptor,CHEMBL1942,SINGLE PROTEIN,9606
+Homo sapiens,Insulin-like growth factor 1 receptor,CHEMBL1957,SINGLE PROTEIN,9606
+Homo sapiens,Neprilysin,CHEMBL1944,SINGLE PROTEIN,9606
+Homo sapiens,Retinoic acid receptor gamma,CHEMBL2003,SINGLE PROTEIN,9606
+Homo sapiens,3 beta-hydroxysteroid dehydrogenase/Delta 5-->4-isomerase type 1,CHEMBL1958,SINGLE PROTEIN,9606
+Homo sapiens,Atrial natriuretic peptide receptor 1,CHEMBL1988,SINGLE PROTEIN,9606
+Homo sapiens,Thromboxane A2 receptor,CHEMBL2069,SINGLE PROTEIN,9606
+Homo sapiens,Retinoic acid receptor RXR-gamma,CHEMBL2004,SINGLE PROTEIN,9606
+Homo sapiens,Retinoic acid receptor beta,CHEMBL2008,SINGLE PROTEIN,9606
+Homo sapiens,Thyroid hormone receptor beta,CHEMBL1947,SINGLE PROTEIN,9606
+Homo sapiens,Retinoic acid receptor RXR-alpha,CHEMBL2061,SINGLE PROTEIN,9606
+Homo sapiens,DNA (cytosine-5)-methyltransferase 1,CHEMBL1993,SINGLE PROTEIN,9606
+Homo sapiens,DNA (cytosine-5)-methyltransferase 3A,CHEMBL1992,SINGLE PROTEIN,9606
+Homo sapiens,Retinol-binding protein 1,CHEMBL2076,SINGLE PROTEIN,9606
+Homo sapiens,Glutathione S-transferase Mu 1,CHEMBL2081,SINGLE PROTEIN,9606
+Homo sapiens,"Fatty acid-binding protein, adipocyte",CHEMBL2083,SINGLE PROTEIN,9606
+Homo sapiens,Gamma-aminobutyric acid type B receptor subunit 1,CHEMBL2064,SINGLE PROTEIN,9606
+Homo sapiens,Pancreatic alpha-amylase,CHEMBL2045,SINGLE PROTEIN,9606
+Homo sapiens,Inhibitor of nuclear factor kappa-B kinase subunit beta,CHEMBL1991,SINGLE PROTEIN,9606
+Homo sapiens,Melatonin receptor type 1A,CHEMBL1945,SINGLE PROTEIN,9606
+Homo sapiens,Melatonin receptor type 1B,CHEMBL1946,SINGLE PROTEIN,9606
+Homo sapiens,Glutamate receptor 1,CHEMBL2009,SINGLE PROTEIN,9606
+Homo sapiens,Bile acid receptor,CHEMBL2047,SINGLE PROTEIN,9606
+Homo sapiens,Somatostatin receptor type 3,CHEMBL2028,SINGLE PROTEIN,9606
+Homo sapiens,Sodium channel protein type 5 subunit alpha,CHEMBL1980,SINGLE PROTEIN,9606
+Homo sapiens,Vascular endothelial growth factor receptor 3,CHEMBL1955,SINGLE PROTEIN,9606
+Homo sapiens,Platelet-derived growth factor receptor alpha,CHEMBL2007,SINGLE PROTEIN,9606
+Homo sapiens,Receptor-type tyrosine-protein kinase FLT3,CHEMBL1974,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase Yes,CHEMBL2073,SINGLE PROTEIN,9606
+Homo sapiens,Sodium channel protein type 4 subunit alpha,CHEMBL2072,SINGLE PROTEIN,9606
+Homo sapiens,Ephrin type-A receptor 2,CHEMBL2068,SINGLE PROTEIN,9606
+Homo sapiens,Synaptic vesicle glycoprotein 2A,CHEMBL1998,SINGLE PROTEIN,9606
+Homo sapiens,Proto-oncogene tyrosine-protein kinase receptor Ret,CHEMBL2041,SINGLE PROTEIN,9606
+Homo sapiens,Lysine-specific demethylase 2A,CHEMBL1938210,SINGLE PROTEIN,9606
+Homo sapiens,Lysine-specific demethylase 6B,CHEMBL1938211,SINGLE PROTEIN,9606
+Homo sapiens,Protein phosphatase 1D,CHEMBL1938224,SINGLE PROTEIN,9606
+Homo sapiens,Matrix metalloproteinase-20,CHEMBL1938226,SINGLE PROTEIN,9606
+Homo sapiens,m7GpppX diphosphatase,CHEMBL1949488,SINGLE PROTEIN,9606
+Homo sapiens,Isocitrate dehydrogenase [NADP] cytoplasmic,CHEMBL2007625,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein phosphatase non-receptor type 5,CHEMBL2007628,SINGLE PROTEIN,9606
+Homo sapiens,Thioredoxin,CHEMBL2010624,SINGLE PROTEIN,9606
+Homo sapiens,Pirin,CHEMBL2010627,SINGLE PROTEIN,9606
+Homo sapiens,Atypical chemokine receptor 3,CHEMBL2010631,SINGLE PROTEIN,9606
+Homo sapiens,Sphingolipid delta(4)-desaturase DES1,CHEMBL2021749,SINGLE PROTEIN,9606
+Homo sapiens,Neutral ceramidase,CHEMBL2021754,SINGLE PROTEIN,9606
+Homo sapiens,DNA repair protein RAD51 homolog 1,CHEMBL2034807,SINGLE PROTEIN,9606
+Homo sapiens,ATP-binding cassette sub-family C member 5,CHEMBL2046258,SINGLE PROTEIN,9606
+Homo sapiens,"Kynurenine/alpha-aminoadipate aminotransferase, mitochondrial",CHEMBL2046259,SINGLE PROTEIN,9606
+Homo sapiens,Eukaryotic initiation factor 4A-I,CHEMBL2052028,SINGLE PROTEIN,9606
+Homo sapiens,Peptidyl-prolyl cis-trans isomerase FKBP5,CHEMBL2052031,SINGLE PROTEIN,9606
+Homo sapiens,Heat shock-related 70 kDa protein 2,CHEMBL2062348,SINGLE PROTEIN,9606
+Homo sapiens,Biotin--protein ligase,CHEMBL2062354,SINGLE PROTEIN,9606
+Homo sapiens,Max-like protein X,CHEMBL2062357,SINGLE PROTEIN,9606
+Homo sapiens,Kelch-like ECH-associated protein 1,CHEMBL2069156,SINGLE PROTEIN,9606
+Homo sapiens,Monocarboxylate transporter 4,CHEMBL2073663,SINGLE PROTEIN,9606
+Homo sapiens,Monocarboxylate transporter 2,CHEMBL2073704,SINGLE PROTEIN,9606
+Homo sapiens,GTPase NRas,CHEMBL2079845,SINGLE PROTEIN,9606
+Homo sapiens,Son of sevenless homolog 1,CHEMBL2079846,SINGLE PROTEIN,9606
+Homo sapiens,Serine protease hepsin,CHEMBL2079849,SINGLE PROTEIN,9606
+Homo sapiens,Serine protease 1,CHEMBL209,SINGLE PROTEIN,9606
+Homo sapiens,Beta-2 adrenergic receptor,CHEMBL210,SINGLE PROTEIN,9606
+Homo sapiens,Macrophage migration inhibitory factor,CHEMBL2085,SINGLE PROTEIN,9606
+Homo sapiens,Peroxisomal N(1)-acetyl-spermine/spermidine oxidase,CHEMBL2105,SINGLE PROTEIN,9606
+Homo sapiens,Prostate-specific antigen,CHEMBL2099,SINGLE PROTEIN,9606
+Homo sapiens,P2X purinoceptor 4,CHEMBL2104,SINGLE PROTEIN,9606
+Homo sapiens,C-X-C chemokine receptor type 4,CHEMBL2107,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity mitogen-activated protein kinase kinase 3,CHEMBL2109,SINGLE PROTEIN,9606
+Homo sapiens,Carboxypeptidase A1,CHEMBL2088,SINGLE PROTEIN,9606
+Homo sapiens,Menin/Histone-lysine N-methyltransferase MLL,CHEMBL2093861,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,Phosphodiesterase 4,CHEMBL2093863,PROTEIN FAMILY,9606
+Homo sapiens,Histone deacetylase,CHEMBL2093865,PROTEIN FAMILY,9606
+Homo sapiens,Estrogen receptor,CHEMBL2093866,PROTEIN FAMILY,9606
+Homo sapiens,Protein kinase C (PKC),CHEMBL2093867,PROTEIN FAMILY,9606
+Homo sapiens,Integrin alpha-IIb/beta-3,CHEMBL2093869,PROTEIN COMPLEX,9606
+Homo sapiens,GABA-A receptor; anion channel,CHEMBL2093872,PROTEIN COMPLEX GROUP,9606
+Homo sapiens,Protein farnesyltransferase,CHEMBL2094108,PROTEIN COMPLEX,9606
+Homo sapiens,Muscarinic acetylcholine receptor,CHEMBL2094109,PROTEIN FAMILY,9606
+Homo sapiens,MAP kinase p38,CHEMBL2094115,PROTEIN FAMILY,9606
+Homo sapiens,Adrenergic receptor beta,CHEMBL2094118,PROTEIN FAMILY,9606
+Homo sapiens,GABA-A receptor; alpha-3/beta-3/gamma-2,CHEMBL2094120,PROTEIN COMPLEX,9606
+Homo sapiens,GABA-A receptor; alpha-1/beta-3/gamma-2,CHEMBL2094121,PROTEIN COMPLEX,9606
+Homo sapiens,GABA-A receptor; alpha-5/beta-3/gamma-2,CHEMBL2094122,PROTEIN COMPLEX,9606
+Homo sapiens,Glutamate [NMDA] receptor,CHEMBL2094124,PROTEIN COMPLEX GROUP,9606
+Homo sapiens,Phosphodiesterase 3,CHEMBL2094125,PROTEIN FAMILY,9606
+Homo sapiens,Cyclin-dependent kinase 2/cyclin E,CHEMBL2094126,PROTEIN COMPLEX,9606
+Homo sapiens,Cyclin-dependent kinase 1/cyclin B,CHEMBL2094127,PROTEIN COMPLEX GROUP,9606
+Homo sapiens,Cyclin-dependent kinase 2/cyclin A,CHEMBL2094128,PROTEIN COMPLEX,9606
+Homo sapiens,GABA-A receptor; alpha-2/beta-3/gamma-2,CHEMBL2094130,PROTEIN COMPLEX,9606
+Homo sapiens,Serotonin 3 (5-HT3) receptor,CHEMBL2094132,PROTEIN COMPLEX GROUP,9606
+Homo sapiens,Gamma-secretase,CHEMBL2094135,PROTEIN COMPLEX,9606
+Homo sapiens,cAMP-dependent protein kinase (PKA),CHEMBL2094138,PROTEIN FAMILY,9606
+Homo sapiens,Adrenergic receptor alpha-1,CHEMBL2094251,PROTEIN FAMILY,9606
+Homo sapiens,Cysteinyl leukotriene receptor,CHEMBL2094254,PROTEIN FAMILY,9606
+Homo sapiens,DNA topoisomerase II,CHEMBL2094255,PROTEIN FAMILY,9606
+Homo sapiens,Angiotensin II receptor,CHEMBL2094256,PROTEIN FAMILY,9606
+Homo sapiens,Adenosine A2 receptor,CHEMBL2094257,PROTEIN FAMILY,9606
+Homo sapiens,Melatonin receptor,CHEMBL2094268,PROTEIN FAMILY,9606
+Homo sapiens,Opioid receptors; mu & delta,CHEMBL2095149,SELECTIVITY GROUP,9606
+Homo sapiens,Phosphodiesterase 1,CHEMBL2095150,PROTEIN FAMILY,9606
+Homo sapiens,Opioid receptors; delta & kappa,CHEMBL2095151,SELECTIVITY GROUP,9606
+Homo sapiens,Phosphodiesterase; PDE3 & PDE4,CHEMBL2095153,SELECTIVITY GROUP,9606
+Homo sapiens,Adrenergic receptor alpha-2,CHEMBL2095158,PROTEIN FAMILY,9606
+Homo sapiens,Leukotriene B4 receptor,CHEMBL2095160,PROTEIN FAMILY,9606
+Homo sapiens,Geranylgeranyl transferase type I,CHEMBL2095164,PROTEIN COMPLEX,9606
+Homo sapiens,Heat shock protein HSP90,CHEMBL2095165,PROTEIN FAMILY,9606
+Homo sapiens,GABA-A receptor; alpha-1/beta-2/gamma-2,CHEMBL2095172,PROTEIN COMPLEX,9606
+Homo sapiens,Carbonic anhydrase,CHEMBL2095180,PROTEIN FAMILY,9606
+Homo sapiens,Opioid receptors; mu/kappa/delta,CHEMBL2095181,PROTEIN FAMILY,9606
+Homo sapiens,Tubulin,CHEMBL2095182,PROTEIN COMPLEX GROUP,9606
+Homo sapiens,Integrin alpha-4/beta-7,CHEMBL2095184,PROTEIN COMPLEX,9606
+Homo sapiens,Cholecystokinin receptor,CHEMBL2095185,PROTEIN FAMILY,9606
+Homo sapiens,Sodium/potassium-transporting ATPase,CHEMBL2095186,PROTEIN COMPLEX GROUP,9606
+Homo sapiens,Glycogen synthase kinase-3,CHEMBL2095188,PROTEIN FAMILY,9606
+Homo sapiens,Platelet-derived growth factor receptor,CHEMBL2095189,PROTEIN COMPLEX,9606
+Homo sapiens,GABA-A receptor; alpha-6/beta-3/gamma-2,CHEMBL2095190,PROTEIN COMPLEX,9606
+Homo sapiens,Casein kinase II,CHEMBL2095191,PROTEIN COMPLEX GROUP,9606
+Homo sapiens,Tryptase,CHEMBL2095193,PROTEIN FAMILY,9606
+Homo sapiens,Coagulation factor VII/tissue factor,CHEMBL2095194,PROTEIN COMPLEX,9606
+Homo sapiens,"Sulfonylurea receptor 2, Kir6.2",CHEMBL2095198,PROTEIN COMPLEX,9606
+Homo sapiens,Serotonin 2 (5-HT2) receptor,CHEMBL2095200,PROTEIN FAMILY,9606
+Homo sapiens,Adrenergic receptor alpha,CHEMBL2095203,PROTEIN FAMILY,9606
+Homo sapiens,Trypsin,CHEMBL2095204,PROTEIN FAMILY,9606
+Homo sapiens,Monoamine oxidase,CHEMBL2095205,PROTEIN FAMILY,9606
+Homo sapiens,Ribonucleoside-diphosphate reductase RR1,CHEMBL2095215,PROTEIN COMPLEX GROUP,9606
+Homo sapiens,Collagenase,CHEMBL2095216,PROTEIN FAMILY,9606
+Homo sapiens,Fibroblast growth factor receptor,CHEMBL2095217,PROTEIN FAMILY,9606
+Homo sapiens,Muscarinic acetylcholine receptors; M1 & M2,CHEMBL2095219,SELECTIVITY GROUP,9606
+Homo sapiens,Integrin alpha-5/beta-1,CHEMBL2095226,PROTEIN COMPLEX,9606
+Homo sapiens,Voltage-gated L-type calcium channel,CHEMBL2095229,PROTEIN FAMILY,9606
+Homo sapiens,Serotonin 1 receptors; 5-HT1B & 5-HT1D,CHEMBL2095230,SELECTIVITY GROUP,9606
+Homo sapiens,Dopamine receptors; D2 & D4,CHEMBL2095396,SELECTIVITY GROUP,9606
+Homo sapiens,Bcr/Abl fusion protein,CHEMBL2096618,CHIMERIC PROTEIN,9606
+Homo sapiens,"Phosphatidylinositol 4-kinase, PI4K",CHEMBL2096619,PROTEIN FAMILY,9606
+Homo sapiens,"Protein kinase C, PKC; classical/novel",CHEMBL2096620,PROTEIN FAMILY,9606
+Homo sapiens,Serotonin 2 receptors; 5-HT2a & 5-HT2c,CHEMBL2096662,SELECTIVITY GROUP,9606
+Homo sapiens,"c-Jun N-terminal kinase, JNK",CHEMBL2096667,PROTEIN FAMILY,9606
+Homo sapiens,Glutamate receptor ionotropic AMPA,CHEMBL2096670,PROTEIN COMPLEX GROUP,9606
+Homo sapiens,Integrin alpha-V/beta-5,CHEMBL2096675,PROTEIN COMPLEX,9606
+Homo sapiens,Phosphoglycerate kinase,CHEMBL2096677,PROTEIN FAMILY,9606
+Homo sapiens,"Endothelin receptor, ET-A/ET-B",CHEMBL2096678,PROTEIN FAMILY,9606
+Homo sapiens,Serotonin (5-HT) receptor,CHEMBL2096904,PROTEIN FAMILY,9606
+Homo sapiens,Dopamine receptor,CHEMBL2096905,PROTEIN FAMILY,9606
+Homo sapiens,Carbonic anhydrases; II & IX,CHEMBL2096906,SELECTIVITY GROUP,9606
+Homo sapiens,"AMP-activated protein kinase, AMPK",CHEMBL2096907,PROTEIN COMPLEX GROUP,9606
+Homo sapiens,"Interleukin-8 receptors, CXCR1/CXCR2",CHEMBL2096909,PROTEIN FAMILY,9606
+Homo sapiens,Peptide N-myristoyltransferase,CHEMBL2096973,PROTEIN FAMILY,9606
+Homo sapiens,Thioredoxin reductase,CHEMBL2096978,PROTEIN FAMILY,9606
+Homo sapiens,Cannabinoid receptor,CHEMBL2096981,PROTEIN FAMILY,9606
+Homo sapiens,Angiotensin-converting enzyme,CHEMBL2096989,PROTEIN FAMILY,9606
+Homo sapiens,Monoamine transporters; Norepinephrine & dopamine,CHEMBL2096990,SELECTIVITY GROUP,9606
+Homo sapiens,Phosphodiesterase 6,CHEMBL2097163,PROTEIN FAMILY,9606
+Homo sapiens,CaM kinase II,CHEMBL2097164,PROTEIN FAMILY,9606
+Homo sapiens,Adenylate cyclase,CHEMBL2097167,PROTEIN FAMILY,9606
+Homo sapiens,Adrenergic receptor beta; ADRB1 & ADRB3,CHEMBL2097169,SELECTIVITY GROUP,9606
+Homo sapiens,"Calcitonin-gene-related peptide receptor, CALCRL/RAMP1",CHEMBL2107838,PROTEIN COMPLEX,9606
+Homo sapiens,Neuronal acetylcholine receptor; alpha2/beta4,CHEMBL2109230,PROTEIN COMPLEX,9606
+Homo sapiens,Adrenomedullin receptor AM1; CALCRL/RAMP2,CHEMBL2109232,PROTEIN COMPLEX,9606
+Homo sapiens,Neuronal acetylcholine receptor; alpha3/alpha6/beta2/beta3,CHEMBL2109233,PROTEIN COMPLEX,9606
+Homo sapiens,Neuronal acetylcholine receptor; alpha3/beta2,CHEMBL2109234,PROTEIN COMPLEX,9606
+Homo sapiens,Muscarinic acetylcholine receptor M2,CHEMBL211,SINGLE PROTEIN,9606
+Homo sapiens,Beta-1 adrenergic receptor,CHEMBL213,SINGLE PROTEIN,9606
+Homo sapiens,5-hydroxytryptamine receptor 1A,CHEMBL214,SINGLE PROTEIN,9606
+Homo sapiens,Polyunsaturated fatty acid 5-lipoxygenase,CHEMBL215,SINGLE PROTEIN,9606
+Homo sapiens,Muscarinic acetylcholine receptor M1,CHEMBL216,SINGLE PROTEIN,9606
+Homo sapiens,D(2) dopamine receptor,CHEMBL217,SINGLE PROTEIN,9606
+Homo sapiens,Cannabinoid receptor 1,CHEMBL218,SINGLE PROTEIN,9606
+Homo sapiens,D(4) dopamine receptor,CHEMBL219,SINGLE PROTEIN,9606
+Homo sapiens,Acetylcholinesterase,CHEMBL220,SINGLE PROTEIN,9606
+Homo sapiens,Prostaglandin G/H synthase 1,CHEMBL221,SINGLE PROTEIN,9606
+Homo sapiens,Gastricsin,CHEMBL2136,SINGLE PROTEIN,9606
+Homo sapiens,Insulin-like growth factor-binding protein 6,CHEMBL2139,SINGLE PROTEIN,9606
+Homo sapiens,Interleukin-8,CHEMBL2157,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein phosphatase PP1-alpha catalytic subunit,CHEMBL2164,SINGLE PROTEIN,9606
+Homo sapiens,GTPase HRas,CHEMBL2167,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity mitogen-activated protein kinase kinase 6,CHEMBL2171,SINGLE PROTEIN,9606
+Homo sapiens,Indolethylamine N-methyltransferase,CHEMBL2131,SINGLE PROTEIN,9606
+Homo sapiens,5-hydroxytryptamine receptor 1E,CHEMBL2182,SINGLE PROTEIN,9606
+Homo sapiens,5'-AMP-activated protein kinase catalytic subunit alpha-2,CHEMBL2116,SINGLE PROTEIN,9606
+Homo sapiens,Diamine oxidase [copper-containing],CHEMBL2118,SINGLE PROTEIN,9606
+Homo sapiens,Lysosomal acid glucosylceramidase,CHEMBL2179,SINGLE PROTEIN,9606
+Homo sapiens,Aurora kinase B,CHEMBL2185,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase pim-1,CHEMBL2147,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase JAK3,CHEMBL2148,SINGLE PROTEIN,9606
+Homo sapiens,Matrix metalloproteinase-16,CHEMBL2200,SINGLE PROTEIN,9606
+Homo sapiens,Motilin receptor,CHEMBL2203,SINGLE PROTEIN,9606
+Homo sapiens,MAP kinase-activated protein kinase 2,CHEMBL2208,SINGLE PROTEIN,9606
+Homo sapiens,Histamine N-methyltransferase,CHEMBL2190,SINGLE PROTEIN,9606
+Homo sapiens,"Tryptophan 2,3-dioxygenase",CHEMBL2140,SINGLE PROTEIN,9606
+Homo sapiens,Kynurenine 3-monooxygenase,CHEMBL2145,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein phosphatase non-receptor type 7,CHEMBL2219,SINGLE PROTEIN,9606
+Homo sapiens,Neuronal acetylcholine receptor; alpha2/beta2,CHEMBL2109236,PROTEIN COMPLEX,9606
+Homo sapiens,Neuronal acetylcholine receptor; alpha6/beta2,CHEMBL2109237,PROTEIN COMPLEX,9606
+Homo sapiens,Glutamate receptor ionotropic kainate,CHEMBL2109241,PROTEIN COMPLEX GROUP,9606
+Homo sapiens,GABA-A receptor; agonist GABA site,CHEMBL2109244,PROTEIN COMPLEX GROUP,9606
+Homo sapiens,"Amylin receptor AMY1, CALCR/RAMP1",CHEMBL2111189,PROTEIN COMPLEX,9606
+Homo sapiens,Amylin receptor AMY3; CALCR/RAMP3,CHEMBL2111190,PROTEIN COMPLEX,9606
+Homo sapiens,"Adrenomedullin receptor, AM2; CALCRL/RAMP3",CHEMBL2111191,PROTEIN COMPLEX,9606
+Homo sapiens,Cyclin-dependent kinase 7/ cyclin H,CHEMBL2111288,PROTEIN COMPLEX,9606
+Homo sapiens,Dual specificity mitogen-activated protein kinase kinase; MEK1/2,CHEMBL2111289,PROTEIN FAMILY,9606
+Homo sapiens,Phosphodiesterase 7,CHEMBL2111411,PROTEIN FAMILY,9606
+Homo sapiens,GABA A receptor alpha-2/beta-2/gamma-2,CHEMBL2111413,PROTEIN COMPLEX,9606
+Homo sapiens,Tyrosine-protein kinase ABL,CHEMBL2111414,PROTEIN FAMILY,9606
+Homo sapiens,Integrin alpha-V/beta-6,CHEMBL2111416,PROTEIN COMPLEX,9606
+Homo sapiens,Muscarinic acetylcholine receptor M1/M5 chimeric protein,CHEMBL2111417,CHIMERIC PROTEIN,9606
+Homo sapiens,PI3-kinase p110-delta/p85-alpha,CHEMBL2111432,PROTEIN COMPLEX,9606
+Homo sapiens,Somatostatin receptor,CHEMBL2111436,PROTEIN FAMILY,9606
+Homo sapiens,Neurotensin receptor,CHEMBL2111438,PROTEIN FAMILY,9606
+Homo sapiens,CDK6/cyclin D3,CHEMBL2111448,PROTEIN COMPLEX,9606
+Homo sapiens,"Inositol 1,4,5-trisphosphate receptor",CHEMBL2111451,PROTEIN FAMILY,9606
+Homo sapiens,CDK6/cyclin D1,CHEMBL2111455,PROTEIN COMPLEX,9606
+Homo sapiens,Vasopressin V1 receptor,CHEMBL2111456,PROTEIN FAMILY,9606
+Homo sapiens,Carbonic anhydrase V,CHEMBL2111457,PROTEIN FAMILY,9606
+Homo sapiens,Casein kinase I,CHEMBL2111458,PROTEIN FAMILY,9606
+Homo sapiens,Rho-associated protein kinase,CHEMBL2111459,PROTEIN FAMILY,9606
+Homo sapiens,Thyroid hormone receptor,CHEMBL2111462,PROTEIN COMPLEX,9606
+Homo sapiens,GABA-B receptor,CHEMBL2111463,PROTEIN COMPLEX,9606
+Homo sapiens,Serotonin receptor (2b and 2c),CHEMBL2111466,SELECTIVITY GROUP,9606
+Homo sapiens,Dopamine D2 receptor and serotonin 2a receptor,CHEMBL2111468,SELECTIVITY GROUP,9606
+Homo sapiens,Adenosine receptor,CHEMBL2111329,PROTEIN FAMILY,9606
+Homo sapiens,Ribosomal protein S6 kinase (P70S6K),CHEMBL2111330,PROTEIN COMPLEX,9606
+Homo sapiens,Serotonin 3 (5-HT3) receptor,CHEMBL2111332,PROTEIN COMPLEX,9606
+Homo sapiens,Atrial natriuretic peptide receptor,CHEMBL2111337,PROTEIN FAMILY,9606
+Homo sapiens,GABA A receptor alpha-3/beta-2/gamma-2,CHEMBL2111339,PROTEIN COMPLEX,9606
+Homo sapiens,AMP-activated protein kinase (AMPK) alpha-1/beta-1/gamma-1,CHEMBL2111345,PROTEIN COMPLEX,9606
+Homo sapiens,Serotonin and norepinephrine transporters (SERT/NET),CHEMBL2111346,SELECTIVITY GROUP,9606
+Homo sapiens,PI3-kinase p110-alpha/p85-alpha,CHEMBL2111367,PROTEIN COMPLEX,9606
+Homo sapiens,Inosine-5'-monophosphate dehydrogenase (IMPDH),CHEMBL2111369,PROTEIN FAMILY,9606
+Homo sapiens,GABA A receptor alpha-6/beta-2/gamma-2,CHEMBL2111370,PROTEIN COMPLEX,9606
+Homo sapiens,CDC7/DBF4 (Cell division cycle 7-related protein kinase/Activator of S phase kinase),CHEMBL2111377,PROTEIN COMPLEX,9606
+Homo sapiens,CDK9/cyclin T1,CHEMBL2111389,PROTEIN COMPLEX,9606
+Homo sapiens,GABA A receptor alpha-1/beta-1/gamma-2,CHEMBL2111392,PROTEIN COMPLEX,9606
+Homo sapiens,Integrin alpha-V/beta-1,CHEMBL2111407,PROTEIN COMPLEX,9606
+Homo sapiens,Serine/threonine-protein kinase AKT,CHEMBL2111353,PROTEIN FAMILY,9606
+Homo sapiens,Calpain 1,CHEMBL2111357,PROTEIN COMPLEX,9606
+Homo sapiens,Histone deacetylase 3/Nuclear receptor corepressor 2 (HDAC3/NCoR2),CHEMBL2111363,PROTEIN COMPLEX,9606
+Homo sapiens,GABA A receptor alpha-4/beta-3/gamma-2,CHEMBL2111366,PROTEIN COMPLEX,9606
+Homo sapiens,"Glutaminase kidney isoform, mitochondrial",CHEMBL2146302,SINGLE PROTEIN,9606
+Homo sapiens,ATPase family AAA domain-containing protein 2,CHEMBL2150837,SINGLE PROTEIN,9606
+Homo sapiens,Succinate receptor 1,CHEMBL2150838,SINGLE PROTEIN,9606
+Homo sapiens,Ubiquitin carboxyl-terminal hydrolase 7,CHEMBL2157850,SINGLE PROTEIN,9606
+Homo sapiens,S-methylmethionine--homocysteine S-methyltransferase BHMT2,CHEMBL2163167,SINGLE PROTEIN,9606
+Homo sapiens,Gamma-butyrobetaine dioxygenase,CHEMBL2163175,SINGLE PROTEIN,9606
+Homo sapiens,NAD-dependent protein deacylase sirtuin-6,CHEMBL2163182,SINGLE PROTEIN,9606
+Homo sapiens,"NAD-dependent protein deacylase sirtuin-5, mitochondrial",CHEMBL2163183,SINGLE PROTEIN,9606
+Homo sapiens,NAD-dependent protein deacetylase sirtuin-7,CHEMBL2163184,SINGLE PROTEIN,9606
+Homo sapiens,N-lysine methyltransferase SMYD2,CHEMBL2169716,SINGLE PROTEIN,9606
+Homo sapiens,Spermine oxidase,CHEMBL2176769,SINGLE PROTEIN,9606
+Homo sapiens,Complement factor D,CHEMBL2176771,SINGLE PROTEIN,9606
+Homo sapiens,Bromodomain-containing protein 1,CHEMBL2176774,SINGLE PROTEIN,9606
+Homo sapiens,ATPase family AAA domain-containing protein 2B,CHEMBL2176775,SINGLE PROTEIN,9606
+Homo sapiens,Advanced glycosylation end product-specific receptor,CHEMBL2176846,SINGLE PROTEIN,9606
+Homo sapiens,C-type lectin domain family 4 member K,CHEMBL2176853,SINGLE PROTEIN,9606
+Homo sapiens,Histone-lysine N-methyltransferase EZH2,CHEMBL2189110,SINGLE PROTEIN,9606
+Homo sapiens,Histone-lysine N-methyltransferase EZH1,CHEMBL2189116,SINGLE PROTEIN,9606
+Homo sapiens,Polycomb protein EED,CHEMBL2189117,SINGLE PROTEIN,9606
+Homo sapiens,GTPase KRas,CHEMBL2189121,SINGLE PROTEIN,9606
+Homo sapiens,Monoacylglycerol lipase ABHD6,CHEMBL2189127,SINGLE PROTEIN,9606
+Homo sapiens,"Aspartate aminotransferase, cytoplasmic",CHEMBL2189139,SINGLE PROTEIN,9606
+Homo sapiens,"Thioredoxin, mitochondrial",CHEMBL2189153,SINGLE PROTEIN,9606
+Homo sapiens,Sodium-dependent noradrenaline transporter,CHEMBL222,SINGLE PROTEIN,9606
+Homo sapiens,Alpha-1D adrenergic receptor,CHEMBL223,SINGLE PROTEIN,9606
+Homo sapiens,5-hydroxytryptamine receptor 2A,CHEMBL224,SINGLE PROTEIN,9606
+Homo sapiens,5-hydroxytryptamine receptor 2C,CHEMBL225,SINGLE PROTEIN,9606
+Homo sapiens,Adenosine receptor A1,CHEMBL226,SINGLE PROTEIN,9606
+Homo sapiens,Type-1 angiotensin II receptor,CHEMBL227,SINGLE PROTEIN,9606
+Homo sapiens,Sodium-dependent serotonin transporter,CHEMBL228,SINGLE PROTEIN,9606
+Homo sapiens,Alpha-1A adrenergic receptor,CHEMBL229,SINGLE PROTEIN,9606
+Homo sapiens,Prostaglandin G/H synthase 2,CHEMBL230,SINGLE PROTEIN,9606
+Homo sapiens,Histamine H1 receptor,CHEMBL231,SINGLE PROTEIN,9606
+Homo sapiens,Alpha-1B adrenergic receptor,CHEMBL232,SINGLE PROTEIN,9606
+Homo sapiens,Mu-type opioid receptor,CHEMBL233,SINGLE PROTEIN,9606
+Homo sapiens,D(3) dopamine receptor,CHEMBL234,SINGLE PROTEIN,9606
+Homo sapiens,Peroxisome proliferator-activated receptor gamma,CHEMBL235,SINGLE PROTEIN,9606
+Homo sapiens,Delta-type opioid receptor,CHEMBL236,SINGLE PROTEIN,9606
+Homo sapiens,Kappa-type opioid receptor,CHEMBL237,SINGLE PROTEIN,9606
+Homo sapiens,Sodium-dependent dopamine transporter,CHEMBL238,SINGLE PROTEIN,9606
+Homo sapiens,Peroxisome proliferator-activated receptor alpha,CHEMBL239,SINGLE PROTEIN,9606
+Homo sapiens,Voltage-gated inwardly rectifying potassium channel KCNH2,CHEMBL240,SINGLE PROTEIN,9606
+Homo sapiens,"cGMP-inhibited 3',5'-cyclic phosphodiesterase 3A",CHEMBL241,SINGLE PROTEIN,9606
+Homo sapiens,Estrogen receptor beta,CHEMBL242,SINGLE PROTEIN,9606
+Homo sapiens,Coagulation factor X,CHEMBL244,SINGLE PROTEIN,9606
+Homo sapiens,Kallikrein-2,CHEMBL2442,SINGLE PROTEIN,9606
+Homo sapiens,Kallikrein-7,CHEMBL2443,SINGLE PROTEIN,9606
+Homo sapiens,Caspase-3,CHEMBL2334,SINGLE PROTEIN,9606
+Homo sapiens,Hypoxanthine-guanine phosphoribosyltransferase,CHEMBL2360,SINGLE PROTEIN,9606
+Homo sapiens,Substance-K receptor,CHEMBL2327,SINGLE PROTEIN,9606
+Homo sapiens,DNA polymerase beta,CHEMBL2392,SINGLE PROTEIN,9606
+Homo sapiens,"Myosin light chain kinase, smooth muscle",CHEMBL2428,SINGLE PROTEIN,9606
+Homo sapiens,Peptidyl-prolyl cis-trans isomerase FKBP1B,CHEMBL2430,SINGLE PROTEIN,9606
+Homo sapiens,Lactoylglutathione lyase,CHEMBL2424,SINGLE PROTEIN,9606
+Homo sapiens,Lysosomal Pro-X carboxypeptidase,CHEMBL2335,SINGLE PROTEIN,9606
+Homo sapiens,Corticosteroid-binding globulin,CHEMBL2421,SINGLE PROTEIN,9606
+Homo sapiens,C-C chemokine receptor type 1,CHEMBL2413,SINGLE PROTEIN,9606
+Homo sapiens,Protein phosphatase 1A,CHEMBL2437,SINGLE PROTEIN,9606
+Homo sapiens,Myeloperoxidase,CHEMBL2439,SINGLE PROTEIN,9606
+Homo sapiens,C-C chemokine receptor type 4,CHEMBL2414,SINGLE PROTEIN,9606
+Homo sapiens,RAC-beta serine/threonine-protein kinase,CHEMBL2431,SINGLE PROTEIN,9606
+Homo sapiens,Aminopeptidase B,CHEMBL2432,SINGLE PROTEIN,9606
+Homo sapiens,Sarcoplasmic/endoplasmic reticulum calcium ATPase 3,CHEMBL2401,SINGLE PROTEIN,9606
+Homo sapiens,Neuroendocrine convertase 2,CHEMBL2433,SINGLE PROTEIN,9606
+Homo sapiens,C-X-C chemokine receptor type 2,CHEMBL2434,SINGLE PROTEIN,9606
+Homo sapiens,Carbonic anhydrase 7,CHEMBL2326,SINGLE PROTEIN,9606
+Homo sapiens,Caspase-4,CHEMBL2226,SINGLE PROTEIN,9606
+Homo sapiens,Cytochrome P450 1A1,CHEMBL2231,SINGLE PROTEIN,9606
+Homo sapiens,Proprotein convertase subtilisin/kexin type 7,CHEMBL2232,SINGLE PROTEIN,9606
+Homo sapiens,Fatty-acid amide hydrolase 1,CHEMBL2243,SINGLE PROTEIN,9606
+Homo sapiens,Atrial natriuretic peptide receptor 3,CHEMBL2247,SINGLE PROTEIN,9606
+Homo sapiens,"Ornithine transcarbamylase, mitochondrial",CHEMBL2222,SINGLE PROTEIN,9606
+Homo sapiens,Gamma-glutamyl hydrolase,CHEMBL2223,SINGLE PROTEIN,9606
+Homo sapiens,Pro-cathepsin H,CHEMBL2225,SINGLE PROTEIN,9606
+Homo sapiens,"Hydroxyacylglutathione hydrolase, mitochondrial",CHEMBL2261,SINGLE PROTEIN,9606
+Homo sapiens,Liver carboxylesterase 1,CHEMBL2265,SINGLE PROTEIN,9606
+Homo sapiens,Insulin-like growth factor-binding protein 4,CHEMBL2310,SINGLE PROTEIN,9606
+Homo sapiens,Sodium- and chloride-dependent glycine transporter 1,CHEMBL2337,SINGLE PROTEIN,9606
+Homo sapiens,Chymotrypsin-C,CHEMBL2386,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase Blk,CHEMBL2250,SINGLE PROTEIN,9606
+Homo sapiens,Calpain-2 catalytic subunit,CHEMBL2382,SINGLE PROTEIN,9606
+Homo sapiens,Bifunctional epoxide hydrolase 2,CHEMBL2409,SINGLE PROTEIN,9606
+Homo sapiens,Small conductance calcium-activated potassium channel protein 1,CHEMBL2369,SINGLE PROTEIN,9606
+Homo sapiens,M-phase inducer phosphatase 3,CHEMBL2378,SINGLE PROTEIN,9606
+Homo sapiens,Plasma alpha-L-fucosidase,CHEMBL2271,SINGLE PROTEIN,9606
+Homo sapiens,Caspase-9,CHEMBL2273,SINGLE PROTEIN,9606
+Homo sapiens,Sphingosine 1-phosphate receptor 5,CHEMBL2274,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity tyrosine-phosphorylation-regulated kinase 1A,CHEMBL2292,SINGLE PROTEIN,9606
+Homo sapiens,Glycerol kinase,CHEMBL2300,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase 8,CHEMBL2276,SINGLE PROTEIN,9606
+Homo sapiens,Dipeptidyl peptidase 1,CHEMBL2252,SINGLE PROTEIN,9606
+Homo sapiens,Peroxisomal sarcosine oxidase,CHEMBL2254,SINGLE PROTEIN,9606
+Homo sapiens,Granzyme B,CHEMBL2316,SINGLE PROTEIN,9606
+Homo sapiens,C5a anaphylatoxin chemotactic receptor 1,CHEMBL2373,SINGLE PROTEIN,9606
+Homo sapiens,Peptidyl-prolyl cis-trans isomerase FKBP14,CHEMBL2342,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase Sgk1,CHEMBL2343,SINGLE PROTEIN,9606
+Homo sapiens,Ribosomal protein S6 kinase alpha-3,CHEMBL2345,SINGLE PROTEIN,9606
+Homo sapiens,"Phosphorylase b kinase gamma catalytic chain, liver/testis isoform",CHEMBL2349,SINGLE PROTEIN,9606
+Homo sapiens,Casein kinase II subunit beta,CHEMBL2358,SINGLE PROTEIN,9606
+Homo sapiens,"Endoplasmic reticulum mannosyl-oligosaccharide 1,2-alpha-mannosidase",CHEMBL2308,SINGLE PROTEIN,9606
+Homo sapiens,A disintegrin and metalloproteinase with thrombospondin motifs 4,CHEMBL2318,SINGLE PROTEIN,9606
+Homo sapiens,A disintegrin and metalloproteinase with thrombospondin motifs 5,CHEMBL2285,SINGLE PROTEIN,9606
+Homo sapiens,Peptidyl-prolyl cis-trans isomerase NIMA-interacting 1,CHEMBL2288,SINGLE PROTEIN,9606
+Homo sapiens,Carbonic anhydrase-related protein 11,CHEMBL2420,SINGLE PROTEIN,9606
+Homo sapiens,Kallikrein-1,CHEMBL2319,SINGLE PROTEIN,9606
+Homo sapiens,Tumour suppressor protein p53/Mdm4,CHEMBL2221344,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,"Neuronal acetylcholine receptors; alpha-3/beta-4, alpha-5, beta-2",CHEMBL2221346,PROTEIN COMPLEX GROUP,9606
+Homo sapiens,Emopamil-binding protein-like,CHEMBL2311238,SINGLE PROTEIN,9606
+Homo sapiens,Laforin,CHEMBL2311242,SINGLE PROTEIN,9606
+Homo sapiens,D-3-phosphoglycerate dehydrogenase,CHEMBL2311243,SINGLE PROTEIN,9606
+Homo sapiens,Histo-blood group ABO system transferase,CHEMBL2321639,SINGLE PROTEIN,9606
+Homo sapiens,Histone-lysine N-methyltransferase SMYD3,CHEMBL2321643,SINGLE PROTEIN,9606
+Homo sapiens,"6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase 3",CHEMBL2331053,SINGLE PROTEIN,9606
+Homo sapiens,"Phosphatidylinositol 3,4,5-trisphosphate 5-phosphatase 2",CHEMBL2331064,SINGLE PROTEIN,9606
+Homo sapiens,Nicotinamide N-methyltransferase,CHEMBL2346486,SINGLE PROTEIN,9606
+Homo sapiens,Proliferating cell nuclear antigen,CHEMBL2346488,SINGLE PROTEIN,9606
+Homo sapiens,Voltage-gated potassium channel,CHEMBL2362996,PROTEIN FAMILY,9606
+Homo sapiens,Janus Kinase (JAK),CHEMBL2363062,PROTEIN FAMILY,9606
+Homo sapiens,Phosphodiesterase 8,CHEMBL2363067,PROTEIN FAMILY,9606
+Homo sapiens,"Alpha-1,3-mannosyl-glycoprotein 2-beta-N-acetylglucosaminyltransferase",CHEMBL2375207,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity protein phosphatase 10,CHEMBL2396511,SINGLE PROTEIN,9606
+Homo sapiens,Lysine-specific demethylase 5A,CHEMBL2424504,SINGLE PROTEIN,9606
+Homo sapiens,Peptidyl-prolyl cis-trans isomerase C,CHEMBL2424505,SINGLE PROTEIN,9606
+Homo sapiens,Muscarinic acetylcholine receptor M3,CHEMBL245,SINGLE PROTEIN,9606
+Homo sapiens,Beta-3 adrenergic receptor,CHEMBL246,SINGLE PROTEIN,9606
+Homo sapiens,Neutrophil elastase,CHEMBL248,SINGLE PROTEIN,9606
+Homo sapiens,Endothelin-1 receptor,CHEMBL252,SINGLE PROTEIN,9606
+Homo sapiens,Substance-P receptor,CHEMBL249,SINGLE PROTEIN,9606
+Homo sapiens,Platelet-activating factor receptor,CHEMBL250,SINGLE PROTEIN,9606
+Homo sapiens,Adenosine receptor A2a,CHEMBL251,SINGLE PROTEIN,9606
+Homo sapiens,Cannabinoid receptor 2,CHEMBL253,SINGLE PROTEIN,9606
+Homo sapiens,"3',5'-cyclic-AMP phosphodiesterase 4A",CHEMBL254,SINGLE PROTEIN,9606
+Homo sapiens,Adenosine receptor A2b,CHEMBL255,SINGLE PROTEIN,9606
+Homo sapiens,Adenosine receptor A3,CHEMBL256,SINGLE PROTEIN,9606
+Homo sapiens,Cathepsin D,CHEMBL2581,SINGLE PROTEIN,9606
+Homo sapiens,Death-associated protein kinase 3,CHEMBL2468,SINGLE PROTEIN,9606
+Homo sapiens,Uridine-cytidine kinase 2,CHEMBL2469,SINGLE PROTEIN,9606
+Homo sapiens,Deoxycytidine kinase,CHEMBL2447,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase Lck,CHEMBL258,SINGLE PROTEIN,9606
+Homo sapiens,Melanocortin receptor 4,CHEMBL259,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase 14,CHEMBL260,SINGLE PROTEIN,9606
+Homo sapiens,Carbonic anhydrase 1,CHEMBL261,SINGLE PROTEIN,9606
+Homo sapiens,Glycogen synthase kinase-3 beta,CHEMBL262,SINGLE PROTEIN,9606
+Homo sapiens,Histamine H3 receptor,CHEMBL264,SINGLE PROTEIN,9606
+Homo sapiens,Methionine aminopeptidase 1,CHEMBL2474,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein phosphatase 2A activator,CHEMBL2505,SINGLE PROTEIN,9606
+Homo sapiens,Proto-oncogene tyrosine-protein kinase Src,CHEMBL267,SINGLE PROTEIN,9606
+Homo sapiens,Cyclin-dependent kinase 6,CHEMBL2508,SINGLE PROTEIN,9606
+Homo sapiens,Neurotensin receptor type 2,CHEMBL2514,SINGLE PROTEIN,9606
+Homo sapiens,Cathepsin F,CHEMBL2517,SINGLE PROTEIN,9606
+Homo sapiens,Cathepsin K,CHEMBL268,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase Chk2,CHEMBL2527,SINGLE PROTEIN,9606
+Homo sapiens,C-C chemokine receptor type 5,CHEMBL274,SINGLE PROTEIN,9606
+Homo sapiens,"cGMP-dependent 3',5'-cyclic phosphodiesterase",CHEMBL2652,SINGLE PROTEIN,9606
+Homo sapiens,"3',5'-cyclic-AMP phosphodiesterase 4B",CHEMBL275,SINGLE PROTEIN,9606
+Homo sapiens,3-phosphoinositide-dependent protein kinase 1,CHEMBL2534,SINGLE PROTEIN,9606
+Homo sapiens,Neuronal acetylcholine receptor subunit alpha-7,CHEMBL2492,SINGLE PROTEIN,9606
+Homo sapiens,Acetylcholine receptor subunit epsilon,CHEMBL2484,SINGLE PROTEIN,9606
+Homo sapiens,Amyloid-beta precursor protein,CHEMBL2487,SINGLE PROTEIN,9606
+Homo sapiens,Beta-secretase 2,CHEMBL2525,SINGLE PROTEIN,9606
+Homo sapiens,Beta-galactosidase,CHEMBL2522,SINGLE PROTEIN,9606
+Homo sapiens,Alpha-galactosidase A,CHEMBL2524,SINGLE PROTEIN,9606
+Homo sapiens,Alpha-amylase 1A,CHEMBL2478,SINGLE PROTEIN,9606
+Homo sapiens,Bifunctional purine biosynthesis protein ATIC,CHEMBL2518,SINGLE PROTEIN,9606
+Homo sapiens,Neutral alpha-glucosidase AB,CHEMBL2519,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase CSK,CHEMBL2634,SINGLE PROTEIN,9606
+Homo sapiens,Kallikrein-14,CHEMBL2641,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase D3,CHEMBL2595,SINGLE PROTEIN,9606
+Homo sapiens,Protein kinase C iota type,CHEMBL2598,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase SYK,CHEMBL2599,SINGLE PROTEIN,9606
+Homo sapiens,Carboxypeptidase B,CHEMBL2552,SINGLE PROTEIN,9606
+Homo sapiens,Ribosomal protein S6 kinase alpha-1,CHEMBL2553,SINGLE PROTEIN,9606
+Homo sapiens,Polyunsaturated fatty acid lipoxygenase ALOX15B,CHEMBL2457,SINGLE PROTEIN,9606
+Homo sapiens,Calcium/calmodulin-dependent protein kinase type 1,CHEMBL2493,SINGLE PROTEIN,9606
+Homo sapiens,Calcium/calmodulin-dependent protein kinase type IV,CHEMBL2494,SINGLE PROTEIN,9606
+Homo sapiens,Lysosomal alpha-glucosidase,CHEMBL2608,SINGLE PROTEIN,9606
+Homo sapiens,Vascular endothelial growth factor receptor 2,CHEMBL279,SINGLE PROTEIN,9606
+Homo sapiens,N-acetylated-alpha-linked acidic dipeptidase 2,CHEMBL2609,SINGLE PROTEIN,9606
+Homo sapiens,Creatine kinase M-type,CHEMBL2656,SINGLE PROTEIN,9606
+Homo sapiens,Collagenase 3,CHEMBL280,SINGLE PROTEIN,9606
+Homo sapiens,Metabotropic glutamate receptor 4,CHEMBL2736,SINGLE PROTEIN,9606
+Homo sapiens,Death-associated protein kinase 1,CHEMBL2558,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity protein phosphatase 3,CHEMBL2635,SINGLE PROTEIN,9606
+Homo sapiens,"Solute carrier family 2, facilitated glucose transporter member 1",CHEMBL2535,SINGLE PROTEIN,9606
+Homo sapiens,Gamma-aminobutyric acid receptor subunit alpha-4,CHEMBL2472,SINGLE PROTEIN,9606
+Homo sapiens,Leucyl-cystinyl aminopeptidase,CHEMBL2693,SINGLE PROTEIN,9606
+Homo sapiens,Focal adhesion kinase 1,CHEMBL2695,SINGLE PROTEIN,9606
+Homo sapiens,"C-1-tetrahydrofolate synthase, cytoplasmic",CHEMBL2541,SINGLE PROTEIN,9606
+Homo sapiens,Peptidyl-glycine alpha-amidating monooxygenase,CHEMBL2544,SINGLE PROTEIN,9606
+Homo sapiens,Macrophage-stimulating protein receptor,CHEMBL2689,SINGLE PROTEIN,9606
+Homo sapiens,Furin,CHEMBL2611,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase 10,CHEMBL2637,SINGLE PROTEIN,9606
+Homo sapiens,Hexokinase-2,CHEMBL2640,SINGLE PROTEIN,9606
+Homo sapiens,Receptor-type tyrosine-protein phosphatase beta,CHEMBL2706,SINGLE PROTEIN,9606
+Homo sapiens,"Glycogen phosphorylase, liver form",CHEMBL2568,SINGLE PROTEIN,9606
+Homo sapiens,Gamma-aminobutyric acid receptor subunit alpha-6,CHEMBL2579,SINGLE PROTEIN,9606
+Homo sapiens,Excitatory amino acid transporter 3,CHEMBL2721,SINGLE PROTEIN,9606
+Homo sapiens,Sphingomyelin phosphodiesterase,CHEMBL2760,SINGLE PROTEIN,9606
+Homo sapiens,Aspartyl aminopeptidase,CHEMBL2761,SINGLE PROTEIN,9606
+Homo sapiens,Casein kinase I isoform gamma-2,CHEMBL2543,SINGLE PROTEIN,9606
+Homo sapiens,Casein kinase I isoform alpha,CHEMBL2793,SINGLE PROTEIN,9606
+Homo sapiens,"Glutamate receptor ionotropic, kainate 5",CHEMBL2675,SINGLE PROTEIN,9606
+Homo sapiens,Mannose-6-phosphate isomerase,CHEMBL2758,SINGLE PROTEIN,9606
+Homo sapiens,Fibroblast growth factor receptor 3,CHEMBL2742,SINGLE PROTEIN,9606
+Homo sapiens,"Sucrase-isomaltase, intestinal",CHEMBL2748,SINGLE PROTEIN,9606
+Homo sapiens,Protein-glutamine gamma-glutamyltransferase,CHEMBL2730,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase ZAP-70,CHEMBL2803,SINGLE PROTEIN,9606
+Homo sapiens,Histone deacetylase 5,CHEMBL2563,SINGLE PROTEIN,9606
+Homo sapiens,Histone deacetylase 7,CHEMBL2716,SINGLE PROTEIN,9606
+Homo sapiens,"Dual 3',5'-cyclic-AMP and -GMP phosphodiesterase 11A",CHEMBL2717,SINGLE PROTEIN,9606
+Homo sapiens,"Glutathione reductase, mitochondrial",CHEMBL2755,SINGLE PROTEIN,9606
+Homo sapiens,Tryptase beta-1,CHEMBL2617,SINGLE PROTEIN,9606
+Homo sapiens,Adenosylhomocysteinase,CHEMBL2664,SINGLE PROTEIN,9606
+Homo sapiens,Insulin-like growth factor-binding protein 5,CHEMBL2665,SINGLE PROTEIN,9606
+Homo sapiens,Sialidase-1,CHEMBL2726,SINGLE PROTEIN,9606
+Homo sapiens,Glycylpeptide N-tetradecanoyltransferase 1,CHEMBL2593,SINGLE PROTEIN,9606
+Homo sapiens,Galanin receptor type 3,CHEMBL2731,SINGLE PROTEIN,9606
+Homo sapiens,Ileal sodium/bile acid cotransporter,CHEMBL2778,SINGLE PROTEIN,9606
+Homo sapiens,Carboxypeptidase A4,CHEMBL2644,SINGLE PROTEIN,9606
+Homo sapiens,Mast cell carboxypeptidase A,CHEMBL2645,SINGLE PROTEIN,9606
+Homo sapiens,Phosphoribosyl pyrophosphate synthase-associated protein 2,CHEMBL2646,SINGLE PROTEIN,9606
+Homo sapiens,17-beta-hydroxysteroid dehydrogenase type 2,CHEMBL2789,SINGLE PROTEIN,9606
+Homo sapiens,DNA polymerase subunit gamma-1,CHEMBL2732,SINGLE PROTEIN,9606
+Homo sapiens,Chymotrypsin-like elastase family member 1,CHEMBL3000,SINGLE PROTEIN,9606
+Homo sapiens,"Thymidine kinase, cytosolic",CHEMBL2883,SINGLE PROTEIN,9606
+Homo sapiens,Carbonic anhydrase 3,CHEMBL2885,SINGLE PROTEIN,9606
+Homo sapiens,Metabotropic glutamate receptor 3,CHEMBL2888,SINGLE PROTEIN,9606
+Homo sapiens,Carbonic anhydrase 6,CHEMBL3025,SINGLE PROTEIN,9606
+Homo sapiens,Casein kinase I isoform delta,CHEMBL2828,SINGLE PROTEIN,9606
+Homo sapiens,Protein phosphatase 1B,CHEMBL2845,SINGLE PROTEIN,9606
+Homo sapiens,Phenylalanine-4-hydroxylase,CHEMBL3076,SINGLE PROTEIN,9606
+Homo sapiens,Thiamine transporter 1,CHEMBL3079,SINGLE PROTEIN,9606
+Homo sapiens,Chitotriosidase-1,CHEMBL3080,SINGLE PROTEIN,9606
+Homo sapiens,Trehalase,CHEMBL3087,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase N2,CHEMBL3032,SINGLE PROTEIN,9606
+Homo sapiens,Prolyl hydroxylase EGLN2,CHEMBL3028,SINGLE PROTEIN,9606
+Homo sapiens,Protein kinase C gamma type,CHEMBL2938,SINGLE PROTEIN,9606
+Homo sapiens,Sphingosine kinase 2,CHEMBL3023,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase PLK1,CHEMBL3024,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase ITK/TSK,CHEMBL2959,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase JAK1,CHEMBL2835,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase JAK2,CHEMBL2971,SINGLE PROTEIN,9606
+Homo sapiens,Glycylpeptide N-tetradecanoyltransferase 2,CHEMBL2849,SINGLE PROTEIN,9606
+Homo sapiens,Glycogen synthase kinase-3 alpha,CHEMBL2850,SINGLE PROTEIN,9606
+Homo sapiens,Matrix metalloproteinase-15,CHEMBL2963,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity mitogen-activated protein kinase kinase 2,CHEMBL2964,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase 13,CHEMBL2939,SINGLE PROTEIN,9606
+Homo sapiens,Multifunctional protein CAD,CHEMBL3093,SINGLE PROTEIN,9606
+Homo sapiens,MAP kinase-activated protein kinase 5,CHEMBL3094,SINGLE PROTEIN,9606
+Homo sapiens,Stromelysin-1,CHEMBL283,SINGLE PROTEIN,9606
+Homo sapiens,Dipeptidyl peptidase 4,CHEMBL284,SINGLE PROTEIN,9606
+Homo sapiens,Rho-associated protein kinase 2,CHEMBL2973,SINGLE PROTEIN,9606
+Homo sapiens,Neuronal acetylcholine receptor subunit alpha-3,CHEMBL3068,SINGLE PROTEIN,9606
+Homo sapiens,Renin,CHEMBL286,SINGLE PROTEIN,9606
+Homo sapiens,Oxysterols receptor LXR-alpha,CHEMBL2808,SINGLE PROTEIN,9606
+Homo sapiens,Sigma non-opioid intracellular receptor 1,CHEMBL287,SINGLE PROTEIN,9606
+Homo sapiens,Stromelysin-3,CHEMBL2867,SINGLE PROTEIN,9606
+Homo sapiens,Coagulation factor XI,CHEMBL2820,SINGLE PROTEIN,9606
+Homo sapiens,Coagulation factor XII,CHEMBL2821,SINGLE PROTEIN,9606
+Homo sapiens,Proprotein convertase subtilisin/kexin type 5,CHEMBL2826,SINGLE PROTEIN,9606
+Homo sapiens,"3',5'-cyclic-AMP phosphodiesterase 4D",CHEMBL288,SINGLE PROTEIN,9606
+Homo sapiens,Cytochrome P450 2D6,CHEMBL289,SINGLE PROTEIN,9606
+Homo sapiens,"cGMP-inhibited 3',5'-cyclic phosphodiesterase 3B",CHEMBL290,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase mTOR,CHEMBL2842,SINGLE PROTEIN,9606
+Homo sapiens,Sortilin,CHEMBL3091,SINGLE PROTEIN,9606
+Homo sapiens,Gastrin/cholecystokinin type B receptor,CHEMBL298,SINGLE PROTEIN,9606
+Homo sapiens,Cathepsin S,CHEMBL2954,SINGLE PROTEIN,9606
+Homo sapiens,AMP deaminase 3,CHEMBL2912,SINGLE PROTEIN,9606
+Homo sapiens,Excitatory amino acid transporter 1,CHEMBL3085,SINGLE PROTEIN,9606
+Homo sapiens,Sphingosine 1-phosphate receptor 2,CHEMBL2955,SINGLE PROTEIN,9606
+Homo sapiens,All-trans-retinol dehydrogenase [NAD(+)] ADH4,CHEMBL2990,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein phosphatase non-receptor type 13,CHEMBL2976,SINGLE PROTEIN,9606
+Homo sapiens,Protein kinase C alpha type,CHEMBL299,SINGLE PROTEIN,9606
+Homo sapiens,Protein kinase C beta type,CHEMBL3045,SINGLE PROTEIN,9606
+Homo sapiens,Sialidase-3,CHEMBL3046,SINGLE PROTEIN,9606
+Homo sapiens,Poly [ADP-ribose] polymerase 1,CHEMBL3105,SINGLE PROTEIN,9606
+Homo sapiens,Cyclin-dependent kinase 2,CHEMBL301,SINGLE PROTEIN,9606
+Homo sapiens,Cathepsin E,CHEMBL3092,SINGLE PROTEIN,9606
+Homo sapiens,Adenylate cyclase type 1,CHEMBL2899,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase kinase kinase 10,CHEMBL2873,SINGLE PROTEIN,9606
+Homo sapiens,High affinity nerve growth factor receptor,CHEMBL2815,SINGLE PROTEIN,9606
+Homo sapiens,P2X purinoceptor 3,CHEMBL2998,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase PAK 3,CHEMBL2999,SINGLE PROTEIN,9606
+Homo sapiens,"High affinity 3',5'-cyclic-AMP phosphodiesterase 7A",CHEMBL3012,SINGLE PROTEIN,9606
+Homo sapiens,Multidrug resistance-associated protein 1,CHEMBL3004,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase kinase kinase 9,CHEMBL2872,SINGLE PROTEIN,9606
+Homo sapiens,Polyunsaturated fatty acid lipoxygenase ALOX15,CHEMBL2903,SINGLE PROTEIN,9606
+Homo sapiens,Cyclin-dependent kinase 1,CHEMBL308,SINGLE PROTEIN,9606
+Homo sapiens,Proprotein convertase subtilisin/kexin type 6,CHEMBL2951,SINGLE PROTEIN,9606
+Homo sapiens,Protein kinase C delta type,CHEMBL2996,SINGLE PROTEIN,9606
+Homo sapiens,AMP deaminase 2,CHEMBL2997,SINGLE PROTEIN,9606
+Homo sapiens,Proprotein convertase subtilisin/kexin type 9,CHEMBL2929,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein phosphatase non-receptor type 22,CHEMBL2889,SINGLE PROTEIN,9606
+Homo sapiens,Sodium/hydrogen exchanger 5,CHEMBL3058,SINGLE PROTEIN,9606
+Homo sapiens,Receptor tyrosine-protein kinase erbB-4,CHEMBL3009,SINGLE PROTEIN,9606
+Homo sapiens,Suppressor of tumorigenicity 14 protein,CHEMBL3018,SINGLE PROTEIN,9606
+Homo sapiens,Methylated-DNA--protein-cysteine methyltransferase,CHEMBL2864,SINGLE PROTEIN,9606
+Homo sapiens,Gamma-aminobutyric acid receptor subunit alpha-3,CHEMBL3026,SINGLE PROTEIN,9606
+Homo sapiens,AMP deaminase 1,CHEMBL2869,SINGLE PROTEIN,9606
+Homo sapiens,Glutamine--tRNA ligase,CHEMBL3054,SINGLE PROTEIN,9606
+Homo sapiens,Cyclin-dependent kinase 7,CHEMBL3055,SINGLE PROTEIN,9606
+Homo sapiens,"FYVE, RhoGEF and PH domain-containing protein 1",CHEMBL2862,SINGLE PROTEIN,9606
+Homo sapiens,Retinol-binding protein 4,CHEMBL3100,SINGLE PROTEIN,9606
+Homo sapiens,Insulin-like growth factor-binding protein 2,CHEMBL3088,SINGLE PROTEIN,9606
+Homo sapiens,Nicotinic acetylcholine receptor alpha2/beta2,CHEMBL3038458,PROTEIN COMPLEX,9606
+Homo sapiens,Nicotinic acetylcholine receptor alpha2/beta4,CHEMBL3038459,PROTEIN COMPLEX,9606
+Homo sapiens,CDK1/Cyclin A,CHEMBL3038467,PROTEIN COMPLEX,9606
+Homo sapiens,CDK2/Cyclin A2,CHEMBL3038469,PROTEIN COMPLEX,9606
+Homo sapiens,CDK4/Cyclin D3,CHEMBL3038472,PROTEIN COMPLEX,9606
+Homo sapiens,CDK7/Cyclin H/MNAT1,CHEMBL3038473,PROTEIN COMPLEX,9606
+Homo sapiens,CDK8/Cyclin C,CHEMBL3038474,PROTEIN COMPLEX,9606
+Homo sapiens,Casein kinase II alpha/beta,CHEMBL3038477,PROTEIN COMPLEX,9606
+Homo sapiens,Histone deacetylase 3/NCoR1,CHEMBL3038484,PROTEIN COMPLEX,9606
+Homo sapiens,Beta-N-acetyl-D-hexosaminidase-A/B,CHEMBL3038485,PROTEIN FAMILY,9606
+Homo sapiens,Kir3.1/Kir3.4,CHEMBL3038488,PROTEIN COMPLEX,9606
+Homo sapiens,Keap1/Nrf2,CHEMBL3038498,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,TAK1/TAB1,CHEMBL3038499,PROTEIN COMPLEX,9606
+Homo sapiens,PI3K p110 beta/p85 alpha,CHEMBL3038510,PROTEIN COMPLEX,9606
+Homo sapiens,TCF4/beta-catenin,CHEMBL3038511,PROTEIN COMPLEX,9606
+Homo sapiens,SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 4,CHEMBL3085620,SINGLE PROTEIN,9606
+Homo sapiens,Nucleosome-remodeling factor subunit BPTF,CHEMBL3085621,SINGLE PROTEIN,9606
+Homo sapiens,Bromodomain-containing protein 7,CHEMBL3085622,SINGLE PROTEIN,9606
+Homo sapiens,Nuclear receptor ROR-beta,CHEMBL3091268,SINGLE PROTEIN,9606
+Homo sapiens,B2 bradykinin receptor,CHEMBL3157,SINGLE PROTEIN,9606
+Homo sapiens,Trypsin-2,CHEMBL3159,SINGLE PROTEIN,9606
+Homo sapiens,DNA-dependent protein kinase catalytic subunit,CHEMBL3142,SINGLE PROTEIN,9606
+Homo sapiens,Serum paraoxonase/arylesterase 1,CHEMBL3167,SINGLE PROTEIN,9606
+Homo sapiens,5-hydroxytryptamine receptor 7,CHEMBL3155,SINGLE PROTEIN,9606
+Homo sapiens,Coagulation factor VIII,CHEMBL3143,SINGLE PROTEIN,9606
+Homo sapiens,Sialidase-2,CHEMBL3200,SINGLE PROTEIN,9606
+Homo sapiens,Aryl hydrocarbon receptor,CHEMBL3201,SINGLE PROTEIN,9606
+Homo sapiens,Albumin,CHEMBL3253,SINGLE PROTEIN,9606
+Homo sapiens,"Carnitine O-palmitoyltransferase 2, mitochondrial",CHEMBL3238,SINGLE PROTEIN,9606
+Homo sapiens,Uracil-DNA glycosylase,CHEMBL3277,SINGLE PROTEIN,9606
+Homo sapiens,Ribosomal protein S6 kinase alpha-4,CHEMBL3125,SINGLE PROTEIN,9606
+Homo sapiens,Delta-aminolevulinic acid dehydratase,CHEMBL3126,SINGLE PROTEIN,9606
+Homo sapiens,Sphingosine 1-phosphate receptor 4,CHEMBL3230,SINGLE PROTEIN,9606
+Homo sapiens,Rho-associated protein kinase 1,CHEMBL3231,SINGLE PROTEIN,9606
+Homo sapiens,Adenomatous polyposis coli protein,CHEMBL3233,SINGLE PROTEIN,9606
+Homo sapiens,Leukotriene B4 receptor 2,CHEMBL3191,SINGLE PROTEIN,9606
+Homo sapiens,Histone deacetylase 8,CHEMBL3192,SINGLE PROTEIN,9606
+Homo sapiens,Caspase-5,CHEMBL3131,SINGLE PROTEIN,9606
+Homo sapiens,Squalene synthase,CHEMBL3338,SINGLE PROTEIN,9606
+Homo sapiens,"Folylpolyglutamate synthase, mitochondrial",CHEMBL3171,SINGLE PROTEIN,9606
+Homo sapiens,Glutathione S-transferase omega-1,CHEMBL3174,SINGLE PROTEIN,9606
+Homo sapiens,Guanine deaminase,CHEMBL3129,SINGLE PROTEIN,9606
+Homo sapiens,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit delta isoform",CHEMBL3130,SINGLE PROTEIN,9606
+Homo sapiens,Carnitine O-acetyltransferase,CHEMBL3184,SINGLE PROTEIN,9606
+Homo sapiens,Metabotropic glutamate receptor 5,CHEMBL3227,SINGLE PROTEIN,9606
+Homo sapiens,Metabotropic glutamate receptor 8,CHEMBL3228,SINGLE PROTEIN,9606
+Homo sapiens,Galanin receptor type 2,CHEMBL3176,SINGLE PROTEIN,9606
+Homo sapiens,"Tyrosine--tRNA ligase, cytoplasmic",CHEMBL3179,SINGLE PROTEIN,9606
+Homo sapiens,Cocaine esterase,CHEMBL3180,SINGLE PROTEIN,9606
+Homo sapiens,17-beta-hydroxysteroid dehydrogenase type 1,CHEMBL3181,SINGLE PROTEIN,9606
+Homo sapiens,Neuroendocrine convertase 1,CHEMBL3182,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein phosphatase non-receptor type 6,CHEMBL3166,SINGLE PROTEIN,9606
+Homo sapiens,Sarcoplasmic/endoplasmic reticulum calcium ATPase 1,CHEMBL3136,SINGLE PROTEIN,9606
+Homo sapiens,Ephrin type-B receptor 2,CHEMBL3290,SINGLE PROTEIN,9606
+Homo sapiens,All-trans-retinol dehydrogenase [NAD(+)] ADH1B,CHEMBL3284,SINGLE PROTEIN,9606
+Homo sapiens,Alcohol dehydrogenase 1C,CHEMBL3285,SINGLE PROTEIN,9606
+Homo sapiens,Cyclin-dependent kinase 9,CHEMBL3116,SINGLE PROTEIN,9606
+Homo sapiens,Choline kinase alpha,CHEMBL3117,SINGLE PROTEIN,9606
+Homo sapiens,Asparagine synthetase [glutamine-hydrolyzing],CHEMBL3120,SINGLE PROTEIN,9606
+Homo sapiens,Bile salt-activated lipase,CHEMBL3219,SINGLE PROTEIN,9606
+Homo sapiens,Thymidine phosphorylase,CHEMBL3106,SINGLE PROTEIN,9606
+Homo sapiens,4-galactosyl-N-acetylglucosaminide 3-alpha-L-fucosyltransferase FUT5,CHEMBL3146,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase HCK,CHEMBL3234,SINGLE PROTEIN,9606
+Homo sapiens,Transient receptor potential cation channel subfamily V member 4,CHEMBL3119,SINGLE PROTEIN,9606
+Homo sapiens,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",CHEMBL3267,SINGLE PROTEIN,9606
+Homo sapiens,Urokinase-type plasminogen activator,CHEMBL3286,SINGLE PROTEIN,9606
+Homo sapiens,Prolyl endopeptidase,CHEMBL3202,SINGLE PROTEIN,9606
+Homo sapiens,Caspase-6,CHEMBL3308,SINGLE PROTEIN,9606
+Homo sapiens,Histone deacetylase 11,CHEMBL3310,SINGLE PROTEIN,9606
+Homo sapiens,Aldehyde oxidase,CHEMBL3257,SINGLE PROTEIN,9606
+Homo sapiens,Receptor-type tyrosine-protein phosphatase C,CHEMBL3243,SINGLE PROTEIN,9606
+Homo sapiens,Carbonic anhydrase 12,CHEMBL3242,SINGLE PROTEIN,9606
+Homo sapiens,Pepsin A,CHEMBL3295,SINGLE PROTEIN,9606
+Homo sapiens,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",CHEMBL3145,SINGLE PROTEIN,9606
+Homo sapiens,Cathepsin L2,CHEMBL3272,SINGLE PROTEIN,9606
+Homo sapiens,Matrix metalloproteinase-9,CHEMBL321,SINGLE PROTEIN,9606
+Homo sapiens,Cytochrome P450 1A2,CHEMBL3356,SINGLE PROTEIN,9606
+Homo sapiens,Glutamate receptor 4,CHEMBL3190,SINGLE PROTEIN,9606
+Homo sapiens,Sex hormone-binding globulin,CHEMBL3305,SINGLE PROTEIN,9606
+Homo sapiens,Histone deacetylase 1,CHEMBL325,SINGLE PROTEIN,9606
+Homo sapiens,Transthyretin,CHEMBL3194,SINGLE PROTEIN,9606
+Homo sapiens,Cyclin-dependent kinase 4,CHEMBL331,SINGLE PROTEIN,9606
+Homo sapiens,Interstitial collagenase,CHEMBL332,SINGLE PROTEIN,9606
+Homo sapiens,72 kDa type IV collagenase,CHEMBL333,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein phosphatase non-receptor type 1,CHEMBL335,SINGLE PROTEIN,9606
+Homo sapiens,Interleukin-1 receptor-associated kinase 1,CHEMBL3357,SINGLE PROTEIN,9606
+Homo sapiens,Lysophosphatidic acid receptor 3,CHEMBL3250,SINGLE PROTEIN,9606
+Homo sapiens,"Fatty acid-binding protein, heart",CHEMBL3344,SINGLE PROTEIN,9606
+Homo sapiens,Chromatin remodeling regulator CECR2,CHEMBL3108639,SINGLE PROTEIN,9606
+Homo sapiens,Bromodomain-containing protein 9,CHEMBL3108640,SINGLE PROTEIN,9606
+Homo sapiens,Transcription initiation factor TFIID subunit 1-like,CHEMBL3108641,SINGLE PROTEIN,9606
+Homo sapiens,Bromodomain and PHD finger-containing protein 3,CHEMBL3108644,SINGLE PROTEIN,9606
+Homo sapiens,Protein arginine N-methyltransferase 8,CHEMBL3108648,SINGLE PROTEIN,9606
+Homo sapiens,von Hippel-Lindau disease tumor suppressor,CHEMBL3108660,SINGLE PROTEIN,9606
+Homo sapiens,Retinal dehydrogenase 2,CHEMBL3112384,SINGLE PROTEIN,9606
+Homo sapiens,Peregrin,CHEMBL3132741,SINGLE PROTEIN,9606
+Homo sapiens,PRMT5/MEP50 complex,CHEMBL3137261,PROTEIN COMPLEX,9606
+Homo sapiens,LSD1/CoREST complex,CHEMBL3137262,PROTEIN COMPLEX,9606
+Homo sapiens,Nicotinic acetylcholine receptor alpha3/beta4/alpha5,CHEMBL3137273,PROTEIN COMPLEX,9606
+Homo sapiens,Soluble guanylate cyclase alpha1/beta1 complex,CHEMBL3137281,PROTEIN COMPLEX,9606
+Homo sapiens,Bcl-xL/BAK,CHEMBL3137283,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,N-acetylglucosamine-6-phosphate deacetylase,CHEMBL3217376,SINGLE PROTEIN,9606
+Homo sapiens,Transcription initiation factor TFIID subunit 1,CHEMBL3217390,SINGLE PROTEIN,9606
+Homo sapiens,Glucose-6-phosphate exchanger SLC37A4,CHEMBL3217398,SINGLE PROTEIN,9606
+Homo sapiens,Pyridoxine-5'-phosphate oxidase,CHEMBL3271932,SINGLE PROTEIN,9606
+Homo sapiens,Sphingosine-1-phosphate lyase 1,CHEMBL3286061,SINGLE PROTEIN,9606
+Homo sapiens,Stromal cell-derived factor 1,CHEMBL3286074,SINGLE PROTEIN,9606
+Homo sapiens,EZH2/SUZ12/EED/RBBP7/RBBP4,CHEMBL3301388,PROTEIN COMPLEX,9606
+Homo sapiens,P-selectin/P-selectin glycoprotein ligand 1,CHEMBL3301394,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,Ribonucleotide reductase,CHEMBL3301398,PROTEIN COMPLEX,9606
+Homo sapiens,Von Hippel-Lindau disease tumor suppressor/Elongin B/Elongin C,CHEMBL3301400,PROTEIN COMPLEX,9606
+Homo sapiens,Lysine-specific demethylase 4B,CHEMBL3313832,SINGLE PROTEIN,9606
+Homo sapiens,Ubiquitin-like domain-containing CTD phosphatase 1,CHEMBL3317333,SINGLE PROTEIN,9606
+Homo sapiens,"N-acetyllactosaminide beta-1,3-N-acetylglucosaminyltransferase 3",CHEMBL3325305,SINGLE PROTEIN,9606
+Homo sapiens,"Peptidyl-prolyl cis-trans isomerase F, mitochondrial",CHEMBL3325306,SINGLE PROTEIN,9606
+Homo sapiens,Transcriptional enhancer factor TEF-1,CHEMBL3334416,SINGLE PROTEIN,9606
+Homo sapiens,Phosphoglycerate mutase 1,CHEMBL3334418,SINGLE PROTEIN,9606
+Homo sapiens,Hepatocyte growth factor activator serine protease,CHEMBL3351190,SINGLE PROTEIN,9606
+Homo sapiens,5-hydroxymethyl-dUMP N-hydrolase,CHEMBL3351218,SINGLE PROTEIN,9606
+Homo sapiens,Casein kinase II subunit alpha,CHEMBL3629,SINGLE PROTEIN,9606
+Homo sapiens,Steroid hormone receptor ERR1,CHEMBL3429,SINGLE PROTEIN,9606
+Homo sapiens,Platelet-activating factor acetylhydrolase,CHEMBL3514,SINGLE PROTEIN,9606
+Homo sapiens,"Dual specificity calcium/calmodulin-dependent 3',5'-cyclic nucleotide phosphodiesterase 1A",CHEMBL3421,SINGLE PROTEIN,9606
+Homo sapiens,Adenosine kinase,CHEMBL3589,SINGLE PROTEIN,9606
+Homo sapiens,Protein kinase C zeta type,CHEMBL3438,SINGLE PROTEIN,9606
+Homo sapiens,Fibroblast growth factor receptor 1,CHEMBL3650,SINGLE PROTEIN,9606
+Homo sapiens,Carboxypeptidase B2,CHEMBL3419,SINGLE PROTEIN,9606
+Homo sapiens,Prostaglandin E2 receptor EP3 subtype,CHEMBL3710,SINGLE PROTEIN,9606
+Homo sapiens,Glutathione S-transferase A1,CHEMBL3409,SINGLE PROTEIN,9606
+Homo sapiens,Glutamate receptor 3,CHEMBL3595,SINGLE PROTEIN,9606
+Homo sapiens,G1/S-specific cyclin-D1,CHEMBL3610,SINGLE PROTEIN,9606
+Homo sapiens,C-C chemokine receptor type 3,CHEMBL3473,SINGLE PROTEIN,9606
+Homo sapiens,5-hydroxytryptamine receptor 5A,CHEMBL3426,SINGLE PROTEIN,9606
+Homo sapiens,5-hydroxytryptamine receptor 6,CHEMBL3371,SINGLE PROTEIN,9606
+Homo sapiens,Inhibitor of nuclear factor kappa-B kinase subunit alpha,CHEMBL3476,SINGLE PROTEIN,9606
+Homo sapiens,Protein kinase C epsilon type,CHEMBL3582,SINGLE PROTEIN,9606
+Homo sapiens,Neuromedin-B receptor,CHEMBL3636,SINGLE PROTEIN,9606
+Homo sapiens,Nitric oxide synthase 1,CHEMBL3568,SINGLE PROTEIN,9606
+Homo sapiens,Carbonic anhydrase 14,CHEMBL3510,SINGLE PROTEIN,9606
+Homo sapiens,Aldehyde dehydrogenase 1A1,CHEMBL3577,SINGLE PROTEIN,9606
+Homo sapiens,"Aldehyde dehydrogenase, dimeric NADP-preferring",CHEMBL3578,SINGLE PROTEIN,9606
+Homo sapiens,Retinaldehyde dehydrogenase 3,CHEMBL3579,SINGLE PROTEIN,9606
+Homo sapiens,Polyunsaturated fatty acid lipoxygenase ALOX12,CHEMBL3687,SINGLE PROTEIN,9606
+Homo sapiens,"Glutamate receptor ionotropic, kainate 3",CHEMBL3684,SINGLE PROTEIN,9606
+Homo sapiens,Squalene monooxygenase,CHEMBL3592,SINGLE PROTEIN,9606
+Homo sapiens,Lanosterol synthase,CHEMBL3593,SINGLE PROTEIN,9606
+Homo sapiens,Histone deacetylase 4,CHEMBL3524,SINGLE PROTEIN,9606
+Homo sapiens,"Glycogen phosphorylase, muscle form",CHEMBL3526,SINGLE PROTEIN,9606
+Homo sapiens,Steryl-sulfatase,CHEMBL3559,SINGLE PROTEIN,9606
+Homo sapiens,"Malate dehydrogenase, cytoplasmic",CHEMBL3560,SINGLE PROTEIN,9606
+Homo sapiens,Coagulation factor V,CHEMBL3618,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity mitogen-activated protein kinase kinase 1,CHEMBL3587,SINGLE PROTEIN,9606
+Homo sapiens,Sodium- and chloride-dependent betaine transporter,CHEMBL3715,SINGLE PROTEIN,9606
+Homo sapiens,Disintegrin and metalloproteinase domain-containing protein 17,CHEMBL3706,SINGLE PROTEIN,9606
+Homo sapiens,Protein kinase C eta type,CHEMBL3616,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase N1,CHEMBL3384,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase 3,CHEMBL3385,SINGLE PROTEIN,9606
+Homo sapiens,Glutamyl aminopeptidase,CHEMBL3439,SINGLE PROTEIN,9606
+Homo sapiens,Nuclear receptor subfamily 1 group I member 2,CHEMBL3401,SINGLE PROTEIN,9606
+Homo sapiens,"Alkaline phosphatase, germ cell type",CHEMBL3402,SINGLE PROTEIN,9606
+Homo sapiens,"6-phosphogluconate dehydrogenase, decarboxylating",CHEMBL3404,SINGLE PROTEIN,9606
+Homo sapiens,DNA topoisomerase 2-beta,CHEMBL3396,SINGLE PROTEIN,9606
+Homo sapiens,Caspase-7,CHEMBL3468,SINGLE PROTEIN,9606
+Homo sapiens,Receptor-type tyrosine-protein phosphatase F,CHEMBL3521,SINGLE PROTEIN,9606
+Homo sapiens,Growth factor receptor-bound protein 2,CHEMBL3663,SINGLE PROTEIN,9606
+Homo sapiens,"Glutamate receptor ionotropic, kainate 2",CHEMBL3683,SINGLE PROTEIN,9606
+Homo sapiens,"Threonine--tRNA ligase 1, cytoplasmic",CHEMBL3391,SINGLE PROTEIN,9606
+Homo sapiens,Small conductance calcium-activated potassium channel protein 3,CHEMBL3381,SINGLE PROTEIN,9606
+Homo sapiens,Non-receptor tyrosine-protein kinase TYK2,CHEMBL3553,SINGLE PROTEIN,9606
+Homo sapiens,Cytochrome P450 2C9,CHEMBL3397,SINGLE PROTEIN,9606
+Homo sapiens,Cytochrome P450 2C19,CHEMBL3622,SINGLE PROTEIN,9606
+Homo sapiens,Inhibitor of nuclear factor kappa-B kinase subunit epsilon,CHEMBL3529,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity mitogen-activated protein kinase kinase 7,CHEMBL3530,SINGLE PROTEIN,9606
+Homo sapiens,"Steroid 17-alpha-hydroxylase/17,20 lyase",CHEMBL3522,SINGLE PROTEIN,9606
+Homo sapiens,Carbonic anhydrase 9,CHEMBL3594,SINGLE PROTEIN,9606
+Homo sapiens,fMet-Leu-Phe receptor,CHEMBL3359,SINGLE PROTEIN,9606
+Homo sapiens,NAD(P)H dehydrogenase [quinone] 1,CHEMBL3623,SINGLE PROTEIN,9606
+Homo sapiens,Cytochrome P450 3A4,CHEMBL340,SINGLE PROTEIN,9606
+Homo sapiens,Melanin-concentrating hormone receptor 1,CHEMBL344,SINGLE PROTEIN,9606
+Homo sapiens,"High affinity cGMP-specific 3',5'-cyclic phosphodiesterase 9A",CHEMBL3535,SINGLE PROTEIN,9606
+Homo sapiens,Fatty acid-binding protein 5,CHEMBL3674,SINGLE PROTEIN,9606
+Homo sapiens,Amine oxidase [copper-containing] 3,CHEMBL3437,SINGLE PROTEIN,9606
+Homo sapiens,Ras guanyl-releasing protein 3,CHEMBL3638,SINGLE PROTEIN,9606
+Homo sapiens,Autotaxin,CHEMBL3691,SINGLE PROTEIN,9606
+Homo sapiens,Cytochrome P450 2J2,CHEMBL3491,SINGLE PROTEIN,9606
+Homo sapiens,Proteasome Macropain subunit,CHEMBL3492,SINGLE PROTEIN,9606
+Homo sapiens,Chemerin-like receptor 1,CHEMBL3540,SINGLE PROTEIN,9606
+Homo sapiens,Nuclear receptor subfamily 5 group A member 2,CHEMBL3544,SINGLE PROTEIN,9606
+Homo sapiens,G protein-coupled receptor 88,CHEMBL3399910,SINGLE PROTEIN,9606
+Homo sapiens,Retinoic acid receptor RXR-alpha/oxysterols receptor LXR-beta,CHEMBL3430878,PROTEIN COMPLEX,9606
+Homo sapiens,Retinoic acid receptor RXR-alpha/oxysterols receptor LXR-alpha,CHEMBL3430879,PROTEIN COMPLEX,9606
+Homo sapiens,Ubiquitin carboxyl-terminal hydrolase 1/WD repeat-containing protein 48,CHEMBL3430885,PROTEIN COMPLEX,9606
+Homo sapiens,Induced myeloid leukemia cell differentiation protein Mcl-1/BH3-interacting domain death agonist,CHEMBL3430886,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,Induced myeloid leukemia cell differentiation protein Mcl-1/Bcl-2-like protein 11,CHEMBL3430887,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,Aurora kinase B/Inner centromere protein,CHEMBL3430907,PROTEIN COMPLEX,9606
+Homo sapiens,Programmed cell death 1 ligand 1,CHEMBL3580522,SINGLE PROTEIN,9606
+Homo sapiens,Histone-lysine N-methyltransferase PRDM9,CHEMBL3588737,SINGLE PROTEIN,9606
+Homo sapiens,"CMP-N-acetylneuraminate-beta-galactosamide-alpha-2,3-sialyltransferase 1",CHEMBL3596074,SINGLE PROTEIN,9606
+Homo sapiens,"Beta-galactoside alpha-2,6-sialyltransferase 1",CHEMBL3596075,SINGLE PROTEIN,9606
+Homo sapiens,"Alpha-(1,6)-fucosyltransferase",CHEMBL3596087,SINGLE PROTEIN,9606
+Homo sapiens,"Bifunctional methylenetetrahydrofolate dehydrogenase/cyclohydrolase, mitochondrial",CHEMBL3621036,SINGLE PROTEIN,9606
+Homo sapiens,RNA demethylase ALKBH5,CHEMBL3621037,SINGLE PROTEIN,9606
+Homo sapiens,"Indoleamine 2,3-dioxygenase 2",CHEMBL3627587,SINGLE PROTEIN,9606
+Homo sapiens,Mucosa-associated lymphoid tissue lymphoma translocation protein 1,CHEMBL3632452,SINGLE PROTEIN,9606
+Homo sapiens,Probable G-protein coupled receptor 139,CHEMBL3632455,SINGLE PROTEIN,9606
+Homo sapiens,Rho GDP-dissociation inhibitor 1,CHEMBL3638327,SINGLE PROTEIN,9606
+Homo sapiens,Opioid growth factor receptor-like protein 1,CHEMBL3638334,SINGLE PROTEIN,9606
+Homo sapiens,Glutaminyl-peptide cyclotransferase-like protein,CHEMBL3638349,SINGLE PROTEIN,9606
+Homo sapiens,Cytosolic purine 5'-nucleotidase,CHEMBL3708197,SINGLE PROTEIN,9606
+Homo sapiens,Oxidized purine nucleoside triphosphate hydrolase,CHEMBL3708265,SINGLE PROTEIN,9606
+Homo sapiens,B-cell antigen receptor complex-associated protein beta chain,CHEMBL3712852,SINGLE PROTEIN,9606
+Homo sapiens,17-beta-hydroxysteroid dehydrogenase 14,CHEMBL3712868,SINGLE PROTEIN,9606
+Homo sapiens,Transmembrane domain-containing protein TMIGD3,CHEMBL3712907,SINGLE PROTEIN,9606
+Homo sapiens,Nectin-4,CHEMBL3712928,SINGLE PROTEIN,9606
+Homo sapiens,Tissue factor pathway inhibitor,CHEMBL3713062,SINGLE PROTEIN,9606
+Homo sapiens,Polypeptide N-acetylgalactosaminyltransferase 2,CHEMBL3713355,SINGLE PROTEIN,9606
+Homo sapiens,Lysyl oxidase homolog 2,CHEMBL3714029,SINGLE PROTEIN,9606
+Homo sapiens,G-protein coupled receptor 84,CHEMBL3714079,SINGLE PROTEIN,9606
+Homo sapiens,G-protein coupled receptor 6,CHEMBL3714130,SINGLE PROTEIN,9606
+Homo sapiens,Bcl2-associated agonist of cell death,CHEMBL3817,SINGLE PROTEIN,9606
+Homo sapiens,Bone morphogenetic protein 1,CHEMBL3898,SINGLE PROTEIN,9606
+Homo sapiens,Caspase-8,CHEMBL3776,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein phosphatase non-receptor type 2,CHEMBL3807,SINGLE PROTEIN,9606
+Homo sapiens,5'-AMP-activated protein kinase subunit beta-1,CHEMBL3847,SINGLE PROTEIN,9606
+Homo sapiens,M-phase inducer phosphatase 1,CHEMBL3775,SINGLE PROTEIN,9606
+Homo sapiens,Procathepsin L,CHEMBL3837,SINGLE PROTEIN,9606
+Homo sapiens,Leukotriene B4 receptor 1,CHEMBL3911,SINGLE PROTEIN,9606
+Homo sapiens,Cytosolic phospholipase A2,CHEMBL3816,SINGLE PROTEIN,9606
+Homo sapiens,"Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit delta",CHEMBL3860,SINGLE PROTEIN,9606
+Homo sapiens,All-trans-retinol dehydrogenase [NAD(+)] ADH7,CHEMBL3867,SINGLE PROTEIN,9606
+Homo sapiens,"Glycogen phosphorylase, brain form",CHEMBL3856,SINGLE PROTEIN,9606
+Homo sapiens,Lysophosphatidic acid receptor 1,CHEMBL3819,SINGLE PROTEIN,9606
+Homo sapiens,Lysophosphatidic acid receptor 2,CHEMBL3724,SINGLE PROTEIN,9606
+Homo sapiens,Voltage-dependent L-type calcium channel subunit alpha-1S,CHEMBL3805,SINGLE PROTEIN,9606
+Homo sapiens,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 2, mitochondrial",CHEMBL3861,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase D1,CHEMBL3863,SINGLE PROTEIN,9606
+Homo sapiens,Urotensin-2 receptor,CHEMBL3764,SINGLE PROTEIN,9606
+Homo sapiens,Sphingosine 1-phosphate receptor 3,CHEMBL3892,SINGLE PROTEIN,9606
+Homo sapiens,Matrix metalloproteinase-14,CHEMBL3869,SINGLE PROTEIN,9606
+Homo sapiens,Lanosterol 14-alpha demethylase,CHEMBL3849,SINGLE PROTEIN,9606
+Homo sapiens,Heat shock protein HSP 90-alpha,CHEMBL3880,SINGLE PROTEIN,9606
+Homo sapiens,Steroid hormone receptor ERR2,CHEMBL3751,SINGLE PROTEIN,9606
+Homo sapiens,Beta-mannosidase,CHEMBL3903,SINGLE PROTEIN,9606
+Homo sapiens,Metabotropic glutamate receptor 1,CHEMBL3772,SINGLE PROTEIN,9606
+Homo sapiens,Histamine H4 receptor,CHEMBL3759,SINGLE PROTEIN,9606
+Homo sapiens,Bifunctional glutamate/proline--tRNA ligase,CHEMBL3873,SINGLE PROTEIN,9606
+Homo sapiens,Myeloblastin,CHEMBL3900,SINGLE PROTEIN,9606
+Homo sapiens,Glutathione S-transferase P,CHEMBL3902,SINGLE PROTEIN,9606
+Homo sapiens,Hepatocyte growth factor receptor,CHEMBL3717,SINGLE PROTEIN,9606
+Homo sapiens,"Rod cGMP-specific 3',5'-cyclic phosphodiesterase subunit alpha",CHEMBL3878,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein phosphatase non-receptor type 11,CHEMBL3864,SINGLE PROTEIN,9606
+Homo sapiens,Sarcoplasmic/endoplasmic reticulum calcium ATPase 2,CHEMBL3901,SINGLE PROTEIN,9606
+Homo sapiens,Beta-glucosidase,CHEMBL3761,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase Lyn,CHEMBL3905,SINGLE PROTEIN,9606
+Homo sapiens,Ribosomal protein S6 kinase alpha-2,CHEMBL3906,SINGLE PROTEIN,9606
+Homo sapiens,Angiotensin-converting enzyme 2,CHEMBL3736,SINGLE PROTEIN,9606
+Homo sapiens,Melanocyte-stimulating hormone receptor,CHEMBL3795,SINGLE PROTEIN,9606
+Homo sapiens,Voltage-dependent calcium channel subunit alpha-2/delta-2,CHEMBL3896,SINGLE PROTEIN,9606
+Homo sapiens,ATP-citrate synthase,CHEMBL3720,SINGLE PROTEIN,9606
+Homo sapiens,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 3, mitochondrial",CHEMBL3893,SINGLE PROTEIN,9606
+Homo sapiens,Carbonic anhydrase 4,CHEMBL3729,SINGLE PROTEIN,9606
+Homo sapiens,Calpain-1 catalytic subunit,CHEMBL3891,SINGLE PROTEIN,9606
+Homo sapiens,Metabotropic glutamate receptor 7,CHEMBL3777,SINGLE PROTEIN,9606
+Homo sapiens,Dihydropteridine reductase,CHEMBL3730,SINGLE PROTEIN,9606
+Homo sapiens,Interleukin-1 receptor-associated kinase 4,CHEMBL3778,SINGLE PROTEIN,9606
+Homo sapiens,Calcitonin gene-related peptide type 1 receptor,CHEMBL3798,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase kinase kinase 20,CHEMBL3886,SINGLE PROTEIN,9606
+Homo sapiens,Sodium/glucose cotransporter 2,CHEMBL3884,SINGLE PROTEIN,9606
+Homo sapiens,11-beta-hydroxysteroid dehydrogenase type 2,CHEMBL3746,SINGLE PROTEIN,9606
+Homo sapiens,Serine-protein kinase ATM,CHEMBL3797,SINGLE PROTEIN,9606
+Homo sapiens,AP2-associated protein kinase 1,CHEMBL3830,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase MARK2,CHEMBL3831,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase PLK4,CHEMBL3788,SINGLE PROTEIN,9606
+Homo sapiens,Cytoplasmic tyrosine-protein kinase BMX,CHEMBL3834,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase Nek2,CHEMBL3835,SINGLE PROTEIN,9606
+Homo sapiens,LIM domain kinase 1,CHEMBL3836,SINGLE PROTEIN,9606
+Homo sapiens,Hydroxycarboxylic acid receptor 2,CHEMBL3785,SINGLE PROTEIN,9606
+Homo sapiens,Histone acetyltransferase p300,CHEMBL3784,SINGLE PROTEIN,9606
+Homo sapiens,Telomeric repeat-binding factor 2-interacting protein 1,CHEMBL3751647,SINGLE PROTEIN,9606
+Homo sapiens,"5'(3')-deoxyribonucleotidase, cytosolic type",CHEMBL3751653,SINGLE PROTEIN,9606
+Homo sapiens,"5'(3')-deoxyribonucleotidase, mitochondrial",CHEMBL3751654,SINGLE PROTEIN,9606
+Homo sapiens,Protein cereblon,CHEMBL3763008,SINGLE PROTEIN,9606
+Homo sapiens,Sodium-dependent phosphate transport protein 2A,CHEMBL3769299,SINGLE PROTEIN,9606
+Homo sapiens,Lysine-specific demethylase 5B,CHEMBL3774295,SINGLE PROTEIN,9606
+Homo sapiens,Histone acetyltransferase KAT6A,CHEMBL3774298,SINGLE PROTEIN,9606
+Homo sapiens,Histone acetyltransferase KAT7,CHEMBL3774299,SINGLE PROTEIN,9606
+Homo sapiens,Histone acetyltransferase KAT6B,CHEMBL3774300,SINGLE PROTEIN,9606
+Homo sapiens,Patatin-like phospholipase domain-containing protein 2,CHEMBL3822353,SINGLE PROTEIN,9606
+Homo sapiens,"Fatty acid-binding protein, brain",CHEMBL3826863,SINGLE PROTEIN,9606
+Homo sapiens,20S proteasome,CHEMBL3831201,PROTEIN COMPLEX GROUP,9606
+Homo sapiens,P2X2/P2X3 heterotrimeric receptor,CHEMBL3831281,PROTEIN COMPLEX,9606
+Homo sapiens,Ribosomal protein S6 kinase,CHEMBL3832633,PROTEIN FAMILY,9606
+Homo sapiens,Quadruplex DNA,CHEMBL3832742,NUCLEIC-ACID,9606
+Homo sapiens,Casein kinase 2,CHEMBL3832943,PROTEIN FAMILY,9606
+Homo sapiens,Alpha glucosidase,CHEMBL3833502,PROTEIN FAMILY,9606
+Homo sapiens,DNA polymerase epsilon subunit 3,CHEMBL3833525,SINGLE PROTEIN,9606
+Homo sapiens,Ras-related protein Rab-7L1,CHEMBL3879836,SINGLE PROTEIN,9606
+Homo sapiens,Bcl-xL/BH3-interacting domain death agonist,CHEMBL3883285,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,Bcl-xL/Bcl-2-like protein 11,CHEMBL3883287,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,Glutamate receptor AMPA 1/2,CHEMBL3883294,PROTEIN COMPLEX,9606
+Homo sapiens,CREB-binding protein/Histone acetyltransferase p300,CHEMBL3883300,PROTEIN FAMILY,9606
+Homo sapiens,Aurora kinase A/Targeting protein for Xklp2,CHEMBL3883304,PROTEIN COMPLEX,9606
+Homo sapiens,Urokinase-type plasminogen activator/surface receptor,CHEMBL3883324,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,Casein kinase II alpha'/ beta,CHEMBL3883328,PROTEIN COMPLEX,9606
+Homo sapiens,Adenomatous polyposis coli protein/Transcription factor 7-like 2,CHEMBL3885511,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,MCL1-BAK1 complex,CHEMBL3885523,PROTEIN COMPLEX,9606
+Homo sapiens,Bcl-2-like protein 11/Bcl-2-related protein A1,CHEMBL3885524,PROTEIN COMPLEX,9606
+Homo sapiens,beta-catenin-B-cell lymphoma 9 protein complex,CHEMBL3885525,PROTEIN COMPLEX,9606
+Homo sapiens,Cadherin-1/Transcription factor 7-like 2,CHEMBL3885533,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,TCF4-CTNNB1 complex,CHEMBL3885541,PROTEIN COMPLEX,9606
+Homo sapiens,Catenin beta-1/Transcription factor 7,CHEMBL3885542,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,Gamma-aminobutyric acid receptor subunit alpha-3/ beta-3/gamma-3,CHEMBL3885573,PROTEIN COMPLEX,9606
+Homo sapiens,Histone acetyltransferase KAT2A/KAT2B,CHEMBL3885587,PROTEIN FAMILY,9606
+Homo sapiens,Histone acetyltransferase p300/Hypoxia-inducible factor 1-alpha,CHEMBL3885588,PROTEIN COMPLEX,9606
+Homo sapiens,Retinoic acid receptor RXR-alpha/Retinoic acid receptor beta,CHEMBL3885631,PROTEIN COMPLEX,9606
+Homo sapiens,Retinoic acid receptor RXR-alpha/gamma,CHEMBL3885633,PROTEIN COMPLEX,9606
+Homo sapiens,Toll-like receptor 1/2,CHEMBL3885643,PROTEIN COMPLEX,9606
+Homo sapiens,Cytosolic carboxypeptidase 2,CHEMBL3886062,SINGLE PROTEIN,9606
+Homo sapiens,Thyrotropin-releasing hormone-degrading ectoenzyme,CHEMBL3886123,SINGLE PROTEIN,9606
+Homo sapiens,3-hydroxy-3-methylglutaryl-coenzyme A reductase,CHEMBL402,SINGLE PROTEIN,9606
+Homo sapiens,Chymase,CHEMBL4068,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase 11,CHEMBL3961,SINGLE PROTEIN,9606
+Homo sapiens,Ribosyldihydronicotinamide dehydrogenase [quinone],CHEMBL3959,SINGLE PROTEIN,9606
+Homo sapiens,Choline O-acetyltransferase,CHEMBL4039,SINGLE PROTEIN,9606
+Homo sapiens,Fibroblast growth factor receptor 2,CHEMBL4142,SINGLE PROTEIN,9606
+Homo sapiens,Cathepsin B,CHEMBL4072,SINGLE PROTEIN,9606
+Homo sapiens,Calcium/calmodulin-dependent protein kinase type II subunit beta,CHEMBL4121,SINGLE PROTEIN,9606
+Homo sapiens,Neuropeptide Y receptor type 2,CHEMBL4018,SINGLE PROTEIN,9606
+Homo sapiens,Cathepsin G,CHEMBL4071,SINGLE PROTEIN,9606
+Homo sapiens,Proteinase-activated receptor 1,CHEMBL3974,SINGLE PROTEIN,9606
+Homo sapiens,Bombesin receptor subtype-3,CHEMBL4080,SINGLE PROTEIN,9606
+Homo sapiens,Complement C1s subcomponent,CHEMBL3913,SINGLE PROTEIN,9606
+Homo sapiens,Methionine aminopeptidase 2,CHEMBL3922,SINGLE PROTEIN,9606
+Homo sapiens,Beta-adrenergic receptor kinase 1,CHEMBL4079,SINGLE PROTEIN,9606
+Homo sapiens,Corticotropin-releasing factor receptor 2,CHEMBL4069,SINGLE PROTEIN,9606
+Homo sapiens,Ribosomal protein S6 kinase alpha-5,CHEMBL4237,SINGLE PROTEIN,9606
+Homo sapiens,"Carbonic anhydrase 5B, mitochondrial",CHEMBL3969,SINGLE PROTEIN,9606
+Homo sapiens,Tissue factor,CHEMBL4081,SINGLE PROTEIN,9606
+Homo sapiens,"Glycogen [starch] synthase, muscle",CHEMBL4000,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase ABL2,CHEMBL4014,SINGLE PROTEIN,9606
+Homo sapiens,Glutamate receptor 2,CHEMBL4016,SINGLE PROTEIN,9606
+Homo sapiens,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit alpha isoform",CHEMBL4005,SINGLE PROTEIN,9606
+Homo sapiens,Tissue alpha-L-fucosidase,CHEMBL4176,SINGLE PROTEIN,9606
+Homo sapiens,Insulin-like growth factor-binding protein 1,CHEMBL4178,SINGLE PROTEIN,9606
+Homo sapiens,Insulin-like growth factor-binding protein 3,CHEMBL3997,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase 9,CHEMBL4179,SINGLE PROTEIN,9606
+Homo sapiens,Receptor-type tyrosine-protein phosphatase alpha,CHEMBL3918,SINGLE PROTEIN,9606
+Homo sapiens,S-adenosylmethionine decarboxylase proenzyme,CHEMBL4181,SINGLE PROTEIN,9606
+Homo sapiens,Xaa-Pro dipeptidase,CHEMBL4185,SINGLE PROTEIN,9606
+Homo sapiens,Signal transducer and activator of transcription 3,CHEMBL4026,SINGLE PROTEIN,9606
+Homo sapiens,11-beta-hydroxysteroid dehydrogenase 1,CHEMBL4235,SINGLE PROTEIN,9606
+Homo sapiens,Fatty acid synthase,CHEMBL4158,SINGLE PROTEIN,9606
+Homo sapiens,Cystic fibrosis transmembrane conductance regulator,CHEMBL4051,SINGLE PROTEIN,9606
+Homo sapiens,Lysosomal alpha-mannosidase,CHEMBL4059,SINGLE PROTEIN,9606
+Homo sapiens,C-X-C chemokine receptor type 1,CHEMBL4029,SINGLE PROTEIN,9606
+Homo sapiens,C-C chemokine receptor type 2,CHEMBL4015,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase 1,CHEMBL4040,SINGLE PROTEIN,9606
+Homo sapiens,Heparanase,CHEMBL3921,SINGLE PROTEIN,9606
+Homo sapiens,Glutamate--cysteine ligase catalytic subunit,CHEMBL4055,SINGLE PROTEIN,9606
+Homo sapiens,Nischarin,CHEMBL3923,SINGLE PROTEIN,9606
+Homo sapiens,Peptidyl-prolyl cis-trans isomerase FKBP4,CHEMBL4050,SINGLE PROTEIN,9606
+Homo sapiens,Integrin alpha-5,CHEMBL3955,SINGLE PROTEIN,9606
+Homo sapiens,Histone deacetylase 9,CHEMBL4145,SINGLE PROTEIN,9606
+Homo sapiens,Sialidase-4,CHEMBL4174,SINGLE PROTEIN,9606
+Homo sapiens,Alpha-mannosidase 2,CHEMBL4056,SINGLE PROTEIN,9606
+Homo sapiens,Fibroblast growth factor receptor 4,CHEMBL3973,SINGLE PROTEIN,9606
+Homo sapiens,cAMP-dependent protein kinase catalytic subunit alpha,CHEMBL4101,SINGLE PROTEIN,9606
+Homo sapiens,Coagulation factor VII,CHEMBL3991,SINGLE PROTEIN,9606
+Homo sapiens,Peroxisome proliferator-activated receptor delta,CHEMBL3979,SINGLE PROTEIN,9606
+Homo sapiens,Dipeptidyl peptidase 2,CHEMBL3976,SINGLE PROTEIN,9606
+Homo sapiens,Trifunctional purine biosynthetic protein adenosine-3,CHEMBL3972,SINGLE PROTEIN,9606
+Homo sapiens,Cytosol aminopeptidase,CHEMBL3965,SINGLE PROTEIN,9606
+Homo sapiens,Calcium/calmodulin-dependent protein kinase type II subunit alpha,CHEMBL4147,SINGLE PROTEIN,9606
+Homo sapiens,Protein kinase C theta type,CHEMBL3920,SINGLE PROTEIN,9606
+Homo sapiens,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 4, mitochondrial",CHEMBL4141,SINGLE PROTEIN,9606
+Homo sapiens,Matrilysin,CHEMBL4073,SINGLE PROTEIN,9606
+Homo sapiens,Casein kinase II subunit alpha',CHEMBL4070,SINGLE PROTEIN,9606
+Homo sapiens,Neurotensin receptor type 1,CHEMBL4123,SINGLE PROTEIN,9606
+Homo sapiens,Angiopoietin-1 receptor,CHEMBL4128,SINGLE PROTEIN,9606
+Homo sapiens,Carbonic anhydrase 13,CHEMBL3912,SINGLE PROTEIN,9606
+Homo sapiens,Cyclin-dependent kinase 5,CHEMBL4036,SINGLE PROTEIN,9606
+Homo sapiens,Amine oxidase [copper-containing] 2,CHEMBL4112,SINGLE PROTEIN,9606
+Homo sapiens,Sodium channel protein type 2 subunit alpha,CHEMBL4187,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity protein phosphatase 22,CHEMBL3924,SINGLE PROTEIN,9606
+Homo sapiens,Oxysterols receptor LXR-beta,CHEMBL4093,SINGLE PROTEIN,9606
+Homo sapiens,E3 ubiquitin-protein ligase XIAP,CHEMBL4198,SINGLE PROTEIN,9606
+Homo sapiens,Aurora kinase C,CHEMBL3935,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase 16,CHEMBL3938,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase 17B,CHEMBL3980,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase 10,CHEMBL3981,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase Fer,CHEMBL3982,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity protein kinase TTK,CHEMBL3983,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase FRK,CHEMBL4223,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity protein kinase CLK1,CHEMBL4224,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity protein kinase CLK2,CHEMBL4225,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity protein kinase CLK3,CHEMBL4226,SINGLE PROTEIN,9606
+Homo sapiens,Ephrin type-A receptor 4,CHEMBL3988,SINGLE PROTEIN,9606
+Homo sapiens,Membrane-associated tyrosine- and threonine-specific cdc2-inhibitory kinase,CHEMBL3984,SINGLE PROTEIN,9606
+Homo sapiens,STE20-like serine/threonine-protein kinase,CHEMBL4202,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity protein kinase CLK4,CHEMBL4203,SINGLE PROTEIN,9606
+Homo sapiens,MAP kinase-interacting serine/threonine-protein kinase 2,CHEMBL4204,SINGLE PROTEIN,9606
+Homo sapiens,Monoglyceride lipase,CHEMBL4191,SINGLE PROTEIN,9606
+Homo sapiens,2-Hydroxyacid oxidase 1,CHEMBL4229,SINGLE PROTEIN,9606
+Homo sapiens,N-formyl peptide receptor 2,CHEMBL4227,SINGLE PROTEIN,9606
+Homo sapiens,Toll-like receptor 2,CHEMBL4163,SINGLE PROTEIN,9606
+Homo sapiens,Proteasome component C5,CHEMBL4208,SINGLE PROTEIN,9606
+Homo sapiens,3-hydroxyacyl-CoA dehydrogenase type-2,CHEMBL4159,SINGLE PROTEIN,9606
+Homo sapiens,Cathepsin Z,CHEMBL4160,SINGLE PROTEIN,9606
+Homo sapiens,Porphobilinogen deaminase,CHEMBL3988601,SINGLE PROTEIN,9606
+Homo sapiens,Receptor-type tyrosine-protein phosphatase O,CHEMBL4105749,SINGLE PROTEIN,9606
+Homo sapiens,Diacylglycerol kinase alpha,CHEMBL4105787,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase greatwall,CHEMBL4105826,SINGLE PROTEIN,9606
+Homo sapiens,Eukaryotic initiation factor 4A-III,CHEMBL4105832,SINGLE PROTEIN,9606
+Homo sapiens,DCN1-like protein 1,CHEMBL4105838,SINGLE PROTEIN,9606
+Homo sapiens,Meprin A subunit beta,CHEMBL4105879,SINGLE PROTEIN,9606
+Homo sapiens,Sigma intracellular receptor 2,CHEMBL4105907,SINGLE PROTEIN,9606
+Homo sapiens,2-amino-3-carboxymuconate-6-semialdehyde decarboxylase,CHEMBL4105941,SINGLE PROTEIN,9606
+Homo sapiens,Peptidyl-prolyl cis-trans isomerase FKBP2,CHEMBL4105949,SINGLE PROTEIN,9606
+Homo sapiens,Aurora-C/INCENP,CHEMBL4106141,PROTEIN COMPLEX,9606
+Homo sapiens,Small conductance calcium-activated potassium channel protein 2,CHEMBL4469,SINGLE PROTEIN,9606
+Homo sapiens,Voltage-dependent N-type calcium channel subunit alpha-1B,CHEMBL4478,SINGLE PROTEIN,9606
+Homo sapiens,P2Y purinoceptor 1,CHEMBL4315,SINGLE PROTEIN,9606
+Homo sapiens,"Dual specificity calcium/calmodulin-dependent 3',5'-cyclic nucleotide phosphodiesterase 1B",CHEMBL4425,SINGLE PROTEIN,9606
+Homo sapiens,Neuromedin-K receptor,CHEMBL4429,SINGLE PROTEIN,9606
+Homo sapiens,cGMP-dependent protein kinase 1,CHEMBL4273,SINGLE PROTEIN,9606
+Homo sapiens,B1 bradykinin receptor,CHEMBL4308,SINGLE PROTEIN,9606
+Homo sapiens,Dolichyl-diphosphooligosaccharide--protein glycosyltransferase 48 kDa subunit,CHEMBL4239,SINGLE PROTEIN,9606
+Homo sapiens,Protein-L-isoaspartate(D-aspartate) O-methyltransferase,CHEMBL4240,SINGLE PROTEIN,9606
+Homo sapiens,Inositol polyphosphate-5-phosphatase A,CHEMBL4243,SINGLE PROTEIN,9606
+Homo sapiens,Legumain,CHEMBL4244,SINGLE PROTEIN,9606
+Homo sapiens,ATP-dependent translocase ABCB1,CHEMBL4302,SINGLE PROTEIN,9606
+Homo sapiens,Sphingosine 1-phosphate receptor 1,CHEMBL4333,SINGLE PROTEIN,9606
+Homo sapiens,Heat shock protein HSP 90-beta,CHEMBL4303,SINGLE PROTEIN,9606
+Homo sapiens,Macrophage metalloelastase,CHEMBL4393,SINGLE PROTEIN,9606
+Homo sapiens,Sphingosine kinase 1,CHEMBL4394,SINGLE PROTEIN,9606
+Homo sapiens,P2Y purinoceptor 2,CHEMBL4398,SINGLE PROTEIN,9606
+Homo sapiens,"Nitric oxide synthase, inducible",CHEMBL4481,SINGLE PROTEIN,9606
+Homo sapiens,Thymidylate kinase,CHEMBL4388,SINGLE PROTEIN,9606
+Homo sapiens,Protein phosphatase 3 catalytic subunit alpha,CHEMBL4445,SINGLE PROTEIN,9606
+Homo sapiens,Kallikrein-4,CHEMBL4446,SINGLE PROTEIN,9606
+Homo sapiens,Kallikrein-5,CHEMBL4447,SINGLE PROTEIN,9606
+Homo sapiens,Kallikrein-6,CHEMBL4448,SINGLE PROTEIN,9606
+Homo sapiens,Stromelysin-2,CHEMBL4270,SINGLE PROTEIN,9606
+Homo sapiens,Prostaglandin D2 receptor,CHEMBL4427,SINGLE PROTEIN,9606
+Homo sapiens,RAC-alpha serine/threonine-protein kinase,CHEMBL4282,SINGLE PROTEIN,9606
+Homo sapiens,Diamine acetyltransferase 1,CHEMBL4286,SINGLE PROTEIN,9606
+Homo sapiens,Purine nucleoside phosphorylase,CHEMBL4338,SINGLE PROTEIN,9606
+Homo sapiens,Diphosphomevalonate decarboxylase,CHEMBL4340,SINGLE PROTEIN,9606
+Homo sapiens,C-X-C chemokine receptor type 3,CHEMBL4441,SINGLE PROTEIN,9606
+Homo sapiens,Cyclin-dependent kinase 3,CHEMBL4442,SINGLE PROTEIN,9606
+Homo sapiens,4-galactosyl-N-acetylglucosaminide 3-alpha-L-fucosyltransferase FUT6,CHEMBL4443,SINGLE PROTEIN,9606
+Homo sapiens,Vitamin K-dependent protein C,CHEMBL4444,SINGLE PROTEIN,9606
+Homo sapiens,Dihydroxyacetone phosphate acyltransferase,CHEMBL4494,SINGLE PROTEIN,9606
+Homo sapiens,Ribosomal protein S6 kinase beta-1,CHEMBL4501,SINGLE PROTEIN,9606
+Homo sapiens,Cytidine deaminase,CHEMBL4502,SINGLE PROTEIN,9606
+Homo sapiens,Beta-chimaerin,CHEMBL4504,SINGLE PROTEIN,9606
+Homo sapiens,Phosphatidylinositol 3-kinase regulatory subunit beta,CHEMBL4437,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein phosphatase PP1-gamma catalytic subunit,CHEMBL4438,SINGLE PROTEIN,9606
+Homo sapiens,TGF-beta receptor type-1,CHEMBL4439,SINGLE PROTEIN,9606
+Homo sapiens,Sodium channel protein type 9 subunit alpha,CHEMBL4296,SINGLE PROTEIN,9606
+Homo sapiens,Cyclin-G-associated kinase,CHEMBL4355,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase PAK 6,CHEMBL4311,SINGLE PROTEIN,9606
+Homo sapiens,"cAMP and cAMP-inhibited cGMP 3',5'-cyclic phosphodiesterase 10A",CHEMBL4409,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase PAK 2,CHEMBL4487,SINGLE PROTEIN,9606
+Homo sapiens,TGF-beta receptor type-2,CHEMBL4267,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase PAK 4,CHEMBL4482,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase Fgr,CHEMBL4454,SINGLE PROTEIN,9606
+Homo sapiens,"Alkaline phosphatase, placental type",CHEMBL4458,SINGLE PROTEIN,9606
+Homo sapiens,Large neutral amino acids transporter small subunit 1,CHEMBL4459,SINGLE PROTEIN,9606
+Homo sapiens,Protein S100-B,CHEMBL4300,SINGLE PROTEIN,9606
+Homo sapiens,Gastric inhibitory polypeptide receptor,CHEMBL4383,SINGLE PROTEIN,9606
+Homo sapiens,"Beta-1,4-galactosyltransferase 1",CHEMBL4384,SINGLE PROTEIN,9606
+Homo sapiens,Hypoxia-inducible factor 1-alpha,CHEMBL4261,SINGLE PROTEIN,9606
+Homo sapiens,ALK tyrosine kinase receptor,CHEMBL4247,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase Tec,CHEMBL4246,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase TXK,CHEMBL4367,SINGLE PROTEIN,9606
+Homo sapiens,Free fatty acid receptor 1,CHEMBL4422,SINGLE PROTEIN,9606
+Homo sapiens,C-C chemokine receptor type 6,CHEMBL4423,SINGLE PROTEIN,9606
+Homo sapiens,Serine racemase,CHEMBL4460,SINGLE PROTEIN,9606
+Homo sapiens,"NAD-dependent protein deacetylase sirtuin-3, mitochondrial",CHEMBL4461,SINGLE PROTEIN,9606
+Homo sapiens,NAD-dependent protein deacetylase sirtuin-2,CHEMBL4462,SINGLE PROTEIN,9606
+Homo sapiens,NAD-dependent protein deacetylase sirtuin-1,CHEMBL4506,SINGLE PROTEIN,9606
+Homo sapiens,High affinity choline transporter 1,CHEMBL4507,SINGLE PROTEIN,9606
+Homo sapiens,Glutaminyl-peptide cyclotransferase,CHEMBL4508,SINGLE PROTEIN,9606
+Homo sapiens,Monocarboxylate transporter 1,CHEMBL4360,SINGLE PROTEIN,9606
+Homo sapiens,Induced myeloid leukemia cell differentiation protein Mcl-1,CHEMBL4361,SINGLE PROTEIN,9606
+Homo sapiens,UDP-glucuronosyltransferase 2B7,CHEMBL4370,SINGLE PROTEIN,9606
+Homo sapiens,Betaine--homocysteine S-methyltransferase 1,CHEMBL4328,SINGLE PROTEIN,9606
+Homo sapiens,SRSF protein kinase 1,CHEMBL4375,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity tyrosine-phosphorylation-regulated kinase 2,CHEMBL4376,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase MRCK alpha,CHEMBL4516,SINGLE PROTEIN,9606
+Homo sapiens,P2Y purinoceptor 14,CHEMBL4518,SINGLE PROTEIN,9606
+Homo sapiens,Amyloid beta-binding alcohol dehydrogenase,CHEMBL4295598,SINGLE PROTEIN,9606
+Homo sapiens,Mannan-binding lectin serine protease 2,CHEMBL4295646,SINGLE PROTEIN,9606
+Homo sapiens,mRNA cap guanine-N(7) methyltransferase,CHEMBL4295662,SINGLE PROTEIN,9606
+Homo sapiens,Tolloid-like protein 1,CHEMBL4295664,SINGLE PROTEIN,9606
+Homo sapiens,Cystathionine gamma-lyase,CHEMBL4295745,SINGLE PROTEIN,9606
+Homo sapiens,"Serine hydroxymethyltransferase, mitochondrial",CHEMBL4295747,SINGLE PROTEIN,9606
+Homo sapiens,Phospholipid hydroperoxide glutathione peroxidase GPX4,CHEMBL4295754,SINGLE PROTEIN,9606
+Homo sapiens,Protein AF-9,CHEMBL4295761,SINGLE PROTEIN,9606
+Homo sapiens,Mannan-binding lectin serine protease 1,CHEMBL4295768,SINGLE PROTEIN,9606
+Homo sapiens,Protein ENL,CHEMBL4295801,SINGLE PROTEIN,9606
+Homo sapiens,Transcriptional enhancer factor TEF-3,CHEMBL4295828,SINGLE PROTEIN,9606
+Homo sapiens,DCN1-like protein 2,CHEMBL4295866,SINGLE PROTEIN,9606
+Homo sapiens,DCN1-like protein 3,CHEMBL4295894,SINGLE PROTEIN,9606
+Homo sapiens,DCN1-like protein 4,CHEMBL4295914,SINGLE PROTEIN,9606
+Homo sapiens,DCN1-like protein 5,CHEMBL4295937,SINGLE PROTEIN,9606
+Homo sapiens,DNA repair protein REV1,CHEMBL4295973,SINGLE PROTEIN,9606
+Homo sapiens,Tolloid-like protein 2,CHEMBL4295995,SINGLE PROTEIN,9606
+Homo sapiens,Telomeric repeat-binding factor 2,CHEMBL4296012,SINGLE PROTEIN,9606
+Homo sapiens,GMP reductase 2,CHEMBL4296017,SINGLE PROTEIN,9606
+Homo sapiens,Gamma-aminobutyric acid receptor subunit alpha-1/beta-2/delta,CHEMBL4296044,PROTEIN COMPLEX,9606
+Homo sapiens,HDAC1/REST corepressor 3,CHEMBL4296112,PROTEIN COMPLEX,9606
+Homo sapiens,von Hippel-Lindau disease tumor suppressor/Bromodomain-containing protein 4/Elongin-B/Elongin-C,CHEMBL4296148,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,von Hippel-Lindau disease tumor suppressor/Bromodomain-containing protein 2/Elongin-B/Elongin-C,CHEMBL4296149,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,Protein-cysteine N-palmitoyltransferase HHAT,CHEMBL4296243,SINGLE PROTEIN,9606
+Homo sapiens,YEATS domain-containing protein 2,CHEMBL4296261,SINGLE PROTEIN,9606
+Homo sapiens,YEATS domain-containing protein 4,CHEMBL4296266,SINGLE PROTEIN,9606
+Homo sapiens,mTORC1,CHEMBL4296661,PROTEIN COMPLEX,9606
+Homo sapiens,Leukotriene A-4 hydrolase,CHEMBL4618,SINGLE PROTEIN,9606
+Homo sapiens,Sphingomyelin phosphodiesterase 2,CHEMBL4712,SINGLE PROTEIN,9606
+Homo sapiens,Carboxypeptidase N catalytic chain,CHEMBL4713,SINGLE PROTEIN,9606
+Homo sapiens,P2Y purinoceptor 6,CHEMBL4714,SINGLE PROTEIN,9606
+Homo sapiens,"3',5'-cyclic-AMP phosphodiesterase 7B",CHEMBL4716,SINGLE PROTEIN,9606
+Homo sapiens,"Peptide deformylase, mitochondrial",CHEMBL4647,SINGLE PROTEIN,9606
+Homo sapiens,Arachidonate 5-lipoxygenase-activating protein,CHEMBL4550,SINGLE PROTEIN,9606
+Homo sapiens,Trypsin-3,CHEMBL4551,SINGLE PROTEIN,9606
+Homo sapiens,Glutathione S-transferase Mu 2,CHEMBL4589,SINGLE PROTEIN,9606
+Homo sapiens,Matrix metalloproteinase-26,CHEMBL4707,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase 3,CHEMBL4708,SINGLE PROTEIN,9606
+Homo sapiens,Solute carrier family 15 member 1,CHEMBL4605,SINGLE PROTEIN,9606
+Homo sapiens,Type-2 angiotensin II receptor,CHEMBL4607,SINGLE PROTEIN,9606
+Homo sapiens,Phenylethanolamine N-methyltransferase,CHEMBL4617,SINGLE PROTEIN,9606
+Homo sapiens,Melanocortin receptor 3,CHEMBL4644,SINGLE PROTEIN,9606
+Homo sapiens,Melanocortin receptor 5,CHEMBL4608,SINGLE PROTEIN,9606
+Homo sapiens,Metabotropic glutamate receptor 6,CHEMBL4573,SINGLE PROTEIN,9606
+Homo sapiens,Neutrophil collagenase,CHEMBL4588,SINGLE PROTEIN,9606
+Homo sapiens,Gamma-aminobutyric acid receptor subunit beta-1,CHEMBL4558,SINGLE PROTEIN,9606
+Homo sapiens,Neuropeptide Y receptor type 5,CHEMBL4561,SINGLE PROTEIN,9606
+Homo sapiens,Growth hormone secretagogue receptor type 1,CHEMBL4616,SINGLE PROTEIN,9606
+Homo sapiens,Glutamine synthetase,CHEMBL4612,SINGLE PROTEIN,9606
+Homo sapiens,Complement C1r subcomponent,CHEMBL4611,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase Chk1,CHEMBL4630,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase 12,CHEMBL4674,SINGLE PROTEIN,9606
+Homo sapiens,Aurora kinase A,CHEMBL4722,SINGLE PROTEIN,9606
+Homo sapiens,Dipeptidyl peptidase 8,CHEMBL4657,SINGLE PROTEIN,9606
+Homo sapiens,Activated CDC42 kinase 1,CHEMBL4599,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase 4,CHEMBL4598,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase PAK 1,CHEMBL4600,SINGLE PROTEIN,9606
+Homo sapiens,BMP-2-inducible protein kinase,CHEMBL4522,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase pim-2,CHEMBL4523,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase PAK 5,CHEMBL4524,SINGLE PROTEIN,9606
+Homo sapiens,TRAF2 and NCK-interacting protein kinase,CHEMBL4527,SINGLE PROTEIN,9606
+Homo sapiens,"High affinity cAMP-specific and IBMX-insensitive 3',5'-cyclic phosphodiesterase 8A",CHEMBL4640,SINGLE PROTEIN,9606
+Homo sapiens,Coagulation factor XIII A chain,CHEMBL4530,SINGLE PROTEIN,9606
+Homo sapiens,Kinesin-like protein KIF11,CHEMBL4581,SINGLE PROTEIN,9606
+Homo sapiens,Prolyl endopeptidase FAP,CHEMBL4683,SINGLE PROTEIN,9606
+Homo sapiens,Bcl-2-like protein 1,CHEMBL4625,SINGLE PROTEIN,9606
+Homo sapiens,"Thymidine kinase 2, mitochondrial",CHEMBL4580,SINGLE PROTEIN,9606
+Homo sapiens,C-C chemokine receptor type 7,CHEMBL4594,SINGLE PROTEIN,9606
+Homo sapiens,C-C chemokine receptor type 8,CHEMBL4596,SINGLE PROTEIN,9606
+Homo sapiens,Dipeptidyl peptidase 3,CHEMBL4520,SINGLE PROTEIN,9606
+Homo sapiens,"1,25-dihydroxyvitamin D(3) 24-hydroxylase, mitochondrial",CHEMBL4521,SINGLE PROTEIN,9606
+Homo sapiens,Bcl-2-like protein 2,CHEMBL4677,SINGLE PROTEIN,9606
+Homo sapiens,Aldo-keto reductase family 1 member C3,CHEMBL4681,SINGLE PROTEIN,9606
+Homo sapiens,Sodium- and chloride-dependent GABA transporter 2,CHEMBL4535,SINGLE PROTEIN,9606
+Homo sapiens,ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1,CHEMBL4660,SINGLE PROTEIN,9606
+Homo sapiens,Proteasome Macropain subunit MB1,CHEMBL4662,SINGLE PROTEIN,9606
+Homo sapiens,"Indoleamine 2,3-dioxygenase 1",CHEMBL4685,SINGLE PROTEIN,9606
+Homo sapiens,Protein-S-isoprenylcysteine O-methyltransferase,CHEMBL4699,SINGLE PROTEIN,9606
+Homo sapiens,Steroidogenic factor 1,CHEMBL4666,SINGLE PROTEIN,9606
+Homo sapiens,MAP kinase-activated protein kinase 3,CHEMBL4670,SINGLE PROTEIN,9606
+Homo sapiens,MAP kinase-interacting serine/threonine-protein kinase 1,CHEMBL4718,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase BRSK2,CHEMBL4574,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity tyrosine-phosphorylation-regulated kinase 3,CHEMBL4575,SINGLE PROTEIN,9606
+Homo sapiens,Homeodomain-interacting protein kinase 2,CHEMBL4576,SINGLE PROTEIN,9606
+Homo sapiens,Maternal embryonic leucine zipper kinase,CHEMBL4578,SINGLE PROTEIN,9606
+Homo sapiens,Interleukin-1 receptor antagonist protein,CHEMBL4523191,SINGLE PROTEIN,9606
+Homo sapiens,Oxysterol-binding protein 1,CHEMBL4523203,SINGLE PROTEIN,9606
+Homo sapiens,Chemerin-like receptor 2,CHEMBL4523229,SINGLE PROTEIN,9606
+Homo sapiens,DNA replication ATP-dependent helicase/nuclease DNA2,CHEMBL4523236,SINGLE PROTEIN,9606
+Homo sapiens,Prolactin-releasing peptide,CHEMBL4523266,SINGLE PROTEIN,9606
+Homo sapiens,GRB2-associated-binding protein 1,CHEMBL4523286,SINGLE PROTEIN,9606
+Homo sapiens,Transcriptional enhancer factor TEF-4,CHEMBL4523301,SINGLE PROTEIN,9606
+Homo sapiens,La-related protein 7,CHEMBL4523314,SINGLE PROTEIN,9606
+Homo sapiens,Disabled homolog 2-interacting protein,CHEMBL4523330,SINGLE PROTEIN,9606
+Homo sapiens,"2',5'-phosphodiesterase 12",CHEMBL4523342,SINGLE PROTEIN,9606
+Homo sapiens,Methylcytosine dioxygenase TET2,CHEMBL4523344,SINGLE PROTEIN,9606
+Homo sapiens,NAD(+) hydrolase SARM1,CHEMBL4523350,SINGLE PROTEIN,9606
+Homo sapiens,Nicotinate phosphoribosyltransferase,CHEMBL4523354,SINGLE PROTEIN,9606
+Homo sapiens,N-alpha-acetyltransferase 40,CHEMBL4523373,SINGLE PROTEIN,9606
+Homo sapiens,Cytochrome P450 4Z1,CHEMBL4523375,SINGLE PROTEIN,9606
+Homo sapiens,Stimulator of interferon genes protein,CHEMBL4523377,SINGLE PROTEIN,9606
+Homo sapiens,Methylcytosine dioxygenase TET1,CHEMBL4523402,SINGLE PROTEIN,9606
+Homo sapiens,Inositol hexakisphosphate kinase 1,CHEMBL4523418,SINGLE PROTEIN,9606
+Homo sapiens,Serine protease HTRA1,CHEMBL4523419,SINGLE PROTEIN,9606
+Homo sapiens,BTB/POZ domain-containing protein KCTD12,CHEMBL4523424,SINGLE PROTEIN,9606
+Homo sapiens,Inositol hexakisphosphate kinase 3,CHEMBL4523431,SINGLE PROTEIN,9606
+Homo sapiens,Transcriptional enhancer factor TEF-5,CHEMBL4523435,SINGLE PROTEIN,9606
+Homo sapiens,N-terminal Xaa-Pro-Lys N-methyltransferase 1,CHEMBL4523442,SINGLE PROTEIN,9606
+Homo sapiens,Sphingomyelin phosphodiesterase 3,CHEMBL4523470,SINGLE PROTEIN,9606
+Homo sapiens,C5a anaphylatoxin chemotactic receptor 2,CHEMBL4523478,SINGLE PROTEIN,9606
+Homo sapiens,Inositol hexakisphosphate kinase 2,CHEMBL4523488,SINGLE PROTEIN,9606
+Homo sapiens,Cholesterol 24-hydroxylase,CHEMBL4523510,SINGLE PROTEIN,9606
+Homo sapiens,DCN1-like protein 1/NEDD8-conjugating enzyme Ubc12,CHEMBL4523603,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,PDE5A/PDE6C,CHEMBL4523626,CHIMERIC PROTEIN,9606
+Homo sapiens,Gamma-aminobutyric acid receptor subunit alpha-4/beta-1/delta,CHEMBL4523639,PROTEIN COMPLEX,9606
+Homo sapiens,Gamma-aminobutyric acid receptor subunit alpha-5/beta-2/gamma-2,CHEMBL4523641,PROTEIN COMPLEX,9606
+Homo sapiens,G-protein coupled receptor 3,CHEMBL4523856,SINGLE PROTEIN,9606
+Homo sapiens,Chymotrypsin,CHEMBL4523987,PROTEIN FAMILY,9606
+Homo sapiens,Programmed cell death protein 1/Programmed cell death 1 ligand 1,CHEMBL4523993,PROTEIN COMPLEX,9606
+Homo sapiens,Geranylgeranyl transferase type-2,CHEMBL4523994,PROTEIN COMPLEX,9606
+Homo sapiens,PCSK9/LDLR,CHEMBL4523996,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,mTORC2,CHEMBL4523999,PROTEIN COMPLEX,9606
+Homo sapiens,5-hydroxytryptamine receptor 2A/Metabotropic glutamate receptor 2,CHEMBL4630758,PROTEIN COMPLEX,9606
+Homo sapiens,Sialin,CHEMBL4630859,SINGLE PROTEIN,9606
+Homo sapiens,Hepatitis A virus cellular receptor 2,CHEMBL4630879,SINGLE PROTEIN,9606
+Homo sapiens,Syntenin-1,CHEMBL4739667,SINGLE PROTEIN,9606
+Homo sapiens,Forkhead box protein M1,CHEMBL4739852,SINGLE PROTEIN,9606
+Homo sapiens,Orexin/Hypocretin receptor type 1,CHEMBL5113,SINGLE PROTEIN,9606
+Homo sapiens,Geranylgeranyl pyrophosphate synthase,CHEMBL4769,SINGLE PROTEIN,9606
+Homo sapiens,Transcription initiation factor IIA subunit 1,CHEMBL4832,SINGLE PROTEIN,9606
+Homo sapiens,Reduced folate transporter,CHEMBL4833,SINGLE PROTEIN,9606
+Homo sapiens,L-lactate dehydrogenase A chain,CHEMBL4835,SINGLE PROTEIN,9606
+Homo sapiens,Neuropeptide Y receptor type 4,CHEMBL4877,SINGLE PROTEIN,9606
+Homo sapiens,Cytochrome P450 1B1,CHEMBL4878,SINGLE PROTEIN,9606
+Homo sapiens,"Fatty acid-binding protein, intestinal",CHEMBL4879,SINGLE PROTEIN,9606
+Homo sapiens,Triosephosphate isomerase,CHEMBL4880,SINGLE PROTEIN,9606
+Homo sapiens,Urokinase plasminogen activator surface receptor,CHEMBL4883,SINGLE PROTEIN,9606
+Homo sapiens,Caspase-2,CHEMBL4884,SINGLE PROTEIN,9606
+Homo sapiens,Galanin receptor type 1,CHEMBL4894,SINGLE PROTEIN,9606
+Homo sapiens,"Adenylate kinase 2, mitochondrial",CHEMBL4938,SINGLE PROTEIN,9606
+Homo sapiens,Carboxypeptidase A2,CHEMBL4939,SINGLE PROTEIN,9606
+Homo sapiens,L-lactate dehydrogenase B chain,CHEMBL4940,SINGLE PROTEIN,9606
+Homo sapiens,S-methyl-5'-thioadenosine phosphorylase,CHEMBL4941,SINGLE PROTEIN,9606
+Homo sapiens,Kallikrein-12,CHEMBL4943,SINGLE PROTEIN,9606
+Homo sapiens,Proprotein convertase subtilisin/kexin type 4,CHEMBL4861,SINGLE PROTEIN,9606
+Homo sapiens,Transient receptor potential cation channel subfamily V member 1,CHEMBL4794,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity mitogen-activated protein kinase kinase 5,CHEMBL4948,SINGLE PROTEIN,9606
+Homo sapiens,P2X purinoceptor 7,CHEMBL4805,SINGLE PROTEIN,9606
+Homo sapiens,Neuropeptide Y receptor type 1,CHEMBL4777,SINGLE PROTEIN,9606
+Homo sapiens,RAC-gamma serine/threonine-protein kinase,CHEMBL4816,SINGLE PROTEIN,9606
+Homo sapiens,4-galactosyl-N-acetylglucosaminide 3-alpha-L-fucosyltransferase 9,CHEMBL4985,SINGLE PROTEIN,9606
+Homo sapiens,Tumor necrosis factor receptor superfamily member 16,CHEMBL4762,SINGLE PROTEIN,9606
+Homo sapiens,Protein tyrosine phosphatase receptor type C-associated protein,CHEMBL4806,SINGLE PROTEIN,9606
+Homo sapiens,Acetylcholine receptor subunit alpha,CHEMBL4808,SINGLE PROTEIN,9606
+Homo sapiens,DNA nucleotidylexotransferase,CHEMBL4810,SINGLE PROTEIN,9606
+Homo sapiens,Uridine phosphorylase 1,CHEMBL4811,SINGLE PROTEIN,9606
+Homo sapiens,Kallikrein-13,CHEMBL4863,SINGLE PROTEIN,9606
+Homo sapiens,P2Y purinoceptor 11,CHEMBL4867,SINGLE PROTEIN,9606
+Homo sapiens,Chymotrypsinogen B,CHEMBL4796,SINGLE PROTEIN,9606
+Homo sapiens,Kynureninase,CHEMBL5100,SINGLE PROTEIN,9606
+Homo sapiens,Ribosomal protein S6 kinase alpha-6,CHEMBL4924,SINGLE PROTEIN,9606
+Homo sapiens,"Adenylate kinase 4, mitochondrial",CHEMBL4926,SINGLE PROTEIN,9606
+Homo sapiens,Polyamine deacetylase HDAC10,CHEMBL5103,SINGLE PROTEIN,9606
+Homo sapiens,Casein kinase I isoform epsilon,CHEMBL4937,SINGLE PROTEIN,9606
+Homo sapiens,"Carbonic anhydrase 5A, mitochondrial",CHEMBL4789,SINGLE PROTEIN,9606
+Homo sapiens,Granzyme K,CHEMBL4930,SINGLE PROTEIN,9606
+Homo sapiens,"3-beta-hydroxysteroid-Delta(8),Delta(7)-isomerase",CHEMBL4931,SINGLE PROTEIN,9606
+Homo sapiens,Gastrin-releasing peptide receptor,CHEMBL4959,SINGLE PROTEIN,9606
+Homo sapiens,Endothelin-converting enzyme 1,CHEMBL4791,SINGLE PROTEIN,9606
+Homo sapiens,Gamma-aminobutyric acid receptor subunit alpha-5,CHEMBL5112,SINGLE PROTEIN,9606
+Homo sapiens,M-phase inducer phosphatase 2,CHEMBL4804,SINGLE PROTEIN,9606
+Homo sapiens,Nitric oxide synthase 3,CHEMBL4803,SINGLE PROTEIN,9606
+Homo sapiens,Caspase-1,CHEMBL4801,SINGLE PROTEIN,9606
+Homo sapiens,Beta-secretase 1,CHEMBL4822,SINGLE PROTEIN,9606
+Homo sapiens,Excitatory amino acid transporter 2,CHEMBL4973,SINGLE PROTEIN,9606
+Homo sapiens,"[Pyruvate dehydrogenase (acetyl-transferring)] kinase isozyme 1, mitochondrial",CHEMBL4766,SINGLE PROTEIN,9606
+Homo sapiens,Peptidyl-prolyl cis-trans isomerase FKBP3,CHEMBL4746,SINGLE PROTEIN,9606
+Homo sapiens,Gamma-aminobutyric acid receptor subunit alpha-2,CHEMBL4956,SINGLE PROTEIN,9606
+Homo sapiens,Tryptase gamma,CHEMBL4955,SINGLE PROTEIN,9606
+Homo sapiens,Metabotropic glutamate receptor 2,CHEMBL5137,SINGLE PROTEIN,9606
+Homo sapiens,Vesicular acetylcholine transporter,CHEMBL4767,SINGLE PROTEIN,9606
+Homo sapiens,Orexin receptor type 2,CHEMBL4792,SINGLE PROTEIN,9606
+Homo sapiens,Sodium/glucose cotransporter 1,CHEMBL4979,SINGLE PROTEIN,9606
+Homo sapiens,Receptor-interacting serine/threonine-protein kinase 2,CHEMBL5014,SINGLE PROTEIN,9606
+Homo sapiens,E3 ubiquitin-protein ligase Mdm2,CHEMBL5023,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase ATR,CHEMBL5024,SINGLE PROTEIN,9606
+Homo sapiens,Dipeptidyl peptidase 9,CHEMBL4793,SINGLE PROTEIN,9606
+Homo sapiens,Melanin-concentrating hormone receptor 2,CHEMBL5038,SINGLE PROTEIN,9606
+Homo sapiens,Prostaglandin D2 receptor 2,CHEMBL5071,SINGLE PROTEIN,9606
+Homo sapiens,Calcium/calmodulin-dependent protein kinase type 1D,CHEMBL5073,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase B-raf,CHEMBL5145,SINGLE PROTEIN,9606
+Homo sapiens,Ephrin type-B receptor 4,CHEMBL5147,SINGLE PROTEIN,9606
+Homo sapiens,CX3C chemokine receptor 1,CHEMBL4843,SINGLE PROTEIN,9606
+Homo sapiens,Flap endonuclease 1,CHEMBL5027,SINGLE PROTEIN,9606
+Homo sapiens,Eukaryotic translation initiation factor 4E,CHEMBL4848,SINGLE PROTEIN,9606
+Homo sapiens,Disintegrin and metalloproteinase domain-containing protein 10,CHEMBL5028,SINGLE PROTEIN,9606
+Homo sapiens,Apoptosis regulator Bcl-2,CHEMBL4860,SINGLE PROTEIN,9606
+Homo sapiens,Vasoactive intestinal polypeptide receptor 1,CHEMBL5144,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase receptor UFO,CHEMBL4895,SINGLE PROTEIN,9606
+Homo sapiens,Lymphokine-activated killer T-cell-originated protein kinase,CHEMBL4896,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase PLK3,CHEMBL4897,SINGLE PROTEIN,9606
+Homo sapiens,BDNF/NT-3 growth factors receptor,CHEMBL4898,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase kinase kinase 8,CHEMBL4899,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase D2,CHEMBL4900,SINGLE PROTEIN,9606
+Homo sapiens,Ephrin type-B receptor 3,CHEMBL4901,SINGLE PROTEIN,9606
+Homo sapiens,A disintegrin and metalloproteinase with thrombospondin motifs 1,CHEMBL5133,SINGLE PROTEIN,9606
+Homo sapiens,Receptor-type tyrosine-protein phosphatase epsilon,CHEMBL4850,SINGLE PROTEIN,9606
+Homo sapiens,Low molecular weight phosphotyrosine protein phosphatase,CHEMBL4903,SINGLE PROTEIN,9606
+Homo sapiens,Receptor-type tyrosine-protein phosphatase gamma,CHEMBL4905,SINGLE PROTEIN,9606
+Homo sapiens,UDP-glucuronosyltransferase 2B17,CHEMBL4978,SINGLE PROTEIN,9606
+Homo sapiens,Endoplasmic reticulum aminopeptidase 2,CHEMBL5043,SINGLE PROTEIN,9606
+Homo sapiens,Ectonucleoside triphosphate diphosphohydrolase 2,CHEMBL5049,SINGLE PROTEIN,9606
+Homo sapiens,Matrix metalloproteinase-24,CHEMBL5050,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase MRCK beta,CHEMBL5052,SINGLE PROTEIN,9606
+Homo sapiens,Non-secretory ribonuclease,CHEMBL5120,SINGLE PROTEIN,9606
+Homo sapiens,Neuropeptide S receptor,CHEMBL5162,SINGLE PROTEIN,9606
+Homo sapiens,Aldo-keto reductase family 1 member C4,CHEMBL4999,SINGLE PROTEIN,9606
+Homo sapiens,E3 ubiquitin-protein ligase CBL-B,CHEMBL4879459,SINGLE PROTEIN,9606
+Homo sapiens,Microtubule-associated protein 1 light chain 3 beta,CHEMBL4879514,SINGLE PROTEIN,9606
+Homo sapiens,Microtubule-associated protein 1 light chain 3 alpha,CHEMBL4879518,SINGLE PROTEIN,9606
+Homo sapiens,Catenin beta-1/Cadherin-1,CHEMBL4888449,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,Alanine--glyoxylate aminotransferase,CHEMBL5169121,SINGLE PROTEIN,9606
+Homo sapiens,Alpha-L-iduronidase,CHEMBL5169131,SINGLE PROTEIN,9606
+Homo sapiens,14 kDa phosphohistidine phosphatase,CHEMBL5169200,SINGLE PROTEIN,9606
+Homo sapiens,BCL2/BID,CHEMBL5169265,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,BCL2/BAD,CHEMBL5169266,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,BCL2A1/BID,CHEMBL5169268,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,Sodium- and chloride-dependent GABA transporter 3,CHEMBL5208,SINGLE PROTEIN,9606
+Homo sapiens,Sodium channel protein type 10 subunit alpha,CHEMBL5451,SINGLE PROTEIN,9606
+Homo sapiens,Cytochrome P450 2E1,CHEMBL5281,SINGLE PROTEIN,9606
+Homo sapiens,Cytochrome P450 2A6,CHEMBL5282,SINGLE PROTEIN,9606
+Homo sapiens,Calcium/calmodulin-dependent protein kinase kinase 2,CHEMBL5284,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase kinase kinase 5,CHEMBL5285,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase Fes/Fps,CHEMBL5455,SINGLE PROTEIN,9606
+Homo sapiens,Cell division cycle 7-related protein kinase,CHEMBL5443,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase BTK,CHEMBL5251,SINGLE PROTEIN,9606
+Homo sapiens,Wee1-like protein kinase,CHEMBL5491,SINGLE PROTEIN,9606
+Homo sapiens,Voltage-dependent T-type calcium channel subunit alpha-1I,CHEMBL5558,SINGLE PROTEIN,9606
+Homo sapiens,MAP/microtubule affinity-regulating kinase 3,CHEMBL5600,SINGLE PROTEIN,9606
+Homo sapiens,Hepatic sodium/bile acid cotransporter,CHEMBL5287,SINGLE PROTEIN,9606
+Homo sapiens,"Deoxyuridine 5'-triphosphate nucleotidohydrolase, mitochondrial",CHEMBL5203,SINGLE PROTEIN,9606
+Homo sapiens,Cytosolic endo-beta-N-acetylglucosaminidase,CHEMBL5172,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase 15,CHEMBL5198,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase pim-3,CHEMBL5407,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase TBK1,CHEMBL5408,SINGLE PROTEIN,9606
+Homo sapiens,KiSS-1 receptor,CHEMBL5413,SINGLE PROTEIN,9606
+Homo sapiens,Free fatty acid receptor 2,CHEMBL5493,SINGLE PROTEIN,9606
+Homo sapiens,Histone acetyltransferase KAT2B,CHEMBL5500,SINGLE PROTEIN,9606
+Homo sapiens,Histone acetyltransferase KAT2A,CHEMBL5501,SINGLE PROTEIN,9606
+Homo sapiens,Histone-lysine N-methyltransferase SETD7,CHEMBL5523,SINGLE PROTEIN,9606
+Homo sapiens,Protein arginine N-methyltransferase 1,CHEMBL5524,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase receptor TYRO3,CHEMBL5314,SINGLE PROTEIN,9606
+Homo sapiens,Apoptosis regulator BAX,CHEMBL5318,SINGLE PROTEIN,9606
+Homo sapiens,Epithelial discoidin domain-containing receptor 1,CHEMBL5319,SINGLE PROTEIN,9606
+Homo sapiens,eIF-2-alpha kinase GCN2,CHEMBL5358,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase NLK,CHEMBL5364,SINGLE PROTEIN,9606
+Homo sapiens,DNA polymerase kappa,CHEMBL5365,SINGLE PROTEIN,9606
+Homo sapiens,Poly [ADP-ribose] polymerase 2,CHEMBL5366,SINGLE PROTEIN,9606
+Homo sapiens,Calcitonin gene-related peptide 1,CHEMBL5293,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase kinase kinase kinase 2,CHEMBL5330,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein kinase Mer,CHEMBL5331,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase 7,CHEMBL5332,SINGLE PROTEIN,9606
+Homo sapiens,Baculoviral IAP repeat-containing protein 3,CHEMBL5335,SINGLE PROTEIN,9606
+Homo sapiens,Ectonucleoside triphosphate diphosphohydrolase 8,CHEMBL5338,SINGLE PROTEIN,9606
+Homo sapiens,Broad substrate specificity ATP-binding cassette transporter ABCG2,CHEMBL5393,SINGLE PROTEIN,9606
+Homo sapiens,SRSF protein kinase 3,CHEMBL5415,SINGLE PROTEIN,9606
+Homo sapiens,"Fatty acid-binding protein, liver",CHEMBL5421,SINGLE PROTEIN,9606
+Homo sapiens,Protein disulfide-isomerase,CHEMBL5422,SINGLE PROTEIN,9606
+Homo sapiens,Ribonuclease pancreatic,CHEMBL5425,SINGLE PROTEIN,9606
+Homo sapiens,Baculoviral IAP repeat-containing protein 2,CHEMBL5462,SINGLE PROTEIN,9606
+Homo sapiens,Acid ceramidase,CHEMBL5463,SINGLE PROTEIN,9606
+Homo sapiens,Receptor-interacting serine/threonine-protein kinase 1,CHEMBL5464,SINGLE PROTEIN,9606
+Homo sapiens,Bone morphogenetic protein receptor type-2,CHEMBL5467,SINGLE PROTEIN,9606
+Homo sapiens,Protein-tyrosine kinase 2-beta,CHEMBL5469,SINGLE PROTEIN,9606
+Homo sapiens,Nuclear receptor subfamily 1 group I member 3,CHEMBL5503,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity tyrosine-phosphorylation-regulated kinase 1B,CHEMBL5543,SINGLE PROTEIN,9606
+Homo sapiens,Diacylglycerol lipase-alpha,CHEMBL5545,SINGLE PROTEIN,9606
+Homo sapiens,Proto-oncogene tyrosine-protein kinase ROS,CHEMBL5568,SINGLE PROTEIN,9606
+Homo sapiens,Lysine--tRNA ligase,CHEMBL5575,SINGLE PROTEIN,9606
+Homo sapiens,Rhodopsin kinase GRK1,CHEMBL5607,SINGLE PROTEIN,9606
+Homo sapiens,NT-3 growth factor receptor,CHEMBL5608,SINGLE PROTEIN,9606
+Homo sapiens,Prostasin,CHEMBL5610,SINGLE PROTEIN,9606
+Homo sapiens,Uridine 5'-monophosphate synthase,CHEMBL5216,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase TNNI3K,CHEMBL5260,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase TAO1,CHEMBL5261,SINGLE PROTEIN,9606
+Homo sapiens,Glucose-6-phosphate 1-dehydrogenase,CHEMBL5347,SINGLE PROTEIN,9606
+Homo sapiens,Hepatocyte nuclear factor 4-alpha,CHEMBL5398,SINGLE PROTEIN,9606
+Homo sapiens,Pituitary adenylate cyclase-activating polypeptide type I receptor,CHEMBL5399,SINGLE PROTEIN,9606
+Homo sapiens,Signal transducer and activator of transcription 6,CHEMBL5401,SINGLE PROTEIN,9606
+Homo sapiens,Signal transducer and activator of transcription 5A,CHEMBL5403,SINGLE PROTEIN,9606
+Homo sapiens,Histone-arginine methyltransferase CARM1,CHEMBL5406,SINGLE PROTEIN,9606
+Homo sapiens,Homeodomain-interacting protein kinase 1,CHEMBL5427,SINGLE PROTEIN,9606
+Homo sapiens,D-amino-acid oxidase,CHEMBL5485,SINGLE PROTEIN,9606
+Homo sapiens,Misshapen-like kinase 1,CHEMBL5518,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase DCLK2,CHEMBL5519,SINGLE PROTEIN,9606
+Homo sapiens,Prokineticin receptor 2,CHEMBL5548,SINGLE PROTEIN,9606
+Homo sapiens,ATP-dependent RNA helicase DDX3X,CHEMBL5553,SINGLE PROTEIN,9606
+Homo sapiens,Citron Rho-interacting kinase,CHEMBL5579,SINGLE PROTEIN,9606
+Homo sapiens,Ectonucleotide pyrophosphatase/phosphodiesterase family member 3,CHEMBL5580,SINGLE PROTEIN,9606
+Homo sapiens,Carbonyl reductase [NADPH] 1,CHEMBL5586,SINGLE PROTEIN,9606
+Homo sapiens,Prokineticin receptor 1,CHEMBL5649,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase BRSK1,CHEMBL5650,SINGLE PROTEIN,9606
+Homo sapiens,Glucose-dependent insulinotropic receptor,CHEMBL5652,SINGLE PROTEIN,9606
+Homo sapiens,Prostaglandin E synthase,CHEMBL5658,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase DCLK1,CHEMBL5683,SINGLE PROTEIN,9606
+Homo sapiens,DNA repair nuclease/redox regulator APEX1,CHEMBL5619,SINGLE PROTEIN,9606
+Homo sapiens,Proteasome subunit beta type-8,CHEMBL5620,SINGLE PROTEIN,9606
+Homo sapiens,Leukocyte tyrosine kinase receptor,CHEMBL5627,SINGLE PROTEIN,9606
+Homo sapiens,Disks large homolog 4,CHEMBL5666,SINGLE PROTEIN,9606
+Homo sapiens,Protein delta homolog 1,CHEMBL5671,SINGLE PROTEIN,9606
+Homo sapiens,G protein-coupled receptor kinase 5,CHEMBL5678,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase Nek3,CHEMBL5679,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase Nek11,CHEMBL5638,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase WNK2,CHEMBL5639,SINGLE PROTEIN,9606
+Homo sapiens,BCL2L2/BID,CHEMBL5169271,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,Promotilin,CHEMBL5214853,SINGLE PROTEIN,9606
+Homo sapiens,Ceramide synthase 2,CHEMBL5291553,SINGLE PROTEIN,9606
+Homo sapiens,Corticoliberin,CHEMBL5291554,SINGLE PROTEIN,9606
+Homo sapiens,CDK9/Cyclin T,CHEMBL5291961,PROTEIN COMPLEX GROUP,9606
+Homo sapiens,Ephrin type-A receptor 2/Ephrin-A1,CHEMBL5291975,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,Catenin beta-1/BCL9L,CHEMBL5291978,PROTEIN COMPLEX,9606
+Homo sapiens,17-beta-hydroxysteroid dehydrogenase 13,CHEMBL5305042,SINGLE PROTEIN,9606
+Homo sapiens,YAP1-TEAD4,CHEMBL5465250,PROTEIN COMPLEX,9606
+Homo sapiens,"Tricarboxylate transport protein, mitochondrial",CHEMBL5465271,SINGLE PROTEIN,9606
+Homo sapiens,Oxysterol-binding protein 2,CHEMBL5465343,SINGLE PROTEIN,9606
+Homo sapiens,WDR5-MYC,CHEMBL5465553,PROTEIN-PROTEIN INTERACTION,9606
+Homo sapiens,Prothrombinase complex,CHEMBL5482991,PROTEIN COMPLEX,9606
+Homo sapiens,Disintegrin and metalloproteinase domain-containing protein 9,CHEMBL5982,SINGLE PROTEIN,9606
+Homo sapiens,"Muscle, skeletal receptor tyrosine-protein kinase",CHEMBL5684,SINGLE PROTEIN,9606
+Homo sapiens,DNA ligase 1,CHEMBL5694,SINGLE PROTEIN,9606
+Homo sapiens,Glutathione hydrolase 1 proenzyme,CHEMBL5696,SINGLE PROTEIN,9606
+Homo sapiens,Ectonucleoside triphosphate diphosphohydrolase 1,CHEMBL5722,SINGLE PROTEIN,9606
+Homo sapiens,CREB-binding protein,CHEMBL5747,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase kinase kinase kinase 1,CHEMBL5749,SINGLE PROTEIN,9606
+Homo sapiens,Histone acetyltransferase KAT5,CHEMBL5750,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase kinase kinase 7,CHEMBL5776,SINGLE PROTEIN,9606
+Homo sapiens,NUAK family SNF1-like kinase 1,CHEMBL5784,SINGLE PROTEIN,9606
+Homo sapiens,"Interferon-induced, double-stranded RNA-activated protein kinase",CHEMBL5785,SINGLE PROTEIN,9606
+Homo sapiens,C-C chemokine receptor type 9,CHEMBL5815,SINGLE PROTEIN,9606
+Homo sapiens,Signal transducer and activator of transcription 5B,CHEMBL5817,SINGLE PROTEIN,9606
+Homo sapiens,cAMP-dependent protein kinase catalytic subunit PRKX,CHEMBL5818,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase Nek4,CHEMBL5819,SINGLE PROTEIN,9606
+Homo sapiens,Aldo-keto reductase family 1 member C2,CHEMBL5847,SINGLE PROTEIN,9606
+Homo sapiens,Baculoviral IAP repeat-containing protein 8,CHEMBL5851,SINGLE PROTEIN,9606
+Homo sapiens,Pyroglutamylated RF-amide peptide receptor,CHEMBL5852,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase Nek1,CHEMBL5855,SINGLE PROTEIN,9606
+Homo sapiens,Trace amine-associated receptor 1,CHEMBL5857,SINGLE PROTEIN,9606
+Homo sapiens,D-aspartate oxidase,CHEMBL5887,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase kinase kinase 14,CHEMBL5888,SINGLE PROTEIN,9606
+Homo sapiens,Protein arginine N-methyltransferase 3,CHEMBL5891,SINGLE PROTEIN,9606
+Homo sapiens,Lysine-specific demethylase 4A,CHEMBL5896,SINGLE PROTEIN,9606
+Homo sapiens,Ectonucleoside triphosphate diphosphohydrolase 3,CHEMBL5897,SINGLE PROTEIN,9606
+Homo sapiens,Ectonucleotide pyrophosphatase/phosphodiesterase family member 1,CHEMBL5925,SINGLE PROTEIN,9606
+Homo sapiens,LIM domain kinase 2,CHEMBL5932,SINGLE PROTEIN,9606
+Homo sapiens,Proteinase-activated receptor 2,CHEMBL5963,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase kinase kinase 3,CHEMBL5970,SINGLE PROTEIN,9606
+Homo sapiens,Protein smoothened,CHEMBL5971,SINGLE PROTEIN,9606
+Homo sapiens,Testis-specific serine/threonine-protein kinase 1,CHEMBL6003,SINGLE PROTEIN,9606
+Homo sapiens,Queuine tRNA-ribosyltransferase catalytic subunit 1,CHEMBL6004,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase 33,CHEMBL6005,SINGLE PROTEIN,9606
+Homo sapiens,Diacylglycerol O-acyltransferase 1,CHEMBL6009,SINGLE PROTEIN,9606
+Homo sapiens,"N(G),N(G)-dimethylarginine dimethylaminohydrolase 1",CHEMBL6036,SINGLE PROTEIN,9606
+Homo sapiens,Egl nine homolog 1,CHEMBL5697,SINGLE PROTEIN,9606
+Homo sapiens,Lysophosphatidic acid receptor 5,CHEMBL5700,SINGLE PROTEIN,9606
+Homo sapiens,Prolyl hydroxylase EGLN3,CHEMBL5705,SINGLE PROTEIN,9606
+Homo sapiens,Solute carrier family 28 member 3,CHEMBL5707,SINGLE PROTEIN,9606
+Homo sapiens,Pro-glucagon,CHEMBL5736,SINGLE PROTEIN,9606
+Homo sapiens,Translocator protein,CHEMBL5742,SINGLE PROTEIN,9606
+Homo sapiens,Polycystin-1,CHEMBL5772,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase Sgk2,CHEMBL5794,SINGLE PROTEIN,9606
+Homo sapiens,Angiogenin,CHEMBL5829,SINGLE PROTEIN,9606
+Homo sapiens,Catenin beta-1,CHEMBL5866,SINGLE PROTEIN,9606
+Homo sapiens,Nuclear receptor ROR-alpha,CHEMBL5868,SINGLE PROTEIN,9606
+Homo sapiens,Centromere-associated protein E,CHEMBL5870,SINGLE PROTEIN,9606
+Homo sapiens,Aldo-keto reductase family 1 member C1,CHEMBL5905,SINGLE PROTEIN,9606
+Homo sapiens,Hypoxia-inducible factor 1-alpha inhibitor,CHEMBL5909,SINGLE PROTEIN,9606
+Homo sapiens,Small ribosomal subunit protein mS38,CHEMBL5910,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase PLK2,CHEMBL5938,SINGLE PROTEIN,9606
+Homo sapiens,Endoplasmic reticulum aminopeptidase 1,CHEMBL5939,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase MARK1,CHEMBL5940,SINGLE PROTEIN,9606
+Homo sapiens,Galectin-2,CHEMBL5977,SINGLE PROTEIN,9606
+Homo sapiens,"Alkaline phosphatase, tissue-nonspecific isozyme",CHEMBL5979,SINGLE PROTEIN,9606
+Homo sapiens,Testis-specific serine/threonine-protein kinase 2,CHEMBL6014,SINGLE PROTEIN,9606
+Homo sapiens,PAS domain-containing serine/threonine-protein kinase,CHEMBL6054,SINGLE PROTEIN,9606
+Homo sapiens,Bcl-2-related protein A1,CHEMBL6044,SINGLE PROTEIN,9606
+Homo sapiens,5'-nucleotidase,CHEMBL5957,SINGLE PROTEIN,9606
+Homo sapiens,Aldo-keto reductase family 1 member B10,CHEMBL5983,SINGLE PROTEIN,9606
+Homo sapiens,Bcl-2-like protein 10,CHEMBL5988,SINGLE PROTEIN,9606
+Homo sapiens,Breast cancer type 1 susceptibility protein,CHEMBL5990,SINGLE PROTEIN,9606
+Homo sapiens,Cytohesin-2,CHEMBL5995,SINGLE PROTEIN,9606
+Homo sapiens,"4-hydroxy-2-oxoglutarate aldolase, mitochondrial",CHEMBL5996,SINGLE PROTEIN,9606
+Homo sapiens,Histone-lysine N-methyltransferase EHMT1,CHEMBL6031,SINGLE PROTEIN,9606
+Homo sapiens,Histone-lysine N-methyltransferase EHMT2,CHEMBL6032,SINGLE PROTEIN,9606
+Homo sapiens,Glycine receptor subunit alpha-1,CHEMBL5845,SINGLE PROTEIN,9606
+Homo sapiens,G-protein coupled estrogen receptor 1,CHEMBL5872,SINGLE PROTEIN,9606
+Homo sapiens,"Solute carrier family 2, facilitated glucose transporter member 2",CHEMBL5873,SINGLE PROTEIN,9606
+Homo sapiens,"Solute carrier family 2, facilitated glucose transporter member 5",CHEMBL5875,SINGLE PROTEIN,9606
+Homo sapiens,Beta-hexosaminidase subunit beta,CHEMBL5877,SINGLE PROTEIN,9606
+Homo sapiens,Adenosine 5'-monophosphoramidase HINT1,CHEMBL5878,SINGLE PROTEIN,9606
+Homo sapiens,Hematopoietic prostaglandin D synthase,CHEMBL5879,SINGLE PROTEIN,9606
+Homo sapiens,Interleukin-2,CHEMBL5880,SINGLE PROTEIN,9606
+Homo sapiens,Membrane-bound transcription factor site-1 protease,CHEMBL5916,SINGLE PROTEIN,9606
+Homo sapiens,"Malate dehydrogenase, mitochondrial",CHEMBL5917,SINGLE PROTEIN,9606
+Homo sapiens,Protein O-GlcNAcase,CHEMBL5921,SINGLE PROTEIN,9606
+Homo sapiens,Neuropeptide FF receptor 1,CHEMBL5951,SINGLE PROTEIN,9606
+Homo sapiens,Neuropeptide FF receptor 2,CHEMBL5952,SINGLE PROTEIN,9606
+Homo sapiens,RAS guanyl-releasing protein 1,CHEMBL5953,SINGLE PROTEIN,9606
+Homo sapiens,"Ornithine aminotransferase, mitochondrial",CHEMBL5954,SINGLE PROTEIN,9606
+Homo sapiens,UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 110 kDa subunit,CHEMBL5955,SINGLE PROTEIN,9606
+Homo sapiens,A disintegrin and metalloproteinase with thrombospondin motifs 7,CHEMBL5724789,SINGLE PROTEIN,9606
+Homo sapiens,D-dopachrome decarboxylase,CHEMBL5724909,SINGLE PROTEIN,9606
+Homo sapiens,Ubiquitin-associated and SH3 domain-containing protein B,CHEMBL5725045,SINGLE PROTEIN,9606
+Homo sapiens,Dual specificity protein phosphatase CDC14B,CHEMBL6066204,SINGLE PROTEIN,9606
+Homo sapiens,Peptidyl-prolyl cis-trans isomerase E,CHEMBL6066227,SINGLE PROTEIN,9606
+Homo sapiens,Kelch-like protein 12,CHEMBL6066235,SINGLE PROTEIN,9606
+Homo sapiens,Angiotensin-converting enzyme/Ribosomal RNA small subunit methyltransferase NEP1,CHEMBL6066541,PROTEIN COMPLEX,9606
+Homo sapiens,Coagulation factor V/Coagulation factor X/Serine/threonine-protein kinase BRSK2,CHEMBL6066543,PROTEIN COMPLEX,9606
+Homo sapiens,"Glutamate receptor ionotropic, NMDA 1/2C/3B",CHEMBL6066548,PROTEIN COMPLEX,9606
+Homo sapiens,Neprilysin/Angiotensin-converting enzyme,CHEMBL6066554,PROTEIN COMPLEX,9606
+Homo sapiens,Sodium/potassium-transporting ATPase subunit alpha-1/beta-1,CHEMBL6066559,PROTEIN COMPLEX,9606
+Homo sapiens,Sodium/potassium-transporting ATPase subunit alpha-2/beta-1,CHEMBL6066560,PROTEIN COMPLEX,9606
+Homo sapiens,Sodium/potassium-transporting ATPase subunit alpha-2/beta-2,CHEMBL6066561,PROTEIN COMPLEX,9606
+Homo sapiens,Sodium/potassium-transporting ATPase subunit alpha-2/beta-3,CHEMBL6066562,PROTEIN COMPLEX,9606
+Homo sapiens,ATR-interacting protein/DNA topoisomerase 2-binding protein 1/Dual specificity protein kinase CLK2/Serine/threonine-protein kinase ATR,CHEMBL6066578,PROTEIN COMPLEX,9606
+Homo sapiens,AP-4 complex subunit sigma-1,CHEMBL6066580,SINGLE PROTEIN,9606
+Homo sapiens,Alpha amylase,CHEMBL6066863,PROTEIN FAMILY,9606
+Homo sapiens,FUN14 domain-containing protein 1,CHEMBL6067457,SINGLE PROTEIN,9606
+Homo sapiens,Monoclonal antibody (mAb) 2E2,CHEMBL612442,UNKNOWN,9606
+Homo sapiens,Serine/threonine-protein kinase SIK1,CHEMBL6082,SINGLE PROTEIN,9606
+Homo sapiens,Receptor-interacting serine/threonine-protein kinase 4,CHEMBL6083,SINGLE PROTEIN,9606
+Homo sapiens,Cell division control protein 42 homolog,CHEMBL6088,SINGLE PROTEIN,9606
+Homo sapiens,Calmodulin-1,CHEMBL6093,SINGLE PROTEIN,9606
+Homo sapiens,Disintegrin and metalloproteinase domain-containing protein 33,CHEMBL6121,SINGLE PROTEIN,9606
+Homo sapiens,Poly [ADP-ribose] polymerase tankyrase-1,CHEMBL6164,SINGLE PROTEIN,9606
+Homo sapiens,Mitogen-activated protein kinase kinase kinase kinase 4,CHEMBL6166,SINGLE PROTEIN,9606
+Homo sapiens,Cytochrome c oxidase subunit 2,CHEMBL6174,SINGLE PROTEIN,9606
+Homo sapiens,Signal transducer and activator of transcription 1-alpha/beta,CHEMBL6101,SINGLE PROTEIN,9606
+Homo sapiens,Lysine-specific histone demethylase 1A,CHEMBL6136,SINGLE PROTEIN,9606
+Homo sapiens,Lysine-specific demethylase 4D,CHEMBL6138,SINGLE PROTEIN,9606
+Homo sapiens,G protein-coupled receptor kinase 6,CHEMBL6144,SINGLE PROTEIN,9606
+Homo sapiens,Lysine-specific demethylase 4C,CHEMBL6175,SINGLE PROTEIN,9606
+Homo sapiens,NAD kinase,CHEMBL6177,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase Sgk3,CHEMBL6186,SINGLE PROTEIN,9606
+Homo sapiens,Protein-arginine deiminase type-4,CHEMBL6111,SINGLE PROTEIN,9606
+Homo sapiens,Tyrosine-protein phosphatase non-receptor type 9,CHEMBL6117,SINGLE PROTEIN,9606
+Homo sapiens,Solute carrier family 22 member 12,CHEMBL6120,SINGLE PROTEIN,9606
+Homo sapiens,Serine/threonine-protein kinase 31,CHEMBL6151,SINGLE PROTEIN,9606
+Homo sapiens,Alpha-synuclein,CHEMBL6152,SINGLE PROTEIN,9606
+Homo sapiens,Threonine aspartase 1,CHEMBL6153,SINGLE PROTEIN,9606
+Homo sapiens,Poly [ADP-ribose] polymerase tankyrase-2,CHEMBL6154,SINGLE PROTEIN,9606
+Homo sapiens,Tripeptidyl-peptidase 2,CHEMBL6156,SINGLE PROTEIN,9606
+Homo sapiens,Tumor susceptibility gene 101 protein,CHEMBL6157,SINGLE PROTEIN,9606
+Homo sapiens,Ubiquitin carboxyl-terminal hydrolase 5,CHEMBL6158,SINGLE PROTEIN,9606
+Homo sapiens,Ubiquitin carboxyl-terminal hydrolase isozyme L1,CHEMBL6159,SINGLE PROTEIN,9606
+Homo sapiens,Ubiquitin carboxyl-terminal hydrolase isozyme L3,CHEMBL6195,SINGLE PROTEIN,9606
+Homo sapiens,Palmitoyltransferase ZDHHC9,CHEMBL6067465,SINGLE PROTEIN,9606
+Homo sapiens,Serotonin N-acetyltransferase,CHEMBL6196091,SINGLE PROTEIN,9606
+Homo sapiens,N-acetylaspartylglutamate synthase A,CHEMBL6196108,SINGLE PROTEIN,9606

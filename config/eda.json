@@ -1,0 +1,25 @@
+{
+  "seed": 42,
+  "minimum_pairs_per_target": 300,
+  "minimum_train_pairs": 100,
+  "minimum_validation_pairs": 10,
+  "minimum_test_pairs": 10,
+  "maximum_heavy_atoms": 100,
+  "maximum_repeat_range_pki": 2.0,
+  "fingerprint": {"radius": 2, "n_bits": 2048, "include_chirality": true},
+  "split_fractions": {"train": 0.8, "validation": 0.1, "test": 0.1},
+  "rf_candidates": {
+    "RF_leaf1": {"n_estimators": 100, "min_samples_leaf": 1, "max_features": "sqrt"},
+    "RF_leaf3": {"n_estimators": 100, "min_samples_leaf": 3, "max_features": "sqrt"},
+    "RF_leaf10": {"n_estimators": 100, "min_samples_leaf": 10, "max_features": "sqrt"}
+  },
+  "parallel_targets": 6,
+  "augmentation_dropout": 0.05,
+  "augmentation_invariance_molecules": 500,
+  "augmentation_repeats": 5,
+  "sources": {
+    "chembl": "https://www.ebi.ac.uk/chembl/",
+    "api": "https://chembl.gitbook.io/chembl-interface-documentation/web-services/chembl-data-web-services",
+    "morgan": "https://www.rdkit.org/docs/GettingStartedInPython.html#morgan-fingerprints-circular-fingerprints"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "molecules": 120720,
+  "bits": 2048,
+  "active_bits_min": 3,
+  "active_bits_median": 54.0,
+  "active_bits_max": 150,
+  "constant_bits": 0,
+  "unique_fingerprints": 118944,
+  "different_structures_with_same_fingerprint_excess": 1776,
+  "random_split_shared_fingerprints_train_test": 166,
+  "scaffold_split_shared_fingerprints_train_test": 85
+}

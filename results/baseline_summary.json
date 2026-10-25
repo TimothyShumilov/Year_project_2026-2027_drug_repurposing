@@ -1,0 +1,70 @@
+{
+  "selected": "RF_leaf1",
+  "parameters": {
+    "n_estimators": 100,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt"
+  },
+  "validation_macro_MAE": 0.5862304956780331,
+  "test_macro_MAE": 0.5845230285816788,
+  "test_macro_RMSE": 0.7637074843102273,
+  "test_macro_R2": 0.47043853285452275,
+  "test_macro_Spearman": 0.6867975984571938,
+  "dummy_test_macro_MAE": 0.9517318024453718,
+  "targets": 131,
+  "test_pairs": 16665,
+  "three_seed_macro_MAE_mean": 0.5838720797626448,
+  "three_seed_macro_MAE_sd": 0.0008332620260668217,
+  "total_training_seconds": 53.227417710004374,
+  "config": {
+    "seed": 42,
+    "minimum_pairs_per_target": 300,
+    "minimum_train_pairs": 100,
+    "minimum_validation_pairs": 10,
+    "minimum_test_pairs": 10,
+    "maximum_heavy_atoms": 100,
+    "maximum_repeat_range_pki": 2.0,
+    "fingerprint": {
+      "radius": 2,
+      "n_bits": 2048,
+      "include_chirality": true
+    },
+    "split_fractions": {
+      "train": 0.8,
+      "validation": 0.1,
+      "test": 0.1
+    },
+    "rf_candidates": {
+      "RF_leaf1": {
+        "n_estimators": 100,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      },
+      "RF_leaf3": {
+        "n_estimators": 100,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      },
+      "RF_leaf10": {
+        "n_estimators": 100,
+        "min_samples_leaf": 10,
+        "max_features": "sqrt"
+      }
+    },
+    "parallel_targets": 6,
+    "augmentation_dropout": 0.05,
+    "augmentation_invariance_molecules": 500,
+    "augmentation_repeats": 5,
+    "sources": {
+      "chembl": "https://www.ebi.ac.uk/chembl/",
+      "api": "https://chembl.gitbook.io/chembl-interface-documentation/web-services/chembl-data-web-services",
+      "morgan": "https://www.rdkit.org/docs/GettingStartedInPython.html#morgan-fingerprints-circular-fingerprints"
+    }
+  },
+  "input_sha256": {
+    "pairs": "580cdeaec9e47b212cc39dc3e4ed0de66a8239bd4196d1884373e563f7fff5c0",
+    "molecules": "2f07d9c8424f10c21d72a076d3f6abc7d6925e4d0a78efb05f6cf42acef7e473",
+    "fingerprints": "74ca6417a8da9782f6303673ed1183d25ba1e2ae5f2f222be4b4ca76c95d2128"
+  },
+  "test_is_blind_for_model_selection": true
+}

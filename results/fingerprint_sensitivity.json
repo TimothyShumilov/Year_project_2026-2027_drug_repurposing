@@ -1,0 +1,9 @@
+{
+  "diagnostic_only": true,
+  "targets": 131,
+  "test_pairs": 16665,
+  "test_pairs_with_fingerprint_seen_for_same_target": 120,
+  "macro_MAE_all": 0.5845230285816788,
+  "macro_MAE_without_shared_fingerprints": 0.5867109730504394,
+  "targets_remaining": 131
+}

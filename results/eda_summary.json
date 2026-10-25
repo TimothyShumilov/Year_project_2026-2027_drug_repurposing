@@ -1,0 +1,168 @@
+{
+  "source": {
+    "source": "ChEMBL",
+    "release": "ChEMBL_37",
+    "release_date": "2026-05-01",
+    "retrieved_at_utc": "2026-10-25T16:48:51.630779+00:00",
+    "activity_query": {
+      "standard_type": "Ki",
+      "assay_type": "B",
+      "target_organism": "Homo sapiens"
+    },
+    "activity_rows": 530618,
+    "unique_activity_ids": 530618,
+    "target_rows": 1731,
+    "assay_rows": 38193,
+    "approved_molecule_rows": 4225,
+    "cache_files": 937
+  },
+  "raw_rows": 530618,
+  "raw_targets": 1731,
+  "raw_unique_molecules": 196046,
+  "raw_global_missing_fraction": 0.16430875919246085,
+  "funnel": [
+    {
+      "step": "Получено из API",
+      "remaining": 530618,
+      "removed": 0
+    },
+    {
+      "step": "Точное измерение Ki",
+      "remaining": 385463,
+      "removed": 145155
+    },
+    {
+      "step": "Положительное конечное значение в нМ",
+      "remaining": 384996,
+      "removed": 467
+    },
+    {
+      "step": "Нет флага ошибки измерения",
+      "remaining": 376983,
+      "removed": 8013
+    },
+    {
+      "step": "Нет флага возможного дубликата",
+      "remaining": 332868,
+      "removed": 44115
+    },
+    {
+      "step": "Отдельный человеческий белок",
+      "remaining": 318025,
+      "removed": 14843
+    },
+    {
+      "step": "Прямое сопоставление мишени с уверенностью 9",
+      "remaining": 235097,
+      "removed": 82928
+    },
+    {
+      "step": "Нет аннотации мутантного белка",
+      "remaining": 233155,
+      "removed": 1942
+    },
+    {
+      "step": "pKi согласуется с указанным pChEMBL",
+      "remaining": 233155,
+      "removed": 0
+    },
+    {
+      "step": "Пригодная органическая структура до 100 тяжёлых атомов",
+      "remaining": 226486,
+      "removed": 6669
+    }
+  ],
+  "pki_check": {
+    "with_provided_pchembl": 233155,
+    "different_by_over_0_05": 0,
+    "recomputed_missing_pchembl": 0
+  },
+  "structure_status": {
+    "valid": 121399,
+    "over_100_heavy_atoms": 1539,
+    "multiple_organic_components": 1516,
+    "no_organic_fragment": 26,
+    "unsupported_element": 24,
+    "invalid_or_missing": 1
+  },
+  "repeats": {
+    "pairs_before_conflict_filter": 205567,
+    "repeated_pairs": 15701,
+    "conflicting_pairs_over_2_pki": 891
+  },
+  "curated_pairs": 204676,
+  "curated_molecules": 120720,
+  "curated_targets": 1197,
+  "benchmark_targets": 131,
+  "benchmark_pairs": 164432,
+  "benchmark_molecules": 95872,
+  "target_min_pairs": 300,
+  "targets_dropped_for_split_coverage": 1,
+  "scaffolds": 45289,
+  "acyclic_molecules": 576,
+  "pki_min": 1.1036291070826256,
+  "pki_max": 11.0,
+  "pki_median": 7.130768280269024,
+  "iqr_outlier_pairs": 184,
+  "matrix_missing_fraction": 0.9985835751295624,
+  "missing_publication_year_pairs": 2,
+  "split_molecule_counts": {
+    "random_split": {
+      "train": 96546,
+      "test": 12093,
+      "validation": 12081
+    },
+    "scaffold_split": {
+      "train": 97148,
+      "test": 12129,
+      "validation": 11443
+    }
+  },
+  "config": {
+    "seed": 42,
+    "minimum_pairs_per_target": 300,
+    "minimum_train_pairs": 100,
+    "minimum_validation_pairs": 10,
+    "minimum_test_pairs": 10,
+    "maximum_heavy_atoms": 100,
+    "maximum_repeat_range_pki": 2.0,
+    "fingerprint": {
+      "radius": 2,
+      "n_bits": 2048,
+      "include_chirality": true
+    },
+    "split_fractions": {
+      "train": 0.8,
+      "validation": 0.1,
+      "test": 0.1
+    },
+    "rf_candidates": {
+      "RF_leaf1": {
+        "n_estimators": 100,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      },
+      "RF_leaf3": {
+        "n_estimators": 100,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      },
+      "RF_leaf10": {
+        "n_estimators": 100,
+        "min_samples_leaf": 10,
+        "max_features": "sqrt"
+      }
+    },
+    "parallel_targets": 6,
+    "augmentation_dropout": 0.05,
+    "augmentation_invariance_molecules": 500,
+    "augmentation_repeats": 5,
+    "sources": {
+      "chembl": "https://www.ebi.ac.uk/chembl/",
+      "api": "https://chembl.gitbook.io/chembl-interface-documentation/web-services/chembl-data-web-services",
+      "morgan": "https://www.rdkit.org/docs/GettingStartedInPython.html#morgan-fingerprints-circular-fingerprints"
+    }
+  },
+  "random_split_scaffold_overlap_train_test": 4793,
+  "scaffold_split_scaffold_overlap_train_test": 0
+}

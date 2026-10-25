@@ -1,0 +1,7 @@
+{
+  "approved_molecule_records": 4225,
+  "eligible_unique_small_molecule_structures": 2048,
+  "with_curated_Ki_measurement": 525,
+  "with_benchmark_Ki_measurement": 362,
+  "definition": "ChEMBL max_phase=4, nonwithdrawn Small molecule record, same structure filters; exact canonical structure matching"
+}

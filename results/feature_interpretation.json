@@ -1,0 +1,84 @@
+{
+  "target_id": "CHEMBL205",
+  "target_name": "Carbonic anhydrase 2",
+  "validation_examples": 555,
+  "validation_MAE": 0.6837315393882724,
+  "top_bits": [
+    {
+      "bit": 1171,
+      "impurity_importance": 0.026580634390766047,
+      "permutation_MAE_increase": 0.01185555241468772
+    },
+    {
+      "bit": 1607,
+      "impurity_importance": 0.024860580336754295,
+      "permutation_MAE_increase": 0.013905024266651744
+    },
+    {
+      "bit": 1476,
+      "impurity_importance": 0.023472845503403436,
+      "permutation_MAE_increase": 0.008602532100531116
+    },
+    {
+      "bit": 833,
+      "impurity_importance": 0.019614072243082006,
+      "permutation_MAE_increase": 0.010378666530311645
+    },
+    {
+      "bit": 1489,
+      "impurity_importance": 0.018659052395195424,
+      "permutation_MAE_increase": 0.010683265163253278
+    },
+    {
+      "bit": 1197,
+      "impurity_importance": 0.01512396396531712,
+      "permutation_MAE_increase": 0.010202057600737113
+    },
+    {
+      "bit": 350,
+      "impurity_importance": 0.013621959246205245,
+      "permutation_MAE_increase": 0.004565765878071078
+    },
+    {
+      "bit": 715,
+      "impurity_importance": 0.009919330700859008,
+      "permutation_MAE_increase": 0.009057588054651844
+    },
+    {
+      "bit": 319,
+      "impurity_importance": 0.009381944802137533,
+      "permutation_MAE_increase": 0.002355491869152478
+    },
+    {
+      "bit": 926,
+      "impurity_importance": 0.005585414637130438,
+      "permutation_MAE_increase": 0.012533566655219727
+    },
+    {
+      "bit": 1019,
+      "impurity_importance": 0.004959951661122419,
+      "permutation_MAE_increase": 0.002287542639761645
+    },
+    {
+      "bit": 675,
+      "impurity_importance": 0.004551636252866466,
+      "permutation_MAE_increase": -3.1318754227201616e-05
+    },
+    {
+      "bit": 650,
+      "impurity_importance": 0.004341611852050059,
+      "permutation_MAE_increase": -0.0009202520372894781
+    },
+    {
+      "bit": 935,
+      "impurity_importance": 0.0036187478589876287,
+      "permutation_MAE_increase": 0.00914301144699455
+    },
+    {
+      "bit": 389,
+      "impurity_importance": 0.0035399520093982663,
+      "permutation_MAE_increase": 0.0003359078510185946
+    }
+  ],
+  "note": "Permutation importance is measured on validation only; a hashed bit can represent multiple environments and is not a causal mechanism."
+}

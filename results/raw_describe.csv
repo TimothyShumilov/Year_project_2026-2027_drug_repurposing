@@ -1,0 +1,28 @@
+,count,unique,top,freq,mean,std,min,25%,50%,75%,max
+activity_id,530618.0,,,,12842265.863214215,9907212.543839637,31889.0,2492005.25,12106883.5,20706221.75,29331268.0
+assay_chembl_id,530618,38193,CHEMBL5732566,898,,,,,,,
+assay_type,530618,1,B,530618,,,,,,,
+assay_variant_accession,2192,74,P00533,270,,,,,,,
+assay_variant_mutation,2381,279,"L858R,T790M",203,,,,,,,
+canonical_smiles,526773,195750,CC(=O)Nc1nnc(S(N)(=O)=O)s1,2099,,,,,,,
+data_validity_comment,10905,5,Outside typical range,10081,,,,,,,
+document_chembl_id,530618,11993,CHEMBL1909046,77519,,,,,,,
+document_year,453043.0,,,,2012.557351068221,7.549375501109788,1977.0,2007.0,2014.0,2019.0,2025.0
+molecule_chembl_id,530618,196046,CHEMBL20,2099,,,,,,,
+parent_molecule_chembl_id,530618,195081,CHEMBL20,2099,,,,,,,
+pchembl_value,376983,815,6.30,3783,,,,,,,
+potential_duplicate,530618.0,,,,0.09586934480172177,0.2944122566793341,0.0,0.0,0.0,0.0,1.0
+relation,445528,7,=,385463,,,,,,,
+src_id,530618.0,,,,11.622822821690933,15.295197114341299,1.0,1.0,1.0,15.0,72.0
+standard_flag,530618.0,,,,0.8389519390597379,0.36757562165999236,0.0,1.0,1.0,1.0,1.0
+standard_relation,445528,7,=,385463,,,,,,,
+standard_type,530618,1,Ki,530618,,,,,,,
+standard_units,447265,44,nM,446933,,,,,,,
+standard_value,445523,23812,10000.0,17607,,,,,,,
+target_chembl_id,530618,1731,CHEMBL217,14017,,,,,,,
+target_organism,530618,1,Homo sapiens,530618,,,,,,,
+target_pref_name,530618,1728,D(2) dopamine receptor,14017,,,,,,,
+target_tax_id,530618,1,9606,530618,,,,,,,
+type,530618,15,Ki,490752,,,,,,,
+units,411772,98,nM,338004,,,,,,,
+value,445523,24380,10000.0,11278,,,,,,,

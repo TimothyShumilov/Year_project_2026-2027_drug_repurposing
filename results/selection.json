@@ -1,0 +1,10 @@
+{
+  "criterion": "macro validation MAE on scaffold split",
+  "selected": "RF_leaf1",
+  "validation_macro_MAE": {
+    "RF_leaf1": 0.5862304956780331,
+    "RF_leaf3": 0.6378346538775147,
+    "RF_leaf10": 0.7206902681698941
+  },
+  "test_used_for_selection": false
+}

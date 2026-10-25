@@ -1,0 +1,21 @@
+{
+  "molecules": 500,
+  "trials_per_method": 2500,
+  "random_smiles_changed": 2493,
+  "random_smiles_identical_fingerprints": 2500,
+  "atom_permutation_identical_fingerprints": 2500,
+  "examples": [
+    {
+      "canonical": "C[C@@H]1COC[C@H](C)N1c1nc(-c2cnc(N)cc2C(F)(F)F)nc(N2CCOCC2)n1",
+      "random_smiles": "n1c(cc(C(F)(F)F)c(-c2nc(nc(N3[C@H](C)COC[C@@H]3C)n2)N2CCOCC2)c1)N"
+    },
+    {
+      "canonical": "NS(=O)(=O)c1ccc(Nc2ccnc(NS(=O)(=O)c3cccnc3)n2)cc1",
+      "random_smiles": "c1c(ccc(S(=O)(=O)N)c1)Nc1ccnc(NS(c2cccnc2)(=O)=O)n1"
+    },
+    {
+      "canonical": "CCOC(=O)c1ccc(NC2=CC(=O)/C(=N\\NC(=N)N)c3ccccc32)cc1",
+      "random_smiles": "C1(/c2ccccc2C(Nc2ccc(C(OCC)=O)cc2)=CC1=O)=N\\NC(N)=N"
+    }
+  ]
+}
