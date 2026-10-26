@@ -1,5 +1,5 @@
 {
-  "validated_at_utc": "2026-10-26T05:49:46.057285+00:00",
+  "validated_at_utc": "2026-10-26T07:58:10.712855+00:00",
   "checks_passed": [
     "unique curated molecule-target pairs",
     "finite regression targets",
@@ -57,8 +57,8 @@
   "artifacts": [
     {
       "path": "EDA.ipynb",
-      "bytes": 955734,
-      "sha256": "22b21b445c9a14ceb19df084dafcc668b5b49c3e457a7403a21acfafffc8a3fe"
+      "bytes": 1051705,
+      "sha256": "7e80f68a1bcbf4475077e3dc8e16fc4123f54dd77702517132a6bdc4dc8c1425"
     },
     {
       "path": "config/eda.json",
@@ -67,8 +67,8 @@
     },
     {
       "path": "data/README.md",
-      "bytes": 10227,
-      "sha256": "c76b30a9af31ec4a761ea7b6c170b8ec87789b0c3c6d929b1eff213d9b190924"
+      "bytes": 11777,
+      "sha256": "45e53cfaf1f0c7951f37efd76fb0ef84e89e023f78673df6490269d8eaa3da98"
     },
     {
       "path": "data/processed/approved_library.parquet",
@@ -112,13 +112,13 @@
     },
     {
       "path": "readme.md",
-      "bytes": 13918,
-      "sha256": "72b49e1b89c8d3adb66650b794eb674323ae7591a50888cdfd1b1dd8d8a188a0"
+      "bytes": 16718,
+      "sha256": "0ae3aa3f944d22a5703d38df39b167764f5aac7f49baa64c65d03deda33b4e06"
     },
     {
       "path": "requirements.txt",
-      "bytes": 208,
-      "sha256": "2ae0fc6cd8395a302a3871cd674943983a0d1bb2d6cb078d1fb75789974ddfc0"
+      "bytes": 263,
+      "sha256": "bef037f56816935d82885b9336a64480f3828c87ccebbdb4330a0c2c0d71992b"
     },
     {
       "path": "results/approved_coverage.json",
@@ -306,9 +306,14 @@
       "sha256": "95f71751c8856a9ac2f17425cf8d7f50cd4d515562c29d24845ae495f75aa716"
     },
     {
+      "path": "scripts/audit_sources.py",
+      "bytes": 5610,
+      "sha256": "af16144d01843dbcf9453f8ebb6c5bee3afe0986906fe2f0137300d0e12da3fa"
+    },
+    {
       "path": "scripts/build_notebook.py",
-      "bytes": 40098,
-      "sha256": "9b39c2ad2c175777e87c99b577d5b94affe4f470f0d1b2a19ae3a693eb84de8c"
+      "bytes": 46868,
+      "sha256": "d9178834609191bd5832ff2a2e2e7934210e73f5e8b8b60de80a57baf7676516"
     },
     {
       "path": "scripts/build_practical_pdf.py",
@@ -321,14 +326,34 @@
       "sha256": "c23f0bf6ba6f1578f2ba753bc2a040f65ef394390e0f387b7e1a7baf848259a0"
     },
     {
+      "path": "scripts/download_sources.py",
+      "bytes": 6404,
+      "sha256": "450c5e160f837c4b3bfeb49821103b738db731b421030e60ae863e43b8362810"
+    },
+    {
       "path": "scripts/execute_notebook.py",
       "bytes": 1102,
       "sha256": "662ee6091d0b0bee50015e00e99509fea92a351b14fd0b1981b009a50f0169ff"
     },
     {
+      "path": "scripts/fetch_pubchem_metadata.py",
+      "bytes": 2741,
+      "sha256": "dbec162241e9981959ce65ce68e36f1917af220c56990248b0f9ab2af94a5aa5"
+    },
+    {
       "path": "scripts/run_eda.py",
       "bytes": 2257,
       "sha256": "41551e117f426669abafe34f1e8198024dd6e7c232fe426f3f57b73969bd7403"
+    },
+    {
+      "path": "scripts/run_multisource.py",
+      "bytes": 1450,
+      "sha256": "38f1d14bbd4c446661f8c8a3139bb01143c15ecbe8d8d362fc5a30af2e51e62e"
+    },
+    {
+      "path": "scripts/verify_multisource.py",
+      "bytes": 7923,
+      "sha256": "19070644ebacd3a90abd827abcf70f663ff81783a5d1baa3f7b304f61949fdf8"
     },
     {
       "path": "scripts/verify_results.py",
@@ -344,6 +369,26 @@
       "path": "src/eda_figures.py",
       "bytes": 6373,
       "sha256": "09108fe52bc8ad28ea81572f656b40ff26a9dd10c2a529835cf38a94c926c4c4"
+    },
+    {
+      "path": "src/multisource_data.py",
+      "bytes": 19780,
+      "sha256": "3b7f5dfdd04ae7e0986307c14ec8158ee0a2da17da3ad5d9f5fccf3da62d7d99"
+    },
+    {
+      "path": "src/multisource_figures.py",
+      "bytes": 1432,
+      "sha256": "ac0e8baaaab4446ec5c430624fdc59ac0e592561e9c624fe987e6e1c665ea89e"
+    },
+    {
+      "path": "src/multisource_hub.py",
+      "bytes": 17716,
+      "sha256": "d1e988700f2e07210bc1f4f57fec1e29ec11bc697fdff54f9cad404a988ea198"
+    },
+    {
+      "path": "src/multisource_models.py",
+      "bytes": 10451,
+      "sha256": "2f2a2d593cd1c13ef5f0a54f2886f110950afce82a82e5a7a39b79f48388c6af"
     },
     {
       "path": "tests/test_eda.py",

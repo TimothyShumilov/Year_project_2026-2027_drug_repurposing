@@ -1,0 +1,23 @@
+{
+  "raw_rows": 22364,
+  "retained_rows": 13485,
+  "scale": "ACT_VALUE is negative log10(molar), not a concentration",
+  "references": [
+    "https://zitniklab.hms.harvard.edu/ToolUniverse/tools/drugcentral_tools.html",
+    "https://academic.oup.com/nar/article/45/D1/D932/2333938"
+  ],
+  "rows_by_endpoint": {
+    "pKi": 5410,
+    "pIC50": 4293,
+    "pKd": 3782
+  },
+  "upstream_sources": {
+    "CHEMBL": 8210,
+    "DRUG MATRIX": 1870,
+    "WOMBAT-PK": 1510,
+    "IUPHAR": 764,
+    "SCIENTIFIC LITERATURE": 515,
+    "PDSP": 483,
+    "DRUG LABEL": 133
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "config": {
+    "version": 2,
+    "seed": 42,
+    "parallel_targets": 6,
+    "fingerprint": {
+      "radius": 2,
+      "n_bits": 2048,
+      "include_chirality": true
+    },
+    "candidates": {
+      "leaf1": {
+        "n_estimators": 100,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      },
+      "leaf3": {
+        "n_estimators": 100,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      },
+      "leaf10": {
+        "n_estimators": 100,
+        "min_samples_leaf": 10,
+        "max_features": "sqrt"
+      }
+    },
+    "minimum_pairs": {
+      "pKi": 300,
+      "pIC50": 100,
+      "pKd": 50,
+      "davis": 10,
+      "kiba": 100
+    },
+    "minimum_train": {
+      "pKi": 100,
+      "pIC50": 50,
+      "pKd": 20,
+      "davis": 10,
+      "kiba": 20
+    },
+    "minimum_validation_test": {
+      "pKi": 10,
+      "pIC50": 5,
+      "pKd": 3,
+      "davis": 1,
+      "kiba": 3
+    },
+    "main_selection": "macro MAE on the unchanged original ChEMBL validation pairs",
+    "other_selection": "macro MAE on each dataset's validation split",
+    "hf_repository": "tim-shu/drug-affinity-multisource"
+  },
+  "datasets": [
+    {
+      "dataset": "pKi",
+      "endpoint": "pKi",
+      "selected": "leaf1",
+      "validation_selection_part": "validation_original",
+      "validation_MAE": {
+        "leaf1": 0.5872465419243836,
+        "leaf3": 0.6372549963712999,
+        "leaf10": 0.7180845438032173
+      },
+      "test_used_for_selection": false,
+      "eligible_targets": 156,
+      "eligible_pairs": 198300,
+      "test_pairs": 20218,
+      "training_seconds": 25.97086808399763,
+      "parameters": {
+        "n_estimators": 100,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      },
+      "test_results": [
+        {
+          "candidate": "leaf1",
+          "part": "test",
+          "model": "Mean",
+          "targets": 156,
+          "pairs": 20218,
+          "MAE": 0.9639351397260364,
+          "RMSE": 1.1660742330547433,
+          "R2": -0.13339520121002527,
+          "Spearman": null
+        },
+        {
+          "candidate": "leaf1",
+          "part": "test",
+          "model": "RF",
+          "targets": 156,
+          "pairs": 20218,
+          "MAE": 0.5900910006112203,
+          "RMSE": 0.7712632127420915,
+          "R2": 0.4708348708633493,
+          "Spearman": 0.6790888396081686
+        },
+        {
+          "candidate": "leaf1",
+          "part": "test_original",
+          "model": "Mean",
+          "targets": 131,
+          "pairs": 16665,
+          "MAE": 0.9586932092963409,
+          "RMSE": 1.1617925987912436,
+          "R2": -0.14159719655287872,
+          "Spearman": null
+        },
+        {
+          "candidate": "leaf1",
+          "part": "test_original",
+          "model": "RF",
+          "targets": 131,
+          "pairs": 16665,
+          "MAE": 0.5865466288053713,
+          "RMSE": 0.7674765912985583,
+          "R2": 0.4647169377225876,
+          "Spearman": 0.6847717523078247
+        }
+      ],
+      "selection_note": "All parameter selection uses validation. Test predictions were not used to select the source policy or parameters."
+    },
+    {
+      "dataset": "pIC50",
+      "endpoint": "pIC50",
+      "selected": "leaf1",
+      "validation_selection_part": "validation",
+      "validation_MAE": {
+        "leaf1": 0.31743663773812325,
+        "leaf3": 0.3298736837718163,
+        "leaf10": 0.352223208093949
+      },
+      "test_used_for_selection": false,
+      "eligible_targets": 72,
+      "eligible_pairs": 24829,
+      "test_pairs": 2671,
+      "training_seconds": 8.656677457969636,
+      "parameters": {
+        "n_estimators": 100,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      },
+      "test_results": [
+        {
+          "candidate": "leaf1",
+          "part": "test",
+          "model": "Mean",
+          "targets": 72,
+          "pairs": 2671,
+          "MAE": 0.371785166235857,
+          "RMSE": 0.4743287664331437,
+          "R2": -0.15965803871547463,
+          "Spearman": null
+        },
+        {
+          "candidate": "leaf1",
+          "part": "test",
+          "model": "RF",
+          "targets": 72,
+          "pairs": 2671,
+          "MAE": 0.31652734619439926,
+          "RMSE": 0.42231922378019443,
+          "R2": 0.09026517847970099,
+          "Spearman": 0.343455843702408
+        }
+      ],
+      "selection_note": "All parameter selection uses validation. Test predictions were not used to select the source policy or parameters."
+    },
+    {
+      "dataset": "pKd",
+      "eligible_targets": 0,
+      "reason": "Insufficient train/validation/test coverage"
+    },
+    {
+      "dataset": "davis",
+      "endpoint": "pKd",
+      "selected": "leaf1",
+      "validation_selection_part": "validation",
+      "validation_MAE": {
+        "leaf1": 0.4231206954035857,
+        "leaf3": 0.47260618101825425,
+        "leaf10": 0.5021461170967126
+      },
+      "test_used_for_selection": false,
+      "eligible_targets": 379,
+      "eligible_pairs": 25014,
+      "test_pairs": 2653,
+      "training_seconds": 41.10399779200088,
+      "parameters": {
+        "n_estimators": 100,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      },
+      "test_results": [
+        {
+          "candidate": "leaf1",
+          "part": "test",
+          "model": "Mean",
+          "targets": 379,
+          "pairs": 2653,
+          "MAE": 0.700400288437291,
+          "RMSE": 0.9826380655382266,
+          "R2": -1.1264720223552775,
+          "Spearman": null
+        },
+        {
+          "candidate": "leaf1",
+          "part": "test",
+          "model": "RF",
+          "targets": 379,
+          "pairs": 2653,
+          "MAE": 0.5276133825948656,
+          "RMSE": 0.7774520762819106,
+          "R2": -0.01380859054234262,
+          "Spearman": 0.5481806753319642
+        }
+      ],
+      "selection_note": "All parameter selection uses validation. Test predictions were not used to select the source policy or parameters.",
+      "uncensored_test_pairs": 866,
+      "uncensored_test_targets": 365,
+      "uncensored_macro_MAE": 1.2077121727589102
+    },
+    {
+      "dataset": "kiba",
+      "endpoint": "KIBA_score",
+      "selected": "leaf1",
+      "validation_selection_part": "validation",
+      "validation_MAE": {
+        "leaf1": 0.40394536414143,
+        "leaf3": 0.4374140379906201,
+        "leaf10": 0.47102388863025096
+      },
+      "test_used_for_selection": false,
+      "eligible_targets": 177,
+      "eligible_pairs": 115509,
+      "test_pairs": 10952,
+      "training_seconds": 23.07261229190044,
+      "parameters": {
+        "n_estimators": 100,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt"
+      },
+      "test_results": [
+        {
+          "candidate": "leaf1",
+          "part": "test",
+          "model": "Mean",
+          "targets": 177,
+          "pairs": 10952,
+          "MAE": 0.4877755942432311,
+          "RMSE": 0.6911511308561894,
+          "R2": -0.057981187142686665,
+          "Spearman": null
+        },
+        {
+          "candidate": "leaf1",
+          "part": "test",
+          "model": "RF",
+          "targets": 177,
+          "pairs": 10952,
+          "MAE": 0.3919735050078453,
+          "RMSE": 0.6036536076381238,
+          "R2": 0.16283093111961808,
+          "Spearman": 0.36357033726275795
+        }
+      ],
+      "selection_note": "All parameter selection uses validation. Test predictions were not used to select the source policy or parameters."
+    }
+  ],
+  "source_slices": [
+    {
+      "endpoint": "pKi",
+      "source": "BindingDB",
+      "targets": 141,
+      "pairs": 6650,
+      "macro_MAE": 0.5441244436376834,
+      "micro_MAE": 0.49720724215975004,
+      "scope": "source-specific labels on globally held-out scaffolds; not an independent external cohort"
+    },
+    {
+      "endpoint": "pKi",
+      "source": "ChEMBL",
+      "targets": 156,
+      "pairs": 17320,
+      "macro_MAE": 0.6138613914070324,
+      "micro_MAE": 0.5913136815480295,
+      "scope": "source-specific labels on globally held-out scaffolds; not an independent external cohort"
+    },
+    {
+      "endpoint": "pKi",
+      "source": "DrugCentral",
+      "targets": 72,
+      "pairs": 494,
+      "macro_MAE": 0.9099702838242393,
+      "micro_MAE": 0.8479552368821289,
+      "scope": "source-specific labels on globally held-out scaffolds; not an independent external cohort"
+    },
+    {
+      "endpoint": "pKi",
+      "source": "PubChem",
+      "targets": 4,
+      "pairs": 4,
+      "macro_MAE": 2.7929554507409113,
+      "micro_MAE": 2.7929554507409113,
+      "scope": "source-specific labels on globally held-out scaffolds; not an independent external cohort"
+    },
+    {
+      "endpoint": "pIC50",
+      "source": "DrugCentral",
+      "targets": 8,
+      "pairs": 33,
+      "macro_MAE": 0.9143996074712287,
+      "micro_MAE": 0.774301032127333,
+      "scope": "source-specific labels on globally held-out scaffolds; not an independent external cohort"
+    },
+    {
+      "endpoint": "pIC50",
+      "source": "PubChem",
+      "targets": 71,
+      "pairs": 2638,
+      "macro_MAE": 0.3035782772082717,
+      "micro_MAE": 0.3011951342806539,
+      "scope": "source-specific labels on globally held-out scaffolds; not an independent external cohort"
+    }
+  ],
+  "original_test_comparison": [
+    {
+      "training_sources": "ChEMBL",
+      "targets": 131,
+      "test_pairs": 16665,
+      "MAE": 0.5845230285816788,
+      "RMSE": 0.7637074843102273,
+      "Spearman": 0.6867975984571938
+    },
+    {
+      "training_sources": "ChEMBL + BindingDB + PubChem + DrugCentral",
+      "targets": 131,
+      "test_pairs": 16665,
+      "MAE": 0.5865466288053713,
+      "RMSE": 0.7674765912985583,
+      "Spearman": 0.6847717523078247
+    }
+  ],
+  "total_training_seconds": 98.80415562586859
+}

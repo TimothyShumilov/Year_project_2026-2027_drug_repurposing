@@ -1,0 +1,14 @@
+{
+  "raw_pairs": 25772,
+  "prepared_pairs": 25014,
+  "molecules": 66,
+  "targets": 379,
+  "endpoint": "pKd",
+  "ceiling_censored_pairs": 18013,
+  "split_molecules": {
+    "train": 52,
+    "test": 7,
+    "validation": 7
+  },
+  "evaluation_policy": "Standalone benchmark, trained on its own train split; not an independent external validation of the pKi model."
+}

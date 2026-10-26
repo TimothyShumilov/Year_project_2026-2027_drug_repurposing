@@ -1,0 +1,68 @@
+{
+  "pipeline_version": 2,
+  "observations": 355325,
+  "pairs": 280346,
+  "molecules": 162302,
+  "structure_rejected_observations": 868,
+  "sequence_audit": {
+    "bindingdb_pubchem_rows_checked": 141624,
+    "rows_without_canonical_sequence_match": 3590,
+    "rule": "single-chain experimental sequence must be >=50 aa and an exact substring of canonical human UniProt sequence"
+  },
+  "within_source_conflicting_pairs": 606,
+  "rows_by_source_endpoint": [
+    {
+      "source": "BindingDB",
+      "endpoint": "pKi",
+      "rows": 103448
+    },
+    {
+      "source": "ChEMBL",
+      "endpoint": "pKi",
+      "rows": 204676
+    },
+    {
+      "source": "DrugCentral",
+      "endpoint": "pIC50",
+      "rows": 4275
+    },
+    {
+      "source": "DrugCentral",
+      "endpoint": "pKd",
+      "rows": 3777
+    },
+    {
+      "source": "DrugCentral",
+      "endpoint": "pKi",
+      "rows": 5387
+    },
+    {
+      "source": "PubChem",
+      "endpoint": "pIC50",
+      "rows": 30780
+    },
+    {
+      "source": "PubChem",
+      "endpoint": "pKd",
+      "rows": 2405
+    },
+    {
+      "source": "PubChem",
+      "endpoint": "pKi",
+      "rows": 577
+    }
+  ],
+  "pairs_by_endpoint": {
+    "pKi": 243218,
+    "pIC50": 31512,
+    "pKd": 5616
+  },
+  "source_priority": {
+    "ChEMBL": 0,
+    "BindingDB": 1,
+    "PubChem": 2,
+    "DrugCentral": 3
+  },
+  "split_policy": "Original ChEMBL group assignments are fixed; new groups use SHA256(seed|group).",
+  "cross_source_policy": "Prefer ChEMBL > native BindingDB > PubChem > DrugCentral; flag ranges >2 and preserve original ChEMBL labels."
+}

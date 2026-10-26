@@ -23,28 +23,27 @@ def build():
 **Белковая мишень** — белок, связывание с которым может изменять его активность. Белок представляет собой молекулу, построенную из аминокислот. В проекте рассматриваем отдельные человеческие белки. Например, [аденозиновый рецептор A2A](https://www.ncbi.nlm.nih.gov/gene/135) — белок на мембране клетки, который воспринимает сигнал аденозина и передаёт его внутрь клетки.
 
 **pKi** — логарифмическая мера силы связывания. pKi = 7 соответствует Ki = 100 нМ, pKi = 6 — Ki = 1 мкМ. Большее pKi означает более сильное взаимодействие.''')
-    md('''## Почему для первого этапа выбран ChEMBL
+    md('''## Какие источники используем
 
-Первоначальный список включал источники для разных этапов проекта: обучения, проверки модели, отбора одобренных препаратов и анализа заболеваний. **Для текущего бейзлайна нужны структура молекулы, измеренный Ki, идентификатор белка и сведения о качестве эксперимента.** [ChEMBL](https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/chembl-data-questions) предоставляет эти данные и позволяет явно отобрать тесты связывания с отдельными человеческими белками.
+Основной набор pKi объединяет доступные применимые данные из нескольких баз. Дополнительные типы активности оцениваем отдельно: Kd — константа диссоциации, IC50 — концентрация, дающая 50% ингибирования в конкретном тесте; их логарифмические шкалы pKd и pIC50 не смешиваем с pKi. KIBA имеет собственную составную шкалу.
 
-После очистки получили **204 676 пар и 120 720 молекул**; для сравнения RF и будущей GNN зафиксировали **164 432 пары для 131 мишени**. Этот объём позволяет начать обучение и сравнение моделей. Единая схема аннотаций упрощает воспроизведение очистки. Неоднородность экспериментов внутри ChEMBL при этом сохраняется и проверяется в EDA.
-
-| Другой источник | Почему его пока не добавляем и для чего он пригодится |
+| Источник | Фактическое использование |
 |---|---|
-| [BindingDB](https://pmc.ncbi.nlm.nih.gov/articles/PMC11701568/) | Подходит для расширения обучающей выборки. Часть измерений импортирована из ChEMBL: сначала нужны сопоставление структур и белков, удаление повторов измерений и проверка пересечений с тестом |
-| [DAVIS и KIBA](https://tdcommons.ai/multi_pred_tasks/dti/) | Дополнительные бенчмарки, сосредоточенные на киназах. DAVIS содержит Kd, KIBA — объединённую шкалу биоактивности; их оценивают в собственной постановке, а не смешивают с pKi как одинаковые ответы |
-| [PDBbind](https://www.pdbbind-plus.org.cn/) | Даёт 3D-структуры комплексов и аффинности. Пригодится для моделей, использующих пространственное строение комплекса; текущему лесу достаточно структуры молекулы в SMILES |
-| [PubChem BioAssay](https://pubchem.ncbi.nlm.nih.gov/docs/bioassays) | Содержит разные виды тестов и ответов, включая метки активности. Для регрессии pKi требуется отдельный отбор подходящих измерений; возможен как источник дополнительных данных |
-| [DrugCentral](https://www.drugcentral.org/download), [DrugBank](https://go.drugbank.com/academic_research/) | Нужны для уточнения библиотеки одобренных препаратов и известных взаимодействий. В текущем срезе библиотека получена по статусам ChEMBL; её полнота относительно других баз пока не проверена |
-| [UniProt](https://www.uniprot.org/entry) | Источник последовательностей и аннотаций белков. Понадобится при добавлении белковых признаков; нынешний лес и планируемая многозадачная GNN работают с фиксированными мишенями |
-| [Open Targets](https://platform-docs.opentargets.org/), [ClinicalTrials.gov](https://clinicaltrials.gov/) | Дают сведения о связях мишеней с заболеваниями и клинических исследованиях. Их роль — последующая оценка гипотез перепрофилирования; обучающая метка здесь — молекулярный Ki |
+| [ChEMBL](https://www.ebi.ac.uk/chembl/) | Курируемый pKi; исходный фиксированный тест для сравнения до и после расширения |
+| [BindingDB](https://www.bindingdb.org/rwd/bind/chemsearch/marvin/Download.jsp) | Добавлены Ki, извлечённые из статей и патентов. Импортированные из ChEMBL строки повторно не добавляем |
+| [PubChem BioAssay](https://pubchem.ncbi.nlm.nih.gov/docs/bioassays) | Использованы Ki, IC50 и Kd из курируемого импорта BindingDB; идентификаторы тестов проверены напрямую через PubChem |
+| [DrugCentral](https://www.drugcentral.org/download) | Добавлены количественные активности препаратов; проверены масштаб чисел и исходные источники записей |
+| [UniProt](https://www.uniprot.org/entry) | Проверены вид белка и экспериментальные последовательности; сохранены канонические последовательности для будущего DL |
+| [DAVIS и KIBA](https://tdcommons.ai/multi_pred_tasks/dti/) | Отдельные бенчмарки: модель обучается и оценивается на собственных частях каждого набора |
+| [PDBbind](https://www.pdbbind-plus.org.cn/termofuse), [DrugBank](https://go.drugbank.com/academic_research/) | Не включены: проект использует доступные открытые источники; разрешённых для публикации выгрузок нет. PDBbind требует письменного разрешения на распространение исходных и производных данных |
+| [Open Targets](https://platform-docs.opentargets.org/), [ClinicalTrials.gov](https://clinicaltrials.gov/) | Нужны для последующей проверки гипотез о заболеваниях и лечении; не дают метки Ki текущей регрессии |
 
-**Выбор ChEMBL относится к этому этапу.** Количественное сравнение покрытия и качества всех перечисленных баз ещё не выполнено. Следующее расширение — проверить, сколько новых пригодных Ki добавляет BindingDB после удаления пересечений, и оценить пользу этих данных при сохранении тестовой выборки.''')
+Повторы между базами учитываются по структуре, белку и типу измерения. Если одна пара есть в нескольких источниках, выбираем метку по приоритету ChEMBL → BindingDB → PubChem → DrugCentral, сохраняя все источники и расхождения. Так копии одного результата не становятся дополнительными обучающими примерами. Исходные ответы и разбиение ChEMBL сохранены для прямого сравнения.''')
     md('''## Что есть в данных и что использует модель
 
-Источник — ChEMBL. **Исходная строка — результат одного эксперимента для молекулы и биологической мишени.** Для обучения отбираем отдельные человеческие белки. После очистки строка в `pairs.parquet` — уникальная пара «структура молекулы — мишень» с медианой повторных измерений. Структуры и их свойства хранятся отдельно в `molecules.parquet`.
+**Исходная строка — результат одного эксперимента для молекулы и биологической мишени.** Для основной задачи отбираем отдельные человеческие белки. После очистки одна строка — уникальная пара «структура молекулы — мишень» для определённого типа активности. Структуры и их свойства хранятся отдельно в `molecules.parquet`. Исходный срез ChEMBL находится в `data/processed/`, объединённые данные — в `data/multisource/`.
 
-Основные поля исходной выгрузки и присоединённых аннотаций:
+Основные исходные поля ChEMBL и присоединённых аннотаций:
 
 | Поле | Что означает | Как используем и почему |
 |---|---|---|
@@ -55,6 +54,8 @@ def build():
 | `assay_type`, `target_type`, организм, `confidence_score`, аннотация мутации | Тип теста, тип и вид мишени, уверенность её сопоставления и сведения о варианте белка | Фильтруем сопоставимые эксперименты: связывание, отдельный человеческий белок, уверенность 9, без аннотированной мутации |
 | `data_validity_comment`, `standard_flag`, `potential_duplicate` | Комментарии и флаги качества измерения и возможного дубликата | Используем при очистке; они описывают качество записи |
 | ID молекулы, измерения, теста и документа; `document_year` | Идентификаторы происхождения записи и год публикации | Связываем таблицы, проверяем повторы и историю данных. На вход модели не подаём: по ним нельзя описать новую структуру |
+
+В объединённом наборе `target_id` задаёт UniProt-белок, `endpoint` — шкалу ответа, а `label` — числовую метку. `source` указывает выбранный источник; `sources`, `source_count`, `cross_source_range` — все источники пары и их расхождение. В таблице наблюдений `provider` обозначает поставщика выгрузки, `upstream_source` — исходную базу, `source_record_id` и `source_study_id` — происхождение записи. Эти поля нужны для отбора задачи и аудита; входом леса остаются только признаки структуры молекулы.
 
 Из SMILES с помощью RDKit дополнительно рассчитываем свойства молекул. Они нужны для EDA: показывают, какие соединения представлены и где встречаются необычные значения.
 
@@ -90,17 +91,40 @@ pd.set_option('display.precision', 3)
 pairs, molecules, eda = prepare_data()
 display(Markdown(f"**Источник:** {eda['source']['release']}. "
                  f"**Срез:** 25 октября 2026. **Случайное зерно:** {CFG['seed']}."))
+display(Markdown('**Исходный срез ChEMBL:**'))
 display(pd.DataFrame({'Показатель': ['Исходных измерений', 'Пар после очистки', 'Молекул',
                                     'Мишеней после очистки', 'Мишеней для бейзлайна'],
                       'Число': [eda['raw_rows'], eda['curated_pairs'], eda['curated_molecules'],
                                 eda['curated_targets'], eda['benchmark_targets']]}))
-if (RESULTS / 'baseline_summary.json').exists():
-    headline = json.loads((RESULTS / 'baseline_summary.json').read_text())
-    display(Markdown(f"**Основной результат:** на новых химических каркасах MAE Random Forest = "
-                     f"**{headline['test_macro_MAE']:.3f} pKi**; у среднего по мишени — "
-                     f"**{headline['dummy_test_macro_MAE']:.3f}**. "
-                     f"**Мишеней в проверке:** {headline['targets']}; **пар test:** {headline['test_pairs']:,}."))''')
-    md('''## Качество данных
+''')
+    md('''## Объединённые данные и качество
+
+В таблице ниже посчитаны подготовленные строки каждого источника до разрешения пересечений между базами. Строки ChEMBL уже объединяют повторы исходного среза; их нельзя считать независимыми от импортов в другие базы.''')
+    code('''MULTI_RESULTS = ROOT / 'results/multisource'
+MULTI_DATA = ROOT / 'data/multisource'
+multi_eda = json.loads((MULTI_RESULTS / 'data_summary.json').read_text())
+multi_baseline = json.loads((MULTI_RESULTS / 'baseline_summary.json').read_text())
+source_table = pd.DataFrame(multi_eda['rows_by_source_endpoint'])
+display(source_table.pivot(index='source', columns='endpoint', values='rows').fillna(0).astype(int))
+multi_pairs = pd.read_parquet(MULTI_DATA / 'pairs.parquet')
+display(multi_pairs.groupby('endpoint').agg(Пар=('label','size'), Мишеней=('target_id','nunique'),
+    Минимум=('label','min'), Медиана=('label','median'), Максимум=('label','max')).round(3))
+sequence_audit = multi_eda['sequence_audit']
+scale_audit = json.loads((MULTI_RESULTS / 'drugcentral_scale_audit.json').read_text())
+pubchem_audit = json.loads((MULTI_RESULTS / 'pubchem_metadata_audit.json').read_text())
+display(Markdown(f"Проверено **{sequence_audit['bindingdb_pubchem_rows_checked']:,}** строк BindingDB/PubChem; "
+    f"исключено **{sequence_audit['rows_without_canonical_sequence_match']:,}** без совпадения экспериментальной "
+    "последовательности с участком канонического человеческого белка. "
+    f"Напрямую найдены описания **{pubchem_audit['retrieved_aids']}** использованных тестов PubChem."))
+display(Markdown(f"DrugCentral уже хранит отрицательный логарифм концентрации. "
+    f"На **{scale_audit['overlapping_exact_structure_target_pairs']}** совпадающих парах медианное "
+    f"расхождение с ChEMBL — **{scale_audit['median_absolute_difference_if_ACT_VALUE_is_pKi']:.3f} pKi**. "
+    "Повторное логарифмирование было бы ошибкой."))
+display(Markdown(f"Всего после согласования: **{multi_eda['pairs_by_endpoint']['pKi']:,} пар pKi**, "
+    f"**{multi_eda['molecules']:,} структур** во всех шкалах. "
+    f"Противоречивых пар внутри источника исключено: **{multi_eda['within_source_conflicting_pairs']}**. "
+    "Расхождения между источниками сохранены во флаге cross_source_range; оригинальные метки ChEMBL не меняются."))''')
+    md('''### Качество исходного среза ChEMBL
 
 Сохраняем только Ki из тестов связывания: прямое сопоставление с отдельным человеческим белком, уверенность аннотации 9, корректную структуру и точное положительное измерение в нМ.
 
@@ -138,7 +162,7 @@ statistics = pd.concat([pd.read_csv(RESULTS / 'pair_describe.csv', index_col=0).
 display(statistics.rename(index={'pki':'pKi','molecular_weight':'Масса, Да','logp':'logP',
                                   'tpsa':'Полярная площадь, Å²','heavy_atoms':'Тяжёлые атомы'},
                           columns={'min':'Минимум','25%':'Q1','50%':'Медиана','75%':'Q3','max':'Максимум'}).round(2))''')
-    md('''## Распределения и покрытие
+    md('''## Распределения и покрытие исходного среза
 
 Это регрессия, поэтому баланса классов нет. Важны распределение pKi и дисбаланс числа измерений между мишенями.''')
     code('''X = get_fingerprints(molecules)
@@ -180,7 +204,7 @@ for left,right in [('train','test'),('train','validation'),('validation','test')
         molecules.loc[molecules.scaffold_split.eq(right),'scaffold'])
 assert not pairs.duplicated(['compound_id','target_chembl_id']).any()
 print('Повторяющихся пар и пересечений молекул нет; каркасы в основном разбиении не пересекаются.')''')
-    md('''## Random Forest на Morgan fingerprints
+    md('''## Исходный бейзлайн ChEMBL: Random Forest на Morgan fingerprints
 
 Для каждой мишени обучается отдельный лес из 100 деревьев. Проверяем минимальный размер листа 1, 3 и 10; остальные параметры одинаковы. Выбор — по среднему MAE на validation основного разбиения.
 
@@ -260,26 +284,66 @@ for filename in ['01_affinity_and_targets.png','02_molecule_properties.png','03_
     display(Image(filename=str(RESULTS / 'figures' / filename)))''')
     md('''Корреляции и попарные распределения с pKi показаны внутри одной мишени, чтобы не смешивать разные белки. В этом примере отдельные дескрипторы слабо связаны с pKi (|ρ| ≤ 0,15). Общая корреляция размера молекулы с активностью могла бы отражать различия изученных наборов, а не универсальное правило.
 
-## Выводы и следующий этап''')
-    code(r'''difference = baseline['dummy_test_macro_MAE'] - baseline['test_macro_MAE']
-conclusion = ('Лес улучшил MAE относительно среднего по мишени' if difference > 0
-              else 'Лес не улучшил MAE относительно среднего по мишени')
-display(Markdown(f"- После очистки осталось **{eda['curated_pairs']:,} пар**; "
-                 f"**число зафиксированных для сравнения мишеней — {eda['benchmark_targets']}**.\n"
-                 f"- {conclusion}: разница **{difference:.3f} pKi**. "
-                 "Это результат на новых каркасах, а не оценка эффективности лечения.\n"
-                 "- Покрытие мишеней неравномерно. Будущую многозадачную GNN сравниваем "
-                 "на тех же 131 мишени и разбиениях, отдельно проверяя пользу для небольших задач. "
-                 "Обучение на дополнительных мишенях — отдельный эксперимент.\n"
-                 "- Пропуски активности не являются отрицательными метками. "
-                 "Шум измерений и противоречивые повторы требуют отдельного контроля.\n"
-                 "- Этот бейзлайн поддерживает известный набор мишеней. "
-                 "Для переноса на новые белки потребуется модель, использующая их признаки.\n"
-                 "- Практическая ценность и ограничения описаны в [одностраничном PDF]"
-                 "(output/pdf/practical_value.pdf)."))''')
+## Результаты после объединения источников
+
+Для новых структур сохраняем прежние назначения известных каркасов, а новые каркасы распределяем воспроизводимым хешем 80/10/10. Все источники основного набора используют общие группы молекул. Сравнение с прежним лесом проводится на тех же 16 665 парах теста ChEMBL; метки теста и разбиение не изменены. Число деревьев и варианты размера листа одинаковы; параметры выбираются только по валидации.
+
+DAVIS и KIBA обучаются отдельно и имеют собственные разбиения по каркасам. Это дополнительные проверки того же подхода, а не независимая внешняя проверка модели pKi.''')
+    code('''from multisource_figures import generate as generate_source_figure
+display(Image(filename=str(generate_source_figure())))
+display(pd.read_csv(MULTI_RESULTS / 'original_test_comparison.csv').rename(
+    columns={'training_sources':'Источники обучения','targets':'Мишеней','test_pairs':'Пар test'}).round(3))
+rows = []
+for result in multi_baseline['datasets']:
+    if not result['eligible_targets']:
+        continue
+    rf = next(r for r in result['test_results'] if r['part']=='test' and r['model']=='RF')
+    mean = next(r for r in result['test_results'] if r['part']=='test' and r['model']=='Mean')
+    rows.append({'Набор':result['dataset'],'Шкала':result['endpoint'],'Мишеней':result['eligible_targets'],
+                 'Пар train/val/test':result['eligible_pairs'],'Пар test':result['test_pairs'],
+                 'MAE RF':rf['MAE'],'MAE среднего':mean['MAE']})
+display(pd.DataFrame(rows).round(3))
+davis_result = next(r for r in multi_baseline['datasets'] if r['dataset']=='davis')
+display(Markdown(f"В DAVIS **{davis_result['uncensored_test_pairs']}** тестовых пар вне предела 10 000 нМ; "
+    f"на них средняя по мишеням MAE = **{davis_result['uncensored_macro_MAE']:.3f} pKd**. "
+    "Большое число ограниченных пределом значений делает общую ошибку ниже. "
+    "Для объединённого pKd ни одна мишень не прошла заранее заданные пороги наполненности "
+    "train/validation/test; эти данные сохранены, отдельный лес по ним не оценивался."))
+display(pd.read_csv(MULTI_RESULTS / 'source_test_slices.csv')[['endpoint','source','targets','pairs','macro_MAE']]
+        .rename(columns={'endpoint':'Шкала','source':'Источник','targets':'Мишеней','pairs':'Пар','macro_MAE':'MAE'}).round(3))
+display(Markdown('Срезы по источнику могут содержать те же пары, что основной тест. '
+    'Малые срезы, особенно четыре пары PubChem pKi, не позволяют делать устойчивые выводы о качестве на всей базе.'))''')
+    md('''## Датасеты для Hugging Face''')
+    code('''package = json.loads((MULTI_RESULTS / 'hf_package.json').read_text())
+display(pd.DataFrame(package['configurations']).pivot(index='config',columns='split',values='rows').fillna(0).astype(int))
+publication_file = MULTI_RESULTS / 'hf_publication.json'
+if publication_file.exists():
+    publication = json.loads(publication_file.read_text())
+    display(Markdown(f"Опубликовано: [{publication['repository']}]({publication['url']}). "
+                     f"Версия: `{publication['revision']}`."))
+else:
+    display(Markdown(f"Пакет для `{package['repository']}` подготовлен локально; "
+                     "публикация ещё не подтверждена."))
+display(Markdown('В пакет входят готовые train/validation/test, структуры, последовательности, '
+    'происхождение меток, лицензии, контрольные суммы и результаты экспериментов. '
+    'Разные шкалы и самостоятельные бенчмарки размещены в отдельных конфигурациях.'))''')
+    md('''## Выводы и следующий этап''')
+    code(r'''main_result = next(r for r in multi_baseline['datasets'] if r['dataset']=='pKi')
+main_test = next(r for r in main_result['test_results'] if r['part']=='test' and r['model']=='RF')
+comparison = multi_baseline['original_test_comparison']
+display(Markdown(f"- Основной очищенный набор — **{multi_eda['pairs_by_endpoint']['pKi']:,} пар pKi**; "
+    f"для бенчмарка подходят **{main_result['eligible_targets']} мишеней** и **{main_result['eligible_pairs']:,} пар**.\n"
+    f"- MAE леса на новых каркасах — **{main_test['MAE']:.3f} pKi**. На фиксированном тесте ChEMBL "
+    f"после расширения — **{comparison[1]['MAE']:.3f}** против **{comparison[0]['MAE']:.3f}** прежде: "
+    "само добавление источников улучшения не дало; причина этим сравнением не установлена.\n"
+    "- Следующий эксперимент — многозадачная GNN на тех же метках и разбиениях, "
+    "с отдельным анализом небольших задач. Модель пока поддерживает фиксированный набор белков.\n"
+    "- Пропуски не являются отрицательными метками; повторы между базами и разные шкалы "
+    "нельзя считать независимыми одинаковыми ответами.\n"
+    "- Практическая ценность и ограничения — в [одностраничном PDF](output/pdf/practical_value.pdf)."))''')
     md('''## Воспроизведение и источники
 
-Python 3.12, версии библиотек — `requirements.txt`. Код очистки и экспериментов — `src/affinity_eda.py`; параметры — `config/eda.json`; зафиксированные данные и разбиения — `data/processed/`; метрики, предсказания и проверки — `results/`. В `results/manifest.json` записаны контрольные суммы. Сырые ответы API сохраняются локально и повторно используются; для новой выгрузки нужен интернет.
+Python 3.12, версии библиотек — `requirements.txt`. Исходный срез ChEMBL: `src/affinity_eda.py`, `config/eda.json`, `data/processed/`. Объединение: `src/multisource_data.py`; эксперименты: `src/multisource_models.py`; параметры: `config/multisource.json`; результаты: `results/multisource/`. Данные [опубликованы на Hugging Face](https://huggingface.co/datasets/tim-shu/drug-affinity-multisource); локальные копии — в `data/multisource/` и `output/huggingface/`. Команды воспроизведения из готового пакета — в `readme.md`. Сырые выгрузки кэшируются. Воспроизведение из источников: `scripts/download_sources.py`, затем `scripts/run_multisource.py`. Проверки: `scripts/verify_results.py` и `scripts/verify_multisource.py`.
 
 - [ChEMBL API](https://chembl.gitbook.io/chembl-interface-documentation/web-services/chembl-data-web-services)
 - [Типы измерений ChEMBL](https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/chembl-data-questions)

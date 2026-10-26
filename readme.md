@@ -46,7 +46,7 @@
 
 ## Возможные датасеты и источники данных
 
-Ниже приведён первоначальный список кандидатов для обучения, бенчмарков, библиотеки одобренных препаратов и белковых последовательностей. Для чекпойнта 2 выбран ChEMBL: он предоставляет структуры, Ki и аннотации качества, а очищенного среза достаточно для начала сравнения моделей. Обоснование выбора и роль остальных источников описаны в [EDA.ipynb](EDA.ipynb). Количественное сравнение покрытия всех баз пока не проводилось; расширение обучающих данных потребует проверки повторов и пересечений с тестом.
+Ниже приведён первоначальный список кандидатов. В чекпойнте 2 использованы ChEMBL, BindingDB, PubChem BioAssay, DrugCentral, UniProt, DAVIS и KIBA. Сопоставлены белки, проверены последовательности, устранено повторное включение импортов ChEMBL и согласованы пересечения. Разные типы активности оцениваются в отдельных шкалах. PDBbind и DrugBank исключены: проект использует доступные открытые источники, разрешённых для публикации выгрузок нет. Фактическая роль каждого источника описана в [EDA.ipynb](EDA.ipynb) и [реестре источников](results/multisource/source_registry.json).
 
 ### Обучение и бенчмарки
 
@@ -76,19 +76,42 @@
 
 Бейзлайн предсказывает pKi по Morgan fingerprints отдельно для каждой мишени. Основная проверка использует новые химические каркасы; случайное разбиение показано для сравнения. Отсутствующие измерения не считаются отрицательными примерами. Это проверка на новых молекулах для известного набора мишеней; перенос на новые белки потребует другой архитектуры.
 
-После очистки получены 204 676 пар и 120 720 структур. В сравнении участвует 131 мишень: MAE леса на новых каркасах — 0,585 pKi, у прогноза среднего по мишени — 0,952; на случайном разбиении — 0,498. Параметры выбраны только по валидации. Обучение семи групп экспериментов локально заняло 53 секунды.
+Исходный срез ChEMBL: 204 676 пар и 120 720 структур; бенчмарк для 131 мишени. MAE леса на новых каркасах — 0,585 pKi, у прогноза среднего — 0,952; на случайном разбиении — 0,498.
+
+После объединения источников доступны 243 218 пар pKi; бенчмарк охватывает 156 мишеней и 198 300 пар. На прежнем тесте из 16 665 пар MAE составила 0,587 против 0,585 прежде: расширение данных само по себе не улучшило результат. Дополнительно обучены RF для pIC50, DAVIS и KIBA; на все новые эксперименты потребовалось 99 секунд. Параметры выбирались по валидации. Полные результаты — в `results/multisource/`.
+
+Данные [опубликованы на Hugging Face](https://huggingface.co/datasets/tim-shu/drug-affinity-multisource): 11 конфигураций с готовыми train/validation/test, признаками, происхождением меток и лицензиями. Версия — `85242d33e48cf1441b0f641c710c72725160e506`; [подтверждение публикации](results/multisource/hf_publication.json) и [проверка публичного скачивания](results/multisource/hf_remote_verification.json). Локальная копия — `output/huggingface/drug-affinity-multisource/`.
 
 Воспроизведение с Python 3.12:
 
 ```bash
 python3.12 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
+.venv/bin/hf download tim-shu/drug-affinity-multisource --repo-type dataset --revision 85242d33e48cf1441b0f641c710c72725160e506 --local-dir output/huggingface/drug-affinity-multisource
+mkdir -p data/multisource
+cp output/huggingface/drug-affinity-multisource/prepared/*.parquet data/multisource/
+cp output/huggingface/drug-affinity-multisource/features/fingerprints.npz data/multisource/
 .venv/bin/python scripts/run_eda.py
+.venv/bin/python scripts/run_multisource.py --stage train
 .venv/bin/python scripts/build_notebook.py
 .venv/bin/python scripts/execute_notebook.py
 .venv/bin/python scripts/verify_results.py
+.venv/bin/python scripts/verify_multisource.py
 ```
 
 Подготовленный срез позволяет повторить анализ без новой выгрузки. Для повторения очистки из исходных ответов сначала запустите `.venv/bin/python scripts/download_data.py`, затем `.venv/bin/python scripts/run_eda.py --stage prepare --force`. Выгрузка из публичного API занимает десятки минут и сохраняется по страницам; повторный запуск использует кэш. Завершённые эксперименты также сохраняются с проверкой хешей входных данных, поэтому расчёт можно продолжить после переноса на сервер.
 
-Версия ChEMBL и дата получения записаны в `results/eda_summary.json`. Производный набор данных распространяется по CC BY-SA 3.0 с атрибуцией ChEMBL; см. `data/README.md`.
+Версия ChEMBL и дата получения записаны в `results/eda_summary.json`. Исходный срез ChEMBL распространяется по CC BY-SA 3.0; интегрированные производные таблицы — по CC BY-SA 4.0 с сохранением исходных уведомлений. См. `data/README.md` и лицензии пакета.
+
+Расширенный эксперимент из исходных выгрузок:
+
+```bash
+.venv/bin/python scripts/download_sources.py bindingdb davis kiba drugcentral drugcentral_structures
+.venv/bin/python scripts/run_multisource.py
+.venv/bin/python scripts/build_notebook.py
+.venv/bin/python scripts/execute_notebook.py
+.venv/bin/python scripts/verify_results.py
+.venv/bin/python scripts/verify_multisource.py
+```
+
+Сборка пакета отдельно: `.venv/bin/python scripts/run_multisource.py --stage package`. После локального входа `.venv/bin/hf auth login` публикация выполняется командой `.venv/bin/python scripts/run_multisource.py --stage publish`. Сырые скачивания кэшируются; BindingDB проверяется по опубликованной MD5, остальные файлы фиксируются SHA-256. Лицензии и изменения подробно описаны в карточке пакета и `LICENSES.md` рядом с ней.

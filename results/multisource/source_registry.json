@@ -1,0 +1,100 @@
+[
+  {
+    "source": "ChEMBL",
+    "status": "used",
+    "role": "Основная регрессия pKi и исходный фиксированный тест",
+    "license": "CC BY-SA 3.0; integrated adaptation BY-SA 4.0",
+    "evidence": "https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/general-questions",
+    "prepared_rows_by_endpoint": {
+      "pKi": 204676
+    }
+  },
+  {
+    "source": "BindingDB",
+    "status": "used",
+    "role": "Дополнительные Ki из статей и патентов; импорт ChEMBL повторно не добавлен",
+    "license": "Native data: CC BY; upstream notices retained",
+    "evidence": "https://www.bindingdb.org/rwd/bind/info.jsp",
+    "prepared_rows_by_endpoint": {
+      "pKi": 103448
+    }
+  },
+  {
+    "source": "PubChem BioAssay",
+    "status": "used",
+    "role": "Ki и IC50/Kd через курируемый импорт BindingDB; AID проверены в PubChem",
+    "license": "Source/depositor terms retained; factual observations only",
+    "evidence": "https://pubchem.ncbi.nlm.nih.gov/docs/bioassays",
+    "prepared_rows_by_endpoint": {
+      "pIC50": 30780,
+      "pKd": 2405,
+      "pKi": 577
+    }
+  },
+  {
+    "source": "DrugCentral",
+    "status": "used",
+    "role": "Количественные активности одобренных препаратов, отдельные оценки срезов по источнику",
+    "license": "CC BY-SA 4.0",
+    "evidence": "https://www.drugcentral.org/privacy",
+    "prepared_rows_by_endpoint": {
+      "pIC50": 4275,
+      "pKd": 3777,
+      "pKi": 5387
+    }
+  },
+  {
+    "source": "UniProt",
+    "status": "used",
+    "role": "Проверка вида и последовательностей белков; признаки для будущей DL-модели",
+    "license": "CC BY 4.0",
+    "evidence": "https://www.uniprot.org/help/license",
+    "prepared_rows_by_endpoint": {}
+  },
+  {
+    "source": "DAVIS",
+    "status": "used",
+    "role": "Отдельный бенчмарк pKd с флагом предела измерения",
+    "license": "TDC DOI: CC0 1.0; TDC page also links CC BY 4.0 with Not Specified notice",
+    "evidence": "https://api.datacite.org/dois/10.7910/DVN/21LKWG",
+    "prepared_rows_by_endpoint": {}
+  },
+  {
+    "source": "KIBA",
+    "status": "used",
+    "role": "Отдельный бенчмарк в собственной шкале KIBA score",
+    "license": "TDC DOI: CC0 1.0; TDC page also links CC BY 4.0 with Not Specified notice",
+    "evidence": "https://api.datacite.org/dois/10.7910/DVN/21LKWG",
+    "prepared_rows_by_endpoint": {}
+  },
+  {
+    "source": "PDBbind",
+    "status": "applicable_but_access_and_redistribution_blocked",
+    "role": "Может дать дополнительные аффинности; разрешённая для публикации копия не получена",
+    "license": "Redistribution of raw/derived data requires written permission",
+    "evidence": "https://www.pdbbind-plus.org.cn/termofuse",
+    "prepared_rows_by_endpoint": {}
+  },
+  {
+    "source": "DrugBank",
+    "status": "applicable_but_authorised_download_missing",
+    "role": "Потенциальные количественные активности и известные взаимодействия; доступной авторизованной выгрузки нет",
+    "license": "Dataset-specific academic access; terms must be verified on the supplied release",
+    "evidence": "https://go.drugbank.com/academic_research/",
+    "prepared_rows_by_endpoint": {}
+  },
+  {
+    "source": "Open Targets",
+    "status": "outside_current_affinity_endpoint",
+    "role": "Связи мишеней с заболеваниями для последующего анализа гипотез, а не метки Ki текущей регрессии",
+    "evidence": "https://platform-docs.opentargets.org/",
+    "prepared_rows_by_endpoint": {}
+  },
+  {
+    "source": "ClinicalTrials.gov",
+    "status": "outside_current_affinity_endpoint",
+    "role": "Клиническая проверка гипотез; записи испытаний не являются измерениями Ki",
+    "evidence": "https://clinicaltrials.gov/data-api/about-api",
+    "prepared_rows_by_endpoint": {}
+  }
+]

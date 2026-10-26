@@ -1,0 +1,5 @@
+{
+  "bindingdb_pubchem_rows_checked": 141624,
+  "rows_without_canonical_sequence_match": 3590,
+  "rule": "single-chain experimental sequence must be >=50 aa and an exact substring of canonical human UniProt sequence"
+}

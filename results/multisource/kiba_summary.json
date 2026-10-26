@@ -1,0 +1,14 @@
+{
+  "raw_pairs": 117657,
+  "prepared_pairs": 117513,
+  "molecules": 2060,
+  "targets": 229,
+  "endpoint": "KIBA_score",
+  "ceiling_censored_pairs": 0,
+  "split_molecules": {
+    "train": 1688,
+    "test": 201,
+    "validation": 171
+  },
+  "evaluation_policy": "Standalone benchmark, trained on its own train split; not an independent external validation of the pKi model."
+}

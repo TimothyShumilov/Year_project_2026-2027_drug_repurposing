@@ -1,0 +1,6 @@
+{
+  "requested_aids": 333,
+  "retrieved_aids": 333,
+  "failed_batches": [],
+  "data_provider": "Quantitative observations imported through BindingDB; assay identities checked directly with PubChem."
+}

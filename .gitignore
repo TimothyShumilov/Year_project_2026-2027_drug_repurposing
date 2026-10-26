@@ -18,3 +18,11 @@ data/raw/
 models/
 tmp/
 results/experiments/
+
+# Expanded datasets are published on Hugging Face
+data/multisource/
+output/huggingface/
+results/multisource/*/leaf*_predictions.parquet
+results/multisource/*/leaf*_metrics.csv
+results/multisource/*/leaf*.json
+results/multisource/*/test_predictions.parquet

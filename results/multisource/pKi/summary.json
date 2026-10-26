@@ -1,0 +1,68 @@
+{
+  "dataset": "pKi",
+  "endpoint": "pKi",
+  "selected": "leaf1",
+  "validation_selection_part": "validation_original",
+  "validation_MAE": {
+    "leaf1": 0.5872465419243836,
+    "leaf3": 0.6372549963712999,
+    "leaf10": 0.7180845438032173
+  },
+  "test_used_for_selection": false,
+  "eligible_targets": 156,
+  "eligible_pairs": 198300,
+  "test_pairs": 20218,
+  "training_seconds": 25.97086808399763,
+  "parameters": {
+    "n_estimators": 100,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt"
+  },
+  "test_results": [
+    {
+      "candidate": "leaf1",
+      "part": "test",
+      "model": "Mean",
+      "targets": 156,
+      "pairs": 20218,
+      "MAE": 0.9639351397260364,
+      "RMSE": 1.1660742330547433,
+      "R2": -0.13339520121002527,
+      "Spearman": null
+    },
+    {
+      "candidate": "leaf1",
+      "part": "test",
+      "model": "RF",
+      "targets": 156,
+      "pairs": 20218,
+      "MAE": 0.5900910006112203,
+      "RMSE": 0.7712632127420915,
+      "R2": 0.4708348708633493,
+      "Spearman": 0.6790888396081686
+    },
+    {
+      "candidate": "leaf1",
+      "part": "test_original",
+      "model": "Mean",
+      "targets": 131,
+      "pairs": 16665,
+      "MAE": 0.9586932092963409,
+      "RMSE": 1.1617925987912436,
+      "R2": -0.14159719655287872,
+      "Spearman": null
+    },
+    {
+      "candidate": "leaf1",
+      "part": "test_original",
+      "model": "RF",
+      "targets": 131,
+      "pairs": 16665,
+      "MAE": 0.5865466288053713,
+      "RMSE": 0.7674765912985583,
+      "R2": 0.4647169377225876,
+      "Spearman": 0.6847717523078247
+    }
+  ],
+  "selection_note": "All parameter selection uses validation. Test predictions were not used to select the source policy or parameters."
+}

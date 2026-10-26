@@ -1,0 +1,28 @@
+{
+  "repository": "tim-shu/drug-affinity-multisource",
+  "revision": "85242d33e48cf1441b0f641c710c72725160e506",
+  "public": true,
+  "verified_files": 63,
+  "verified_lfs_sha256": 46,
+  "download_checks": [
+    {
+      "path": "README.md",
+      "sha256": "c7da5a1075b165df5cec124815e3cc6b0e14680744acf88653bf977b1bc79c20",
+      "bytes": 8509,
+      "configurations": 11
+    },
+    {
+      "path": "data/affinity_pkd/validation.parquet",
+      "sha256": "bed5468547145f2c5af366281b07959a7b6c21aca79a2457fb4fd22855d3e94e",
+      "bytes": 114624,
+      "rows": 171
+    },
+    {
+      "path": "data/pubchem_assays/train.parquet",
+      "sha256": "517bea1ed29475397955f93bc9792b66b75a139cdee337347b5f3d2cd3568ee8",
+      "bytes": 79656,
+      "rows": 333
+    }
+  ],
+  "verified_at_utc": "2026-10-26T07:55:46.803179+00:00"
+}

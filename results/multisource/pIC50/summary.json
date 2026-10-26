@@ -1,0 +1,46 @@
+{
+  "dataset": "pIC50",
+  "endpoint": "pIC50",
+  "selected": "leaf1",
+  "validation_selection_part": "validation",
+  "validation_MAE": {
+    "leaf1": 0.31743663773812325,
+    "leaf3": 0.3298736837718163,
+    "leaf10": 0.352223208093949
+  },
+  "test_used_for_selection": false,
+  "eligible_targets": 72,
+  "eligible_pairs": 24829,
+  "test_pairs": 2671,
+  "training_seconds": 8.656677457969636,
+  "parameters": {
+    "n_estimators": 100,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt"
+  },
+  "test_results": [
+    {
+      "candidate": "leaf1",
+      "part": "test",
+      "model": "Mean",
+      "targets": 72,
+      "pairs": 2671,
+      "MAE": 0.371785166235857,
+      "RMSE": 0.4743287664331437,
+      "R2": -0.15965803871547463,
+      "Spearman": null
+    },
+    {
+      "candidate": "leaf1",
+      "part": "test",
+      "model": "RF",
+      "targets": 72,
+      "pairs": 2671,
+      "MAE": 0.31652734619439926,
+      "RMSE": 0.42231922378019443,
+      "R2": 0.09026517847970099,
+      "Spearman": 0.343455843702408
+    }
+  ],
+  "selection_note": "All parameter selection uses validation. Test predictions were not used to select the source policy or parameters."
+}

@@ -1,0 +1,281 @@
+{
+  "verified_at_utc": "2026-10-26T07:58:12.060466+00:00",
+  "checks": [
+    "all four quantitative sources actually contribute observations",
+    "one final pair per structure target endpoint",
+    "finite labels",
+    "all pairs have prepared structures",
+    "molecule index is a unique contiguous fingerprint index",
+    "unsupported auxiliary source conflicts are excluded",
+    "scaffold_split groups do not cross partitions",
+    "scaffold_split pair assignments agree with structure assignments",
+    "random_split groups do not cross partitions",
+    "random_split pair assignments agree with structure assignments",
+    "all original benchmark pairs remain",
+    "original benchmark labels are unchanged",
+    "original benchmark partitions are unchanged",
+    "added sequence-annotated records use human canonical proteins",
+    "experimental sequences match canonical contiguous segments",
+    "fingerprint rows match molecule identities",
+    "fingerprint matrix is binary with the declared dimension",
+    "every used PubChem assay was verified at source",
+    "DrugCentral scale was checked against overlapping ChEMBL pairs",
+    "pKi parameters selected only on validation",
+    "pKi predictions contain only test examples",
+    "pKi MAE recomputed from saved predictions",
+    "pKi reports all supported heads",
+    "pKi prediction labels agree with prepared data",
+    "pIC50 parameters selected only on validation",
+    "pIC50 predictions contain only test examples",
+    "pIC50 MAE recomputed from saved predictions",
+    "pIC50 reports all supported heads",
+    "pIC50 prediction labels agree with prepared data",
+    "pKd honestly reports unsupported coverage",
+    "davis parameters selected only on validation",
+    "davis predictions contain only test examples",
+    "davis MAE recomputed from saved predictions",
+    "davis reports all supported heads",
+    "davis standalone scaffold groups are disjoint",
+    "davis prediction labels agree with prepared data",
+    "kiba parameters selected only on validation",
+    "kiba predictions contain only test examples",
+    "kiba MAE recomputed from saved predictions",
+    "kiba reports all supported heads",
+    "kiba standalone scaffold groups are disjoint",
+    "kiba prediction labels agree with prepared data",
+    "paired comparison retains exactly the original test",
+    "Davis ceiling flags identify pKd=5",
+    "all publication files match the manifest",
+    "Hugging Face card has explicit named subsets",
+    "affinity_pki/test is readable Parquet",
+    "affinity_pki/train is readable Parquet",
+    "affinity_pki/validation is readable Parquet",
+    "affinity_pic50/test is readable Parquet",
+    "affinity_pic50/train is readable Parquet",
+    "affinity_pic50/validation is readable Parquet",
+    "affinity_pkd/test is readable Parquet",
+    "affinity_pkd/train is readable Parquet",
+    "affinity_pkd/validation is readable Parquet",
+    "chembl_reference/test is readable Parquet",
+    "chembl_reference/train is readable Parquet",
+    "chembl_reference/validation is readable Parquet",
+    "davis/test is readable Parquet",
+    "davis/train is readable Parquet",
+    "davis/validation is readable Parquet",
+    "kiba/test is readable Parquet",
+    "kiba/train is readable Parquet",
+    "kiba/validation is readable Parquet",
+    "molecules/train is readable Parquet",
+    "proteins/train is readable Parquet",
+    "source_observations/train is readable Parquet",
+    "pubchem_assays/train is readable Parquet",
+    "approved_library/train is readable Parquet",
+    "the full updated notebook is executed without errors"
+  ],
+  "artifacts": [
+    {
+      "path": "config/multisource.json",
+      "sha256": "2bd25e53f60325fa2cb2cedfb7e53391f8292dc72066e5803ac09bc858c14944"
+    },
+    {
+      "path": "results/multisource/baseline_summary.json",
+      "sha256": "4c8a186e134178cdc46eb1885cafb35056523c8751059c06c07e11761fa03c4f"
+    },
+    {
+      "path": "results/multisource/bindingdb_extraction.json",
+      "sha256": "23cbaacf8b8275da31e03c15d8331dec963b75757044c3a4fc4489cc88230899"
+    },
+    {
+      "path": "results/multisource/data_summary.json",
+      "sha256": "9b8b496f1543350c577a0d6112bfcd4ead1a44a26d56112e075a02e7fc5b413b"
+    },
+    {
+      "path": "results/multisource/davis/leaf10_metrics.csv",
+      "sha256": "1619286eb33eaeb7913b1756d7553c137bb3bea32abd4b92eec2a763417596d5"
+    },
+    {
+      "path": "results/multisource/davis/leaf1_metrics.csv",
+      "sha256": "4a5af287f0b4e89dd6f2c7f10ced6a3f6972e1c31d5d0eee3e324a16fb357ffb"
+    },
+    {
+      "path": "results/multisource/davis/leaf3_metrics.csv",
+      "sha256": "379bb15f23e014d6e65e324b3bf2072bf3826b907b3d8d1ab3a3a661bc8cd3d2"
+    },
+    {
+      "path": "results/multisource/davis/metrics_by_target.csv",
+      "sha256": "4f28ff1fd706f2291e17120187bd2cc60b41bdd3226023cddf43431634d29634"
+    },
+    {
+      "path": "results/multisource/davis/metrics_macro.csv",
+      "sha256": "1ce3dc49f3b42273dfda6f5c524b55d7398d8601c8ee06da2b80ec7b521c2f61"
+    },
+    {
+      "path": "results/multisource/davis_summary.json",
+      "sha256": "f479a52a1491e5b58c365a4f504597e35e1fc5c6e5c9276af1a2356962e0caaf"
+    },
+    {
+      "path": "results/multisource/davis_target_counts.csv",
+      "sha256": "6e303b91ca419c5de7e46947a7cfe7fb61e72cfbd67045fa8dbdb863184fde96"
+    },
+    {
+      "path": "results/multisource/drugcentral_extraction.json",
+      "sha256": "cb5bcb84e2cdcfd8198b10cc9f111f01a381a0018ca8881e3d82acbf8b3914de"
+    },
+    {
+      "path": "results/multisource/drugcentral_scale_audit.json",
+      "sha256": "8148e023073fc847f45f284ce9e2529d8f9ab039729b3cda2ff0712b043d515f"
+    },
+    {
+      "path": "results/multisource/hf_package.json",
+      "sha256": "e7554b7f542e2814b8b0f67e5f3068703358db13bea21002559dde25362476e8"
+    },
+    {
+      "path": "results/multisource/hf_publication.json",
+      "sha256": "2c714be980f5577837d7c83b6c6d4a0cffe7d34678ce863bda1faefcb8404870"
+    },
+    {
+      "path": "results/multisource/hf_remote_verification.json",
+      "sha256": "244c66954d2027bd3741f65953008f3c605a7a5300d10c615c47056aab6893f7"
+    },
+    {
+      "path": "results/multisource/kiba/leaf10_metrics.csv",
+      "sha256": "7180dd90286d6a1d15bf34b93fa29d3418e9bdd220f01dac4ae792acded62aa1"
+    },
+    {
+      "path": "results/multisource/kiba/leaf1_metrics.csv",
+      "sha256": "8e377609a2ba9297b6254559643d89d1411eb43599bcd4398f1953df3a706f60"
+    },
+    {
+      "path": "results/multisource/kiba/leaf3_metrics.csv",
+      "sha256": "18db7026604e505177fa7e92a3367d5a26a950761e303e1ac5b969d591c3465c"
+    },
+    {
+      "path": "results/multisource/kiba/metrics_by_target.csv",
+      "sha256": "95cb3055acd340193d0b1661d6e0679f57dc05e8fcfc80eab83fb306f911b736"
+    },
+    {
+      "path": "results/multisource/kiba/metrics_macro.csv",
+      "sha256": "96beeb64e0b4fc93bb388f64c1d16175f0e21092fa96d9b09542d0df0f1ecae7"
+    },
+    {
+      "path": "results/multisource/kiba_summary.json",
+      "sha256": "3f8130bfcc643b872e35aa197ae82b64036aa92de86023206a816f8fd43d0958"
+    },
+    {
+      "path": "results/multisource/kiba_target_counts.csv",
+      "sha256": "e0dc3b612cef3808d85e4ece12bf13a3229e9f7b91caa04fd38985cac4b85720"
+    },
+    {
+      "path": "results/multisource/original_test_comparison.csv",
+      "sha256": "ee32eabbeb4873bc04c24a289945b95896a7317d7e231e2f0b1d6b9eb44ad017"
+    },
+    {
+      "path": "results/multisource/pIC50/leaf10_metrics.csv",
+      "sha256": "3b87f809723837a32f973689b9aaf9ada6350ea8c23a06c7ab6f84050b460b41"
+    },
+    {
+      "path": "results/multisource/pIC50/leaf1_metrics.csv",
+      "sha256": "2abbe306c2cca0b46398d8e74cff31298c7886c317f8bac8c8809043741e6046"
+    },
+    {
+      "path": "results/multisource/pIC50/leaf3_metrics.csv",
+      "sha256": "1b00c8a8d4ca60a29052cdb2780161f45d983524d018805c5f2a5ab2be08d3e4"
+    },
+    {
+      "path": "results/multisource/pIC50/metrics_by_target.csv",
+      "sha256": "3248904fdd55b0ef5c329ffb139644f40c06dfbe76372ae38f308756cf1de94d"
+    },
+    {
+      "path": "results/multisource/pIC50/metrics_macro.csv",
+      "sha256": "398440266f4e224864d42e6fa5af338cbc9d8666aae360ddbaa9a75688843f7b"
+    },
+    {
+      "path": "results/multisource/pIC50_target_counts.csv",
+      "sha256": "01f55395194482bf97e71b461625163389a7ea227b45986db8ca7f0ec5a893ee"
+    },
+    {
+      "path": "results/multisource/pKd_target_counts.csv",
+      "sha256": "c9343af8f34804255484a0df503daa1d2f59b8e047eeba9888b6cbf2e8d16155"
+    },
+    {
+      "path": "results/multisource/pKi/leaf10_metrics.csv",
+      "sha256": "43cb86f40e4b45adc12a5954a50371da5004c3e1c6cad6c075459caf6d99dca1"
+    },
+    {
+      "path": "results/multisource/pKi/leaf1_metrics.csv",
+      "sha256": "49e0ffd4bef219e96b844c5ae8c0d9f7a671968207c85d2c3d2b7447cd08a10b"
+    },
+    {
+      "path": "results/multisource/pKi/leaf3_metrics.csv",
+      "sha256": "9239d2e74a769e007cbadb5b4f2f767b92c7976b88a2abc4b3f050bf8c3ce3b6"
+    },
+    {
+      "path": "results/multisource/pKi/metrics_by_target.csv",
+      "sha256": "9975d1c3e0c43315e4aa5fb0b9d21ffb0f926581df15d8749b18adfd4364e91f"
+    },
+    {
+      "path": "results/multisource/pKi/metrics_macro.csv",
+      "sha256": "79e3a66879c189056b9618c48c9412c6b3066b08f2968bae44db183a754f906e"
+    },
+    {
+      "path": "results/multisource/pKi_target_counts.csv",
+      "sha256": "ae9bb88d9961fabde44f361590a94bdbdaf0c3986ab7e64239a377adc0c6a887"
+    },
+    {
+      "path": "results/multisource/pubchem_metadata_audit.json",
+      "sha256": "f1a0c53a1d0c1ee2539d82dccd802a7166e62767c097564c319aa6cd09e2c425"
+    },
+    {
+      "path": "results/multisource/sequence_audit.json",
+      "sha256": "6b6a17f994bb0a2f468d4dedd04dfa93a6e4a8637cef8fdee392eaae2ebf042b"
+    },
+    {
+      "path": "results/multisource/source_distributions.png",
+      "sha256": "3732c23a608f4d34c1a95220c9f82003fe1f80be69c4f2b529f48d4b027ee599"
+    },
+    {
+      "path": "results/multisource/source_registry.json",
+      "sha256": "185ea213399a9c9d3f27c2e119cdff7ee74721d4663ab6dfe4a81ee3e2c99376"
+    },
+    {
+      "path": "results/multisource/source_test_slices.csv",
+      "sha256": "631b1771fddfb75adde4018824136a1c970a038015540cbaf139dc31492819d1"
+    },
+    {
+      "path": "scripts/audit_sources.py",
+      "sha256": "af16144d01843dbcf9453f8ebb6c5bee3afe0986906fe2f0137300d0e12da3fa"
+    },
+    {
+      "path": "scripts/download_sources.py",
+      "sha256": "450c5e160f837c4b3bfeb49821103b738db731b421030e60ae863e43b8362810"
+    },
+    {
+      "path": "scripts/fetch_pubchem_metadata.py",
+      "sha256": "dbec162241e9981959ce65ce68e36f1917af220c56990248b0f9ab2af94a5aa5"
+    },
+    {
+      "path": "scripts/run_multisource.py",
+      "sha256": "38f1d14bbd4c446661f8c8a3139bb01143c15ecbe8d8d362fc5a30af2e51e62e"
+    },
+    {
+      "path": "scripts/verify_multisource.py",
+      "sha256": "19070644ebacd3a90abd827abcf70f663ff81783a5d1baa3f7b304f61949fdf8"
+    },
+    {
+      "path": "src/multisource_data.py",
+      "sha256": "3b7f5dfdd04ae7e0986307c14ec8158ee0a2da17da3ad5d9f5fccf3da62d7d99"
+    },
+    {
+      "path": "src/multisource_figures.py",
+      "sha256": "ac0e8baaaab4446ec5c430624fdc59ac0e592561e9c624fe987e6e1c665ea89e"
+    },
+    {
+      "path": "src/multisource_hub.py",
+      "sha256": "d1e988700f2e07210bc1f4f57fec1e29ec11bc697fdff54f9cad404a988ea198"
+    },
+    {
+      "path": "src/multisource_models.py",
+      "sha256": "2f2a2d593cd1c13ef5f0a54f2886f110950afce82a82e5a7a39b79f48388c6af"
+    }
+  ]
+}

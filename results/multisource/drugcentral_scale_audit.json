@@ -1,0 +1,7 @@
+{
+  "overlapping_exact_structure_target_pairs": 1304,
+  "median_absolute_difference_if_ACT_VALUE_is_pKi": 0.003942675470462564,
+  "median_absolute_difference_if_misread_as_nM": 1.7388785118907242,
+  "fraction_within_0_1_pKi": 0.6771472392638037,
+  "interpretation": "DrugCentral is already on the p-scale; disagreement between experiments still remains."
+}

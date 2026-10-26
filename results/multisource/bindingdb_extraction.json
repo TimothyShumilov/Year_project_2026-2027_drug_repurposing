@@ -1,0 +1,42 @@
+{
+  "parser_version": 2,
+  "funnel": {
+    "raw_rows": 3243660,
+    "human_single_chain_rows": 2348154,
+    "native_bindingdb_or_pubchem_rows": 1117166,
+    "mapped_without_explicit_mutation": 1055998
+  },
+  "curation_sources": {
+    "Curated from the literature by BindingDB": 93085,
+    "US Patent": 1349222,
+    "PubChem": 102553,
+    "WIPO": 8766,
+    "PDSP Ki": 27715,
+    "Taylor Research Group, UCSD": 274,
+    "CSAR": 818,
+    "D3R": 2990,
+    "ChEMBL": 1658237
+  },
+  "retained_by_source_endpoint": [
+    {
+      "source": "BindingDB",
+      "endpoint": "pKi",
+      "rows": 106822
+    },
+    {
+      "source": "PubChem",
+      "endpoint": "pIC50",
+      "rows": 31766
+    },
+    {
+      "source": "PubChem",
+      "endpoint": "pKd",
+      "rows": 2427
+    },
+    {
+      "source": "PubChem",
+      "endpoint": "pKi",
+      "rows": 610
+    }
+  ]
+}

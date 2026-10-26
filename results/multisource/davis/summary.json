@@ -1,0 +1,49 @@
+{
+  "dataset": "davis",
+  "endpoint": "pKd",
+  "selected": "leaf1",
+  "validation_selection_part": "validation",
+  "validation_MAE": {
+    "leaf1": 0.4231206954035857,
+    "leaf3": 0.47260618101825425,
+    "leaf10": 0.5021461170967126
+  },
+  "test_used_for_selection": false,
+  "eligible_targets": 379,
+  "eligible_pairs": 25014,
+  "test_pairs": 2653,
+  "training_seconds": 41.10399779200088,
+  "parameters": {
+    "n_estimators": 100,
+    "min_samples_leaf": 1,
+    "max_features": "sqrt"
+  },
+  "test_results": [
+    {
+      "candidate": "leaf1",
+      "part": "test",
+      "model": "Mean",
+      "targets": 379,
+      "pairs": 2653,
+      "MAE": 0.700400288437291,
+      "RMSE": 0.9826380655382266,
+      "R2": -1.1264720223552775,
+      "Spearman": null
+    },
+    {
+      "candidate": "leaf1",
+      "part": "test",
+      "model": "RF",
+      "targets": 379,
+      "pairs": 2653,
+      "MAE": 0.5276133825948656,
+      "RMSE": 0.7774520762819106,
+      "R2": -0.01380859054234262,
+      "Spearman": 0.5481806753319642
+    }
+  ],
+  "selection_note": "All parameter selection uses validation. Test predictions were not used to select the source policy or parameters.",
+  "uncensored_test_pairs": 866,
+  "uncensored_test_targets": 365,
+  "uncensored_macro_MAE": 1.2077121727589102
+}
