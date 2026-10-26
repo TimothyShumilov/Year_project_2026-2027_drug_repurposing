@@ -66,12 +66,17 @@ def build_report():
     return report
 
 
-def usage_markdown(report):
-    text = ('| Источник выбранной метки | Обучение: пар (%) | Validation: пар (%) | Test: пар (%) | Из validation для выбора параметров |\n'
-            '|---|---:|---:|---:|---:|\n')
+def usage_markdown(report, include_selection=True):
+    if include_selection:
+        text = ('| Источник выбранной метки | Обучение: пар (%) | Validation: пар (%) | Test: пар (%) | Из validation для выбора параметров |\n'
+                '|---|---:|---:|---:|---:|\n')
+    else:
+        text = ('| Источник данных | Train: пар (%) | Validation: пар (%) | Test: пар (%) |\n'
+                '|---|---:|---:|---:|\n')
     for row in report['sources']:
         cells = [f"{row[s+'_pairs']:,} ({row[s+'_percent']:.1f}%)".replace(',', ' ') for s in ['train', 'validation', 'test']]
-        text += f"| [{row['source']}]({row['url']}) | {' | '.join(cells)} | {row['validation_selection_pairs']:,} |\n".replace(',', ' ')
+        selection = f" {row['validation_selection_pairs']:,} |" if include_selection else ''
+        text += f"| [{row['source']}]({row['url']}) | {' | '.join(cells)} |{selection}\n".replace(',', ' ')
     return text.strip()
 
 
