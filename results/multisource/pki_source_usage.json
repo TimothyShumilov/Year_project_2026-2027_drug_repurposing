@@ -1,36 +1,59 @@
 {
   "endpoint": "pKi",
-  "curated_pairs": 243218,
-  "curated_molecules": 144661,
-  "benchmark_pairs": 198300,
+  "curated_pairs": 242782,
+  "curated_molecules": 144389,
+  "benchmark_pairs": 198254,
   "benchmark_targets": 156,
-  "benchmark_molecules": 116391,
+  "benchmark_molecules": 116375,
   "split_pairs": {
-    "train": 159442,
-    "test": 20218,
+    "train": 159400,
+    "test": 20214,
     "validation": 18640
   },
   "validation_selection_pairs": 15439,
-  "pubchem_pki_assay_ids": [
-    "aid1433",
-    "aid2009",
-    "aid2019",
-    "aid2020",
-    "aid2021",
-    "aid2022",
-    "aid2037",
-    "aid2192",
-    "aid2194",
-    "aid2295",
-    "aid2296",
-    "aid2298",
-    "aid2307",
-    "aid2311",
-    "aid504410",
-    "aid519",
-    "aid520",
-    "aid724",
-    "aid766"
+  "selection_criteria": [
+    "Соответствие задаче: количественные Ki для пары «малая молекула — отдельный человеческий белок». Kd, IC50 и составные оценки не заменяют Ki.",
+    "Готовность к обучению: есть корректная структура SMILES, однозначный ID белка, точное положительное измерение и известные единицы. Ki переводим в pKi; уже готовое pKi повторно не логарифмируем.",
+    "Качество и происхождение: можно проследить источник измерения, проверить повторы и противоречия. Копии между базами не считаем дополнительными независимыми примерами.",
+    "Полезное покрытие после очистки и устранения пересечений. Смотрим на оставшиеся уникальные пары и заполненность частей выборки. Для мишени бейзлайна заранее заданы минимум 300 пар, из них ≥100 train, ≥10 validation и ≥10 test; это пороги мишени, а не размера всей базы.",
+    "Воспроизводимый открытый доступ: данные можно получить, зафиксировать версию и опубликовать подготовленную выборку на Hugging Face с соблюдением условий источника."
+  ],
+  "excluded_datasets": [
+    {
+      "source": "PubChem BioAssay",
+      "reason": "После очистки и разрешения пересечений в нашем бейзлайне остались только 46 пар: 42 train, 0 validation, 4 test. Малый самостоятельный вклад и отсутствие validation-части.",
+      "url": "https://pubchem.ncbi.nlm.nih.gov/docs/bioassays"
+    },
+    {
+      "source": "DAVIS",
+      "reason": "Метки Kd/pKd вместо Ki/pKi; отдельная задача, не используется для обучения или валидации текущего бейзлайна.",
+      "url": "https://tdcommons.ai/multi_pred_tasks/dti/#davis"
+    },
+    {
+      "source": "KIBA",
+      "reason": "Составной KIBA score, объединяющий разные виды активности; его нельзя считать pKi.",
+      "url": "https://tdcommons.ai/multi_pred_tasks/dti/#kiba"
+    },
+    {
+      "source": "PDBbind",
+      "reason": "Не получена выгрузка с разрешением на использование и публикацию подготовленных данных на Hugging Face.",
+      "url": "https://www.pdbbind-plus.org.cn/termofuse"
+    },
+    {
+      "source": "DrugBank",
+      "reason": "Академический доступ предоставляется по заявке; разрешённая для публикации выгрузка в проекте не получена.",
+      "url": "https://go.drugbank.com/academic_research/"
+    },
+    {
+      "source": "Open Targets",
+      "reason": "Связи мишеней с заболеваниями и биомедицинские доказательства не являются количественными метками Ki для этой регрессии.",
+      "url": "https://platform-docs.opentargets.org/"
+    },
+    {
+      "source": "ClinicalTrials.gov",
+      "reason": "Сведения о клинических исследованиях и вмешательствах не дают требуемые измерения Ki для пар «молекула — белок».",
+      "url": "https://clinicaltrials.gov/data-api/about-api"
+    }
   ],
   "counting_rule": "One selected label per compound/target; source is the chosen label provider, not every overlapping provenance source.",
   "percentage_denominator": "Retained benchmark pairs from that source, across train/validation/test.",
@@ -71,24 +94,6 @@
       "test_pairs": 2549,
       "test_percent": 9.922148695990657,
       "diagnostic_validation_pairs": 2488,
-      "used_for_validation_selection": false
-    },
-    {
-      "source": "PubChem",
-      "total_pairs": 46,
-      "used_for_training": true,
-      "validation_selection_pairs": 0,
-      "prepared_observations": 577,
-      "curated_pairs_all_targets": 436,
-      "preparation": "Только количественные Ki из курируемого импорта BindingDB; ID теста проверен напрямую в PubChem. Те же проверки белка, что для BindingDB. Пересчёт Ki в нМ → pKi.",
-      "url": "https://pubchem.ncbi.nlm.nih.gov/docs/bioassays",
-      "train_pairs": 42,
-      "train_percent": 91.30434782608695,
-      "validation_pairs": 0,
-      "validation_percent": 0.0,
-      "test_pairs": 4,
-      "test_percent": 8.695652173913043,
-      "diagnostic_validation_pairs": 0,
       "used_for_validation_selection": false
     },
     {

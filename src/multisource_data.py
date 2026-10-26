@@ -19,9 +19,11 @@ from rdkit import Chem, DataStructs
 from affinity_eda import ROOT, CFG, structure_features, fingerprint_generator, grouped_split, save_json, sha256
 
 RAW = ROOT / 'data/raw/multisource'
-DATA = ROOT / 'data/multisource'
+LEGACY_DATA = ROOT / 'data/multisource'
+DATA = ROOT / 'data/multisource_v3'
 RESULTS = ROOT / 'results/multisource'
-PIPELINE_VERSION = 2
+PIPELINE_VERSION = 3
+INCLUDED_SOURCES = ('ChEMBL', 'BindingDB', 'DrugCentral')
 MUTATION = r'(?i:mutant|mutation)|\b[A-Z][0-9]{2,4}[A-Z]\b'
 BASE_COLUMNS = ['source','provider','source_record_id','source_study_id','upstream_source',
                 'source_smiles','target_id','target_name','endpoint','label','protein_sequence']
@@ -33,7 +35,7 @@ def init():
 
 
 def extract_bindingdb():
-    """Stream the 9 GB TSV, retaining human single-chain Ki and PubChem IC50/Kd."""
+    """Stream the TSV, retaining native human single-chain Ki only."""
     init()
     path = DATA / 'bindingdb_observations_unchecked.parquet'
     audit_path=RESULTS/'bindingdb_extraction.json'
@@ -58,27 +60,26 @@ def extract_bindingdb():
                 audit['human_single_chain_rows']+=len(work)
                 # ChEMBL is already imported with the stricter original assay-quality filters.
                 work=work.loc[work['Curation/DataSource'].isin([
-                    'Curated from the literature by BindingDB','US Patent','WIPO','PubChem'])].copy()
-                audit['native_bindingdb_or_pubchem_rows']+=len(work)
+                    'Curated from the literature by BindingDB','US Patent','WIPO'])].copy()
+                audit['native_bindingdb_rows']+=len(work)
                 work['target_id']=work[fields[13]].where(work[fields[13]].ne(''),work[fields[14]])
                 work=work.loc[work.target_id.str.fullmatch(r'[A-Z0-9]{6,10}(?:-\d+)?') &
                               ~work['Target Name'].str.contains(MUTATION,regex=True)].copy()
                 audit['mapped_without_explicit_mutation']+=len(work)
-                for measure,endpoint in [('Ki (nM)','pKi'),('IC50 (nM)','pIC50'),('Kd (nM)','pKd')]:
-                    selection=work if endpoint=='pKi' else work.loc[work['Curation/DataSource'].eq('PubChem')]
+                for measure,endpoint in [('Ki (nM)','pKi')]:
+                    selection=work
                     values=pd.to_numeric(selection[measure].str.strip(),errors='coerce')
                     ok=np.isfinite(values)&values.gt(0)
                     selection=selection.loc[ok].copy()
                     if selection.empty: continue
                     frame=pd.DataFrame({
-                        'source':np.where(selection['Curation/DataSource'].eq('PubChem'),'PubChem','BindingDB'), 'provider':'BindingDB/202610',
+                        'source':'BindingDB', 'provider':'BindingDB/202610',
                         'source_record_id':'BDB_'+selection['BindingDB Reactant_set_id']+'_'+endpoint,
                         'source_study_id':selection['Article DOI'].where(selection['Article DOI'].ne(''),selection.PMID),
                         'upstream_source':selection['Curation/DataSource'],
                         'source_smiles':selection['Ligand SMILES'],'target_id':selection.target_id,
                         'target_name':selection['Target Name'],'endpoint':endpoint,
                         'label':9-np.log10(values.loc[ok]),'protein_sequence':selection['BindingDB Target Chain Sequence 1']})
-                    frame['pubchem_aid']=selection['PubChem AID']
                     rows.append(frame)
                 if i%10==0: print(f'BindingDB scanned {audit["raw_rows"]:,} rows',flush=True)
     observations=pd.concat(rows,ignore_index=True)
@@ -119,7 +120,7 @@ def drugcentral_observations():
                 structures[int(mol.GetProp('ID'))]=Chem.MolToSmiles(mol,isomericSmiles=True)
     raw=pd.read_csv(RAW/'drugcentral_interactions.tsv.gz',sep='\t')
     work=raw.loc[raw.ORGANISM.eq('Homo sapiens') & raw.RELATION.eq('=') &
-                 raw.ACT_TYPE.isin(['Ki','Kd','IC50']) & np.isfinite(raw.ACT_VALUE) &
+                 raw.ACT_TYPE.eq('Ki') & np.isfinite(raw.ACT_VALUE) &
                  ~raw.ACT_COMMENT.fillna('').str.contains(MUTATION,regex=True)].copy()
     work['source_smiles']=work.STRUCT_ID.map(structures)
     work=work.loc[work.source_smiles.notna() & work.ACCESSION.str.fullmatch(r'[A-Z0-9]{6,10}(?:-\d+)?',na=False)].copy()
@@ -141,6 +142,14 @@ def drugcentral_observations():
 
 def proteins(accessions):
     """Fetch canonical human protein sequences for identity/mutation checks and DL."""
+    requested=set(accessions)
+    for cached in [DATA/'proteins.parquet',LEGACY_DATA/'proteins.parquet']:
+        if cached.exists():
+            table=pd.read_parquet(cached)
+            if requested<=set(table.Entry):
+                result=table.loc[table.Entry.isin(requested)].copy()
+                result.to_parquet(DATA/'proteins.parquet',index=False)
+                return result
     directory=RAW/'uniprot';directory.mkdir(exist_ok=True)
     batches=[sorted(set(accessions))[i:i+75] for i in range(0,len(set(accessions)),75)]
     def one(batch):
@@ -168,7 +177,8 @@ def normalise_structures(observations):
     original=original.drop(columns=['molecule_index','random_split','scaffold_split']).copy()
     original['source_smiles']=original.smiles;original['structure_status']='valid'
     frames=[known,original]
-    if path.exists():frames.append(pd.read_parquet(path))
+    for cached in [LEGACY_DATA/'structure_lookup.parquet',path]:
+        if cached.exists():frames.append(pd.read_parquet(cached))
     known=pd.concat(frames,ignore_index=True).drop_duplicates('source_smiles',keep='last')
     missing=sorted(set(observations.source_smiles)-set(known.source_smiles))
     if missing:
@@ -196,21 +206,33 @@ def extend_split(molecules,column,original_split):
 def prepare():
     init()
     complete=RESULTS/'data_summary.json'
-    if complete.exists() and json.loads(complete.read_text()).get('pipeline_version')==PIPELINE_VERSION:
-        return json.loads(complete.read_text())
-    bdb=extract_bindingdb();chembl=chembl_observations();dc=drugcentral_observations()
-    all_obs=pd.concat([chembl,bdb,dc],ignore_index=True)
+    if complete.exists():
+        prior=json.loads(complete.read_text())
+        if prior.get('pipeline_version')==PIPELINE_VERSION and (DATA/'pairs.parquet').exists():
+            return prior
+    legacy=LEGACY_DATA/'observations.parquet'
+    if legacy.exists():
+        previous=pd.read_parquet(legacy)
+        all_obs=previous.reindex(columns=BASE_COLUMNS+['original_chembl_target_id']).copy()
+        input_scope='Previously curated observations; source/endpoint policy reapplied and labels reaggregated.'
+    else:
+        bdb=extract_bindingdb();chembl=chembl_observations();dc=drugcentral_observations()
+        all_obs=pd.concat([chembl,bdb,dc],ignore_index=True)
+        input_scope='Source measurements before canonical-sequence and structure checks.'
+    all_obs=all_obs.loc[all_obs.source.isin(INCLUDED_SOURCES)&all_obs.endpoint.eq('pKi')].copy()
+    all_obs=all_obs.loc[~all_obs.upstream_source.fillna('').str.contains('PubChem',case=False)].copy()
     protein_table=proteins(all_obs.target_id.dropna().unique().tolist())
     human=set(protein_table.loc[protein_table['Organism (ID)'].eq(9606),'Entry'])
     all_obs=all_obs.loc[all_obs.target_id.isin(human)].copy()
     canonical=protein_table.set_index('Entry').Sequence.to_dict()
-    checked=all_obs.source.isin(['BindingDB','PubChem'])
+    checked=all_obs.source.eq('BindingDB')
     def matches(row):
         sequence=row.protein_sequence
         return isinstance(sequence,str) and len(sequence)>=50 and sequence in canonical.get(row.target_id,'')
     match=all_obs.loc[checked,['target_id','protein_sequence']].apply(matches,axis=1)
     bad_index=match.index[~match]
-    sequence_audit={'bindingdb_pubchem_rows_checked':int(checked.sum()),'rows_without_canonical_sequence_match':len(bad_index),
+    sequence_audit={'bindingdb_rows_checked':int(checked.sum()),'rows_without_canonical_sequence_match':len(bad_index),
+                    'input_scope':input_scope,
                     'rule':'single-chain experimental sequence must be >=50 aa and an exact substring of canonical human UniProt sequence'}
     all_obs=all_obs.drop(index=bad_index).reset_index(drop=True)
     save_json(RESULTS/'sequence_audit.json',sequence_audit)
@@ -229,7 +251,7 @@ def prepare():
     conflicts=estimates.loc[estimates.within_source_range.gt(2)].copy()
     conflicts.to_parquet(DATA/'within_source_conflicts.parquet',index=False)
     estimates=estimates.loc[estimates.within_source_range.le(2)].copy()
-    priority={'ChEMBL':0,'BindingDB':1,'PubChem':2,'DrugCentral':3}
+    priority={'ChEMBL':0,'BindingDB':1,'DrugCentral':2}
     estimates['priority']=estimates.source.map(priority)
     pair_keys=['compound_id','target_id','endpoint']
     selected=estimates.sort_values('priority').drop_duplicates(pair_keys).copy()
@@ -252,13 +274,14 @@ def prepare():
     molecules.to_parquet(DATA/'molecules.parquet',index=False)
     selected.to_parquet(DATA/'pairs.parquet',index=False)
     estimates.to_parquet(DATA/'source_estimates.parquet',index=False)
-    summary={'pipeline_version':PIPELINE_VERSION,'observations':len(all_obs),'pairs':len(selected),'molecules':len(molecules),
+    summary={'pipeline_version':PIPELINE_VERSION,'included_sources':list(INCLUDED_SOURCES),'input_scope':input_scope,
+        'observations':len(all_obs),'pairs':len(selected),'molecules':len(molecules),
         'structure_rejected_observations':before-len(all_obs),'sequence_audit':sequence_audit,
         'within_source_conflicting_pairs':len(conflicts),
         'rows_by_source_endpoint':all_obs.groupby(['source','endpoint']).size().rename('rows').reset_index().to_dict('records'),
         'pairs_by_endpoint':selected.endpoint.value_counts().to_dict(),
         'source_priority':priority,'split_policy':'Original ChEMBL group assignments are fixed; new groups use SHA256(seed|group).',
-        'cross_source_policy':'Prefer ChEMBL > native BindingDB > PubChem > DrugCentral; flag ranges >2 and preserve original ChEMBL labels.'}
+        'cross_source_policy':'Prefer ChEMBL > native BindingDB > DrugCentral; flag ranges >2 and preserve original ChEMBL labels.'}
     save_json(complete,summary)
     return summary
 
@@ -269,6 +292,14 @@ def fingerprints(molecules):
         saved=np.load(path)
         if np.array_equal(saved['compound_ids'],molecules.compound_id.to_numpy()):return saved['X']
         raise ValueError('Fingerprint cache does not match molecule ordering')
+    previous=LEGACY_DATA/'fingerprints.npz'
+    if previous.exists():
+        saved=np.load(previous)
+        indices=pd.Index(saved['compound_ids']).get_indexer(molecules.compound_id)
+        if (indices>=0).all():
+            X=saved['X'][indices]
+            np.savez_compressed(path,X=X,compound_ids=molecules.compound_id.to_numpy(dtype=str))
+            return X
     gen=fingerprint_generator();X=np.zeros((len(molecules),2048),dtype=np.uint8)
     for start in range(0,len(molecules),2000):
         mols=[Chem.MolFromSmiles(s) for s in molecules.smiles.iloc[start:start+2000]]

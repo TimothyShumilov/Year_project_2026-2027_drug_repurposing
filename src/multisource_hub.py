@@ -13,9 +13,9 @@ from huggingface_hub import HfApi, get_token
 from affinity_eda import save_json,sha256
 from multisource_data import ROOT,DATA,RESULTS
 from multisource_models import CONFIG,original_keys
-from pki_sources import build_report, usage_markdown, preparation_markdown
+from pki_sources import build_report, usage_markdown, preparation_markdown, criteria_markdown, exclusions_markdown
 
-STAGING=ROOT/'output/huggingface/drug-affinity-pki'
+STAGING=ROOT/'output/huggingface/drug-affinity-pki-v3'
 
 
 def package():
@@ -51,19 +51,15 @@ def package():
     write('molecules',molecules)
     observations=pd.read_parquet(DATA/'observations.parquet').query("endpoint == 'pKi'").copy()
     observation_columns=['source','provider','upstream_source','source_record_id','source_study_id',
-        'compound_id','smiles','target_id','target_name','endpoint','label','pubchem_aid']
+        'compound_id','smiles','target_id','target_name','endpoint','label']
     write('source_observations',observations.reindex(columns=observation_columns))
-    aids={int(a.removeprefix('aid')) for a in usage['pubchem_pki_assay_ids']}
-    assays=pd.read_parquet(DATA/'pubchem_assays.parquet')
-    assays=assays.loc[assays.aid.isin(aids)].copy()
-    write('pubchem_assays',assays)
     npz=STAGING/'features';npz.mkdir(exist_ok=True)
     fingerprints=np.load(DATA/'fingerprints.npz')
     np.savez_compressed(npz/'fingerprints.npz',X=fingerprints['X'][old_indices],
                         compound_ids=molecules.compound_id.to_numpy(dtype=str))
     prepared=STAGING/'prepared';prepared.mkdir(exist_ok=True)
     for name,frame in [('pairs',pairs),('molecules',molecules),('observations',observations),
-                       ('proteins',proteins),('pubchem_assays',assays)]:
+                       ('proteins',proteins)]:
         frame.to_parquet(prepared/(name+'.parquet'),index=False)
     for name in ['source_estimates','within_source_conflicts','cross_source_conflicts']:
         pd.read_parquet(DATA/(name+'.parquet')).query("endpoint == 'pKi'").to_parquet(prepared/(name+'.parquet'),index=False)
@@ -76,7 +72,8 @@ def package():
         'https://creativecommons.org/licenses/by-sa/3.0/ .\n'
         'Changes from source: Ki filtering, structure checks, aggregation, descriptors and fixed splits.\n')
     for name in ['baseline_summary.json','original_test_comparison.csv','source_test_slices.csv',
-                 'source_registry.json','drugcentral_scale_audit.json','pki_source_usage.json','pki_source_usage.csv']:
+                 'source_registry.json','drugcentral_scale_audit.json','pki_source_usage.json','pki_source_usage.csv',
+                 'excluded_datasets.json']:
         path=RESULTS/name
         if path.exists():
             target=STAGING/'metadata'/name;target.parent.mkdir(exist_ok=True);shutil.copy2(path,target)
@@ -100,7 +97,7 @@ def package():
     summary['scope']='pKi only; source usage in pki_source_usage.json'
     save_json(STAGING/'metadata/data_summary.json',summary)
     model=json.loads((RESULTS/'baseline_summary.json').read_text())
-    metadata={'pretty_name':'pKi baseline: ChEMBL, BindingDB, PubChem and DrugCentral',
+    metadata={'pretty_name':'pKi baseline: ChEMBL, BindingDB and DrugCentral',
               'license':'cc-by-sa-4.0','language':['en'],'task_categories':['tabular-regression'],
               'tags':['chemistry','drug-discovery','molecular-property-prediction','random-forest'],
               'configs':configurations}
@@ -121,7 +118,7 @@ train = data["train"].filter(lambda row: row["benchmark_target"])
 
 {table}
 
-`molecules`, `source_observations` and `pubchem_assays` are reference tables. Their `train` split is a storage convention. Use the affinity tables' `scaffold_split` labels when joining them.
+`molecules` and `source_observations` are reference tables. Their `train` split is a storage convention. Use the affinity tables' `scaffold_split` labels when joining them.
 
 ## Labels and features
 
@@ -135,31 +132,39 @@ The table counts each selected compound/target label once, after curation and ba
 
 {usage_markdown(usage)}
 
-Only **15,439 original ChEMBL validation pairs** select hyperparameters. The other **3,201 validation pairs** are diagnostic. PubChem has no validation pairs in this baseline. All test pairs are reserved for final evaluation. These are globally held-out scaffolds, not independent external source cohorts.
+Only **{usage['validation_selection_pairs']:,} original ChEMBL validation pairs** select hyperparameters. The other **{usage['split_pairs']['validation']-usage['validation_selection_pairs']:,} validation pairs** are diagnostic. All test pairs are reserved for final evaluation. These are globally held-out scaffolds, not independent external source cohorts.
 
 {preparation_markdown(usage)}
 
 The source-usage table and exact counts are also available in `metadata/pki_source_usage.csv` and `.json`.
 
+## Dataset selection criteria and exclusions
+
+The criteria and exclusion reasons below match the Russian EDA. Source coverage is evaluated after curation and overlap removal, not by the total database size. PubChem is excluded for insufficient coverage: the previous benchmark retained only 46 selected pairs (42 train, 0 validation, 4 test). The revised RF is refitted without its observations or provenance contributions.
+
+{criteria_markdown()}
+
+{exclusions_markdown()}
+
 ## Curation and source overlap
 
-Only exact, finite affinity measurements are used. Main ChEMBL annotations follow confidence 9, human single-protein and no annotated-variant rules. Native BindingDB and PubChem observations require a single human protein and an experimental sequence of at least 50 residues matching a contiguous segment of the canonical UniProt sequence. Organic fragments are standardised while retaining charge and stereochemistry; ambiguous mixtures and structures with more than 100 heavy atoms are excluded.
+Only exact, finite Ki measurements are used. Main ChEMBL annotations follow confidence 9, human single-protein and no annotated-variant rules. Native BindingDB observations require a single human protein and an experimental sequence of at least 50 residues matching a contiguous segment of the canonical UniProt sequence. Organic fragments are standardised while retaining charge and stereochemistry; ambiguous mixtures and structures with more than 100 heavy atoms are excluded.
 
-Repeated labels are reduced to a median within each source/pair/endpoint. Ranges above two p-units are quarantined. Cross-source copies become one pair using ChEMBL > native BindingDB > PubChem > DrugCentral priority. Discordant auxiliary evidence is flagged; original ChEMBL labels and splits are preserved. Thus extra copies do not count as independent training examples. `sources`, `source_count`, `cross_source_range`, and `source_observations` retain the provenance.
+Repeated labels are reduced to a median within each source/pair. Ranges above two p-units are quarantined. Cross-source copies become one pair using ChEMBL > native BindingDB > DrugCentral priority. Discordant auxiliary evidence is flagged; original ChEMBL labels and splits are preserved. Thus extra copies do not count as independent training examples. `sources`, `source_count`, `cross_source_range`, and `source_observations` retain the provenance.
 
-PubChem observations were obtained through the curated BindingDB import, with BioAssay identifiers checked through PubChem PUG REST. DrugCentral itself aggregates sources; its `upstream_source` is retained. Source slices of held-out predictions are not independent external cohorts.
+DrugCentral itself aggregates sources; its `upstream_source` is retained. Source slices of held-out predictions are not independent external cohorts. The separately imported PubChem source is excluded; historical imports inside other databases cannot always be reconstructed from their annotations.
 
 ## Evaluation
 
-Original ChEMBL scaffold assignments are immutable. New structures sharing an old scaffold inherit its split; new scaffolds use SHA256(seed|scaffold) for nominal 80/10/10 allocation. All four sources share those molecule groups, so actual row proportions vary. Original `chembl_reference` validation/test labels are unchanged.
+Original ChEMBL scaffold assignments are immutable. New structures sharing an old scaffold inherit its split; new scaffolds use SHA256(seed|scaffold) for nominal 80/10/10 allocation. All three sources share those molecule groups, so actual row proportions vary. Original `chembl_reference` validation/test labels are unchanged.
 
 `benchmark_target` marks targets meeting the declared train/validation/test coverage criteria. Sparse unsupported targets remain available for research; filter this flag to reproduce the reported baseline.
 
-All experiments used validation-only hyperparameter selection. On the same original 131-target test, RF MAE was {model['original_test_comparison'][0]['MAE']:.3f} pKi with ChEMBL alone and {model['original_test_comparison'][1]['MAE']:.3f} after source expansion. Additional data did not improve that test. Full metrics and counts are in `metadata/baseline_summary.json`.
+All experiments used validation-only hyperparameter selection. On the same original 131-target test, RF MAE was {model['original_test_comparison'][0]['MAE']:.4f} pKi with ChEMBL alone and {model['original_test_comparison'][1]['MAE']:.4f} after source expansion. Additional data did not improve that test. Full metrics and counts are in `metadata/baseline_summary.json`.
 
 ## Limitations
 
-Unknown activity is not a negative label. Missing variant metadata does not establish wild-type status. Laboratories, assay conditions and source selection differ. Four PubChem test pairs cannot support a reliable source-wide quality estimate. Predictions describe molecular interactions and require experimental validation for biological or therapeutic use.
+Unknown activity is not a negative label. Missing variant metadata does not establish wild-type status. Laboratories, assay conditions and source selection differ. Predictions describe molecular interactions and require experimental validation for biological or therapeutic use.
 
 ## Provenance, licenses and attribution
 
@@ -167,7 +172,7 @@ The transformed integrated collection is distributed under [CC BY-SA 4.0](https:
 
 Code and executed EDA: [annual project repository](https://github.com/TimothyShumilov/Year_project_2026-2027_drug_repurposing/tree/codex/checkpoint-2-eda-rf). SHA-256 file checksums and retrieval records accompany this release.
 
-For exact local reproduction of the RF runs, download this repository and copy `prepared/*.parquet` to the project's `data/multisource/`, `features/fingerprints.npz` to that same directory, and `reference/chembl/*` to `data/processed/`. Run `scripts/run_multisource.py --stage train` and compare its metrics with the supplied metadata.
+For exact local reproduction of the RF runs, download this repository and copy `prepared/*.parquet` to the project's `data/multisource_v3/`, `features/fingerprints.npz` to that same directory, and `reference/chembl/*` to `data/processed/`. Run `scripts/run_multisource.py --stage train` and compare its metrics with the supplied metadata.
 '''
     (STAGING/'README.md').write_text('---\n'+yaml.safe_dump(metadata,sort_keys=False,allow_unicode=True)+'---\n\n'+text)
     licenses='''# Source licenses and citations
@@ -176,7 +181,6 @@ Original grants and attributions are preserved; this collection does not claim o
 
 - **ChEMBL 37, EMBL-EBI:** CC BY-SA 3.0. Zdrazil et al., *The ChEMBL Database in 2023*, doi:10.1093/nar/gkad1004. https://www.ebi.ac.uk/chembl/ and https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/general-questions . The transformed integrated tables use the later BY-SA 4.0 version allowed by section 4(b) of https://creativecommons.org/licenses/by-sa/3.0/legalcode . Original BY-SA 3.0 notices remain intact.
 - **BindingDB 202610:** native literature and patent observations; see https://www.bindingdb.org/rwd/bind/info.jsp (CC BY 3.0) and the authors' 2024 update doi:10.1093/nar/gkae1075 (CC BY 4.0). Imported ChEMBL rows were not independently re-added. Attribution, source flags, URLs and record identifiers are preserved. Publication: https://academic.oup.com/nar/article/53/D1/D1633/7906836 .
-- **PubChem BioAssay:** quantitative observations imported through BindingDB, original assay IDs and source metadata retained. PubChem does not claim a new license over depositor content. See https://pubchem.ncbi.nlm.nih.gov/docs/use-of-pubchem-data and https://pubchem.ncbi.nlm.nih.gov/docs/bioassays . Only factual identifiers, measurements, result-field names and assay titles are included; depositor protocols and descriptions are not republished.
 - **DrugCentral:** CC BY-SA 4.0, https://www.drugcentral.org/privacy . Ursu et al., *DrugCentral: online drug compendium*, doi:10.1093/nar/gkw993. Numeric source values are already on the negative-log-molar scale; original ACT_SOURCE is retained.
 - **UniProt curation support:** CC BY 4.0, https://www.uniprot.org/help/license . Canonical human sequences are retained only for identity/sequence checks, not as an additional training source or RF feature.
 '''

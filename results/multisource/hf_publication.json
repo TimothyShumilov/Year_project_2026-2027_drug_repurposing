@@ -1,34 +1,11 @@
 {
   "repository": "tim-shu/drug-affinity-multisource",
   "url": "https://huggingface.co/datasets/tim-shu/drug-affinity-multisource",
-  "revision": "84ef8e6a10d43e52215b157b1960e2a239068aae",
-  "uploaded_files": 40,
+  "revision": "de24e3002f93f02eef32ad8cf6c82c021d3bd962",
+  "uploaded_files": 39,
   "removed_obsolete_files": [
-    "data/affinity_pic50/test.parquet",
-    "data/affinity_pic50/train.parquet",
-    "data/affinity_pic50/validation.parquet",
-    "data/affinity_pkd/test.parquet",
-    "data/affinity_pkd/train.parquet",
-    "data/affinity_pkd/validation.parquet",
-    "data/approved_library/train.parquet",
-    "data/davis/test.parquet",
-    "data/davis/train.parquet",
-    "data/davis/validation.parquet",
-    "data/kiba/test.parquet",
-    "data/kiba/train.parquet",
-    "data/kiba/validation.parquet",
-    "data/proteins/train.parquet",
-    "evaluation/davis_test_predictions.parquet",
-    "evaluation/kiba_test_predictions.parquet",
-    "evaluation/pIC50_test_predictions.parquet",
-    "metadata/pubchem_metadata_audit.json",
-    "metadata/sequence_audit.json",
-    "metadata/tdc_doi_license.json",
-    "prepared/davis_molecules.parquet",
-    "prepared/davis_pairs.parquet",
-    "prepared/kiba_molecules.parquet",
-    "prepared/kiba_pairs.parquet",
-    "prepared/structure_lookup.parquet"
+    "data/pubchem_assays/train.parquet",
+    "prepared/pubchem_assays.parquet"
   ],
-  "verified_at_utc": "2026-10-26T08:34:51.831897+00:00"
+  "verified_at_utc": "2026-10-26T13:21:00.224648+00:00"
 }

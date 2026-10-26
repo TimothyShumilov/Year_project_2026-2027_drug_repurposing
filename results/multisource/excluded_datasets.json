@@ -1,0 +1,37 @@
+[
+  {
+    "source": "PubChem BioAssay",
+    "reason": "После очистки и разрешения пересечений в нашем бейзлайне остались только 46 пар: 42 train, 0 validation, 4 test. Малый самостоятельный вклад и отсутствие validation-части.",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/docs/bioassays"
+  },
+  {
+    "source": "DAVIS",
+    "reason": "Метки Kd/pKd вместо Ki/pKi; отдельная задача, не используется для обучения или валидации текущего бейзлайна.",
+    "url": "https://tdcommons.ai/multi_pred_tasks/dti/#davis"
+  },
+  {
+    "source": "KIBA",
+    "reason": "Составной KIBA score, объединяющий разные виды активности; его нельзя считать pKi.",
+    "url": "https://tdcommons.ai/multi_pred_tasks/dti/#kiba"
+  },
+  {
+    "source": "PDBbind",
+    "reason": "Не получена выгрузка с разрешением на использование и публикацию подготовленных данных на Hugging Face.",
+    "url": "https://www.pdbbind-plus.org.cn/termofuse"
+  },
+  {
+    "source": "DrugBank",
+    "reason": "Академический доступ предоставляется по заявке; разрешённая для публикации выгрузка в проекте не получена.",
+    "url": "https://go.drugbank.com/academic_research/"
+  },
+  {
+    "source": "Open Targets",
+    "reason": "Связи мишеней с заболеваниями и биомедицинские доказательства не являются количественными метками Ki для этой регрессии.",
+    "url": "https://platform-docs.opentargets.org/"
+  },
+  {
+    "source": "ClinicalTrials.gov",
+    "reason": "Сведения о клинических исследованиях и вмешательствах не дают требуемые измерения Ki для пар «молекула — белок».",
+    "url": "https://clinicaltrials.gov/data-api/about-api"
+  }
+]

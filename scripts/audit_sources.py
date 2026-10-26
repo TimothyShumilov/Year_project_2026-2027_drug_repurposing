@@ -17,7 +17,6 @@ def main():
     report=build_report()
     licenses={'ChEMBL':'CC BY-SA 3.0; integrated adaptation BY-SA 4.0',
               'BindingDB':'Native data: CC BY; upstream notices retained',
-              'PubChem':'Source/depositor terms retained; factual observations only',
               'DrugCentral':'CC BY-SA 4.0'}
     entries=[]
     for row in report['sources']:

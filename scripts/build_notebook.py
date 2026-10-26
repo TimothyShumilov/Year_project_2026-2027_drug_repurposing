@@ -6,7 +6,7 @@ import nbformat as nbf
 
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT/'src'))
-from pki_sources import build_report, usage_markdown, preparation_markdown
+from pki_sources import build_report, usage_markdown, preparation_markdown, criteria_markdown, exclusions_markdown
 
 
 def build():
@@ -35,22 +35,18 @@ $$
 Например, Ki = 100 нМ даёт pKi = 9 − log10(100) = 7; Ki = 1 мкМ = 1000 нМ даёт pKi = 6. Увеличение pKi на 1 означает уменьшение Ki в 10 раз. Модель предсказывает pKi; большее значение означает более сильное взаимодействие.''')
     md('''## Бейзлайн: Random Forest на Morgan fingerprints
 
-**Бейзлайн** — исходная модель, с качеством которой будем сравнивать будущую нейросеть. Берём **Random Forest для регрессии**: для каждой белковой мишени обучаем отдельный лес из 100 деревьев. Каждое дерево предсказывает pKi, а лес усредняет их ответы. Это быстро обучаемый метод для табличных числовых признаков. [Описание Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html).
+В качестве бейзлайна будем использовать **Random Forest для регрессии**: для каждой белковой мишени обучаем отдельный лес. Каждое дерево предсказывает pKi, а лес усредняет их ответы. Это быстро обучаемый метод для табличных числовых признаков.
 
 **Morgan fingerprints** — способ представить структуру молекулы числовым «отпечатком». В нашем случае это вектор из **2048 нулей и единиц**, описывающий локальные окружения атомов. Окружение включает выбранный атом, соседние атомы и связывающие их связи.
 
-Получаем признаки из SMILES с помощью RDKit:
-
-1. Для каждого атома учитываем его свойства и строение ближайшего окружения.
-2. Рассматриваем окружения радиуса 0, 1 и 2: сам атом, соседей через одну связь и атомы на расстоянии до двух связей. Например, для кислорода в этаноле `CCO` через одну связь доступен соседний углерод, через две — второй углерод.
-3. Кодируем окружения в фиксированные позиции вектора: 1 означает, что хотя бы одно окружение сопоставилось этой позиции, 0 — что ни одно не сопоставилось. Разные окружения могут попадать в одну позицию; поэтому отпечаток не сохраняет всю информацию о молекуле. Учитываем отмеченные в SMILES пространственные особенности строения — стереохимию. [Morgan fingerprints в RDKit](https://www.rdkit.org/docs/GettingStartedInPython.html#morgan-fingerprints-circular-fingerprints).
+Получаем признаки из SMILES с помощью RDKit
 
 **Схема прогноза:** `SMILES → Morgan-вектор из 2048 бит → лес выбранной мишени → pKi`.
 
-Мишень определяет, какой лес применить. Последовательность белка на вход этому бейзлайну не подаётся. Фиксированные признаки позволяют получить отправную точку для сравнения с графовой нейросетью (GNN), которая будет обучать представление молекулы по её графу.''')
+Мишень определяет, какой лес применить. Последовательность целевого белка на вход этому бейзлайну не подаётся. Фиксированные признаки позволяют получить отправную точку для сравнения с дальнейшими моделями''')
     md('''## Химический каркас и разбиение данных
 
-**Химический каркас** — основа строения молекулы. В проекте используем каркас Bemis–Murcko в реализации RDKit: упрощённо, это кольца и участки, соединяющие их, после удаления боковых цепей. Кольцо — замкнутая цепочка атомов; боковые группы присоединены к этой основе. Типы атомов и связей в каркасе сохраняются, стереохимия при группировке не учитывается.
+**Химический каркас** — основа строения молекулы. В проекте используем каркас Bemis–Murcko в реализации RDKit: упрощённо, это кольца и участки, соединяющие их, после удаления боковых цепей. Кольцо — замкнутая цепочка атомов; боковые группы присоединены к этой основе.
 
 Например, толуол и фенол различаются боковой группой, но имеют один каркас:
 
@@ -63,25 +59,37 @@ $$
 
 **Зачем группировать по каркасу.** При случайном разбиении близкие аналоги могут оказаться одновременно в train и test. Их fingerprints часто похожи, поэтому ошибка на таком тесте может быть слишком оптимистичной для поиска соединений с новой основой. Разбиение по каркасам проверяет, насколько хорошо модель предсказывает pKi для структур с каркасами, которых не было в обучении.
 
-**Как это работает у нас.** Всем молекулам с одним каркасом назначаем одну часть: train, validation или test. Назначение общее для всех источников и белковых мишеней. Если бензольный каркас попал в train, толуол и фенол попадут туда вместе. Целевое соотношение групп — около 80/10/10; группы имеют разный размер, поэтому доли молекул и измеренных пар могут отличаться. Исходное разбиение ChEMBL сохранено, новые каркасы распределяются воспроизводимым хешем без использования pKi.
+**Как это работает у нас.** Всем молекулам с одним каркасом назначаем одну часть: train, validation или test. Назначение общее для всех источников и белковых мишеней. Если бензольный каркас попал в train, толуол и фенол попадут туда вместе. Целевое соотношение групп — около 80/10/10; группы имеют разный размер, поэтому доли молекул и измеренных пар могут отличаться.
 
 Молекулы без колец дают пустой каркас; наш код объединяет их в одну группу `ACYCLIC`. Это техническое упрощение: такие молекулы могут сильно различаться. Разные непустые каркасы тоже могут быть похожи. Тест проверяет перенос на новые каркасы для известных белковых мишеней.
 
 Точное выделение каркаса выполняет [RDKit GetScaffoldForMol](https://www.rdkit.org/docs/source/rdkit.Chem.Scaffolds.MurckoScaffold.html).''')
     md('''## Выбор данных
 
+**Критерии выбора датасетов**
+
+'''+criteria_markdown()+'''
+
+**Используемые источники: ChEMBL, BindingDB и DrugCentral.** В таблице указаны число пар и доля внутри источника после очистки, разрешения пересечений и отбора мишеней бейзлайна.
+
 '''+usage_markdown(source_usage, include_selection=False)+'''
 
-Гиперпараметры подбираю по validation-парам исходного ChEMBL.
+Гиперпараметры подбираем по validation ChEMBL. Для выбора настроек сохраняем 15 439 исходных validation-пар; остальные validation-пары используются для диагностики.
 
 Разбиение общее для всех источников: один химический каркас попадает только в одну часть.
 
 '''+preparation_markdown(source_usage)+'''
 
-Для всех источников проверяем SMILES, удаляем фрагменты солей по единому правилу и вычисляем Morgan fingerprints. Повторы одной пары внутри источника объединяем медианой pKi; разброс более 2 pKi исключаем. При пересечении баз выбираем одну метку: ChEMBL → BindingDB → PubChem → DrugCentral. Сохраняем происхождение и расхождения; исходные ответы ChEMBL не меняем. В таблице указан источник выбранной метки, поэтому каждая пара посчитана один раз.''')
+Для всех источников проверяем SMILES, удаляем фрагменты солей по единому правилу и вычисляем Morgan fingerprints. Повторы одной пары внутри источника объединяем медианой pKi; разброс более 2 pKi исключаем. При пересечении баз выбираем одну метку: ChEMBL → BindingDB → DrugCentral. Сохраняем происхождение и расхождения; исходные ответы ChEMBL не меняем. В таблице указан источник выбранной метки, поэтому каждая пара посчитана один раз.
+
+**Исключённые датасеты**
+
+'''+exclusions_markdown()+'''
+
+UniProt остаётся справочником для проверки белков: он не даёт дополнительных меток pKi, а последовательности не входят в признаки Random Forest.''')
     md('''## Что есть в данных и что использует модель
 
-**Исходная строка — результат одного эксперимента для молекулы и биологической мишени.** Для основной задачи отбираем отдельные человеческие белки. После очистки одна строка — уникальная пара «структура молекулы — мишень» для определённого типа активности. Структуры и их свойства хранятся отдельно в `molecules.parquet`. Исходный срез ChEMBL находится в `data/processed/`, объединённые данные — в `data/multisource/`.
+**Исходная строка — результат одного эксперимента для молекулы и биологической мишени.** Для основной задачи отбираем отдельные человеческие белки. После очистки одна строка — уникальная пара «структура молекулы — мишень» с pKi. Структуры и их свойства хранятся отдельно в `molecules.parquet`. Исходный срез ChEMBL находится в `data/processed/`, объединённые данные без PubChem — в `data/multisource_v3/`.
 
 Основные исходные поля ChEMBL и присоединённых аннотаций:
 
@@ -141,7 +149,7 @@ display(pd.DataFrame({'Показатель': ['Исходных измерен�
 
 В таблице ниже посчитаны подготовленные строки каждого источника до разрешения пересечений между базами. Строки ChEMBL уже объединяют повторы исходного среза; их нельзя считать независимыми от импортов в другие базы.''')
     code('''MULTI_RESULTS = ROOT / 'results/multisource'
-MULTI_DATA = ROOT / 'data/multisource'
+from multisource_data import DATA as MULTI_DATA
 multi_eda = json.loads((MULTI_RESULTS / 'data_summary.json').read_text())
 multi_baseline = json.loads((MULTI_RESULTS / 'baseline_summary.json').read_text())
 source_usage = json.loads((MULTI_RESULTS / 'pki_source_usage.json').read_text())
@@ -152,9 +160,9 @@ multi_pairs = pd.read_parquet(MULTI_DATA / 'pairs.parquet').query("endpoint == '
 display(multi_pairs.groupby('endpoint').agg(Пар=('label','size'), Мишеней=('target_id','nunique'),
     Минимум=('label','min'), Медиана=('label','median'), Максимум=('label','max')).round(3))
 scale_audit = json.loads((MULTI_RESULTS / 'drugcentral_scale_audit.json').read_text())
-display(Markdown('Дополнительные Ki из BindingDB/PubChem оставлены только при совпадении '
+display(Markdown('Дополнительные Ki из BindingDB оставлены только при совпадении '
     'экспериментальной последовательности с участком канонического человеческого белка. '
-    f"Напрямую проверены ID **{len(source_usage['pubchem_pki_assay_ids'])}** тестов PubChem с Ki."))
+    'Наблюдения PubChem исключены до объединения меток; их происхождение и вклад удалены из активного набора.'))
 display(Markdown(f"DrugCentral уже хранит отрицательный логарифм концентрации. "
     f"На **{scale_audit['overlapping_exact_structure_target_pairs']}** совпадающих парах медианное "
     f"расхождение с ChEMBL — **{scale_audit['median_absolute_difference_if_ACT_VALUE_is_pKi']:.3f} pKi**. "
@@ -330,7 +338,7 @@ for filename in ['01_affinity_and_targets.png','02_molecule_properties.png','03_
     code('''from multisource_figures import generate as generate_source_figure
 display(Image(filename=str(generate_source_figure())))
 display(pd.read_csv(MULTI_RESULTS / 'original_test_comparison.csv').rename(
-    columns={'training_sources':'Источники обучения','targets':'Мишеней','test_pairs':'Пар test'}).round(3))
+    columns={'training_sources':'Источники обучения','targets':'Мишеней','test_pairs':'Пар test'}).round(4))
 rows = []
 for result in multi_baseline['datasets']:
     if result['dataset'] != 'pKi':
@@ -343,8 +351,8 @@ for result in multi_baseline['datasets']:
 display(pd.DataFrame(rows).round(3))
 display(pd.read_csv(MULTI_RESULTS / 'source_test_slices.csv').query("endpoint == 'pKi'")[['source','targets','pairs','macro_MAE']]
         .rename(columns={'endpoint':'Шкала','source':'Источник','targets':'Мишеней','pairs':'Пар','macro_MAE':'MAE'}).round(3))
-display(Markdown('Срезы по источнику могут содержать те же пары, что основной тест. '
-    'Малые срезы, особенно четыре пары PubChem pKi, не позволяют делать устойчивые выводы о качестве на всей базе.'))''')
+display(Markdown('Срезы по источнику могут содержать те же пары, что основной тест; '
+    'это диагностика происхождения измерений, а не независимые внешние тесты.'))''')
     md('''## Датасеты для Hugging Face''')
     code('''package = json.loads((MULTI_RESULTS / 'hf_package.json').read_text())
 display(pd.DataFrame(package['configurations']).pivot(index='config',columns='split',values='rows').fillna(0).astype(int))
@@ -358,7 +366,7 @@ else:
                      "публикация ещё не подтверждена."))
 display(Markdown('В пакет входят готовые train/validation/test для pKi, структуры, '
     'происхождение меток, лицензии, контрольные суммы и результаты экспериментов. '
-    'Флаг benchmark_target отмечает 156 мишеней текущего бейзлайна.'))''')
+    'Флаг benchmark_target отмечает мишени текущего бейзлайна.'))''')
     md('''## Выводы и следующий этап''')
     code(r'''main_result = next(r for r in multi_baseline['datasets'] if r['dataset']=='pKi')
 main_test = next(r for r in main_result['test_results'] if r['part']=='test' and r['model']=='RF')
@@ -366,7 +374,7 @@ comparison = multi_baseline['original_test_comparison']
 display(Markdown(f"- Основной очищенный набор — **{multi_eda['pairs_by_endpoint']['pKi']:,} пар pKi**; "
     f"для бенчмарка подходят **{main_result['eligible_targets']} мишеней** и **{main_result['eligible_pairs']:,} пар**.\n"
     f"- MAE леса на новых каркасах — **{main_test['MAE']:.3f} pKi**. На фиксированном тесте ChEMBL "
-    f"после расширения — **{comparison[1]['MAE']:.3f}** против **{comparison[0]['MAE']:.3f}** прежде: "
+    f"после расширения — **{comparison[1]['MAE']:.4f}** против **{comparison[0]['MAE']:.4f}** прежде: "
     "само добавление источников улучшения не дало; причина этим сравнением не установлена.\n"
     "- Следующий эксперимент — многозадачная GNN на тех же метках и разбиениях, "
     "с отдельным анализом небольших задач. Модель пока поддерживает фиксированный набор белков.\n"
@@ -375,7 +383,7 @@ display(Markdown(f"- Основной очищенный набор — **{multi
     "- Практическая ценность и ограничения — в [одностраничном PDF](output/pdf/practical_value.pdf)."))''')
     md('''## Воспроизведение и источники
 
-Python 3.12, версии библиотек — `requirements.txt`. Исходный срез ChEMBL: `src/affinity_eda.py`, `config/eda.json`, `data/processed/`. Объединение: `src/multisource_data.py`; эксперименты: `src/multisource_models.py`; параметры: `config/multisource.json`; результаты: `results/multisource/`. Данные [опубликованы на Hugging Face](https://huggingface.co/datasets/tim-shu/drug-affinity-multisource); локальные копии — в `data/multisource/` и `output/huggingface/`. Команды воспроизведения из готового пакета — в `readme.md`. Сырые выгрузки кэшируются. Воспроизведение из источников: `scripts/download_sources.py`, затем `scripts/run_multisource.py`. Проверки: `scripts/verify_results.py` и `scripts/verify_multisource.py`.
+Python 3.12, версии библиотек — `requirements.txt`. Исходный срез ChEMBL: `src/affinity_eda.py`, `config/eda.json`, `data/processed/`. Объединение: `src/multisource_data.py`; эксперименты: `src/multisource_models.py`; параметры: `config/multisource.json`; результаты: `results/multisource/`. Данные [опубликованы на Hugging Face](https://huggingface.co/datasets/tim-shu/drug-affinity-multisource); локальные копии — в `data/multisource_v3/` и `output/huggingface/`. Команды воспроизведения из готового пакета — в `readme.md`. Сырые выгрузки кэшируются. Воспроизведение из источников: `scripts/download_sources.py`, затем `scripts/run_multisource.py`. Проверки: `scripts/verify_results.py` и `scripts/verify_multisource.py`.
 
 - [ChEMBL API](https://chembl.gitbook.io/chembl-interface-documentation/web-services/chembl-data-web-services)
 - [Типы измерений ChEMBL](https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/chembl-data-questions)

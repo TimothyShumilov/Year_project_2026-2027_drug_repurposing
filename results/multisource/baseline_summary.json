@@ -1,6 +1,15 @@
 {
   "config": {
-    "version": 2,
+    "version": 3,
+    "endpoint": "pKi",
+    "included_sources": [
+      "ChEMBL",
+      "BindingDB",
+      "DrugCentral"
+    ],
+    "excluded_sources": {
+      "PubChem": "Only 46 selected benchmark pairs: 42 train, 0 validation, 4 test; excluded by the user based on coverage."
+    },
     "seed": 42,
     "parallel_targets": 6,
     "fingerprint": {
@@ -26,28 +35,15 @@
       }
     },
     "minimum_pairs": {
-      "pKi": 300,
-      "pIC50": 100,
-      "pKd": 50,
-      "davis": 10,
-      "kiba": 100
+      "pKi": 300
     },
     "minimum_train": {
-      "pKi": 100,
-      "pIC50": 50,
-      "pKd": 20,
-      "davis": 10,
-      "kiba": 20
+      "pKi": 100
     },
     "minimum_validation_test": {
-      "pKi": 10,
-      "pIC50": 5,
-      "pKd": 3,
-      "davis": 1,
-      "kiba": 3
+      "pKi": 10
     },
     "main_selection": "macro MAE on the unchanged original ChEMBL validation pairs",
-    "other_selection": "macro MAE on each dataset's validation split",
     "hf_repository": "tim-shu/drug-affinity-multisource"
   },
   "datasets": [
@@ -57,15 +53,15 @@
       "selected": "leaf1",
       "validation_selection_part": "validation_original",
       "validation_MAE": {
-        "leaf1": 0.5872465419243836,
-        "leaf3": 0.6372549963712999,
-        "leaf10": 0.7180845438032173
+        "leaf1": 0.5866890883317236,
+        "leaf3": 0.6374728047845898,
+        "leaf10": 0.7195876303728328
       },
       "test_used_for_selection": false,
       "eligible_targets": 156,
-      "eligible_pairs": 198300,
-      "test_pairs": 20218,
-      "training_seconds": 25.97086808399763,
+      "eligible_pairs": 198254,
+      "test_pairs": 20214,
+      "training_seconds": 25.668008333072066,
       "parameters": {
         "n_estimators": 100,
         "min_samples_leaf": 1,
@@ -77,10 +73,10 @@
           "part": "test",
           "model": "Mean",
           "targets": 156,
-          "pairs": 20218,
-          "MAE": 0.9639351397260364,
-          "RMSE": 1.1660742330547433,
-          "R2": -0.13339520121002524,
+          "pairs": 20214,
+          "MAE": 0.96265862067786,
+          "RMSE": 1.1630547713709078,
+          "R2": -0.13380670994446212,
           "Spearman": null
         },
         {
@@ -88,11 +84,11 @@
           "part": "test",
           "model": "RF",
           "targets": 156,
-          "pairs": 20218,
-          "MAE": 0.5900910006112203,
-          "RMSE": 0.7712632127420915,
-          "R2": 0.4708348708633493,
-          "Spearman": 0.6790888396081686
+          "pairs": 20214,
+          "MAE": 0.5901233863426582,
+          "RMSE": 0.7703384787832134,
+          "R2": 0.46702221926144616,
+          "Spearman": 0.6789173071217106
         },
         {
           "candidate": "leaf1",
@@ -100,9 +96,9 @@
           "model": "Mean",
           "targets": 131,
           "pairs": 16665,
-          "MAE": 0.9586932092963409,
-          "RMSE": 1.1617925987912436,
-          "R2": -0.14159719655287867,
+          "MAE": 0.9582548243066168,
+          "RMSE": 1.1616775301467943,
+          "R2": -0.1413425637716578,
           "Spearman": null
         },
         {
@@ -111,10 +107,10 @@
           "model": "RF",
           "targets": 131,
           "pairs": 16665,
-          "MAE": 0.5865466288053713,
-          "RMSE": 0.7674765912985582,
-          "R2": 0.4647169377225876,
-          "Spearman": 0.6847717523078247
+          "MAE": 0.5853680704353201,
+          "RMSE": 0.7650540947241404,
+          "R2": 0.46723315113568625,
+          "Spearman": 0.6872698333442463
         }
       ],
       "selection_note": "All parameter selection uses validation. Test predictions were not used to select the source policy or parameters."
@@ -126,8 +122,8 @@
       "source": "BindingDB",
       "targets": 141,
       "pairs": 6650,
-      "macro_MAE": 0.5441244436376834,
-      "micro_MAE": 0.49720724215975004,
+      "macro_MAE": 0.5545360400818283,
+      "micro_MAE": 0.5015878451580102,
       "scope": "source-specific labels on globally held-out scaffolds; not an independent external cohort"
     },
     {
@@ -135,8 +131,8 @@
       "source": "ChEMBL",
       "targets": 156,
       "pairs": 17320,
-      "macro_MAE": 0.6138613914070324,
-      "micro_MAE": 0.5913136815480295,
+      "macro_MAE": 0.6126956159497399,
+      "micro_MAE": 0.5928766618761199,
       "scope": "source-specific labels on globally held-out scaffolds; not an independent external cohort"
     },
     {
@@ -144,17 +140,8 @@
       "source": "DrugCentral",
       "targets": 72,
       "pairs": 494,
-      "macro_MAE": 0.9099702838242393,
-      "micro_MAE": 0.8479552368821289,
-      "scope": "source-specific labels on globally held-out scaffolds; not an independent external cohort"
-    },
-    {
-      "endpoint": "pKi",
-      "source": "PubChem",
-      "targets": 4,
-      "pairs": 4,
-      "macro_MAE": 2.7929554507409113,
-      "micro_MAE": 2.7929554507409113,
+      "macro_MAE": 0.9085961123087389,
+      "micro_MAE": 0.8388835792669559,
       "scope": "source-specific labels on globally held-out scaffolds; not an independent external cohort"
     }
   ],
@@ -168,13 +155,13 @@
       "Spearman": 0.6867975984571938
     },
     {
-      "training_sources": "ChEMBL + BindingDB + PubChem + DrugCentral",
+      "training_sources": "ChEMBL + BindingDB + DrugCentral",
       "targets": 131,
       "test_pairs": 16665,
-      "MAE": 0.5865466288053713,
-      "RMSE": 0.7674765912985582,
-      "Spearman": 0.6847717523078247
+      "MAE": 0.5853680704353201,
+      "RMSE": 0.7650540947241404,
+      "Spearman": 0.6872698333442463
     }
   ],
-  "total_training_seconds": 25.97086808399763
+  "total_training_seconds": 25.668008333072066
 }

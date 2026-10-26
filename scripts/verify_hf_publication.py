@@ -44,15 +44,17 @@ def main():
         if name.endswith('.parquet'):
             table = pd.read_parquet(io.BytesIO(blob))
             assert table.endpoint.eq('pKi').all() and table.scaffold_split.eq('validation').all()
+            assert set(table.source)<={'ChEMBL','BindingDB','DrugCentral'}
+            assert all('PubChem' not in sources for sources in table.sources)
             record['rows'] = len(table)
         elif name.endswith('.md'):
             metadata = yaml.safe_load(blob.decode().split('---', 2)[1])
             assert {c['config_name'] for c in metadata['configs']} == {
-                'affinity_pki', 'chembl_reference', 'molecules', 'source_observations', 'pubchem_assays'}
+                'affinity_pki', 'chembl_reference', 'molecules', 'source_observations'}
             record['configurations'] = len(metadata['configs'])
         else:
             usage = json.loads(blob)
-            assert {r['source'] for r in usage['sources']} == {'ChEMBL', 'BindingDB', 'PubChem', 'DrugCentral'}
+            assert {r['source'] for r in usage['sources']} == {'ChEMBL', 'BindingDB', 'DrugCentral'}
             assert usage['validation_selection_pairs'] == 15439
             record['direct_sources'] = len(usage['sources'])
         downloads.append(record)

@@ -73,14 +73,17 @@ def run_dataset(name,pairs,molecules,X):
         return json.loads((directory/'summary.json').read_text())
     spec={'config':CONFIG,'pairs_sha256':__import__('hashlib').sha256(pd.util.hash_pandas_object(
         pairs[['compound_id','target_id','label','scaffold_split']],index=False).to_numpy().tobytes()).hexdigest()}
+    cache_key=__import__('hashlib').sha256(json.dumps(spec,sort_keys=True).encode()).hexdigest()[:20]
+    cache=ROOT/'.cache/multisource_models'/name/cache_key
+    cache.mkdir(parents=True,exist_ok=True)
     groups=list(pairs.groupby('target_id',sort=True))
     all_rows=[];times=[]
     for candidate,params in CONFIG['candidates'].items():
-        marker=directory/(candidate+'.json');csv=directory/(candidate+'_metrics.csv');parquet=directory/(candidate+'_predictions.parquet')
+        marker=cache/(candidate+'.json');csv=cache/(candidate+'_metrics.csv');parquet=cache/(candidate+'_predictions.parquet')
         if marker.exists():
             prior=json.loads(marker.read_text())
             if prior['specification']!=spec:raise ValueError('Stale checkpoint '+name+'/'+candidate)
-            rows=pd.read_csv(csv);times.append(prior['seconds'])
+            rows=pd.read_csv(csv,float_precision='round_trip');times.append(prior['seconds'])
             print(name,candidate,'using verified checkpoint',flush=True)
         else:
             started=time.perf_counter();collected=[];predicted=[]
@@ -98,7 +101,7 @@ def run_dataset(name,pairs,molecules,X):
     selection_part='validation_original' if name=='pKi' else 'validation'
     selection=detail.loc[detail.part.eq(selection_part)&detail.model.eq('RF')].groupby('candidate').MAE.mean().sort_values()
     chosen=selection.index[0]
-    predictions=pd.read_parquet(directory/(chosen+'_predictions.parquet'))
+    predictions=pd.read_parquet(cache/(chosen+'_predictions.parquet'))
     predictions.to_parquet(directory/'test_predictions.parquet',index=False)
     detail.to_csv(directory/'metrics_by_target.csv',index=False)
     macro=detail.groupby(['candidate','part','model']).agg(targets=('target_id','nunique'),pairs=('n','sum'),
@@ -141,6 +144,10 @@ def source_slices():
 def train():
     init()
     merged=pd.read_parquet(DATA/'pairs.parquet')
+    if set(merged.source)!=set(CONFIG['included_sources']) or not merged.endpoint.eq('pKi').all():
+        raise ValueError('Prepared data do not match the configured source/endpoint policy')
+    if any('PubChem' in sources for sources in merged.sources):
+        raise ValueError('Excluded PubChem evidence remains in the prepared pairs')
     molecules=pd.read_parquet(DATA/'molecules.parquet')
     X=fingerprints(molecules)
     original=original_keys()
@@ -163,7 +170,7 @@ def train():
     comparison=[{'training_sources':'ChEMBL','targets':131,'test_pairs':original_result['test_pairs'],
                  'MAE':original_result['test_macro_MAE'],'RMSE':original_result['test_macro_RMSE'],
                  'Spearman':original_result['test_macro_Spearman']},
-                {'training_sources':'ChEMBL + BindingDB + PubChem + DrugCentral','targets':expanded['targets'],
+                {'training_sources':' + '.join(CONFIG['included_sources']),'targets':expanded['targets'],
                  'test_pairs':expanded['pairs'],'MAE':expanded['MAE'],'RMSE':expanded['RMSE'],'Spearman':expanded['Spearman']}]
     pd.DataFrame(comparison).to_csv(RESULTS/'original_test_comparison.csv',index=False)
     result={'config':CONFIG,'datasets':summary,'source_slices':source_slices(),

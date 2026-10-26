@@ -1,23 +1,23 @@
 {
   "repository": "tim-shu/drug-affinity-multisource",
-  "local_path": "/Users/timshu/ВША/Year_project_2026-2027_drug_repurposing/output/huggingface/drug-affinity-pki",
-  "files": 40,
-  "bytes": 191962413,
+  "local_path": "/Users/timshu/ВША/Year_project_2026-2027_drug_repurposing/output/huggingface/drug-affinity-pki-v3",
+  "files": 39,
+  "bytes": 191639718,
   "configurations": [
     {
       "config": "affinity_pki",
       "split": "test",
-      "rows": 24713
+      "rows": 24639
     },
     {
       "config": "affinity_pki",
       "split": "train",
-      "rows": 195656
+      "rows": 195325
     },
     {
       "config": "affinity_pki",
       "split": "validation",
-      "rows": 22849
+      "rows": 22818
     },
     {
       "config": "chembl_reference",
@@ -37,20 +37,15 @@
     {
       "config": "molecules",
       "split": "train",
-      "rows": 144661
+      "rows": 144389
     },
     {
       "config": "source_observations",
       "split": "train",
-      "rows": 314088
-    },
-    {
-      "config": "pubchem_assays",
-      "split": "train",
-      "rows": 19
+      "rows": 313511
     }
   ],
   "publication_status": "published",
   "url": "https://huggingface.co/datasets/tim-shu/drug-affinity-multisource",
-  "revision": "84ef8e6a10d43e52215b157b1960e2a239068aae"
+  "revision": "de24e3002f93f02eef32ad8cf6c82c021d3bd962"
 }

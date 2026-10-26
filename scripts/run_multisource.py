@@ -15,9 +15,7 @@ def main():
     from multisource_data import prepare
     if args.stage in ['prepare','all']:
         print(json.dumps(prepare(),ensure_ascii=False,indent=2),flush=True)
-        from fetch_pubchem_metadata import main as fetch_metadata
         from audit_sources import main as audit
-        fetch_metadata()
         audit()
     if args.stage in ['train','all']:
         from multisource_models import train

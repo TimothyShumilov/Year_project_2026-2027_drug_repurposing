@@ -1,15 +1,22 @@
 {
-  "pipeline_version": 2,
-  "observations": 355325,
-  "pairs": 280346,
-  "molecules": 162302,
-  "structure_rejected_observations": 868,
+  "pipeline_version": 3,
+  "included_sources": [
+    "ChEMBL",
+    "BindingDB",
+    "DrugCentral"
+  ],
+  "input_scope": "Previously curated observations; source/endpoint policy reapplied and labels reaggregated.",
+  "observations": 313511,
+  "pairs": 242782,
+  "molecules": 144389,
+  "structure_rejected_observations": 0,
   "sequence_audit": {
-    "bindingdb_pubchem_rows_checked": 141624,
-    "rows_without_canonical_sequence_match": 3590,
+    "bindingdb_rows_checked": 103448,
+    "rows_without_canonical_sequence_match": 0,
+    "input_scope": "Previously curated observations; source/endpoint policy reapplied and labels reaggregated.",
     "rule": "single-chain experimental sequence must be >=50 aa and an exact substring of canonical human UniProt sequence"
   },
-  "within_source_conflicting_pairs": 606,
+  "within_source_conflicting_pairs": 564,
   "rows_by_source_endpoint": [
     {
       "source": "BindingDB",
@@ -23,46 +30,18 @@
     },
     {
       "source": "DrugCentral",
-      "endpoint": "pIC50",
-      "rows": 4275
-    },
-    {
-      "source": "DrugCentral",
-      "endpoint": "pKd",
-      "rows": 3777
-    },
-    {
-      "source": "DrugCentral",
       "endpoint": "pKi",
       "rows": 5387
-    },
-    {
-      "source": "PubChem",
-      "endpoint": "pIC50",
-      "rows": 30780
-    },
-    {
-      "source": "PubChem",
-      "endpoint": "pKd",
-      "rows": 2405
-    },
-    {
-      "source": "PubChem",
-      "endpoint": "pKi",
-      "rows": 577
     }
   ],
   "pairs_by_endpoint": {
-    "pKi": 243218,
-    "pIC50": 31512,
-    "pKd": 5616
+    "pKi": 242782
   },
   "source_priority": {
     "ChEMBL": 0,
     "BindingDB": 1,
-    "PubChem": 2,
-    "DrugCentral": 3
+    "DrugCentral": 2
   },
   "split_policy": "Original ChEMBL group assignments are fixed; new groups use SHA256(seed|group).",
-  "cross_source_policy": "Prefer ChEMBL > native BindingDB > PubChem > DrugCentral; flag ranges >2 and preserve original ChEMBL labels."
+  "cross_source_policy": "Prefer ChEMBL > native BindingDB > DrugCentral; flag ranges >2 and preserve original ChEMBL labels."
 }

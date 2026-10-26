@@ -21,6 +21,7 @@ results/experiments/
 
 # Expanded datasets are published on Hugging Face
 data/multisource/
+data/multisource_v3/
 output/huggingface/
 results/multisource/*/leaf*_predictions.parquet
 results/multisource/*/leaf*_metrics.csv

@@ -1,5 +1,4 @@
 endpoint,source,targets,pairs,macro_MAE,micro_MAE,scope
-pKi,BindingDB,141,6650,0.5441244436376834,0.49720724215975004,source-specific labels on globally held-out scaffolds; not an independent external cohort
-pKi,ChEMBL,156,17320,0.6138613914070324,0.5913136815480295,source-specific labels on globally held-out scaffolds; not an independent external cohort
-pKi,DrugCentral,72,494,0.9099702838242393,0.8479552368821289,source-specific labels on globally held-out scaffolds; not an independent external cohort
-pKi,PubChem,4,4,2.7929554507409113,2.7929554507409113,source-specific labels on globally held-out scaffolds; not an independent external cohort
+pKi,BindingDB,141,6650,0.5545360400818283,0.5015878451580102,source-specific labels on globally held-out scaffolds; not an independent external cohort
+pKi,ChEMBL,156,17320,0.6126956159497399,0.5928766618761199,source-specific labels on globally held-out scaffolds; not an independent external cohort
+pKi,DrugCentral,72,494,0.9085961123087389,0.8388835792669559,source-specific labels on globally held-out scaffolds; not an independent external cohort

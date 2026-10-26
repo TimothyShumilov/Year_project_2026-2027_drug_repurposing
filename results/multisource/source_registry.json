@@ -46,29 +46,6 @@
     }
   },
   {
-    "source": "PubChem",
-    "total_pairs": 46,
-    "used_for_training": true,
-    "validation_selection_pairs": 0,
-    "prepared_observations": 577,
-    "curated_pairs_all_targets": 436,
-    "preparation": "Только количественные Ki из курируемого импорта BindingDB; ID теста проверен напрямую в PubChem. Те же проверки белка, что для BindingDB. Пересчёт Ki в нМ → pKi.",
-    "url": "https://pubchem.ncbi.nlm.nih.gov/docs/bioassays",
-    "train_pairs": 42,
-    "train_percent": 91.30434782608695,
-    "validation_pairs": 0,
-    "validation_percent": 0.0,
-    "test_pairs": 4,
-    "test_percent": 8.695652173913043,
-    "diagnostic_validation_pairs": 0,
-    "used_for_validation_selection": false,
-    "status": "used_in_pKi_baseline",
-    "license": "Source/depositor terms retained; factual observations only",
-    "prepared_rows_by_endpoint": {
-      "pKi": 577
-    }
-  },
-  {
     "source": "DrugCentral",
     "total_pairs": 3223,
     "used_for_training": true,

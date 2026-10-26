@@ -1,28 +1,28 @@
 {
   "repository": "tim-shu/drug-affinity-multisource",
-  "revision": "84ef8e6a10d43e52215b157b1960e2a239068aae",
+  "revision": "de24e3002f93f02eef32ad8cf6c82c021d3bd962",
   "public": true,
-  "verified_files": 40,
-  "verified_lfs_sha256": 24,
+  "verified_files": 39,
+  "verified_lfs_sha256": 22,
   "download_checks": [
     {
       "path": "README.md",
-      "bytes": 8749,
-      "sha256": "88d38d41813f9a4dbd03b6944b2f4d2ad998153554ea23611983c0185a173c4b",
-      "configurations": 5
+      "bytes": 12112,
+      "sha256": "f6e1ccfb0bff0179fceb7f066c64a3f790983cffc40397aa3d2791552cb882df",
+      "configurations": 4
     },
     {
       "path": "metadata/pki_source_usage.json",
-      "bytes": 4756,
-      "sha256": "44e9eedca5010b82348233230f524cd6b1e12c96a9c05b1221046bc595af05dc",
-      "direct_sources": 4
+      "bytes": 7631,
+      "sha256": "7437a6a165cb1ae334ddecdc060655ec78ed21af94c2105d592e10b3aed35697",
+      "direct_sources": 3
     },
     {
       "path": "data/affinity_pki/validation.parquet",
-      "bytes": 2195834,
-      "sha256": "9e747ed5a3bc89303f0faf47e8c737db759b9ee2917921067826246347059aab",
-      "rows": 22849
+      "bytes": 2196266,
+      "sha256": "667b6b196216f9141f5701696950f66d83b34185de5e67e62324dce874ed0da5",
+      "rows": 22818
     }
   ],
-  "verified_at_utc": "2026-10-26T08:36:08.176579+00:00"
+  "verified_at_utc": "2026-10-26T13:25:05.356454+00:00"
 }

@@ -1,5 +1,8 @@
 {
-  "version": 2,
+  "version": 3,
+  "endpoint": "pKi",
+  "included_sources": ["ChEMBL", "BindingDB", "DrugCentral"],
+  "excluded_sources": {"PubChem": "Only 46 selected benchmark pairs: 42 train, 0 validation, 4 test; excluded by the user based on coverage."},
   "seed": 42,
   "parallel_targets": 6,
   "fingerprint": {"radius": 2, "n_bits": 2048, "include_chirality": true},
@@ -8,10 +11,9 @@
     "leaf3": {"n_estimators": 100, "min_samples_leaf": 3, "max_features": "sqrt"},
     "leaf10": {"n_estimators": 100, "min_samples_leaf": 10, "max_features": "sqrt"}
   },
-  "minimum_pairs": {"pKi": 300, "pIC50": 100, "pKd": 50, "davis": 10, "kiba": 100},
-  "minimum_train": {"pKi": 100, "pIC50": 50, "pKd": 20, "davis": 10, "kiba": 20},
-  "minimum_validation_test": {"pKi": 10, "pIC50": 5, "pKd": 3, "davis": 1, "kiba": 3},
+  "minimum_pairs": {"pKi": 300},
+  "minimum_train": {"pKi": 100},
+  "minimum_validation_test": {"pKi": 10},
   "main_selection": "macro MAE on the unchanged original ChEMBL validation pairs",
-  "other_selection": "macro MAE on each dataset's validation split",
   "hf_repository": "tim-shu/drug-affinity-multisource"
 }

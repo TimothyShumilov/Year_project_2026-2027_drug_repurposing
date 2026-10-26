@@ -1,5 +1,6 @@
 {
-  "bindingdb_pubchem_rows_checked": 141624,
-  "rows_without_canonical_sequence_match": 3590,
+  "bindingdb_rows_checked": 103448,
+  "rows_without_canonical_sequence_match": 0,
+  "input_scope": "Previously curated observations; source/endpoint policy reapplied and labels reaggregated.",
   "rule": "single-chain experimental sequence must be >=50 aa and an exact substring of canonical human UniProt sequence"
 }

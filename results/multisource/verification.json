@@ -1,7 +1,9 @@
 {
-  "verified_at_utc": "2026-10-26T11:59:45.574209+00:00",
+  "verified_at_utc": "2026-10-26T13:28:16.900971+00:00",
   "checks": [
-    "all four quantitative sources actually contribute observations",
+    "only three allowed sources contribute observations",
+    "PubChem labels and provenance are absent from curated data",
+    "source estimates cannot reintroduce PubChem",
     "one final pair per structure target endpoint",
     "finite labels",
     "all pairs have prepared structures",
@@ -18,7 +20,6 @@
     "experimental sequences match canonical contiguous segments",
     "fingerprint rows match molecule identities",
     "fingerprint matrix is binary with the declared dimension",
-    "every used PubChem assay was verified at source",
     "DrugCentral scale was checked against overlapping ChEMBL pairs",
     "pKi parameters selected only on validation",
     "pKi predictions contain only test examples",
@@ -30,7 +31,9 @@
     "source contribution table covers the benchmark exactly",
     "source proportions use retained source pairs as denominator",
     "validation selection uses only original ChEMBL pairs",
-    "all four direct sources have explicit preparation rules",
+    "all three direct sources have explicit preparation rules",
+    "source criteria and exclusion reasons are recorded",
+    "new data version invalidates earlier model checkpoints",
     "all publication files match the manifest",
     "Hugging Face card contains only the current pKi subsets",
     "affinity_pki/test is readable Parquet",
@@ -41,26 +44,26 @@
     "chembl_reference/validation is readable Parquet",
     "molecules/train is readable Parquet",
     "source_observations/train is readable Parquet",
-    "pubchem_assays/train is readable Parquet",
     "published labels are exclusively pKi",
+    "published labels and provenance exclude PubChem",
+    "published source observations exclude PubChem",
     "published benchmark count matches actual experiment",
     "ChEMBL published source split counts match report",
     "BindingDB published source split counts match report",
-    "PubChem published source split counts match report",
     "DrugCentral published source split counts match report",
     "published fingerprints align with scoped molecules",
     "scoped publication preserves every molecular fingerprint",
     "the full updated notebook is executed without errors",
-    "notebook excludes unrelated source and endpoint experiments"
+    "notebook explains selection and exclusions"
   ],
   "artifacts": [
     {
       "path": "config/multisource.json",
-      "sha256": "2bd25e53f60325fa2cb2cedfb7e53391f8292dc72066e5803ac09bc858c14944"
+      "sha256": "a3272d95b7e73f166db0f71948dacfa7fd61bbb56ece78f7b1f5ca047708e8c1"
     },
     {
       "path": "results/multisource/baseline_summary.json",
-      "sha256": "031ac155ba76dc820b105f67ae6b101f82c2d8bf90f68db3b1f2448855e740c8"
+      "sha256": "f0af2205d89db9ec7214d5aa273bbc4c3cddbf466734271fe93d9db11b02d2a7"
     },
     {
       "path": "results/multisource/bindingdb_extraction.json",
@@ -68,7 +71,7 @@
     },
     {
       "path": "results/multisource/data_summary.json",
-      "sha256": "9b8b496f1543350c577a0d6112bfcd4ead1a44a26d56112e075a02e7fc5b413b"
+      "sha256": "3b3ef93872d9fa20c838e3a60dddb7126a60780427b75a2123205c8641c04838"
     },
     {
       "path": "results/multisource/davis/leaf10_metrics.csv",
@@ -107,16 +110,20 @@
       "sha256": "8148e023073fc847f45f284ce9e2529d8f9ab039729b3cda2ff0712b043d515f"
     },
     {
+      "path": "results/multisource/excluded_datasets.json",
+      "sha256": "6177cf59cbc68e4074abc8cacdab3279973572c26d6cb1c7aa24b68a69e5778a"
+    },
+    {
       "path": "results/multisource/hf_package.json",
-      "sha256": "66caff2015f4619c2e24b7e6842f3e631a8d0cee09b5be3cb6c49bc2f02111c6"
+      "sha256": "478ebfca0c557c13ad33a0a81de3b05ea607703f942fda6235ea2ae52eeb682d"
     },
     {
       "path": "results/multisource/hf_publication.json",
-      "sha256": "de572c5aa05471b664da9c4a51387a1346886b36c6025d90f63c1c5b12cd8b2e"
+      "sha256": "c560b4fde612dbae5e7eece78f27291bcd524fbb395bd61d8417dd3283afabf4"
     },
     {
       "path": "results/multisource/hf_remote_verification.json",
-      "sha256": "99446e939c6bb9b1aeab54e0fd14fac9f4b6f6bfc08938115b67f0673922f0b2"
+      "sha256": "584d58ac2e3a89de8f9d99ae5b50f5f7c83fc88f5bd9ab670847229e3effed98"
     },
     {
       "path": "results/multisource/kiba/leaf10_metrics.csv",
@@ -148,7 +155,7 @@
     },
     {
       "path": "results/multisource/original_test_comparison.csv",
-      "sha256": "f7f8733a7df01e5634f74b650d900e8f40de30e504a0e87333313c6dfd405d73"
+      "sha256": "243965e7be9bee5214cfdde3c1498b2038a72b5b18100f5935ac6656001b4e50"
     },
     {
       "path": "results/multisource/pIC50/leaf10_metrics.csv",
@@ -192,71 +199,63 @@
     },
     {
       "path": "results/multisource/pKi/metrics_by_target.csv",
-      "sha256": "90b1a39b88ca32c232f95197a5eff0f6cefec3414d869ea5f6a11dc8f6c69c0c"
+      "sha256": "321dce09f4b6077d1ad558e2287bd8227b8f7ce090260bf8b7d010a58478b379"
     },
     {
       "path": "results/multisource/pKi/metrics_macro.csv",
-      "sha256": "d71c607e64d997c12d409893f7c72e6d688112b012a784cd223854760d0dc2cf"
+      "sha256": "ee3076c380404e6034712a386aca255e3996958e691646cad6428f64a1b21314"
     },
     {
       "path": "results/multisource/pKi_target_counts.csv",
-      "sha256": "ae9bb88d9961fabde44f361590a94bdbdaf0c3986ab7e64239a377adc0c6a887"
+      "sha256": "b6f3289230dc7328bd71ab1530c42c6b4f0cef1c1091b35545791fa726b04758"
     },
     {
       "path": "results/multisource/pki_source_usage.csv",
-      "sha256": "e036a93ef8082c0995a4351a2aa49482b94de438e2077d5c6257137e4d82ff4c"
+      "sha256": "2a9a2d89d6bc4c90b30760705a4da3583b70eee6b7b8ab580e4929ea3395ad7e"
     },
     {
       "path": "results/multisource/pki_source_usage.json",
-      "sha256": "44e9eedca5010b82348233230f524cd6b1e12c96a9c05b1221046bc595af05dc"
-    },
-    {
-      "path": "results/multisource/pubchem_metadata_audit.json",
-      "sha256": "f1a0c53a1d0c1ee2539d82dccd802a7166e62767c097564c319aa6cd09e2c425"
+      "sha256": "7437a6a165cb1ae334ddecdc060655ec78ed21af94c2105d592e10b3aed35697"
     },
     {
       "path": "results/multisource/sequence_audit.json",
-      "sha256": "6b6a17f994bb0a2f468d4dedd04dfa93a6e4a8637cef8fdee392eaae2ebf042b"
+      "sha256": "87a53df886797f6a83f735f6f69bef7db3820262358cffdeef7ed927d82605b7"
     },
     {
       "path": "results/multisource/source_distributions.png",
-      "sha256": "3732c23a608f4d34c1a95220c9f82003fe1f80be69c4f2b529f48d4b027ee599"
+      "sha256": "c7ba6967dc6d7fc32c563ba7bc52c100eb8373ced52b502e4d2ea580b9719fe6"
     },
     {
       "path": "results/multisource/source_registry.json",
-      "sha256": "11da7790b7492559421b43afd8551888d783c610a64810fa09b9a4d37e53020d"
+      "sha256": "445f1210524dce0fdd0ac7a91d90a626b7274672e648a7495e6ef9fe64e2075c"
     },
     {
       "path": "results/multisource/source_test_slices.csv",
-      "sha256": "ffdebbb898a98608722ebec4ef4824104d674e46a89d3cf62d3d7e02ce9389a0"
+      "sha256": "c8d16c871668d55e79d67024063717becb9454b0582729b850d928febc4c5129"
     },
     {
       "path": "scripts/audit_sources.py",
-      "sha256": "0eb62a41cfc207d98d2ababb7657e2dd83818dd610b1b4df51b4affd851f4c67"
+      "sha256": "e5ced10b92d06f57e3dd06fd9787faca81c7b161ab5c97b66b89e3d1714cce0d"
     },
     {
       "path": "scripts/download_sources.py",
       "sha256": "450c5e160f837c4b3bfeb49821103b738db731b421030e60ae863e43b8362810"
     },
     {
-      "path": "scripts/fetch_pubchem_metadata.py",
-      "sha256": "3860aae35b4e874d6f10eba3405a8f4a211dfd61d14635eeb6cc3bb5664d8121"
-    },
-    {
       "path": "scripts/run_multisource.py",
-      "sha256": "b58602be378f330eb24d5246492a7f7d676fc9853438d970b4f9be9949b8da72"
+      "sha256": "e9a76c637c88410714c889a89cdb149f99eeafdaa6748097a60d86528af721c5"
     },
     {
       "path": "scripts/verify_hf_publication.py",
-      "sha256": "0f6a4d9fad036f6e2cbad6ccd458e42d3cbf011a288f7170dc7913e9665f3af4"
+      "sha256": "22a954def89b0ee7b3f84d5a470769406f9b71a7f2a41f1aed0c725b6315dd79"
     },
     {
       "path": "scripts/verify_multisource.py",
-      "sha256": "421c18641327f7f22d47474dc98483a1f6cbbdf84e70645b47cd83ee9fd8acfc"
+      "sha256": "8401ca10bac887ea45943acf90b87d23cb7ca1928dbaef463d619686b90c784a"
     },
     {
       "path": "src/multisource_data.py",
-      "sha256": "3b7f5dfdd04ae7e0986307c14ec8158ee0a2da17da3ad5d9f5fccf3da62d7d99"
+      "sha256": "44d4cbe9bea1f062de1df3f1a14371326f52270f42de2fe0f9fdf1f5ad7ed0bb"
     },
     {
       "path": "src/multisource_figures.py",
@@ -264,15 +263,15 @@
     },
     {
       "path": "src/multisource_hub.py",
-      "sha256": "579cf9709148808711dc81990da39565830a98fe05da1700697d4d2887b8a6ac"
+      "sha256": "26e9b00923e6c7362da3bfa21ee897a3028101f8bb80c61f4963c33cd90a9cb1"
     },
     {
       "path": "src/multisource_models.py",
-      "sha256": "d91f329fc2231da7bb8b3be5527d00dba0750bf5d62b04f75df58b5d2b1a6e58"
+      "sha256": "196e8e07413f10f704f053da76d9950b4ac3d293a59a89738f464de4838aaa3c"
     },
     {
       "path": "src/pki_sources.py",
-      "sha256": "2e80b484234b1d643eb627f140a063a1231234a5d8658724ff8d8f57426b6ba6"
+      "sha256": "4fb28b23e1cab473770ef69109ffd967f630e44181d990bb470b64853e6e5ed8"
     }
   ]
 }
