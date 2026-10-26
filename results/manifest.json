@@ -1,5 +1,5 @@
 {
-  "validated_at_utc": "2026-10-26T11:49:46.342864+00:00",
+  "validated_at_utc": "2026-10-26T11:59:43.992660+00:00",
   "checks_passed": [
     "unique curated molecule-target pairs",
     "finite regression targets",
@@ -57,8 +57,8 @@
   "artifacts": [
     {
       "path": "EDA.ipynb",
-      "bytes": 1049100,
-      "sha256": "b952c3aeea42ff2a16d18d405925c01aedb9b9d5c861f0240fb696cdb2d08596"
+      "bytes": 1052027,
+      "sha256": "087778f704a8065f0a529dedbaf970e4b99ad35e28758961db4f80f6193fecdc"
     },
     {
       "path": "config/eda.json",
@@ -312,8 +312,8 @@
     },
     {
       "path": "scripts/build_notebook.py",
-      "bytes": 47234,
-      "sha256": "e3cac8701fd3c41768f106f57d0b789689b14db91af0907b8471184e420e30ab"
+      "bytes": 49946,
+      "sha256": "fa64cb70abf53849100bc023b4c4a287f1f77db196052dc52f25367d0357003c"
     },
     {
       "path": "scripts/build_practical_pdf.py",
