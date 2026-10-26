@@ -1,5 +1,5 @@
 {
-  "validated_at_utc": "2026-10-26T08:08:31.017720+00:00",
+  "validated_at_utc": "2026-10-26T08:38:56.535579+00:00",
   "checks_passed": [
     "unique curated molecule-target pairs",
     "finite regression targets",
@@ -57,8 +57,8 @@
   "artifacts": [
     {
       "path": "EDA.ipynb",
-      "bytes": 1052300,
-      "sha256": "442c037c1a0c1dcd08077490736c35ddf43cd3cbb57a42554a44d220d248a6cf"
+      "bytes": 1046700,
+      "sha256": "87318c247114e26fe3cbd190c29edca3894a8c66ea57201c65c945a2b0fb4bbf"
     },
     {
       "path": "config/eda.json",
@@ -67,8 +67,8 @@
     },
     {
       "path": "data/README.md",
-      "bytes": 11777,
-      "sha256": "45e53cfaf1f0c7951f37efd76fb0ef84e89e023f78673df6490269d8eaa3da98"
+      "bytes": 14312,
+      "sha256": "37732179e5adf3bb6ad583e160d7b3a22fbc498540f008461673c0b55e54456b"
     },
     {
       "path": "data/processed/approved_library.parquet",
@@ -112,8 +112,8 @@
     },
     {
       "path": "readme.md",
-      "bytes": 16718,
-      "sha256": "0ae3aa3f944d22a5703d38df39b167764f5aac7f49baa64c65d03deda33b4e06"
+      "bytes": 14815,
+      "sha256": "828aa70247d5f78c9aae5bac02a7357538075d2f42d70f750e6b7b609a971166"
     },
     {
       "path": "requirements.txt",
@@ -307,13 +307,13 @@
     },
     {
       "path": "scripts/audit_sources.py",
-      "bytes": 5610,
-      "sha256": "af16144d01843dbcf9453f8ebb6c5bee3afe0986906fe2f0137300d0e12da3fa"
+      "bytes": 2192,
+      "sha256": "0eb62a41cfc207d98d2ababb7657e2dd83818dd610b1b4df51b4affd851f4c67"
     },
     {
       "path": "scripts/build_notebook.py",
-      "bytes": 47406,
-      "sha256": "61eb979d579fec034d301a2a7b722943d25f48379449d6ddb9f5eb060e2d81ef"
+      "bytes": 44938,
+      "sha256": "feb335da4a482927cd33f1df94088e334bf47bb9f82fcb0bcb8c9fc7b85928bf"
     },
     {
       "path": "scripts/build_practical_pdf.py",
@@ -337,8 +337,8 @@
     },
     {
       "path": "scripts/fetch_pubchem_metadata.py",
-      "bytes": 2741,
-      "sha256": "dbec162241e9981959ce65ce68e36f1917af220c56990248b0f9ab2af94a5aa5"
+      "bytes": 2768,
+      "sha256": "3860aae35b4e874d6f10eba3405a8f4a211dfd61d14635eeb6cc3bb5664d8121"
     },
     {
       "path": "scripts/run_eda.py",
@@ -347,13 +347,18 @@
     },
     {
       "path": "scripts/run_multisource.py",
-      "bytes": 1450,
-      "sha256": "38f1d14bbd4c446661f8c8a3139bb01143c15ecbe8d8d362fc5a30af2e51e62e"
+      "bytes": 1220,
+      "sha256": "b58602be378f330eb24d5246492a7f7d676fc9853438d970b4f9be9949b8da72"
+    },
+    {
+      "path": "scripts/verify_hf_publication.py",
+      "bytes": 3236,
+      "sha256": "0f6a4d9fad036f6e2cbad6ccd458e42d3cbf011a288f7170dc7913e9665f3af4"
     },
     {
       "path": "scripts/verify_multisource.py",
-      "bytes": 7923,
-      "sha256": "19070644ebacd3a90abd827abcf70f663ff81783a5d1baa3f7b304f61949fdf8"
+      "bytes": 10587,
+      "sha256": "421c18641327f7f22d47474dc98483a1f6cbbdf84e70645b47cd83ee9fd8acfc"
     },
     {
       "path": "scripts/verify_results.py",
@@ -382,13 +387,18 @@
     },
     {
       "path": "src/multisource_hub.py",
-      "bytes": 17716,
-      "sha256": "d1e988700f2e07210bc1f4f57fec1e29ec11bc697fdff54f9cad404a988ea198"
+      "bytes": 17558,
+      "sha256": "579cf9709148808711dc81990da39565830a98fe05da1700697d4d2887b8a6ac"
     },
     {
       "path": "src/multisource_models.py",
-      "bytes": 10451,
-      "sha256": "2f2a2d593cd1c13ef5f0a54f2886f110950afce82a82e5a7a39b79f48388c6af"
+      "bytes": 10327,
+      "sha256": "d91f329fc2231da7bb8b3be5527d00dba0750bf5d62b04f75df58b5d2b1a6e58"
+    },
+    {
+      "path": "src/pki_sources.py",
+      "bytes": 5853,
+      "sha256": "107034344a2305cfca9f9425d9a3297e65a76865dc8757bfce4126900ca55a71"
     },
     {
       "path": "tests/test_eda.py",

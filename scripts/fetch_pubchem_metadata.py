@@ -18,7 +18,7 @@ RESULTS=ROOT/'results/multisource'
 
 def main():
     RAW.mkdir(parents=True,exist_ok=True)
-    observations=pd.read_parquet(DATA/'observations.parquet')
+    observations=pd.read_parquet(DATA/'observations.parquet').query("endpoint == 'pKi'")
     values=observations.loc[observations.source.eq('PubChem'),'pubchem_aid'].dropna().unique()
     aids=sorted({int(v) for text in values for v in re.findall(r'\d+',text)})
     groups=[aids[i:i+20] for i in range(0,len(aids),20)]

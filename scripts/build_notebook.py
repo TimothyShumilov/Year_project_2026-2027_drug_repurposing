@@ -1,12 +1,16 @@
 """Build a concise, readable checkpoint notebook; calculations live in src/."""
 import json
+import sys
 from pathlib import Path
 import nbformat as nbf
 
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT/'src'))
+from pki_sources import build_report, usage_markdown, preparation_markdown
 
 
 def build():
+    source_usage = build_report()
     cells=[]
     def md(text):cells.append(nbf.v4.new_markdown_cell(text.strip()))
     def code(text):cells.append(nbf.v4.new_code_cell(text.strip()))
@@ -29,22 +33,19 @@ pK_i = -\log_{10}(K_i\text{ в моль/л}) = 9 - \log_{10}(K_i\text{ в нМ})
 $$
 
 Например, Ki = 100 нМ даёт pKi = 9 − log10(100) = 7; Ki = 1 мкМ = 1000 нМ даёт pKi = 6. Увеличение pKi на 1 означает уменьшение Ki в 10 раз. Модель предсказывает pKi; большее значение означает более сильное взаимодействие.''')
-    md('''## Какие источники используем
+    md('''## Источники бейзлайна pKi
 
-Основной набор pKi объединяет доступные применимые данные из нескольких баз. Дополнительные типы активности оцениваем отдельно: Kd — константа диссоциации, IC50 — концентрация, дающая 50% ингибирования в конкретном тесте; их логарифмические шкалы pKd и pIC50 не смешиваем с pKi. KIBA имеет собственную составную шкалу.
+Используем четыре источника измерений Ki. Обучение (train) подбирает параметры деревьев; validation помогает выбрать настройки леса; test используется для итоговой оценки. В таблице — фактически использованные пары после очистки, устранения пересечений и отбора 156 мишеней. Процент рассчитан внутри строки источника.
 
-| Источник | Фактическое использование |
-|---|---|
-| [ChEMBL](https://www.ebi.ac.uk/chembl/) | Курируемый pKi; исходный фиксированный тест для сравнения до и после расширения |
-| [BindingDB](https://www.bindingdb.org/rwd/bind/chemsearch/marvin/Download.jsp) | Добавлены Ki, извлечённые из статей и патентов. Импортированные из ChEMBL строки повторно не добавляем |
-| [PubChem BioAssay](https://pubchem.ncbi.nlm.nih.gov/docs/bioassays) | Использованы Ki, IC50 и Kd из курируемого импорта BindingDB; идентификаторы тестов проверены напрямую через PubChem |
-| [DrugCentral](https://www.drugcentral.org/download) | Добавлены количественные активности препаратов; проверены масштаб чисел и исходные источники записей |
-| [UniProt](https://www.uniprot.org/entry) | Проверены вид белка и экспериментальные последовательности; сохранены канонические последовательности для будущего DL |
-| [DAVIS и KIBA](https://tdcommons.ai/multi_pred_tasks/dti/) | Отдельные бенчмарки: модель обучается и оценивается на собственных частях каждого набора |
-| [PDBbind](https://www.pdbbind-plus.org.cn/termofuse), [DrugBank](https://go.drugbank.com/academic_research/) | Не включены: проект использует доступные открытые источники; разрешённых для публикации выгрузок нет. PDBbind требует письменного разрешения на распространение исходных и производных данных |
-| [Open Targets](https://platform-docs.opentargets.org/), [ClinicalTrials.gov](https://clinicaltrials.gov/) | Нужны для последующей проверки гипотез о заболеваниях и лечении; не дают метки Ki текущей регрессии |
+'''+usage_markdown(source_usage)+'''
 
-Повторы между базами учитываются по структуре, белку и типу измерения. Если одна пара есть в нескольких источниках, выбираем метку по приоритету ChEMBL → BindingDB → PubChem → DrugCentral, сохраняя все источники и расхождения. Так копии одного результата не становятся дополнительными обучающими примерами. Исходные ответы и разбиение ChEMBL сохранены для прямого сравнения.''')
+Настройки леса выбирались только по 15 439 validation-парам исходного ChEMBL. Остальные 3 201 validation-пара используются для диагностики. Для PubChem validation-пар нет. Эти источники не образуют независимые внешние тесты.
+
+Разбиение общее для всех источников: один химический каркас попадает только в одну часть. Прежнее разбиение ChEMBL сохранено; новые каркасы распределяются воспроизводимо с целевым соотношением 80/10/10. Поэтому фактические доли строк отличаются от 80/10/10.
+
+'''+preparation_markdown(source_usage)+'''
+
+Для всех источников проверяем SMILES, удаляем фрагменты солей по единому правилу и вычисляем Morgan fingerprints. Повторы одной пары внутри источника объединяем медианой pKi; разброс более 2 pKi исключаем. При пересечении баз выбираем одну метку: ChEMBL → BindingDB → PubChem → DrugCentral. Сохраняем происхождение и расхождения; исходные ответы ChEMBL не меняем. В таблице указан источник выбранной метки, поэтому каждая пара посчитана один раз.''')
     md('''## Что есть в данных и что использует модель
 
 **Исходная строка — результат одного эксперимента для молекулы и биологической мишени.** Для основной задачи отбираем отдельные человеческие белки. После очистки одна строка — уникальная пара «структура молекулы — мишень» для определённого типа активности. Структуры и их свойства хранятся отдельно в `molecules.parquet`. Исходный срез ChEMBL находится в `data/processed/`, объединённые данные — в `data/multisource/`.
@@ -110,25 +111,25 @@ display(pd.DataFrame({'Показатель': ['Исходных измерен�
 MULTI_DATA = ROOT / 'data/multisource'
 multi_eda = json.loads((MULTI_RESULTS / 'data_summary.json').read_text())
 multi_baseline = json.loads((MULTI_RESULTS / 'baseline_summary.json').read_text())
-source_table = pd.DataFrame(multi_eda['rows_by_source_endpoint'])
-display(source_table.pivot(index='source', columns='endpoint', values='rows').fillna(0).astype(int))
-multi_pairs = pd.read_parquet(MULTI_DATA / 'pairs.parquet')
+source_usage = json.loads((MULTI_RESULTS / 'pki_source_usage.json').read_text())
+display(pd.DataFrame(source_usage['sources'])[['source','prepared_observations','curated_pairs_all_targets']]
+    .rename(columns={'source':'Источник','prepared_observations':'Строк pKi до согласования',
+                     'curated_pairs_all_targets':'Пар pKi после согласования'}))
+multi_pairs = pd.read_parquet(MULTI_DATA / 'pairs.parquet').query("endpoint == 'pKi'")
 display(multi_pairs.groupby('endpoint').agg(Пар=('label','size'), Мишеней=('target_id','nunique'),
     Минимум=('label','min'), Медиана=('label','median'), Максимум=('label','max')).round(3))
-sequence_audit = multi_eda['sequence_audit']
 scale_audit = json.loads((MULTI_RESULTS / 'drugcentral_scale_audit.json').read_text())
-pubchem_audit = json.loads((MULTI_RESULTS / 'pubchem_metadata_audit.json').read_text())
-display(Markdown(f"Проверено **{sequence_audit['bindingdb_pubchem_rows_checked']:,}** строк BindingDB/PubChem; "
-    f"исключено **{sequence_audit['rows_without_canonical_sequence_match']:,}** без совпадения экспериментальной "
-    "последовательности с участком канонического человеческого белка. "
-    f"Напрямую найдены описания **{pubchem_audit['retrieved_aids']}** использованных тестов PubChem."))
+display(Markdown('Дополнительные Ki из BindingDB/PubChem оставлены только при совпадении '
+    'экспериментальной последовательности с участком канонического человеческого белка. '
+    f"Напрямую проверены ID **{len(source_usage['pubchem_pki_assay_ids'])}** тестов PubChem с Ki."))
 display(Markdown(f"DrugCentral уже хранит отрицательный логарифм концентрации. "
     f"На **{scale_audit['overlapping_exact_structure_target_pairs']}** совпадающих парах медианное "
     f"расхождение с ChEMBL — **{scale_audit['median_absolute_difference_if_ACT_VALUE_is_pKi']:.3f} pKi**. "
     "Повторное логарифмирование было бы ошибкой."))
 display(Markdown(f"Всего после согласования: **{multi_eda['pairs_by_endpoint']['pKi']:,} пар pKi**, "
-    f"**{multi_eda['molecules']:,} структур** во всех шкалах. "
-    f"Противоречивых пар внутри источника исключено: **{multi_eda['within_source_conflicting_pairs']}**. "
+    f"**{source_usage['curated_molecules']:,} структур**. "
+    f"В бейзлайне используются **{source_usage['benchmark_pairs']:,} пар** для "
+    f"**{source_usage['benchmark_targets']} мишеней**, прошедших пороги наполненности выборок. "
     "Расхождения между источниками сохранены во флаге cross_source_range; оригинальные метки ChEMBL не меняются."))''')
     md('''### Качество исходного среза ChEMBL
 
@@ -292,16 +293,14 @@ for filename in ['01_affinity_and_targets.png','02_molecule_properties.png','03_
 
 ## Результаты после объединения источников
 
-Для новых структур сохраняем прежние назначения известных каркасов, а новые каркасы распределяем воспроизводимым хешем 80/10/10. Все источники основного набора используют общие группы молекул. Сравнение с прежним лесом проводится на тех же 16 665 парах теста ChEMBL; метки теста и разбиение не изменены. Число деревьев и варианты размера листа одинаковы; параметры выбираются только по валидации.
-
-DAVIS и KIBA обучаются отдельно и имеют собственные разбиения по каркасам. Это дополнительные проверки того же подхода, а не независимая внешняя проверка модели pKi.''')
+Все источники используют общие группы молекул. Сравнение с прежним лесом проводится на тех же 16 665 парах теста ChEMBL; метки теста и разбиение не изменены. Число деревьев и варианты размера листа одинаковы; параметры выбираются по прежней validation-выборке ChEMBL.''')
     code('''from multisource_figures import generate as generate_source_figure
 display(Image(filename=str(generate_source_figure())))
 display(pd.read_csv(MULTI_RESULTS / 'original_test_comparison.csv').rename(
     columns={'training_sources':'Источники обучения','targets':'Мишеней','test_pairs':'Пар test'}).round(3))
 rows = []
 for result in multi_baseline['datasets']:
-    if not result['eligible_targets']:
+    if result['dataset'] != 'pKi':
         continue
     rf = next(r for r in result['test_results'] if r['part']=='test' and r['model']=='RF')
     mean = next(r for r in result['test_results'] if r['part']=='test' and r['model']=='Mean')
@@ -309,13 +308,7 @@ for result in multi_baseline['datasets']:
                  'Пар train/val/test':result['eligible_pairs'],'Пар test':result['test_pairs'],
                  'MAE RF':rf['MAE'],'MAE среднего':mean['MAE']})
 display(pd.DataFrame(rows).round(3))
-davis_result = next(r for r in multi_baseline['datasets'] if r['dataset']=='davis')
-display(Markdown(f"В DAVIS **{davis_result['uncensored_test_pairs']}** тестовых пар вне предела 10 000 нМ; "
-    f"на них средняя по мишеням MAE = **{davis_result['uncensored_macro_MAE']:.3f} pKd**. "
-    "Большое число ограниченных пределом значений делает общую ошибку ниже. "
-    "Для объединённого pKd ни одна мишень не прошла заранее заданные пороги наполненности "
-    "train/validation/test; эти данные сохранены, отдельный лес по ним не оценивался."))
-display(pd.read_csv(MULTI_RESULTS / 'source_test_slices.csv')[['endpoint','source','targets','pairs','macro_MAE']]
+display(pd.read_csv(MULTI_RESULTS / 'source_test_slices.csv').query("endpoint == 'pKi'")[['source','targets','pairs','macro_MAE']]
         .rename(columns={'endpoint':'Шкала','source':'Источник','targets':'Мишеней','pairs':'Пар','macro_MAE':'MAE'}).round(3))
 display(Markdown('Срезы по источнику могут содержать те же пары, что основной тест. '
     'Малые срезы, особенно четыре пары PubChem pKi, не позволяют делать устойчивые выводы о качестве на всей базе.'))''')
@@ -330,9 +323,9 @@ if publication_file.exists():
 else:
     display(Markdown(f"Пакет для `{package['repository']}` подготовлен локально; "
                      "публикация ещё не подтверждена."))
-display(Markdown('В пакет входят готовые train/validation/test, структуры, последовательности, '
+display(Markdown('В пакет входят готовые train/validation/test для pKi, структуры, '
     'происхождение меток, лицензии, контрольные суммы и результаты экспериментов. '
-    'Разные шкалы и самостоятельные бенчмарки размещены в отдельных конфигурациях.'))''')
+    'Флаг benchmark_target отмечает 156 мишеней текущего бейзлайна.'))''')
     md('''## Выводы и следующий этап''')
     code(r'''main_result = next(r for r in multi_baseline['datasets'] if r['dataset']=='pKi')
 main_test = next(r for r in main_result['test_results'] if r['part']=='test' and r['model']=='RF')
@@ -344,8 +337,8 @@ display(Markdown(f"- Основной очищенный набор — **{multi
     "само добавление источников улучшения не дало; причина этим сравнением не установлена.\n"
     "- Следующий эксперимент — многозадачная GNN на тех же метках и разбиениях, "
     "с отдельным анализом небольших задач. Модель пока поддерживает фиксированный набор белков.\n"
-    "- Пропуски не являются отрицательными метками; повторы между базами и разные шкалы "
-    "нельзя считать независимыми одинаковыми ответами.\n"
+    "- Пропуски не являются отрицательными метками; повторы между базами "
+    "не считаются дополнительными независимыми парами.\n"
     "- Практическая ценность и ограничения — в [одностраничном PDF](output/pdf/practical_value.pdf)."))''')
     md('''## Воспроизведение и источники
 

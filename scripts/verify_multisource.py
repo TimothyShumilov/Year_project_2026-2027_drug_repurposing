@@ -81,22 +81,49 @@ def main():
     primary=pd.read_parquet(RESULTS/'pKi/test_predictions.parquet')
     anchor=primary.loc[primary.original_part.eq('test')]
     check('paired comparison retains exactly the original test',len(anchor)==16665 and anchor.target_id.nunique()==131)
-    davis=pd.read_parquet(DATA/'davis_pairs.parquet')
-    check('Davis ceiling flags identify pKd=5',np.allclose(davis.loc[davis.ceiling_censored,'label'],5))
+    usage=json.loads((RESULTS/'pki_source_usage.json').read_text())
+    check('only the pKi model is in the current benchmark', [r['dataset'] for r in baseline['datasets']]==['pKi'])
+    check('source contribution table covers the benchmark exactly',
+          sum(r['total_pairs'] for r in usage['sources'])==usage['benchmark_pairs'] and
+          sum(r['test_pairs'] for r in usage['sources'])==len(primary))
+    check('source proportions use retained source pairs as denominator',all(
+        sum(r[s+'_pairs'] for s in ['train','validation','test'])==r['total_pairs'] and
+        all(np.isclose(r[s+'_percent'],100*r[s+'_pairs']/r['total_pairs']) for s in ['train','validation','test']) for r in usage['sources']))
+    check('validation selection uses only original ChEMBL pairs',sum(r['validation_selection_pairs'] for r in usage['sources'])==15439 and
+          all(r['validation_selection_pairs']==0 for r in usage['sources'] if r['source']!='ChEMBL'))
+    check('all four direct sources have explicit preparation rules',len(usage['sources'])==4 and all(r['preparation'] for r in usage['sources']))
     manifest=json.loads((STAGING/'manifest.json').read_text())
     check('all publication files match the manifest',all((STAGING/f['path']).stat().st_size==f['bytes'] and sha256(STAGING/f['path'])==f['sha256'] for f in manifest['files']))
     card=DatasetCard((STAGING/'README.md').read_text())
-    check('Hugging Face card has explicit named subsets',len(card.data.configs)>=10)
+    check('Hugging Face card contains only the current pKi subsets',
+          {c['config_name'] for c in card.data.configs}=={'affinity_pki','chembl_reference','molecules','source_observations','pubchem_assays'})
     for config in card.data.configs:
         for file in config['data_files']:
             check(config['config_name']+'/'+file['split']+' is readable Parquet',len(pd.read_parquet(STAGING/file['path']))>0)
+    published=pd.concat([pd.read_parquet(STAGING/'data/affinity_pki'/(s+'.parquet')) for s in ['train','validation','test']])
+    check('published labels are exclusively pKi',published.endpoint.eq('pKi').all())
+    published_used=published.loc[published.benchmark_target]
+    check('published benchmark count matches actual experiment',len(published_used)==usage['benchmark_pairs'])
+    for row in usage['sources']:
+        block=published_used.loc[published_used.source.eq(row['source'])]
+        check(row['source']+' published source split counts match report',all(
+            int(block.scaffold_split.eq(s).sum())==row[s+'_pairs'] for s in ['train','validation','test']))
+    published_mols=pd.read_parquet(STAGING/'prepared/molecules.parquet')
+    published_fp=np.load(STAGING/'features/fingerprints.npz')
+    check('published fingerprints align with scoped molecules',
+          np.array_equal(published_fp['compound_ids'],published_mols.compound_id.to_numpy()) and
+          published_mols.molecule_index.tolist()==list(range(len(published_mols))))
+    old_indices=mols.set_index('compound_id').loc[published_mols.compound_id,'molecule_index'].to_numpy()
+    check('scoped publication preserves every molecular fingerprint',np.array_equal(published_fp['X'],fp['X'][old_indices]))
     book=nbformat.read(ROOT/'EDA.ipynb',as_version=4)
     nbformat.validate(book)
     code=[c for c in book.cells if c.cell_type=='code']
     check('the full updated notebook is executed without errors',all(c.execution_count is not None and not any(o.output_type=='error' for o in c.outputs) for c in code))
-    artifact_paths=[*ROOT.glob('src/multisource*.py'),ROOT/'config/multisource.json',
+    check('notebook excludes unrelated source and endpoint experiments',not any(
+        name in '\n'.join(c.source for c in book.cells) for name in ['DAVIS','KIBA','IC50','pKd','PDBbind','DrugBank','Open Targets','ClinicalTrials']))
+    artifact_paths=[*ROOT.glob('src/multisource*.py'),ROOT/'src/pki_sources.py',ROOT/'config/multisource.json',
                     ROOT/'scripts/download_sources.py',ROOT/'scripts/run_multisource.py',ROOT/'scripts/verify_multisource.py',
-                    ROOT/'scripts/audit_sources.py',ROOT/'scripts/fetch_pubchem_metadata.py',
+                    ROOT/'scripts/audit_sources.py',ROOT/'scripts/fetch_pubchem_metadata.py',ROOT/'scripts/verify_hf_publication.py',
                     *RESULTS.glob('*.json'),*RESULTS.glob('*.csv'),*RESULTS.glob('*.png'),*RESULTS.glob('*/*.csv')]
     artifact_paths=[p for p in artifact_paths if p.name!='verification.json']
     save_json(RESULTS/'verification.json',{'verified_at_utc':datetime.now(timezone.utc).isoformat(),

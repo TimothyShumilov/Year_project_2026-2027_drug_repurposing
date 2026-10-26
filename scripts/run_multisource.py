@@ -10,19 +10,15 @@ sys.path.insert(0,str(ROOT/'src'))
 
 def main():
     parser=argparse.ArgumentParser()
-    parser.add_argument('--stage',choices=['prepare','benchmarks','train','package','publish','all'],default='all')
+    parser.add_argument('--stage',choices=['prepare','train','package','publish','all'],default='all')
     args=parser.parse_args()
-    from multisource_data import prepare,benchmark
+    from multisource_data import prepare
     if args.stage in ['prepare','all']:
         print(json.dumps(prepare(),ensure_ascii=False,indent=2),flush=True)
         from fetch_pubchem_metadata import main as fetch_metadata
         from audit_sources import main as audit
         fetch_metadata()
         audit()
-    if args.stage in ['benchmarks','all']:
-        for name in ['davis','kiba']:
-            pairs,molecules=benchmark(name)
-            print(name,len(pairs),'pairs;',len(molecules),'molecules',flush=True)
     if args.stage in ['train','all']:
         from multisource_models import train
         print(json.dumps(train(),ensure_ascii=False,indent=2),flush=True)

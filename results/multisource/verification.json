@@ -1,5 +1,5 @@
 {
-  "verified_at_utc": "2026-10-26T07:58:12.060466+00:00",
+  "verified_at_utc": "2026-10-26T08:38:58.290837+00:00",
   "checks": [
     "all four quantitative sources actually contribute observations",
     "one final pair per structure target endpoint",
@@ -25,52 +25,33 @@
     "pKi MAE recomputed from saved predictions",
     "pKi reports all supported heads",
     "pKi prediction labels agree with prepared data",
-    "pIC50 parameters selected only on validation",
-    "pIC50 predictions contain only test examples",
-    "pIC50 MAE recomputed from saved predictions",
-    "pIC50 reports all supported heads",
-    "pIC50 prediction labels agree with prepared data",
-    "pKd honestly reports unsupported coverage",
-    "davis parameters selected only on validation",
-    "davis predictions contain only test examples",
-    "davis MAE recomputed from saved predictions",
-    "davis reports all supported heads",
-    "davis standalone scaffold groups are disjoint",
-    "davis prediction labels agree with prepared data",
-    "kiba parameters selected only on validation",
-    "kiba predictions contain only test examples",
-    "kiba MAE recomputed from saved predictions",
-    "kiba reports all supported heads",
-    "kiba standalone scaffold groups are disjoint",
-    "kiba prediction labels agree with prepared data",
     "paired comparison retains exactly the original test",
-    "Davis ceiling flags identify pKd=5",
+    "only the pKi model is in the current benchmark",
+    "source contribution table covers the benchmark exactly",
+    "source proportions use retained source pairs as denominator",
+    "validation selection uses only original ChEMBL pairs",
+    "all four direct sources have explicit preparation rules",
     "all publication files match the manifest",
-    "Hugging Face card has explicit named subsets",
+    "Hugging Face card contains only the current pKi subsets",
     "affinity_pki/test is readable Parquet",
     "affinity_pki/train is readable Parquet",
     "affinity_pki/validation is readable Parquet",
-    "affinity_pic50/test is readable Parquet",
-    "affinity_pic50/train is readable Parquet",
-    "affinity_pic50/validation is readable Parquet",
-    "affinity_pkd/test is readable Parquet",
-    "affinity_pkd/train is readable Parquet",
-    "affinity_pkd/validation is readable Parquet",
     "chembl_reference/test is readable Parquet",
     "chembl_reference/train is readable Parquet",
     "chembl_reference/validation is readable Parquet",
-    "davis/test is readable Parquet",
-    "davis/train is readable Parquet",
-    "davis/validation is readable Parquet",
-    "kiba/test is readable Parquet",
-    "kiba/train is readable Parquet",
-    "kiba/validation is readable Parquet",
     "molecules/train is readable Parquet",
-    "proteins/train is readable Parquet",
     "source_observations/train is readable Parquet",
     "pubchem_assays/train is readable Parquet",
-    "approved_library/train is readable Parquet",
-    "the full updated notebook is executed without errors"
+    "published labels are exclusively pKi",
+    "published benchmark count matches actual experiment",
+    "ChEMBL published source split counts match report",
+    "BindingDB published source split counts match report",
+    "PubChem published source split counts match report",
+    "DrugCentral published source split counts match report",
+    "published fingerprints align with scoped molecules",
+    "scoped publication preserves every molecular fingerprint",
+    "the full updated notebook is executed without errors",
+    "notebook excludes unrelated source and endpoint experiments"
   ],
   "artifacts": [
     {
@@ -79,7 +60,7 @@
     },
     {
       "path": "results/multisource/baseline_summary.json",
-      "sha256": "4c8a186e134178cdc46eb1885cafb35056523c8751059c06c07e11761fa03c4f"
+      "sha256": "031ac155ba76dc820b105f67ae6b101f82c2d8bf90f68db3b1f2448855e740c8"
     },
     {
       "path": "results/multisource/bindingdb_extraction.json",
@@ -127,15 +108,15 @@
     },
     {
       "path": "results/multisource/hf_package.json",
-      "sha256": "e7554b7f542e2814b8b0f67e5f3068703358db13bea21002559dde25362476e8"
+      "sha256": "66caff2015f4619c2e24b7e6842f3e631a8d0cee09b5be3cb6c49bc2f02111c6"
     },
     {
       "path": "results/multisource/hf_publication.json",
-      "sha256": "2c714be980f5577837d7c83b6c6d4a0cffe7d34678ce863bda1faefcb8404870"
+      "sha256": "de572c5aa05471b664da9c4a51387a1346886b36c6025d90f63c1c5b12cd8b2e"
     },
     {
       "path": "results/multisource/hf_remote_verification.json",
-      "sha256": "244c66954d2027bd3741f65953008f3c605a7a5300d10c615c47056aab6893f7"
+      "sha256": "99446e939c6bb9b1aeab54e0fd14fac9f4b6f6bfc08938115b67f0673922f0b2"
     },
     {
       "path": "results/multisource/kiba/leaf10_metrics.csv",
@@ -167,7 +148,7 @@
     },
     {
       "path": "results/multisource/original_test_comparison.csv",
-      "sha256": "ee32eabbeb4873bc04c24a289945b95896a7317d7e231e2f0b1d6b9eb44ad017"
+      "sha256": "f7f8733a7df01e5634f74b650d900e8f40de30e504a0e87333313c6dfd405d73"
     },
     {
       "path": "results/multisource/pIC50/leaf10_metrics.csv",
@@ -211,15 +192,23 @@
     },
     {
       "path": "results/multisource/pKi/metrics_by_target.csv",
-      "sha256": "9975d1c3e0c43315e4aa5fb0b9d21ffb0f926581df15d8749b18adfd4364e91f"
+      "sha256": "90b1a39b88ca32c232f95197a5eff0f6cefec3414d869ea5f6a11dc8f6c69c0c"
     },
     {
       "path": "results/multisource/pKi/metrics_macro.csv",
-      "sha256": "79e3a66879c189056b9618c48c9412c6b3066b08f2968bae44db183a754f906e"
+      "sha256": "d71c607e64d997c12d409893f7c72e6d688112b012a784cd223854760d0dc2cf"
     },
     {
       "path": "results/multisource/pKi_target_counts.csv",
       "sha256": "ae9bb88d9961fabde44f361590a94bdbdaf0c3986ab7e64239a377adc0c6a887"
+    },
+    {
+      "path": "results/multisource/pki_source_usage.csv",
+      "sha256": "e036a93ef8082c0995a4351a2aa49482b94de438e2077d5c6257137e4d82ff4c"
+    },
+    {
+      "path": "results/multisource/pki_source_usage.json",
+      "sha256": "44e9eedca5010b82348233230f524cd6b1e12c96a9c05b1221046bc595af05dc"
     },
     {
       "path": "results/multisource/pubchem_metadata_audit.json",
@@ -235,15 +224,15 @@
     },
     {
       "path": "results/multisource/source_registry.json",
-      "sha256": "185ea213399a9c9d3f27c2e119cdff7ee74721d4663ab6dfe4a81ee3e2c99376"
+      "sha256": "11da7790b7492559421b43afd8551888d783c610a64810fa09b9a4d37e53020d"
     },
     {
       "path": "results/multisource/source_test_slices.csv",
-      "sha256": "631b1771fddfb75adde4018824136a1c970a038015540cbaf139dc31492819d1"
+      "sha256": "ffdebbb898a98608722ebec4ef4824104d674e46a89d3cf62d3d7e02ce9389a0"
     },
     {
       "path": "scripts/audit_sources.py",
-      "sha256": "af16144d01843dbcf9453f8ebb6c5bee3afe0986906fe2f0137300d0e12da3fa"
+      "sha256": "0eb62a41cfc207d98d2ababb7657e2dd83818dd610b1b4df51b4affd851f4c67"
     },
     {
       "path": "scripts/download_sources.py",
@@ -251,15 +240,19 @@
     },
     {
       "path": "scripts/fetch_pubchem_metadata.py",
-      "sha256": "dbec162241e9981959ce65ce68e36f1917af220c56990248b0f9ab2af94a5aa5"
+      "sha256": "3860aae35b4e874d6f10eba3405a8f4a211dfd61d14635eeb6cc3bb5664d8121"
     },
     {
       "path": "scripts/run_multisource.py",
-      "sha256": "38f1d14bbd4c446661f8c8a3139bb01143c15ecbe8d8d362fc5a30af2e51e62e"
+      "sha256": "b58602be378f330eb24d5246492a7f7d676fc9853438d970b4f9be9949b8da72"
+    },
+    {
+      "path": "scripts/verify_hf_publication.py",
+      "sha256": "0f6a4d9fad036f6e2cbad6ccd458e42d3cbf011a288f7170dc7913e9665f3af4"
     },
     {
       "path": "scripts/verify_multisource.py",
-      "sha256": "19070644ebacd3a90abd827abcf70f663ff81783a5d1baa3f7b304f61949fdf8"
+      "sha256": "421c18641327f7f22d47474dc98483a1f6cbbdf84e70645b47cd83ee9fd8acfc"
     },
     {
       "path": "src/multisource_data.py",
@@ -271,11 +264,15 @@
     },
     {
       "path": "src/multisource_hub.py",
-      "sha256": "d1e988700f2e07210bc1f4f57fec1e29ec11bc697fdff54f9cad404a988ea198"
+      "sha256": "579cf9709148808711dc81990da39565830a98fe05da1700697d4d2887b8a6ac"
     },
     {
       "path": "src/multisource_models.py",
-      "sha256": "2f2a2d593cd1c13ef5f0a54f2886f110950afce82a82e5a7a39b79f48388c6af"
+      "sha256": "d91f329fc2231da7bb8b3be5527d00dba0750bf5d62b04f75df58b5d2b1a6e58"
+    },
+    {
+      "path": "src/pki_sources.py",
+      "sha256": "107034344a2305cfca9f9425d9a3297e65a76865dc8757bfce4126900ca55a71"
     }
   ]
 }

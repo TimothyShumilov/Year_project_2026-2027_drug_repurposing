@@ -1,8 +1,8 @@
 {
   "repository": "tim-shu/drug-affinity-multisource",
-  "local_path": "/Users/timshu/ВША/Year_project_2026-2027_drug_repurposing/output/huggingface/drug-affinity-multisource",
-  "files": 63,
-  "bytes": 237230312,
+  "local_path": "/Users/timshu/ВША/Year_project_2026-2027_drug_repurposing/output/huggingface/drug-affinity-pki",
+  "files": 40,
+  "bytes": 191962413,
   "configurations": [
     {
       "config": "affinity_pki",
@@ -20,36 +20,6 @@
       "rows": 22849
     },
     {
-      "config": "affinity_pic50",
-      "split": "test",
-      "rows": 3309
-    },
-    {
-      "config": "affinity_pic50",
-      "split": "train",
-      "rows": 25243
-    },
-    {
-      "config": "affinity_pic50",
-      "split": "validation",
-      "rows": 2960
-    },
-    {
-      "config": "affinity_pkd",
-      "split": "test",
-      "rows": 570
-    },
-    {
-      "config": "affinity_pkd",
-      "split": "train",
-      "rows": 4875
-    },
-    {
-      "config": "affinity_pkd",
-      "split": "validation",
-      "rows": 171
-    },
-    {
       "config": "chembl_reference",
       "split": "test",
       "rows": 16665
@@ -65,62 +35,22 @@
       "rows": 15439
     },
     {
-      "config": "davis",
-      "split": "test",
-      "rows": 2653
-    },
-    {
-      "config": "davis",
-      "split": "train",
-      "rows": 19708
-    },
-    {
-      "config": "davis",
-      "split": "validation",
-      "rows": 2653
-    },
-    {
-      "config": "kiba",
-      "split": "test",
-      "rows": 11176
-    },
-    {
-      "config": "kiba",
-      "split": "train",
-      "rows": 95696
-    },
-    {
-      "config": "kiba",
-      "split": "validation",
-      "rows": 10641
-    },
-    {
       "config": "molecules",
       "split": "train",
-      "rows": 162302
-    },
-    {
-      "config": "proteins",
-      "split": "train",
-      "rows": 1945
+      "rows": 144661
     },
     {
       "config": "source_observations",
       "split": "train",
-      "rows": 355325
+      "rows": 314088
     },
     {
       "config": "pubchem_assays",
       "split": "train",
-      "rows": 333
-    },
-    {
-      "config": "approved_library",
-      "split": "train",
-      "rows": 2048
+      "rows": 19
     }
   ],
   "publication_status": "published",
   "url": "https://huggingface.co/datasets/tim-shu/drug-affinity-multisource",
-  "revision": "85242d33e48cf1441b0f641c710c72725160e506"
+  "revision": "84ef8e6a10d43e52215b157b1960e2a239068aae"
 }

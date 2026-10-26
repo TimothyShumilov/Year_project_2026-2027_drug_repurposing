@@ -1,4 +1,4 @@
-"""The same Morgan/RF baseline on expanded pKi and separate affinity tasks."""
+"""Morgan/RF baseline on the integrated pKi task."""
 from __future__ import annotations
 
 import json
@@ -123,7 +123,7 @@ def run_dataset(name,pairs,molecules,X):
 def source_slices():
     estimates=pd.read_parquet(DATA/'source_estimates.parquet')
     rows=[]
-    for endpoint in ['pKi','pIC50','pKd']:
+    for endpoint in ['pKi']:
         path=RESULTS/endpoint/'test_predictions.parquet'
         if not path.exists():continue
         predictions=pd.read_parquet(path)
@@ -145,7 +145,7 @@ def train():
     X=fingerprints(molecules)
     original=original_keys()
     summary=[]
-    for endpoint in ['pKi','pIC50','pKd']:
+    for endpoint in ['pKi']:
         pairs=merged.loc[merged.endpoint.eq(endpoint)].copy()
         if endpoint=='pKi':
             reference=original[['compound_id','target_id','pki','scaffold_split']].rename(
@@ -156,9 +156,6 @@ def train():
             pairs=pairs.merge(reference,on=['compound_id','target_id'],how='left',validate='one_to_one')
         summary.append(run_dataset(endpoint,pairs,molecules,X))
     del X
-    for name in ['davis','kiba']:
-        p,m=benchmark(name)
-        summary.append(run_dataset(name,p,m,fingerprint_matrix(m)))
     comparison=[]
     original_result=json.loads((ROOT/'results/baseline_summary.json').read_text())
     primary=next(x for x in summary if x['dataset']=='pKi')
@@ -172,4 +169,6 @@ def train():
     result={'config':CONFIG,'datasets':summary,'source_slices':source_slices(),
             'original_test_comparison':comparison,'total_training_seconds':sum(r.get('training_seconds',0) for r in summary)}
     save_json(RESULTS/'baseline_summary.json',result)
+    from pki_sources import build_report
+    build_report()
     return result

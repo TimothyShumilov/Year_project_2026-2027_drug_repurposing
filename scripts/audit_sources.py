@@ -13,42 +13,16 @@ from multisource_data import DATA,RESULTS
 
 
 def main():
-    s=json.loads((RESULTS/'data_summary.json').read_text())
-    entries=[
-        {'source':'ChEMBL','status':'used','role':'Основная регрессия pKi и исходный фиксированный тест',
-         'license':'CC BY-SA 3.0; integrated adaptation BY-SA 4.0','evidence':'https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/general-questions'},
-        {'source':'BindingDB','status':'used','role':'Дополнительные Ki из статей и патентов; импорт ChEMBL повторно не добавлен',
-         'license':'Native data: CC BY; upstream notices retained','evidence':'https://www.bindingdb.org/rwd/bind/info.jsp'},
-        {'source':'PubChem BioAssay','status':'used','role':'Ki и IC50/Kd через курируемый импорт BindingDB; AID проверены в PubChem',
-         'license':'Source/depositor terms retained; factual observations only','evidence':'https://pubchem.ncbi.nlm.nih.gov/docs/bioassays'},
-        {'source':'DrugCentral','status':'used','role':'Количественные активности одобренных препаратов, отдельные оценки срезов по источнику',
-         'license':'CC BY-SA 4.0','evidence':'https://www.drugcentral.org/privacy'},
-        {'source':'UniProt','status':'used','role':'Проверка вида и последовательностей белков; признаки для будущей DL-модели',
-         'license':'CC BY 4.0','evidence':'https://www.uniprot.org/help/license'},
-        {'source':'DAVIS','status':'used','role':'Отдельный бенчмарк pKd с флагом предела измерения',
-         'license':'TDC DOI: CC0 1.0; TDC page also links CC BY 4.0 with Not Specified notice',
-         'evidence':'https://api.datacite.org/dois/10.7910/DVN/21LKWG'},
-        {'source':'KIBA','status':'used','role':'Отдельный бенчмарк в собственной шкале KIBA score',
-         'license':'TDC DOI: CC0 1.0; TDC page also links CC BY 4.0 with Not Specified notice',
-         'evidence':'https://api.datacite.org/dois/10.7910/DVN/21LKWG'},
-        {'source':'PDBbind','status':'applicable_but_access_and_redistribution_blocked',
-         'role':'Может дать дополнительные аффинности; разрешённая для публикации копия не получена',
-         'license':'Redistribution of raw/derived data requires written permission',
-         'evidence':'https://www.pdbbind-plus.org.cn/termofuse'},
-        {'source':'DrugBank','status':'applicable_but_authorised_download_missing',
-         'role':'Потенциальные количественные активности и известные взаимодействия; доступной авторизованной выгрузки нет',
-         'license':'Dataset-specific academic access; terms must be verified on the supplied release',
-         'evidence':'https://go.drugbank.com/academic_research/'},
-        {'source':'Open Targets','status':'outside_current_affinity_endpoint',
-         'role':'Связи мишеней с заболеваниями для последующего анализа гипотез, а не метки Ki текущей регрессии',
-         'evidence':'https://platform-docs.opentargets.org/'},
-        {'source':'ClinicalTrials.gov','status':'outside_current_affinity_endpoint',
-         'role':'Клиническая проверка гипотез; записи испытаний не являются измерениями Ki',
-         'evidence':'https://clinicaltrials.gov/data-api/about-api'}
-    ]
-    for entry in entries:
-        match='PubChem' if entry['source']=='PubChem BioAssay' else entry['source']
-        entry['prepared_rows_by_endpoint']={r['endpoint']:r['rows'] for r in s['rows_by_source_endpoint'] if r['source']==match}
+    from pki_sources import build_report
+    report=build_report()
+    licenses={'ChEMBL':'CC BY-SA 3.0; integrated adaptation BY-SA 4.0',
+              'BindingDB':'Native data: CC BY; upstream notices retained',
+              'PubChem':'Source/depositor terms retained; factual observations only',
+              'DrugCentral':'CC BY-SA 4.0'}
+    entries=[]
+    for row in report['sources']:
+        entries.append({**row, 'status':'used_in_pKi_baseline', 'license':licenses[row['source']],
+                        'prepared_rows_by_endpoint':{'pKi':row['prepared_observations']}})
     save_json(RESULTS/'source_registry.json',entries)
     estimates=pd.read_parquet(DATA/'source_estimates.parquet')
     keys=['compound_id','target_id','endpoint']

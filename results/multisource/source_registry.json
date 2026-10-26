@@ -1,100 +1,94 @@
 [
   {
     "source": "ChEMBL",
-    "status": "used",
-    "role": "Основная регрессия pKi и исходный фиксированный тест",
+    "total_pairs": 169341,
+    "used_for_training": true,
+    "validation_selection_pairs": 15439,
+    "prepared_observations": 204676,
+    "curated_pairs_all_targets": 204676,
+    "preparation": "Точные положительные Ki в нМ; тест связывания с отдельным человеческим белком, confidence 9, без аннотированной мутации. Пересчёт Ki → pKi.",
+    "url": "https://www.ebi.ac.uk/chembl/",
+    "train_pairs": 136079,
+    "train_percent": 80.35797591841315,
+    "validation_pairs": 15942,
+    "validation_percent": 9.414140698354208,
+    "test_pairs": 17320,
+    "test_percent": 10.22788338323265,
+    "diagnostic_validation_pairs": 503,
+    "used_for_validation_selection": true,
+    "status": "used_in_pKi_baseline",
     "license": "CC BY-SA 3.0; integrated adaptation BY-SA 4.0",
-    "evidence": "https://chembl.gitbook.io/chembl-interface-documentation/frequently-asked-questions/general-questions",
     "prepared_rows_by_endpoint": {
       "pKi": 204676
     }
   },
   {
     "source": "BindingDB",
-    "status": "used",
-    "role": "Дополнительные Ki из статей и патентов; импорт ChEMBL повторно не добавлен",
+    "total_pairs": 25690,
+    "used_for_training": true,
+    "validation_selection_pairs": 0,
+    "prepared_observations": 103448,
+    "curated_pairs_all_targets": 34107,
+    "preparation": "Только Ki из статей и патентов; импорты ChEMBL исключены. Отдельный человеческий белок; последовательность экспериментального белка должна совпадать с участком канонической последовательности UniProt. Пересчёт Ki в нМ → pKi.",
+    "url": "https://www.bindingdb.org/rwd/bind/chemsearch/marvin/Download.jsp",
+    "train_pairs": 20653,
+    "train_percent": 80.39314908524717,
+    "validation_pairs": 2488,
+    "validation_percent": 9.684702218762164,
+    "test_pairs": 2549,
+    "test_percent": 9.922148695990657,
+    "diagnostic_validation_pairs": 2488,
+    "used_for_validation_selection": false,
+    "status": "used_in_pKi_baseline",
     "license": "Native data: CC BY; upstream notices retained",
-    "evidence": "https://www.bindingdb.org/rwd/bind/info.jsp",
     "prepared_rows_by_endpoint": {
       "pKi": 103448
     }
   },
   {
-    "source": "PubChem BioAssay",
-    "status": "used",
-    "role": "Ki и IC50/Kd через курируемый импорт BindingDB; AID проверены в PubChem",
+    "source": "PubChem",
+    "total_pairs": 46,
+    "used_for_training": true,
+    "validation_selection_pairs": 0,
+    "prepared_observations": 577,
+    "curated_pairs_all_targets": 436,
+    "preparation": "Только количественные Ki из курируемого импорта BindingDB; ID теста проверен напрямую в PubChem. Те же проверки белка, что для BindingDB. Пересчёт Ki в нМ → pKi.",
+    "url": "https://pubchem.ncbi.nlm.nih.gov/docs/bioassays",
+    "train_pairs": 42,
+    "train_percent": 91.30434782608695,
+    "validation_pairs": 0,
+    "validation_percent": 0.0,
+    "test_pairs": 4,
+    "test_percent": 8.695652173913043,
+    "diagnostic_validation_pairs": 0,
+    "used_for_validation_selection": false,
+    "status": "used_in_pKi_baseline",
     "license": "Source/depositor terms retained; factual observations only",
-    "evidence": "https://pubchem.ncbi.nlm.nih.gov/docs/bioassays",
     "prepared_rows_by_endpoint": {
-      "pIC50": 30780,
-      "pKd": 2405,
       "pKi": 577
     }
   },
   {
     "source": "DrugCentral",
-    "status": "used",
-    "role": "Количественные активности одобренных препаратов, отдельные оценки срезов по источнику",
+    "total_pairs": 3223,
+    "used_for_training": true,
+    "validation_selection_pairs": 0,
+    "prepared_observations": 5387,
+    "curated_pairs_all_targets": 3999,
+    "preparation": "Соединение таблицы активностей со структурами SDF по STRUCT_ID; только человеческие мишени, ACT_TYPE=Ki и RELATION=\"=\". ACT_VALUE уже содержит pKi: повторный логарифм не нужен.",
+    "url": "https://www.drugcentral.org/download",
+    "train_pairs": 2668,
+    "train_percent": 82.78001861619609,
+    "validation_pairs": 210,
+    "validation_percent": 6.5156686317095875,
+    "test_pairs": 345,
+    "test_percent": 10.704312752094323,
+    "diagnostic_validation_pairs": 210,
+    "used_for_validation_selection": false,
+    "status": "used_in_pKi_baseline",
     "license": "CC BY-SA 4.0",
-    "evidence": "https://www.drugcentral.org/privacy",
     "prepared_rows_by_endpoint": {
-      "pIC50": 4275,
-      "pKd": 3777,
       "pKi": 5387
     }
-  },
-  {
-    "source": "UniProt",
-    "status": "used",
-    "role": "Проверка вида и последовательностей белков; признаки для будущей DL-модели",
-    "license": "CC BY 4.0",
-    "evidence": "https://www.uniprot.org/help/license",
-    "prepared_rows_by_endpoint": {}
-  },
-  {
-    "source": "DAVIS",
-    "status": "used",
-    "role": "Отдельный бенчмарк pKd с флагом предела измерения",
-    "license": "TDC DOI: CC0 1.0; TDC page also links CC BY 4.0 with Not Specified notice",
-    "evidence": "https://api.datacite.org/dois/10.7910/DVN/21LKWG",
-    "prepared_rows_by_endpoint": {}
-  },
-  {
-    "source": "KIBA",
-    "status": "used",
-    "role": "Отдельный бенчмарк в собственной шкале KIBA score",
-    "license": "TDC DOI: CC0 1.0; TDC page also links CC BY 4.0 with Not Specified notice",
-    "evidence": "https://api.datacite.org/dois/10.7910/DVN/21LKWG",
-    "prepared_rows_by_endpoint": {}
-  },
-  {
-    "source": "PDBbind",
-    "status": "applicable_but_access_and_redistribution_blocked",
-    "role": "Может дать дополнительные аффинности; разрешённая для публикации копия не получена",
-    "license": "Redistribution of raw/derived data requires written permission",
-    "evidence": "https://www.pdbbind-plus.org.cn/termofuse",
-    "prepared_rows_by_endpoint": {}
-  },
-  {
-    "source": "DrugBank",
-    "status": "applicable_but_authorised_download_missing",
-    "role": "Потенциальные количественные активности и известные взаимодействия; доступной авторизованной выгрузки нет",
-    "license": "Dataset-specific academic access; terms must be verified on the supplied release",
-    "evidence": "https://go.drugbank.com/academic_research/",
-    "prepared_rows_by_endpoint": {}
-  },
-  {
-    "source": "Open Targets",
-    "status": "outside_current_affinity_endpoint",
-    "role": "Связи мишеней с заболеваниями для последующего анализа гипотез, а не метки Ki текущей регрессии",
-    "evidence": "https://platform-docs.opentargets.org/",
-    "prepared_rows_by_endpoint": {}
-  },
-  {
-    "source": "ClinicalTrials.gov",
-    "status": "outside_current_affinity_endpoint",
-    "role": "Клиническая проверка гипотез; записи испытаний не являются измерениями Ki",
-    "evidence": "https://clinicaltrials.gov/data-api/about-api",
-    "prepared_rows_by_endpoint": {}
   }
 ]

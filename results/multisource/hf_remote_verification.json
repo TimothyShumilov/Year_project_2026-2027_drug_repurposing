@@ -1,28 +1,28 @@
 {
   "repository": "tim-shu/drug-affinity-multisource",
-  "revision": "85242d33e48cf1441b0f641c710c72725160e506",
+  "revision": "84ef8e6a10d43e52215b157b1960e2a239068aae",
   "public": true,
-  "verified_files": 63,
-  "verified_lfs_sha256": 46,
+  "verified_files": 40,
+  "verified_lfs_sha256": 24,
   "download_checks": [
     {
       "path": "README.md",
-      "sha256": "c7da5a1075b165df5cec124815e3cc6b0e14680744acf88653bf977b1bc79c20",
-      "bytes": 8509,
-      "configurations": 11
+      "bytes": 8749,
+      "sha256": "88d38d41813f9a4dbd03b6944b2f4d2ad998153554ea23611983c0185a173c4b",
+      "configurations": 5
     },
     {
-      "path": "data/affinity_pkd/validation.parquet",
-      "sha256": "bed5468547145f2c5af366281b07959a7b6c21aca79a2457fb4fd22855d3e94e",
-      "bytes": 114624,
-      "rows": 171
+      "path": "metadata/pki_source_usage.json",
+      "bytes": 4756,
+      "sha256": "44e9eedca5010b82348233230f524cd6b1e12c96a9c05b1221046bc595af05dc",
+      "direct_sources": 4
     },
     {
-      "path": "data/pubchem_assays/train.parquet",
-      "sha256": "517bea1ed29475397955f93bc9792b66b75a139cdee337347b5f3d2cd3568ee8",
-      "bytes": 79656,
-      "rows": 333
+      "path": "data/affinity_pki/validation.parquet",
+      "bytes": 2195834,
+      "sha256": "9e747ed5a3bc89303f0faf47e8c737db759b9ee2917921067826246347059aab",
+      "rows": 22849
     }
   ],
-  "verified_at_utc": "2026-10-26T07:55:46.803179+00:00"
+  "verified_at_utc": "2026-10-26T08:36:08.176579+00:00"
 }
