@@ -1,5 +1,5 @@
 {
-  "validated_at_utc": "2026-10-26T05:45:46.774858+00:00",
+  "validated_at_utc": "2026-10-26T05:49:46.057285+00:00",
   "checks_passed": [
     "unique curated molecule-target pairs",
     "finite regression targets",
@@ -57,8 +57,8 @@
   "artifacts": [
     {
       "path": "EDA.ipynb",
-      "bytes": 950499,
-      "sha256": "c39b3a4d50d3e3e38b9b0aecc93d8e2f4325c5738f4749957e6c50e720b5780c"
+      "bytes": 955734,
+      "sha256": "22b21b445c9a14ceb19df084dafcc668b5b49c3e457a7403a21acfafffc8a3fe"
     },
     {
       "path": "config/eda.json",
@@ -67,8 +67,8 @@
     },
     {
       "path": "data/README.md",
-      "bytes": 8716,
-      "sha256": "2863a90f6b19c220e8b03a818df45cd0099af01f3c3a11e68294ea4f1229ff2a"
+      "bytes": 10227,
+      "sha256": "c76b30a9af31ec4a761ea7b6c170b8ec87789b0c3c6d929b1eff213d9b190924"
     },
     {
       "path": "data/processed/approved_library.parquet",
@@ -112,8 +112,8 @@
     },
     {
       "path": "readme.md",
-      "bytes": 13400,
-      "sha256": "7084d52c7d429327df5275f9ec111ab4f6625edbe03f5ba4f264a5407b469d15"
+      "bytes": 13918,
+      "sha256": "72b49e1b89c8d3adb66650b794eb674323ae7591a50888cdfd1b1dd8d8a188a0"
     },
     {
       "path": "requirements.txt",
@@ -307,8 +307,8 @@
     },
     {
       "path": "scripts/build_notebook.py",
-      "bytes": 35096,
-      "sha256": "005b65c821f1ffb2953663756a41c2dbfd3534b5b2197a04b6e169510728a7c6"
+      "bytes": 40098,
+      "sha256": "9b39c2ad2c175777e87c99b577d5b94affe4f470f0d1b2a19ae3a693eb84de8c"
     },
     {
       "path": "scripts/build_practical_pdf.py",
